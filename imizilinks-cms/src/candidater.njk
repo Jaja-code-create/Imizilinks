@@ -1,0 +1,90 @@
+---
+layout: base.njk
+permalink: /candidater/
+actif: actions
+title: "Déposer sa candidature — ImiziLinks"
+description: "Envoie ton CV et ta lettre de motivation à ImiziLinks. Nous vérifions ton dossier et le transmettons sous 72 heures à l'entreprise partenaire concernée."
+image: /img/etudiants-campus-universite.jpg
+fil:
+  - nom: Accueil
+    url: /
+  - nom: Opportunités
+    url: /opportunites/
+  - nom: Candidature
+    url: /candidater/
+---
+{% from "macros.njk" import phero, cta %}
+{{ phero("Opportunités · Candidature", "Déposer ta candidature",
+   "Renseigne tes coordonnées et joins ton CV. ImiziLinks vérifie ton dossier et le transmet sous 72 heures à l'entreprise partenaire concernée.",
+   "/img/etudiants-campus-universite.jpg", "Étudiants échangeant devant leur université en France") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="form-solo reveal">
+        <form class="form-card" id="formCandidature" name="candidature" method="POST" data-netlify="true" enctype="multipart/form-data" action="/merci/">
+          <input type="hidden" name="form-name" value="candidature">
+          <p><a href="/opportunites/" class="retour">← Retour aux offres</a></p>
+
+          <div class="offre-rappel">
+            <p class="offre-rappel-l">Offre concernée</p>
+            <p class="offre-rappel-t" id="offre-titre">Sélectionne une offre ci-dessous</p>
+            <p class="offre-rappel-d" id="offre-detail">Ta candidature sera transmise à cette entreprise par ImiziLinks.</p>
+          </div>
+
+          <div class="fg"><label for="k-offre">Offre</label>
+            <select id="k-offre" name="offre" required>
+              <option value="">Choisir une offre</option>
+              {% for o in offres %}<option value="{{ o.id }}">{{ o.titre }} — {{ o.entreprise }}, {{ o.ville }} ({{ o.contrat }})</option>{% endfor %}
+            </select>
+          </div>
+
+          <div class="fg-row">
+            <div class="fg"><label for="k-prenom">Prénom</label><input id="k-prenom" name="prenom" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="k-nom">Nom</label><input id="k-nom" name="nom" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="k-mail">Email</label><input id="k-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="k-tel">Téléphone</label><input id="k-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="k-ville">Ville de résidence</label><input id="k-ville" name="ville" type="text" placeholder="Paris" required></div>
+            <div class="fg"><label for="k-situation">Situation actuelle</label>
+              <select id="k-situation" name="situation" required>
+                <option value="">Choisir</option>
+                <option>Étudiant·e</option><option>En recherche d'emploi</option>
+                <option>En poste</option><option>En reconversion</option>
+                <option>Nouvellement arrivé·e en France</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="fg">
+            <label for="k-cv">CV <span class="opt">— obligatoire</span></label>
+            <div class="depot">
+              <p class="depot-h">Dépose ton CV</p>
+              <input id="k-cv" name="cv" type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+              <p class="depot-d">Formats acceptés : PDF, Word, JPG ou PNG. 5 Mo maximum.</p>
+            </div>
+          </div>
+
+          <div class="fg">
+            <label for="k-lm">Lettre de motivation <span class="opt">— facultative</span></label>
+            <div class="depot">
+              <p class="depot-h">Dépose ta lettre de motivation</p>
+              <input id="k-lm" name="lettre" type="file" accept=".pdf,.doc,.docx,.jpg,.png">
+              <p class="depot-d">Si tu n'en as pas encore, envoie ton CV seul : nous te recontactons pour compléter.</p>
+            </div>
+          </div>
+
+          <div class="fg"><label for="k-msg">Message au recruteur <span class="opt">— facultatif</span></label><textarea id="k-msg" name="message" placeholder="Quelques lignes sur ta motivation ou ta disponibilité."></textarea></div>
+
+          <label class="consent"><input type="checkbox" name="consentement" required> J'autorise ImiziLinks à transmettre mon CV et ma lettre de motivation à l'entreprise concernée par cette offre.</label>
+
+          <button type="submit" class="btn btn-primary btn-full">Envoyer ma candidature</button>
+          <p class="form-note">Ton dossier est vérifié puis transmis sous 72 heures. Tes documents ne sont communiqués qu'à l'entreprise partenaire liée à cette offre.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+{{ cta("Tu hésites sur ton CV ?", "Des membres de la communauté relisent les candidatures et organisent des entretiens blancs.", "Demander une relecture", "/nous-rejoindre/?motif=emploi") }}

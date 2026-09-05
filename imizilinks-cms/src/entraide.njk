@@ -1,0 +1,83 @@
+---
+layout: base.njk
+permalink: /entraide/
+actif: actions
+faqKey: entraide
+title: "Entraide et démarches administratives en France — ImiziLinks"
+description: "Attestation d'hébergement, validation de visa, CAF, sécurité sociale, logement : des référents bénévoles répondent sous 48 heures dans sept villes de France. Service gratuit et confidentiel."
+image: /img/etudiants-bibliotheque.jpg
+fil:
+  - nom: Accueil
+    url: /
+  - nom: Entraide
+    url: /entraide/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("Nos actions · Entraide", "Entraide et démarches administratives",
+   "Attestation d'hébergement, validation de visa, CAF, sécurité sociale, logement : décris ta situation et un référent ImiziLinks de ta ville te répond sous 48 heures. Service gratuit et confidentiel.",
+   "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
+
+  <section class="split">
+    <div class="split-media reveal"><img src="/img/etudiants-bibliotheque.jpg" alt="Membres d'ImiziLinks s'entraidant sur des démarches administratives" loading="lazy" width="800" height="533"></div>
+    <div class="split-txt reveal">
+      <p class="slabel">Ce que couvre l'entraide</p>
+      <h2>Des besoins concrets,<br><span class="grad">traités un par un.</span></h2>
+      <p>L'entraide ImiziLinks intervient sur les moments où une signature, un conseil ou un contact local débloque un dossier entier. Nos référents connaissent les procédures françaises pour les avoir traversées eux-mêmes.</p>
+      <ul class="checklist">
+        <li>Attestation d'hébergement pour un dossier de visa, de titre de séjour ou de location</li>
+        <li>Accompagnement sur les démarches : préfecture, CAF, sécurité sociale, banque</li>
+        <li>Hébergement temporaire ou orientation vers une solution de dépannage</li>
+        <li>Mise en relation avec un référent installé dans ta ville d'arrivée</li>
+        <li>Orientation sur les études, l'équivalence de diplômes et l'inscription universitaire</li>
+        <li>Relecture de dossier avant dépôt pour éviter les pièces manquantes</li>
+      </ul>
+      <p class="split-cta"><a href="/nous-rejoindre/?motif=aide" class="btn btn-primary">Faire ta demande</a></p>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Comment ça marche</p>
+        <h2>Trois étapes,<br><span class="grad">rien de plus.</span></h2>
+        <p>Aucune inscription préalable, aucun dossier à constituer, aucun frais.</p>
+      </div>
+      <div class="proc reveal">
+        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">Tu décris ton besoin</h3><p class="proc-d">Le formulaire prend deux minutes : ta ville d'arrivée, tes dates et quelques lignes sur ta situation. Tu peux écrire en français, en anglais, en kirundi, en kinyarwanda ou en swahili.</p></div>
+        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">Un référent prend le relais</h3><p class="proc-d">Ta demande est transmise au référent de la ville concernée, une personne installée depuis plusieurs années qui connaît les interlocuteurs locaux.</p></div>
+        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">Tu obtiens une réponse</h3><p class="proc-d">Sous 48 heures ouvrées, par email ou par téléphone. Si nous ne pouvons pas t'aider directement, nous t'orientons vers la structure compétente.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Nos référents</p>
+        <h2>Des relais bénévoles<br><span class="grad">dans plusieurs villes.</span></h2>
+        <p>Les référents sont des membres installés en France depuis plusieurs années, qui acceptent d'être joignables pour les nouveaux arrivants de leur secteur.</p>
+      </div>
+      <div class="villes reveal">
+        {% for v in villes %}
+        <div class="ville"><h3 class="ville-n">{{ v.nom }}</h3><p class="ville-d">{{ v.detail }}</p></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Pour aller plus loin</p>
+        <h2>Les guides liés<br><span class="grad">à ces démarches.</span></h2>
+      </div>
+      <div class="art-liens reveal" style="max-width:760px;">
+        {% for a in collections.articles %}{% if loop.index <= 3 %}
+        <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("L'entraide ImiziLinks<br><span class='grad'>en questions.</span>", "Attestation d'hébergement, référents, démarches d'arrivée : les réponses aux questions les plus posées.", faq.entraide) }}
+{{ cta("Besoin d'un coup de main ?", "Le formulaire prend deux minutes. Un référent te répond sous 48 heures.", "Faire ta demande", "/nous-rejoindre/?motif=aide") }}

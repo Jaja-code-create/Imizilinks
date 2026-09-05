@@ -1,0 +1,47 @@
+[
+  {
+    "jour": "14",
+    "mois": "Fév",
+    "cat": "Professionnel",
+    "nom": "Forum Métiers & Carrières — Diaspora",
+    "lieu": "Paris · En présentiel · 14h – 18h",
+    "desc": "Une après-midi pour rencontrer des professionnels de plusieurs secteurs, poser les questions qu'on n'ose pas poser en entretien et repartir avec des contacts utiles.",
+    "label": "Forum Métiers & Carrières — Diaspora · 14 février · Paris"
+  },
+  {
+    "jour": "22",
+    "mois": "Fév",
+    "cat": "Informatif",
+    "nom": "Webinaire : comprendre la CAF et ses aides",
+    "lieu": "En ligne · 19h30 – 21h",
+    "desc": "Quelles aides au logement existent, qui y a droit, comment monter le dossier et quels justificatifs préparer. Questions ouvertes en fin de session.",
+    "label": "Webinaire : comprendre la CAF et ses aides · 22 février · En ligne"
+  },
+  {
+    "jour": "08",
+    "mois": "Mar",
+    "cat": "Culturel",
+    "nom": "Soirée communautaire ImiziLinks",
+    "lieu": "Lyon · En présentiel · 19h – 23h",
+    "desc": "Un moment simple pour se rencontrer sans ordre du jour : cuisine, musique et discussions. Ouvert à tous les membres et à leurs proches.",
+    "label": "Soirée communautaire ImiziLinks · 8 mars · Lyon"
+  },
+  {
+    "jour": "15",
+    "mois": "Mar",
+    "cat": "Éducatif",
+    "nom": "Table ronde : réussir ses études en France",
+    "lieu": "Bordeaux · Hybride · 15h – 17h",
+    "desc": "Des étudiants et des diplômés racontent leur parcours : inscription, méthodes de travail, financement et vie sur le campus.",
+    "label": "Table ronde : réussir ses études en France · 15 mars · Bordeaux"
+  },
+  {
+    "jour": "29",
+    "mois": "Mar",
+    "cat": "Professionnel",
+    "nom": "Atelier CV et lettre de motivation",
+    "lieu": "En ligne · 18h – 20h",
+    "desc": "Atelier pratique en petit groupe : relecture de votre CV, adaptation du format aux attentes françaises et travail de la candidature.",
+    "label": "Atelier CV et lettre de motivation · 29 mars · En ligne"
+  }
+]

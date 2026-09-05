@@ -1,0 +1,54 @@
+{% macro phero(crumb, h1, chapo, image, alt, court=false) %}
+  <header class="phero{% if court %} phero-court{% endif %}">
+    <div class="phero-bg" style="background-image:url('{{ image }}')" role="img" aria-label="{{ alt }}"></div>
+    <div class="phero-ov"></div>
+    <div class="phero-in">
+      <p class="phero-crumb">{{ crumb }}</p>
+      <h1>{{ h1 }}</h1>
+      {% if chapo %}<p>{{ chapo }}</p>{% endif %}
+    </div>
+  </header>
+{% endmacro %}
+
+{% macro faqBloc(titre, intro, items) %}
+{% if items and items.length %}
+  <section class="faq-sec">
+    <div class="faq-wrap">
+      <div class="sec-head center reveal">
+        <p class="slabel">Questions fréquentes</p>
+        <h2>{{ titre | safe }}</h2>
+        {% if intro %}<p>{{ intro }}</p>{% endif %}
+      </div>
+      <div class="faq-list reveal">
+        {% for f in items %}
+        <div class="faq-item">
+          <h3><button class="faq-q">{{ f.question }}</button></h3>
+          <div class="faq-a"><p>{{ f.reponse }}</p></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+{% endmacro %}
+
+{% macro cta(titre, texte, label, lien) %}
+  <section class="cta-band">
+    <h2>{{ titre | safe }}</h2>
+    <p>{{ texte }}</p>
+    <a href="{{ lien }}" class="btn btn-light">{{ label }}</a>
+  </section>
+{% endmacro %}
+
+{% macro carteArticle(a) %}
+        <article class="bcard">
+          <a href="{{ a.url }}">
+            <div class="bimg"><img src="{{ a.data.image }}" alt="{{ a.data.title }}" loading="lazy" width="600" height="400"><span class="btag">{{ a.data.categorie }}</span></div>
+            <div class="bbody">
+              <h3 class="btitle">{{ a.data.title }}</h3>
+              <p class="bexc">{{ a.data.description }}</p>
+              <p class="bmeta">{{ a.data.duree }}</p>
+            </div>
+          </a>
+        </article>
+{% endmacro %}

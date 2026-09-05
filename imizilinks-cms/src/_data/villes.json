@@ -1,0 +1,34 @@
+[
+  {
+    "nom": "Paris · Île-de-France",
+    "detail": "Démarches, logement, orientation études"
+  },
+  {
+    "nom": "Lyon",
+    "detail": "Démarches, logement, réseau étudiant"
+  },
+  {
+    "nom": "Bordeaux",
+    "detail": "Démarches, orientation études"
+  },
+  {
+    "nom": "Marseille",
+    "detail": "Démarches, logement"
+  },
+  {
+    "nom": "Lille",
+    "detail": "Démarches, réseau étudiant"
+  },
+  {
+    "nom": "Toulouse",
+    "detail": "Démarches, orientation études"
+  },
+  {
+    "nom": "Nantes",
+    "detail": "Démarches"
+  },
+  {
+    "nom": "Ta ville n'y est pas ?",
+    "detail": "Écris-nous, nous cherchons un relais pour toi"
+  }
+]

@@ -1,0 +1,38 @@
+---
+layout: base.njk
+permalink: /blog/
+actif: blog
+faqKey: blog
+title: "Guides pratiques pour s'installer en France — Blog ImiziLinks"
+description: "Campus France, aide au logement CAF, sécurité sociale, compte bancaire, recherche d'emploi : des guides détaillés écrits par des membres qui ont fait les démarches."
+image: /img/etudiants-bibliotheque.jpg
+fil:
+  - nom: Accueil
+    url: /
+  - nom: Blog
+    url: /blog/
+---
+{% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
+{{ phero("Blog & guides", "Guides pratiques pour s'installer en France",
+   "Campus France, aide au logement CAF, sécurité sociale, compte bancaire, recherche d'emploi : des guides écrits par des membres de la communauté qui ont fait les démarches.",
+   "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Guides pratiques ImiziLinks","itemListElement":[{% for a in collections.articles %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Derniers articles</p>
+        <h2>À lire<br><span class="grad">avant de se lancer.</span></h2>
+        <p>Chaque guide détaille une démarche précise : les pièces à réunir, l'ordre des étapes, les délais réels et les erreurs qui font perdre des semaines.</p>
+      </div>
+      <div class="blog-grid reveal">
+        {% for a in collections.articles %}{{ carteArticle(a) }}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("Le blog ImiziLinks<br><span class='grad'>en questions.</span>", "Qui écrit les guides, à quelle fréquence ils sont mis à jour et comment proposer un sujet.", faq.blog) }}
+{{ cta("Ta place est déjà ici.", "Que tu arrives, que tu sois déjà installé·e ou que tu veuilles contribuer, il y a une porte d'entrée pour toi.", "Nous rejoindre", "/nous-rejoindre/") }}

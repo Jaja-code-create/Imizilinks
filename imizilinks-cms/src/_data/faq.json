@@ -1,0 +1,154 @@
+{
+  "accueil": [
+    {
+      "question": "Qu'est-ce qu'ImiziLinks ?",
+      "reponse": "ImiziLinks est une plateforme communautaire gratuite destinée aux personnes originaires d'Afrique de l'Est installées ou nouvellement arrivées en France. Elle réunit trois services : l'entraide entre membres pour les démarches d'installation, le relais d'offres d'emploi et de stage auprès d'entreprises partenaires, et l'organisation d'événements de rencontre. Un blog complète le tout avec des guides pratiques sur les démarches administratives."
+    },
+    {
+      "question": "À qui s'adresse ImiziLinks ?",
+      "reponse": "À toute personne originaire d'Afrique de l'Est — Burundi, Rwanda, Kenya, Ouganda, Tanzanie et pays voisins — qui vit en France ou s'apprête à s'y installer : étudiants, jeunes actifs, familles, personnes en reconversion. La communauté est également ouverte à celles et ceux qui souhaitent contribuer sans être eux-mêmes concernés par l'installation."
+    },
+    {
+      "question": "Les services d'ImiziLinks sont-ils payants ?",
+      "reponse": "Non. L'ensemble des services est gratuit : demandes d'entraide, mise en relation avec un référent, candidatures aux offres relayées, participation aux événements et accès aux guides. ImiziLinks est porté par des bénévoles et ne facture jamais ses membres."
+    },
+    {
+      "question": "Dans quelles villes ImiziLinks est-il présent ?",
+      "reponse": "Des référents bénévoles sont actifs à Paris et en Île-de-France, à Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes. Si ta ville ne figure pas dans cette liste, écris-nous : nous cherchons un relais dans ton secteur ou t'orientons vers la ville la plus proche."
+    },
+    {
+      "question": "Comment rejoindre la communauté ImiziLinks ?",
+      "reponse": "Il suffit de remplir le formulaire de contact en indiquant ton motif : demander de l'aide, candidater à une offre, t'inscrire à un événement, devenir référent ou proposer un projet. Aucune inscription préalable ni cotisation n'est demandée."
+    },
+    {
+      "question": "Combien de temps faut-il pour obtenir une réponse ?",
+      "reponse": "Les demandes d'entraide reçoivent une réponse d'un référent sous 48 heures ouvrées. Les candidatures aux offres d'emploi sont transmises à l'entreprise partenaire sous 72 heures. Les autres messages sont traités sous quelques jours."
+    }
+  ],
+  "entraide": [
+    {
+      "question": "Comment obtenir une attestation d'hébergement en France ?",
+      "reponse": "Une attestation d'hébergement est rédigée et signée par la personne qui te loge. Elle doit être accompagnée d'une copie de sa pièce d'identité et d'un justificatif de domicile à son nom, daté de moins de trois mois. Si tu n'as personne pour te l'établir, remplis notre formulaire d'entraide : un référent de ta ville étudie ta situation et cherche une solution avec toi."
+    },
+    {
+      "question": "Qui sont les référents ImiziLinks ?",
+      "reponse": "Ce sont des membres de la communauté installés en France depuis plusieurs années, qui acceptent bénévolement d'être joignables pour les nouveaux arrivants de leur ville. Ils connaissent les interlocuteurs locaux — préfecture, CAF, bailleurs, universités — et orientent vers les bons contacts. Ils ne remplacent pas un travailleur social ou un avocat."
+    },
+    {
+      "question": "Quelles démarches administratives faire en arrivant en France ?",
+      "reponse": "Dans l'ordre : valider ton visa long séjour en ligne dans les trois mois suivant ton arrivée, ouvrir un compte bancaire français, t'inscrire à la sécurité sociale, déclarer un médecin traitant, puis déposer ta demande d'aide au logement auprès de la CAF. Chacune de ces étapes conditionne souvent la suivante, d'où l'importance de respecter cet ordre."
+    },
+    {
+      "question": "ImiziLinks peut-il m'aider à trouver un logement ?",
+      "reponse": "Nous ne sommes pas une agence immobilière et ne proposons pas de logements. En revanche, les référents partagent les bons plans locaux, les résidences fiables, les erreurs à éviter dans un dossier de location, et peuvent parfois orienter vers une solution d'hébergement temporaire le temps de trouver."
+    },
+    {
+      "question": "L'aide d'ImiziLinks est-elle confidentielle ?",
+      "reponse": "Oui. Ta demande n'est transmise qu'au référent chargé de la traiter. Aucune information personnelle n'est publiée, revendue ni partagée avec un tiers."
+    },
+    {
+      "question": "Je viens d'arriver et je ne parle pas encore bien français, pouvez-vous m'aider ?",
+      "reponse": "Oui. Plusieurs référents parlent kirundi, kinyarwanda, swahili ou anglais et peuvent échanger avec toi dans ta langue. Précise-le simplement dans ton message."
+    }
+  ],
+  "opportunites": [
+    {
+      "question": "Comment candidater à une offre publiée par ImiziLinks ?",
+      "reponse": "Chaque offre dispose d'un bouton « Candidater ». Il ouvre un formulaire dédié où tu déposes ton CV et ta lettre de motivation. ImiziLinks reçoit ta candidature, la vérifie et la transmet directement à l'entreprise partenaire concernée. Tu n'as aucune démarche à faire auprès de l'employeur."
+    },
+    {
+      "question": "Pourquoi passer par ImiziLinks plutôt que candidater directement ?",
+      "reponse": "Les offres publiées ici proviennent d'entreprises partenaires qui nous ont confié leur recrutement. Ta candidature est présentée par nos soins, ce qui lui donne davantage de visibilité qu'une candidature déposée parmi des centaines d'autres. Nous pouvons aussi te faire un retour sur ton dossier avant transmission."
+    },
+    {
+      "question": "Quels documents faut-il pour candidater ?",
+      "reponse": "Un CV à jour et une lettre de motivation, aux formats PDF, Word ou image. Si tu n'as pas encore de lettre, tu peux tout de même envoyer ton CV : nous te recontactons pour compléter le dossier."
+    },
+    {
+      "question": "Les offres sont-elles ouvertes aux profils étrangers ou en cours de régularisation ?",
+      "reponse": "Chaque offre précise le niveau requis et le type de contrat. Nos entreprises partenaires sont informées que les candidats viennent de la communauté et sont habituées aux profils internationaux, y compris aux diplômes obtenus à l'étranger. Vérifie simplement que ton titre de séjour t'autorise à travailler dans les conditions prévues."
+    },
+    {
+      "question": "Combien de temps avant d'avoir une réponse à ma candidature ?",
+      "reponse": "Nous transmettons les candidatures à l'entreprise partenaire sous 72 heures. Le délai de réponse dépend ensuite du recruteur, généralement une à trois semaines. Nous te tenons informé de l'avancement."
+    },
+    {
+      "question": "Puis-je candidater à plusieurs offres en même temps ?",
+      "reponse": "Oui, sans limite. Remplis simplement un formulaire par offre pour que chaque candidature soit adressée au bon recruteur avec la bonne lettre de motivation."
+    },
+    {
+      "question": "Je suis une entreprise, comment publier une offre sur ImiziLinks ?",
+      "reponse": "Contacte-nous à l'adresse partenariats@imizilinks.fr. Nous étudions chaque demande, présentons notre vivier de candidats et définissons ensemble les modalités de transmission des candidatures."
+    }
+  ],
+  "evenements": [
+    {
+      "question": "Comment s'inscrire à un événement ImiziLinks ?",
+      "reponse": "Chaque événement de l'agenda dispose d'un bouton « S'inscrire ». Il ouvre le formulaire de contact avec l'événement déjà sélectionné : tu renseignes ton nom et ton email, et nous te confirmons ta place par retour de message."
+    },
+    {
+      "question": "Les événements sont-ils payants ?",
+      "reponse": "Non, la participation est libre et gratuite pour l'ensemble des rendez-vous : forums métiers, webinaires, ateliers et soirées communautaires."
+    },
+    {
+      "question": "Faut-il être membre pour participer ?",
+      "reponse": "Non. Les événements sont ouverts à toute personne intéressée, y compris à celles qui découvrent ImiziLinks. Certains rendez-vous en présentiel ont toutefois un nombre de places limité, d'où l'importance de s'inscrire à l'avance."
+    },
+    {
+      "question": "Dans quelles villes ont lieu les événements ?",
+      "reponse": "Principalement à Paris, Lyon et Bordeaux pour les rendez-vous en présentiel. Les webinaires et ateliers en ligne sont accessibles depuis toute la France et depuis l'étranger."
+    },
+    {
+      "question": "Puis-je organiser un événement ImiziLinks dans ma ville ?",
+      "reponse": "Oui, et c'est encouragé. Écris-nous en choisissant le motif « Organiser un événement dans ma ville » : nous t'aidons sur la logistique, la communication et la mise en relation avec les membres de ton secteur."
+    },
+    {
+      "question": "Que se passe-t-il si je ne peux plus venir ?",
+      "reponse": "Préviens-nous par email dès que possible. Pour les événements à places limitées, cela permet de libérer ta place pour une autre personne inscrite sur liste d'attente."
+    }
+  ],
+  "blog": [
+    {
+      "question": "Qui rédige les articles du blog ImiziLinks ?",
+      "reponse": "Les guides sont écrits par des membres de la communauté qui ont eux-mêmes effectué les démarches décrites, parfois avec la relecture d'un référent ou d'un professionnel du domaine. L'objectif est de proposer une information vécue plutôt qu'une reformulation de texte administratif."
+    },
+    {
+      "question": "Les informations des guides sont-elles à jour ?",
+      "reponse": "Nous actualisons les guides lorsque les procédures évoluent. Les démarches administratives françaises changeant régulièrement, nous recommandons toujours de vérifier l'information sur les sites officiels avant d'engager une démarche importante."
+    },
+    {
+      "question": "Quels sujets sont traités sur le blog ?",
+      "reponse": "Les démarches d'installation en France : procédure Campus France, aide au logement de la CAF, sécurité sociale, ouverture de compte bancaire, recherche d'emploi et témoignages de parcours. De nouveaux sujets sont ajoutés au fil des demandes de la communauté."
+    },
+    {
+      "question": "Puis-je proposer un article ou un sujet ?",
+      "reponse": "Oui. Si tu as effectué une démarche particulière ou que tu maîtrises un sujet utile à la communauté, écris-nous en choisissant le motif « Écrire un article ou un guide ». Nous accompagnons la rédaction si besoin."
+    },
+    {
+      "question": "Les guides remplacent-ils un conseil juridique ou administratif ?",
+      "reponse": "Non. Ce sont des repères pratiques issus d'expériences réelles. Pour une situation complexe — refus de titre de séjour, litige avec un bailleur, contentieux professionnel — adresse-toi à un professionnel qualifié ou à une permanence juridique."
+    }
+  ],
+  "rejoindre": [
+    {
+      "question": "Comment fonctionne le formulaire ImiziLinks ?",
+      "reponse": "Un seul formulaire couvre toutes les demandes. Tu commences par choisir ton motif — aide, emploi, événement, contribution — et les champs suivants s'adaptent automatiquement à ta situation. Cela évite de remplir des informations inutiles."
+    },
+    {
+      "question": "Que deviennent mes données personnelles ?",
+      "reponse": "Elles servent uniquement à traiter ta demande. Elles ne sont ni revendues, ni publiées, ni transmises à un tiers en dehors de la personne chargée de te répondre — ou de l'entreprise partenaire dans le cas d'une candidature à une offre d'emploi."
+    },
+    {
+      "question": "Comment devenir référent ImiziLinks dans ma ville ?",
+      "reponse": "Choisis le motif « Devenir référent dans ma ville » dans le formulaire. Nous échangeons ensuite avec toi sur ta disponibilité, les sujets sur lesquels tu peux aider et la manière dont les demandes te seront transmises. Aucun engagement de durée n'est demandé."
+    },
+    {
+      "question": "Puis-je contribuer sans être référent ?",
+      "reponse": "Oui. Tu peux écrire un guide, relire des CV, animer un atelier, relayer une offre de ton entreprise ou organiser un événement ponctuel dans ta ville. Chaque contribution compte, quel que soit le temps que tu peux y consacrer."
+    },
+    {
+      "question": "Je représente une association ou une entreprise, comment travailler avec ImiziLinks ?",
+      "reponse": "Écris-nous à partenariats@imizilinks.fr ou choisis le motif « Proposer un partenariat » dans le formulaire. Nous collaborons avec des entreprises pour le relais d'offres d'emploi et avec des associations pour l'organisation d'événements."
+    }
+  ]
+}

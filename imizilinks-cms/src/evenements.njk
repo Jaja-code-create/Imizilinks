@@ -1,0 +1,52 @@
+---
+layout: base.njk
+permalink: /evenements/
+actif: actions
+faqKey: evenements
+schemaEvents: true
+title: "Événements de la diaspora africaine en France — ImiziLinks"
+description: "Forums métiers, webinaires sur les démarches administratives, ateliers CV et soirées communautaires. Participation libre et gratuite."
+image: /img/communaute-diaspora-paris.jpg
+fil:
+  - nom: Accueil
+    url: /
+  - nom: Événements
+    url: /evenements/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("Nos actions · Événements", "Événements de la communauté",
+   "Forums métiers, webinaires sur les démarches administratives, ateliers CV et soirées communautaires. Participation libre et gratuite.",
+   "/img/communaute-diaspora-paris.jpg", "Membres de la communauté ImiziLinks réunis à Paris") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Agenda</p>
+        <h2>Les prochaines<br><span class="grad">dates à retenir.</span></h2>
+        <p>Les rendez-vous en présentiel ont un nombre de places limité. Clique sur « S'inscrire » pour réserver la tienne.</p>
+      </div>
+      {% if evenements.length %}
+      <div class="ev-list reveal">
+        {% for e in evenements %}
+        <article class="ev-row">
+          <div><p class="ev-day">{{ e.jour }}</p><p class="ev-month">{{ e.mois }}</p></div>
+          <div>
+            <h3 class="ev-name">{{ e.nom }}</h3>
+            <p class="ev-loc">{{ e.lieu }}</p>
+            {% if e.desc %}<p class="ev-desc">{{ e.desc }}</p>{% endif %}
+          </div>
+          <div class="ev-side">
+            <span class="ev-pill">{{ e.cat }}</span>
+            <a href="/nous-rejoindre/?motif=event&amp;ev={{ e.label | urlencode }}" class="btn btn-outline btn-sm">S'inscrire</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="vide reveal">Aucun événement n'est programmé pour le moment. Écris-nous pour être prévenu·e des prochaines dates.</p>
+      {% endif %}
+    </div>
+  </section>
+
+{{ faqBloc("Les événements ImiziLinks<br><span class='grad'>en questions.</span>", "Inscription, tarifs, villes et organisation d'un rendez-vous dans ta ville.", faq.evenements) }}
+{{ cta("Tu veux organiser un rendez-vous dans ta ville ?", "Une soirée, un atelier, une rencontre : dis-nous ce que tu as en tête et nous t'aidons à le monter.", "Nous écrire", "/nous-rejoindre/?motif=organiser") }}

@@ -1,0 +1,88 @@
+---
+layout: base.njk
+permalink: /
+actif: accueil
+faqKey: accueil
+title: "ImiziLinks — Entraide, emploi et événements pour la diaspora d'Afrique de l'Est en France"
+description: "Plateforme communautaire gratuite : aide aux démarches administratives, attestation d'hébergement, offres d'emploi d'entreprises partenaires, événements et guides pratiques. Paris, Lyon, Bordeaux, Marseille, Lille, Toulouse, Nantes."
+image: /img/communaute-diaspora-paris.jpg
+---
+{% from "macros.njk" import faqBloc, cta, carteArticle %}
+
+  <header class="hero">
+    <div class="hero-bg" style="background-image:url('/img/communaute-diaspora-paris.jpg')" role="img" aria-label="Membres de la communauté ImiziLinks réunis à Paris"></div>
+    <div class="hero-ov"></div>
+    <div class="hero-in">
+      <p class="hero-eyebrow">Communauté d'Afrique de l'Est en France</p>
+      <h1 class="hero-h">Ensemble pour <span class="hero-cycle" id="cycle">s'installer</span></h1>
+      <p class="hero-p">ImiziLinks accompagne la diaspora d'Afrique de l'Est en France : entraide pour les démarches d'installation, offres d'emploi de nos entreprises partenaires, événements et guides pratiques. Gratuit, porté par la communauté.</p>
+      <div class="hero-btns">
+        <a href="/nous-rejoindre/" class="btn btn-light">Nous rejoindre</a>
+        <a href="#actions-accueil" class="btn btn-ghost">Découvrir nos actions</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="mission">
+    <div class="mission-img" style="background-image:url('/img/etudiants-campus-universite.jpg')" role="img" aria-label="Étudiants échangeant devant leur université en France"></div>
+    <div class="mission-txt">
+      <div class="reveal">
+        <p class="slabel">Notre raison d'être</p>
+        <h2>Ce qu'on aurait voulu<br><span class="grad">trouver en arrivant.</span></h2>
+        <p>S'installer en France quand on arrive d'Afrique de l'Est, c'est enchaîner les démarches administratives sans repère : validation du visa, ouverture de compte bancaire, inscription à la sécurité sociale, demande d'aide au logement, recherche d'emploi. Chaque étape conditionne la suivante, et l'information fiable est difficile à trouver.</p>
+        <p>ImiziLinks existe pour que cette période ne se traverse plus seul·e.</p>
+        <div class="mission-points">
+          <div class="mp"><div class="mp-ico">🧭</div><div><h3 class="mp-t">Une information fiable et vécue</h3><p class="mp-d">Des guides rédigés par des personnes qui ont fait les démarches, pas des copies de textes administratifs.</p></div></div>
+          <div class="mp"><div class="mp-ico">🤝</div><div><h3 class="mp-t">Des référents joignables</h3><p class="mp-d">Des membres bénévoles présents à Paris, Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes.</p></div></div>
+          <div class="mp"><div class="mp-ico">🌱</div><div><h3 class="mp-t">Un accompagnement dans la durée</h3><p class="mp-d">Après l'installation viennent les études, l'emploi et les projets : la communauté reste présente.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light" id="actions-accueil">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Nos actions</p>
+        <h2>Trois services concrets<br><span class="grad">pour avancer en France.</span></h2>
+        <p>Chaque service répond à un besoin exprimé par la communauté. Rien d'abstrait : une aide qui se demande, des offres auxquelles on candidate, des rendez-vous auxquels on s'inscrit.</p>
+      </div>
+      <div class="act-grid reveal">
+        <a href="/entraide/" class="act-card act-1">
+          <div class="act-ico">🤝</div>
+          <h3 class="act-t">Entraide et démarches</h3>
+          <p class="act-d">Attestation d'hébergement, titre de séjour, CAF, sécurité sociale, logement temporaire. Tu décris ton besoin, un référent de ta ville te répond sous 48 heures.</p>
+          <span class="act-go">Découvrir l'entraide →</span>
+        </a>
+        <a href="/opportunites/" class="act-card act-2">
+          <div class="act-ico">💼</div>
+          <h3 class="act-t">Offres d'emploi et stages</h3>
+          <p class="act-d">Des postes confiés par nos entreprises partenaires. Tu déposes ton CV chez nous, nous transmettons ta candidature directement au recruteur.</p>
+          <span class="act-go">Voir les offres →</span>
+        </a>
+        <a href="/evenements/" class="act-card act-3">
+          <div class="act-ico">🗓️</div>
+          <h3 class="act-t">Événements et rencontres</h3>
+          <p class="act-d">Forums métiers, webinaires sur les démarches, ateliers CV et soirées communautaires à Paris, Lyon et Bordeaux. Participation gratuite.</p>
+          <span class="act-go">Voir l'agenda →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Guides pratiques</p>
+        <h2>Les démarches expliquées<br><span class="grad">par ceux qui les ont faites.</span></h2>
+        <p>Campus France, aide au logement, sécurité sociale, compte bancaire, recherche d'emploi : nos guides détaillent chaque étape, les pièces à réunir et les délais réels.</p>
+      </div>
+      <div class="blog-grid reveal">
+        {% for a in collections.articles %}{% if loop.index <= 3 %}{{ carteArticle(a) }}{% endif %}{% endfor %}
+      </div>
+      <p class="reveal" style="margin-top:36px;"><a href="/blog/" class="btn btn-outline">Voir tous les guides</a></p>
+    </div>
+  </section>
+
+{{ faqBloc("Tout savoir sur <span class='grad'>ImiziLinks.</span>", "Les questions que se posent le plus souvent les personnes qui découvrent la communauté.", faq.accueil) }}
+{{ cta("Ta place est déjà ici.", "Que tu arrives, que tu sois déjà installé·e ou que tu veuilles contribuer, il y a une porte d'entrée pour toi.", "Nous rejoindre", "/nous-rejoindre/") }}

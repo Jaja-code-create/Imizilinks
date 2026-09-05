@@ -1,0 +1,99 @@
+[
+  {
+    "id": "data-analyst-paris",
+    "titre": "Data Analyst",
+    "entreprise": "TechCorp",
+    "ville": "Paris",
+    "contrat": "CDI",
+    "exp": "Expérience 2–3 ans",
+    "salaire": "28 – 35 k€",
+    "date": "Publiée il y a 3 jours",
+    "desc": "Analyser les bases de données produit et construire les tableaux de bord utilisés par les équipes métier. Poste ouvert aux profils juniors motivés, formation interne assurée sur les outils maison.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Anglais"
+    ]
+  },
+  {
+    "id": "charge-projet-lyon",
+    "titre": "Chargé·e de projet",
+    "entreprise": "Agence Conseil",
+    "ville": "Lyon",
+    "contrat": "CDI",
+    "exp": "Expérience 3 ans et +",
+    "salaire": "32 – 40 k€",
+    "date": "Publiée il y a 5 jours",
+    "desc": "Piloter les projets clients de bout en bout, de la note de cadrage à la livraison, en lien direct avec les directions métier. Bon relationnel indispensable.",
+    "skills": [
+      "Agile",
+      "Jira",
+      "Gestion de projet"
+    ]
+  },
+  {
+    "id": "stage-marketing-bordeaux",
+    "titre": "Stage Marketing digital",
+    "entreprise": "Startup",
+    "ville": "Bordeaux",
+    "contrat": "Stage 6 mois",
+    "exp": "Niveau Bac +3 / +4",
+    "salaire": "Gratification légale",
+    "date": "Publiée hier",
+    "desc": "Participer à la stratégie de contenu, au référencement naturel et aux campagnes sur les réseaux sociaux. Beaucoup d'autonomie, encadrement bienveillant par la responsable marketing.",
+    "skills": [
+      "SEO",
+      "Réseaux sociaux",
+      "Rédaction"
+    ]
+  },
+  {
+    "id": "dev-fullstack-paris",
+    "titre": "Développeur·se Full Stack",
+    "entreprise": "Startup Tech",
+    "ville": "Paris",
+    "contrat": "CDI",
+    "exp": "Expérience 2 ans et +",
+    "salaire": "35 – 45 k€",
+    "date": "Publiée il y a 2 jours",
+    "desc": "Construire les nouvelles fonctionnalités du produit SaaS, du front à l'API. Équipe réduite, décisions rapides, télétravail partiel possible.",
+    "skills": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": "alternance-rh-lille",
+    "titre": "Alternance Ressources humaines",
+    "entreprise": "Groupe industriel",
+    "ville": "Lille",
+    "contrat": "Alternance 12 mois",
+    "exp": "Niveau Bac +4 / +5",
+    "salaire": "Rythme 3 sem. / 1 sem.",
+    "date": "Publiée il y a 6 jours",
+    "desc": "Accompagner l'équipe RH sur le recrutement, l'intégration des nouveaux arrivants et le suivi administratif des collaborateurs sur trois sites.",
+    "skills": [
+      "Recrutement",
+      "Excel",
+      "Organisation"
+    ]
+  },
+  {
+    "id": "aide-soignant-marseille",
+    "titre": "Aide-soignant·e",
+    "entreprise": "Établissement de santé",
+    "ville": "Marseille",
+    "contrat": "CDD 6 mois",
+    "exp": "Diplôme d'État requis",
+    "salaire": "Temps plein",
+    "date": "Publiée il y a 4 jours",
+    "desc": "Accompagnement des patients au quotidien au sein d'une équipe pluridisciplinaire. Poste ouvert aux diplômes obtenus à l'étranger disposant d'une équivalence reconnue.",
+    "skills": [
+      "DEAS",
+      "Travail en équipe"
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/img"
+public_folder: "/img"
+
+locale: fr
+
+site_url: https://imizilinks.fr
+display_url: https://imizilinks.fr
+logo_url: https://imizilinks.fr/img/communaute-diaspora-paris.jpg
+
+collections:
+
+  # ═══════════════════════════════════════════════
+  # OFFRES D'EMPLOI
+  # ═══════════════════════════════════════════════
+  - name: "offres"
+    label: "Offres d'emploi"
+    label_singular: "une offre"
+    description: "Ajoute, modifie ou supprime les offres d'emploi et de stage affichées sur la page Opportunités."
+    files:
+      - name: "liste"
+        label: "Liste des offres"
+        file: "src/_data/offres.json"
+        fields:
+          - label: "Offres"
+            name: "offres"
+            widget: "list"
+            label_singular: "une offre"
+            summary: "{{fields.titre}} — {{fields.entreprise}} ({{fields.ville}})"
+            fields:
+              - { label: "Titre du poste", name: "titre", widget: "string", hint: "Exemple : Data Analyst" }
+              - { label: "Entreprise", name: "entreprise", widget: "string" }
+              - { label: "Ville", name: "ville", widget: "string", hint: "Exemple : Paris, ou Lyon (télétravail partiel)" }
+              - label: "Type de contrat"
+                name: "contrat"
+                widget: "select"
+                options: ["CDI", "CDD", "CDD 6 mois", "Stage 6 mois", "Stage 4 mois", "Alternance 12 mois", "Alternance 24 mois", "Intérim", "Freelance"]
+              - { label: "Expérience demandée", name: "exp", widget: "string", required: false, hint: "Exemple : Expérience 2–3 ans, ou Niveau Bac +3" }
+              - { label: "Salaire ou rémunération", name: "salaire", widget: "string", required: false, hint: "Exemple : 28 – 35 k€, ou Gratification légale" }
+              - { label: "Date de publication (texte affiché)", name: "date", widget: "string", required: false, hint: "Exemple : Publiée il y a 3 jours" }
+              - { label: "Description du poste", name: "desc", widget: "text", hint: "Deux ou trois phrases sur les missions." }
+              - label: "Compétences"
+                name: "skills"
+                widget: "list"
+                required: false
+                label_singular: "une compétence"
+                hint: "Exemple : SQL, Python, Anglais"
+              - { label: "Identifiant technique", name: "id", widget: "string", hint: "Sans espace ni accent, en minuscules. Exemple : data-analyst-paris. Sert au lien de candidature." }
+              - { label: "Date de publication (pour Google)", name: "datePosted", widget: "date", format: "YYYY-MM-DD", required: false }
+              - label: "Type de contrat (pour Google)"
+                name: "typeContrat"
+                widget: "select"
+                required: false
+                options:
+                  - { label: "Temps plein", value: "FULL_TIME" }
+                  - { label: "Temps partiel", value: "PART_TIME" }
+                  - { label: "Stage", value: "INTERN" }
+                  - { label: "Alternance", value: "APPRENTICESHIP" }
+                  - { label: "Contrat court", value: "TEMPORARY" }
+                  - { label: "Autre", value: "OTHER" }
+
+  # ═══════════════════════════════════════════════
+  # ÉVÉNEMENTS
+  # ═══════════════════════════════════════════════
+  - name: "evenements"
+    label: "Événements"
+    label_singular: "un événement"
+    description: "Gère l'agenda affiché sur la page Événements et la liste déroulante du formulaire d'inscription."
+    files:
+      - name: "liste"
+        label: "Agenda"
+        file: "src/_data/evenements.json"
+        fields:
+          - label: "Événements"
+            name: "evenements"
+            widget: "list"
+            label_singular: "un événement"
+            summary: "{{fields.jour}} {{fields.mois}} — {{fields.nom}}"
+            fields:
+              - { label: "Nom de l'événement", name: "nom", widget: "string" }
+              - { label: "Jour", name: "jour", widget: "string", hint: "Deux chiffres. Exemple : 14, ou 08" }
+              - label: "Mois"
+                name: "mois"
+                widget: "select"
+                options: ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"]
+              - { label: "Lieu et horaires", name: "lieu", widget: "string", hint: "Exemple : Paris · En présentiel · 14h – 18h. Écris « En ligne » pour un webinaire." }
+              - label: "Catégorie"
+                name: "cat"
+                widget: "select"
+                options: ["Professionnel", "Informatif", "Culturel", "Éducatif", "Solidaire"]
+              - { label: "Description", name: "desc", widget: "text", hint: "Deux phrases sur le contenu du rendez-vous." }
+              - { label: "Libellé pour le formulaire d'inscription", name: "label", widget: "string", hint: "Exemple : Forum Métiers · 14 février · Paris" }
+              - { label: "Date complète (pour Google)", name: "dateIso", widget: "date", format: "YYYY-MM-DD", required: false }
+
+  # ═══════════════════════════════════════════════
+  # ARTICLES DU BLOG
+  # ═══════════════════════════════════════════════
+  - name: "articles"
+    label: "Articles du blog"
+    label_singular: "un article"
+    description: "Rédige et modifie les guides pratiques. Chaque article a sa propre adresse et sa propre foire aux questions."
+    folder: "src/articles"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    preview_path: "blog/{{slug}}/"
+    summary: "{{title}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string", hint: "C'est le titre affiché et celui que voit Google. 60 caractères maximum si possible." }
+      - label: "Catégorie"
+        name: "categorie"
+        widget: "select"
+        options: ["Campus France", "Logement", "Santé", "Banque", "Emploi", "Parcours", "Titre de séjour", "Études", "Vie quotidienne"]
+      - { label: "Description pour Google", name: "description", widget: "text", hint: "Une ou deux phrases, 150 à 160 caractères. C'est le texte affiché sous le titre dans les résultats de recherche." }
+      - { label: "Chapeau d'introduction", name: "chapeau", widget: "text", hint: "Le paragraphe en gras au début de l'article, qui plante le sujet." }
+      - { label: "Image de couverture", name: "image", widget: "image", hint: "Tu peux téléverser une nouvelle image ou en choisir une existante." }
+      - { label: "Temps de lecture", name: "duree", widget: "string", default: "Lecture 5 min" }
+      - { label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Contenu de l'article", name: "body", widget: "markdown", hint: "Utilise les titres de niveau 2 pour les grandes parties. Le format « citation » crée un encadré mis en avant." }
+      - label: "Questions fréquentes"
+        name: "faqItems"
+        widget: "list"
+        required: false
+        label_singular: "une question"
+        summary: "{{fields.question}}"
+        hint: "Très utile pour le référencement : Google peut afficher ces questions directement dans ses résultats. Formule-les comme les gens les tapent."
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Réponse", name: "reponse", widget: "text" }
+      - { label: "Gabarit", name: "layout", widget: "hidden", default: "article.njk" }
+
+  # ═══════════════════════════════════════════════
+  # QUESTIONS FRÉQUENTES DES PAGES
+  # ═══════════════════════════════════════════════
+  - name: "faq"
+    label: "Questions fréquentes"
+    label_singular: "les questions d'une page"
+    description: "Modifie les questions affichées en bas de chaque page. Elles alimentent aussi les résultats enrichis de Google."
+    files:
+      - name: "toutes"
+        label: "Questions par page"
+        file: "src/_data/faq.json"
+        fields:
+          - label: "Page d'accueil"
+            name: "accueil"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+          - label: "Page Entraide"
+            name: "entraide"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+          - label: "Page Opportunités"
+            name: "opportunites"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+          - label: "Page Événements"
+            name: "evenements"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+          - label: "Page Blog"
+            name: "blog"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+          - label: "Page Nous rejoindre"
+            name: "rejoindre"
+            widget: "list"
+            label_singular: "une question"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "reponse", widget: "text" }
+
+  # ═══════════════════════════════════════════════
+  # RÉFÉRENTS PAR VILLE
+  # ═══════════════════════════════════════════════
+  - name: "villes"
+    label: "Villes et référents"
+    description: "Les villes affichées sur la page Entraide."
+    files:
+      - name: "liste"
+        label: "Liste des villes"
+        file: "src/_data/villes.json"
+        fields:
+          - label: "Villes"
+            name: "villes"
+            widget: "list"
+            label_singular: "une ville"
+            summary: "{{fields.nom}}"
+            fields:
+              - { label: "Ville", name: "nom", widget: "string" }
+              - { label: "Ce que couvre le référent", name: "detail", widget: "string" }
+
+  # ═══════════════════════════════════════════════
+  # RÉGLAGES DU SITE
+  # ═══════════════════════════════════════════════
+  - name: "reglages"
+    label: "Réglages du site"
+    description: "Adresses email, réseaux sociaux et texte du pied de page."
+    files:
+      - name: "site"
+        label: "Informations générales"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Nom du site", name: "nom", widget: "string" }
+          - { label: "Adresse du site", name: "url", widget: "string", hint: "Sans barre oblique à la fin. Exemple : https://imizilinks.fr" }
+          - { label: "Slogan", name: "slogan", widget: "string" }
+          - { label: "Email principal", name: "email", widget: "string" }
+          - { label: "Email partenariats", name: "email_partenariats", widget: "string" }
+          - { label: "Texte du pied de page", name: "description_footer", widget: "text" }
+          - { label: "Lien Instagram", name: "instagram", widget: "string", required: false }
+          - { label: "Lien LinkedIn", name: "linkedin", widget: "string", required: false }
+          - { label: "Lien Facebook", name: "facebook", widget: "string", required: false }
+          - { label: "Année affichée dans le pied de page", name: "annee", widget: "number", value_type: "int" }

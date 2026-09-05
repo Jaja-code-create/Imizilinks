@@ -1,0 +1,32 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- set fixes = [
+  ["/", "1.0", "weekly"],
+  ["/entraide/", "0.9", "monthly"],
+  ["/opportunites/", "0.9", "weekly"],
+  ["/evenements/", "0.8", "weekly"],
+  ["/blog/", "0.8", "monthly"],
+  ["/nous-rejoindre/", "0.7", "monthly"],
+  ["/candidater/", "0.5", "monthly"],
+  ["/mentions-legales/", "0.3", "yearly"]
+] %}
+{%- for p in fixes %}
+  <url>
+    <loc>{{ site.url }}{{ p[0] }}</loc>
+    <changefreq>{{ p[2] }}</changefreq>
+    <priority>{{ p[1] }}</priority>
+  </url>
+{%- endfor %}
+{%- for a in collections.articles %}
+  <url>
+    <loc>{{ site.url }}{{ a.url }}</loc>
+    <lastmod>{{ a.date | dateIso }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+{%- endfor %}
+</urlset>

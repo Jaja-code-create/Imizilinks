@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="{{ site.nom }}">
+<meta property="og:type" content="{% if layout == 'article.njk' %}article{% else %}website{% endif %}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{{ site.nom }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ image or '/img/communaute-diaspora-paris.jpg' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ site.url }}{{ image or '/img/communaute-diaspora-paris.jpg' }}">
+<meta name="theme-color" content="#8C613B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"Organization","@id":"{{ site.url }}/#organization",
+ "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/",
+ "slogan":{{ site.slogan | dump | safe }},
+ "description":"Plateforme communautaire gratuite d'entraide, d'emploi et d'événements pour la diaspora d'Afrique de l'Est en France.",
+ "areaServed":{"@type":"Country","name":"France"},
+ "email":{{ site.email | dump | safe }},
+ "knowsLanguage":["fr","en","sw","rn","rw"],
+ "contactPoint":[
+  {"@type":"ContactPoint","contactType":"customer support","email":{{ site.email | dump | safe }},"availableLanguage":["French","English","Swahili"]},
+  {"@type":"ContactPoint","contactType":"partnerships","email":{{ site.email_partenariats | dump | safe }}}]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"WebSite","@id":"{{ site.url }}/#website",
+ "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/","inLanguage":"fr-FR",
+ "publisher":{"@id":"{{ site.url }}/#organization"}
+}
+</script>
+{% if faqKey and faq[faqKey] %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in faq[faqKey] %}{"@type":"Question","name":{{ f.question | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.reponse | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% elif faqItems %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in faqItems %}{"@type":"Question","name":{{ f.question | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.reponse | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}
+{% if fil %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for e in fil %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ e.nom | dump | safe }},"item":"{{ site.url }}{{ e.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}
+{% if schemaArticle %}
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"Article",
+ "headline":{{ title | dump | safe }},
+ "description":{{ description | dump | safe }},
+ "image":"{{ site.url }}{{ image }}",
+ "inLanguage":"fr-FR",
+ "datePublished":"{{ page.date | dateIso }}",
+ "dateModified":"{{ page.date | dateIso }}",
+ "author":{"@id":"{{ site.url }}/#organization"},
+ "publisher":{"@id":"{{ site.url }}/#organization"},
+ "mainEntityOfPage":{"@type":"WebPage","@id":"{{ site.url }}{{ page.url }}"},
+ "articleSection":{{ categorie | dump | safe }}
+}
+</script>
+{% endif %}
+{% if schemaOffres %}
+{% for o in offres %}
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"JobPosting",
+ "title":{{ o.titre | dump | safe }},
+ "description":{{ o.desc | dump | safe }},
+ "datePosted":"{{ o.datePosted or '2026-09-01' }}",
+ "employmentType":{{ o.typeContrat | dump | safe if o.typeContrat else '"OTHER"' | safe }},
+ "hiringOrganization":{"@type":"Organization","name":{{ o.entreprise | dump | safe }}},
+ "jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":{{ o.ville | dump | safe }},"addressCountry":"FR"}},
+ "directApply":false,
+ "identifier":{"@type":"PropertyValue","name":{{ site.nom | dump | safe }},"value":{{ o.id | dump | safe }}}
+}
+</script>
+{% endfor %}
+{% endif %}
+{% if schemaEvents %}
+{% for e in evenements %}
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"Event",
+ "name":{{ e.nom | dump | safe }},
+ "description":{{ e.desc | dump | safe }},
+ "startDate":"{{ e.dateIso or '2027-02-14' }}",
+ "eventAttendanceMode":"https://schema.org/{% if 'ligne' in e.lieu %}Online{% else %}Offline{% endif %}EventAttendanceMode",
+ "eventStatus":"https://schema.org/EventScheduled",
+ "location":{% if 'ligne' in e.lieu %}{"@type":"VirtualLocation","url":"{{ site.url }}/evenements/"}{% else %}{"@type":"Place","name":{{ e.lieu | dump | safe }},"address":{"@type":"PostalAddress","addressCountry":"FR"}}{% endif %},
+ "organizer":{"@id":"{{ site.url }}/#organization"},
+ "isAccessibleForFree":true
+}
+</script>
+{% endfor %}
+{% endif %}
+</head>
+<body>
+
+<a href="#contenu" class="skip">Aller au contenu</a>
+<nav id="nav" aria-label="Navigation principale">
+  <a href="/" class="logo">Imizi<em>Links</em></a>
+  <div class="nav-menu" id="navMenu">
+    <div class="nav-item"><a href="/" class="nav-link{% if actif == 'accueil' %} active{% endif %}">Accueil</a></div>
+    <div class="nav-item" id="ddItem">
+      <button class="nav-link{% if actif == 'actions' %} active{% endif %}" id="ddBtn" aria-haspopup="true" aria-expanded="false">Nos actions <span class="caret"></span></button>
+      <div class="dropdown">
+        <a href="/entraide/" class="dd-link"><span class="dd-ico">🤝</span><span><span class="dd-t">Entraide</span><span class="dd-d">Attestation d'hébergement, démarches, référents</span></span></a>
+        <a href="/opportunites/" class="dd-link"><span class="dd-ico">💼</span><span><span class="dd-t">Opportunités</span><span class="dd-d">Offres d'emploi de nos entreprises partenaires</span></span></a>
+        <a href="/evenements/" class="dd-link"><span class="dd-ico">🗓️</span><span><span class="dd-t">Événements</span><span class="dd-d">Forums, webinaires et rencontres</span></span></a>
+      </div>
+    </div>
+    <div class="nav-item"><a href="/blog/" class="nav-link{% if actif == 'blog' %} active{% endif %}">Blog</a></div>
+    <a href="/nous-rejoindre/" class="nav-cta">Nous rejoindre</a>
+  </div>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+</nav>
+
+<main id="contenu">
+{{ content | safe }}
+</main>
+
+<footer>
+  <div class="ft">
+    <div>
+      <div class="f-logo">Imizi<em>Links</em></div>
+      <p class="f-desc">{{ site.description_footer }}</p>
+      <div class="f-socials">
+        <a href="{{ site.linkedin or '#' }}" class="soc" aria-label="LinkedIn" rel="noopener">in</a>
+        <a href="{{ site.instagram or '#' }}" class="soc" aria-label="Instagram" rel="noopener">ig</a>
+        <a href="{{ site.facebook or '#' }}" class="soc" aria-label="Facebook" rel="noopener">fb</a>
+      </div>
+    </div>
+    <div class="fc"><h2>Nos actions</h2><ul>
+      <li><a href="/entraide/">Entraide et démarches</a></li>
+      <li><a href="/opportunites/">Offres d'emploi</a></li>
+      <li><a href="/evenements/">Événements</a></li>
+    </ul></div>
+    <div class="fc"><h2>Guides pratiques</h2><ul>
+      {% for a in collections.articles | reverse %}{% if loop.index <= 3 %}
+      <li><a href="{{ a.url }}">{{ a.data.title }}</a></li>{% endif %}{% endfor %}
+      <li><a href="/blog/">Tous les guides</a></li>
+    </ul></div>
+    <div class="fc"><h2>Contact</h2><ul>
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><a href="mailto:{{ site.email_partenariats }}">Partenariats entreprises</a></li>
+      <li><a href="/nous-rejoindre/?motif=referent">Devenir référent</a></li>
+      <li><a href="/nous-rejoindre/">Nous rejoindre</a></li>
+    </ul></div>
+  </div>
+  <div class="fb">
+    <span>© {{ site.annee }} {{ site.nom }} — Tous droits réservés</span>
+    <span><a href="/mentions-legales/">Mentions légales</a> · <a href="/mentions-legales/#confidentialite">Politique de confidentialité</a></span>
+  </div>
+</footer>
+<script src="/script.js"></script>
+</body>
+</html>

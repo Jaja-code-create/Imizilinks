@@ -1,0 +1,26 @@
+---
+layout: base.njk
+actif: blog
+schemaArticle: true
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("Blog · " + categorie + " · " + duree, title, description, image, title) }}
+
+  <section class="sec">
+    <article class="article">
+      <p><a href="/blog/" class="retour">← Tous les articles</a></p>
+      {% if chapeau %}<p class="chapeau">{{ chapeau }}</p>{% endif %}
+      {{ content | safe }}
+      <div class="art-suite">
+        <h2>À lire ensuite</h2>
+        <div class="art-liens">
+          {% for a in collections.articles | autres(page.url, 2) %}
+          <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+  </section>
+
+{{ faqBloc(categorie + " :<br><span class='grad'>les questions fréquentes.</span>", "Les réponses aux questions les plus posées sur ce sujet.", faqItems) }}
+{{ cta("Une question sur cette démarche ?", "Un référent ImiziLinks peut t'accompagner et relire ton dossier avant dépôt.", "Demander de l'aide", "/nous-rejoindre/?motif=aide") }}

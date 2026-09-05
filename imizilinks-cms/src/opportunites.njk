@@ -1,0 +1,71 @@
+---
+layout: base.njk
+permalink: /opportunites/
+actif: actions
+faqKey: opportunites
+schemaOffres: true
+title: "Offres d'emploi et de stage pour la diaspora en France — ImiziLinks"
+description: "Postes confiés par nos entreprises partenaires. Dépose ton CV chez ImiziLinks : nous transmettons ta candidature au recruteur sous 72 heures."
+image: /img/etudiants-campus-universite.jpg
+fil:
+  - nom: Accueil
+    url: /
+  - nom: Opportunités
+    url: /opportunites/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("Nos actions · Opportunités", "Offres d'emploi et de stage",
+   "Des postes confiés par nos entreprises partenaires. Tu déposes ton CV et ta lettre de motivation chez ImiziLinks, et nous transmettons ta candidature directement au recruteur.",
+   "/img/etudiants-campus-universite.jpg", "Étudiants échangeant devant leur université en France") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Comment ça fonctionne</p>
+        <h2>Ta candidature est portée,<br><span class="grad">pas déposée dans une pile.</span></h2>
+      </div>
+      <div class="intro-seo reveal">
+        <p>Les offres publiées sur ImiziLinks ne sont pas reprises depuis d'autres sites. Elles nous sont <strong>confiées par des entreprises partenaires</strong> qui souhaitent recruter au sein de la communauté et qui connaissent la valeur des parcours internationaux.</p>
+        <p>Concrètement, tu ne candidates pas directement auprès de l'employeur : <strong>tu envoies ton CV et ta lettre de motivation à ImiziLinks</strong>, nous vérifions ton dossier et nous le transmettons nous-mêmes au recruteur avec une présentation de ton profil. Une candidature portée par un intermédiaire connu de l'entreprise est nettement mieux lue qu'une candidature anonyme.</p>
+      </div>
+      <div class="proc reveal" style="margin-top:44px;">
+        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">Tu déposes ton dossier</h3><p class="proc-d">Clique sur « Candidater » sur l'offre qui t'intéresse et joins ton CV ainsi que ta lettre de motivation. Deux minutes suffisent.</p></div>
+        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">Nous vérifions et transmettons</h3><p class="proc-d">Nous relisons ton dossier, te signalons un point à corriger si nécessaire, puis nous l'envoyons au recruteur sous 72 heures.</p></div>
+        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">L'entreprise te contacte</h3><p class="proc-d">Le recruteur prend directement contact avec toi pour la suite du processus. Nous restons disponibles pour te préparer à l'entretien.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Offres en cours</p>
+        <h2>Les postes ouverts<br><span class="grad">en ce moment.</span></h2>
+        <p>Emploi, alternance et stage dans toute la France. La liste est actualisée régulièrement.</p>
+      </div>
+      {% if offres.length %}
+      <div class="job-list reveal">
+        {% for o in offres %}
+        <article class="job-card">
+          <div class="job-head">
+            <div><h3 class="job-title">{{ o.titre }}</h3><p class="job-comp">{{ o.entreprise }} — {{ o.ville }}</p></div>
+            <span class="job-badge">{{ o.contrat }}</span>
+          </div>
+          <p class="job-meta">{% if o.exp %}<span>{{ o.exp }}</span>{% endif %}{% if o.salaire %}<span>{{ o.salaire }}</span>{% endif %}{% if o.date %}<span>{{ o.date }}</span>{% endif %}</p>
+          <p class="job-desc">{{ o.desc }}</p>
+          {% if o.skills.length %}<div class="job-skills">{% for s in o.skills %}<span class="skill">{{ s }}</span>{% endfor %}</div>{% endif %}
+          <div class="postuler">
+            <a href="/candidater/?offre={{ o.id }}" class="btn btn-primary btn-sm">Candidater</a>
+            <span class="postuler-note">Ta candidature est transmise par ImiziLinks à l'entreprise partenaire.</span>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="vide reveal">Aucune offre n'est ouverte en ce moment. Dis-nous ce que tu cherches : nous te signalons les postes correspondants dès leur arrivée.</p>
+      {% endif %}
+    </div>
+  </section>
+
+{{ faqBloc("Candidater via ImiziLinks<br><span class='grad'>en questions.</span>", "Processus de candidature, documents à fournir, délais de réponse et partenariats entreprises.", faq.opportunites) }}
+{{ cta("Aucune offre ne correspond ?", "Dis-nous ce que tu cherches : nous te signalons les postes qui correspondent dès leur arrivée.", "Faire ta demande", "/nous-rejoindre/?motif=emploi") }}
