@@ -21,8 +21,9 @@ fil:
   <section class="sec">
     <div class="wrap">
       <div class="form-solo reveal">
-        <form class="form-card" id="formCandidature" name="candidature" method="POST" data-netlify="true" enctype="multipart/form-data" action="/merci/">
+        <form class="form-card" id="formCandidature" name="candidature" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" action="/merci/?type=candidature">
           <input type="hidden" name="form-name" value="candidature">
+          <p class="hp" aria-hidden="true"><label>Ne rien remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
           <p><a href="/opportunites/" class="retour">← Retour aux offres</a></p>
 
           <div class="offre-rappel">
@@ -87,4 +88,4 @@ fil:
     </div>
   </section>
 
-{{ cta("Tu hésites sur ton CV ?", "Des membres de la communauté relisent les candidatures et organisent des entretiens blancs.", "Demander une relecture", "/nous-rejoindre/?motif=emploi") }}
+{{ cta("Tu hésites sur ton CV ?", "Des membres de la communauté relisent les candidatures et organisent des entretiens blancs.", "Demander une relecture", "/entraide/#form-entraide") }}

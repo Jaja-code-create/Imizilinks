@@ -121,9 +121,18 @@
     <div class="nav-item" id="ddItem">
       <button class="nav-link{% if actif == 'actions' %} active{% endif %}" id="ddBtn" aria-haspopup="true" aria-expanded="false">Nos actions <span class="caret"></span></button>
       <div class="dropdown">
-        <a href="/entraide/" class="dd-link"><span class="dd-ico">🤝</span><span><span class="dd-t">Entraide</span><span class="dd-d">Attestation d'hébergement, démarches, référents</span></span></a>
-        <a href="/opportunites/" class="dd-link"><span class="dd-ico">💼</span><span><span class="dd-t">Opportunités</span><span class="dd-d">Offres d'emploi de nos entreprises partenaires</span></span></a>
-        <a href="/evenements/" class="dd-link"><span class="dd-ico">🗓️</span><span><span class="dd-t">Événements</span><span class="dd-d">Forums, webinaires et rencontres</span></span></a>
+        <a href="/entraide/" class="dd-link">
+          <span class="dd-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0L12 5.34l-.77-.76a5.4 5.4 0 0 0-7.65 7.65l.77.76L12 20.99l7.65-7.99.77-.76a5.4 5.4 0 0 0 0-7.65Z"/></svg></span>
+          <span><span class="dd-t">Entraide</span><span class="dd-d">Attestation d'hébergement, démarches, référents</span></span>
+        </a>
+        <a href="/opportunites/" class="dd-link">
+          <span class="dd-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
+          <span><span class="dd-t">Opportunités</span><span class="dd-d">Offres d'emploi de nos entreprises partenaires</span></span>
+        </a>
+        <a href="/evenements/" class="dd-link">
+          <span class="dd-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+          <span><span class="dd-t">Événements</span><span class="dd-d">Forums, webinaires et rencontres</span></span>
+        </a>
       </div>
     </div>
     <div class="nav-item"><a href="/blog/" class="nav-link{% if actif == 'blog' %} active{% endif %}">Blog</a></div>

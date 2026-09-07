@@ -13,7 +13,7 @@ fil:
   - nom: Événements
     url: /evenements/
 ---
-{% from "macros.njk" import phero, faqBloc, cta %}
+{% from "macros.njk" import phero, faqBloc, cta, formEvenement %}
 {{ phero("Nos actions · Événements", "Événements de la communauté",
    "Forums métiers, webinaires sur les démarches administratives, ateliers CV et soirées communautaires. Participation libre et gratuite.",
    "/img/communaute-diaspora-paris.jpg", "Membres de la communauté ImiziLinks réunis à Paris") }}
@@ -37,7 +37,7 @@ fil:
           </div>
           <div class="ev-side">
             <span class="ev-pill">{{ e.cat }}</span>
-            <a href="/nous-rejoindre/?motif=event&amp;ev={{ e.label | urlencode }}" class="btn btn-outline btn-sm">S'inscrire</a>
+            <a href="#form-evenement" class="btn btn-outline btn-sm" data-ev="{{ e.label }}">S'inscrire</a>
           </div>
         </article>
         {% endfor %}
@@ -47,6 +47,19 @@ fil:
       {% endif %}
     </div>
   </section>
+
+  {% if evenements.length %}
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Inscription</p>
+        <h2>Réserve ta place<br><span class="grad">en deux minutes.</span></h2>
+        <p>Choisis l'événement, renseigne tes coordonnées : nous te confirmons ta place par retour de message.</p>
+      </div>
+      {{ formEvenement(evenements) }}
+    </div>
+  </section>
+  {% endif %}
 
 {{ faqBloc("Les événements ImiziLinks<br><span class='grad'>en questions.</span>", "Inscription, tarifs, villes et organisation d'un rendez-vous dans ta ville.", faq.evenements) }}
 {{ cta("Tu veux organiser un rendez-vous dans ta ville ?", "Une soirée, un atelier, une rencontre : dis-nous ce que tu as en tête et nous t'aidons à le monter.", "Nous écrire", "/nous-rejoindre/?motif=organiser") }}
