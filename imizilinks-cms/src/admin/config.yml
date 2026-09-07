@@ -229,7 +229,6 @@ collections:
           - { label: "Adresse du site", name: "url", widget: "string", hint: "Sans barre oblique à la fin. Exemple : https://imizilinks.fr" }
           - { label: "Slogan", name: "slogan", widget: "string" }
           - { label: "Email principal", name: "email", widget: "string" }
-          - { label: "Email partenariats", name: "email_partenariats", widget: "string" }
           - { label: "Texte du pied de page", name: "description_footer", widget: "text" }
           - { label: "Lien Instagram", name: "instagram", widget: "string", required: false }
           - { label: "Lien LinkedIn", name: "linkedin", widget: "string", required: false }

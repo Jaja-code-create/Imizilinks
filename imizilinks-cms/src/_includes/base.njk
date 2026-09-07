@@ -35,8 +35,7 @@
  "email":{{ site.email | dump | safe }},
  "knowsLanguage":["fr","en","sw","rn","rw"],
  "contactPoint":[
-  {"@type":"ContactPoint","contactType":"customer support","email":{{ site.email | dump | safe }},"availableLanguage":["French","English","Swahili"]},
-  {"@type":"ContactPoint","contactType":"partnerships","email":{{ site.email_partenariats | dump | safe }}}]
+  {"@type":"ContactPoint","contactType":"customer support","email":{{ site.email | dump | safe }},"availableLanguage":["French","English","Swahili"]}]
 }
 </script>
 <script type="application/ld+json">
@@ -160,7 +159,6 @@
     </ul></div>
     <div class="fc"><h2>Contact</h2><ul>
       <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      <li><a href="mailto:{{ site.email_partenariats }}">Partenariats entreprises</a></li>
       <li><a href="/nous-rejoindre/?motif=referent">Devenir référent</a></li>
       <li><a href="/nous-rejoindre/">Nous rejoindre</a></li>
     </ul></div>
