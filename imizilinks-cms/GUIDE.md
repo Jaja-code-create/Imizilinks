@@ -125,24 +125,17 @@ Compte une à deux minutes avant de voir le changement en ligne.**
 ## Étape 5 — Recevoir les messages et les CV
 
 Les formulaires sont déjà branchés sur Netlify Forms. Il reste à activer la
-réception par email vers **contact@imizilinks.fr**.
+réception.
 
-1. Dans Netlify : **Forms**. Après le premier envoi depuis le site, quatre
-   formulaires apparaissent :
-   - `entraide` — demandes d'aide (page Entraide)
-   - `inscription-evenement` — inscriptions aux événements (page Événements)
-   - `candidature` — dépôts de CV (page Opportunités)
-   - `contribuer` — référents, contributeurs, partenariats (page Nous rejoindre)
-2. Pour **chacun** des quatre : clique sur le formulaire → **Settings** →
-   **Form notifications** → **Add notification** → **Email notification**.
-3. Dans « Email to notify », mets **contact@imizilinks.fr** et enregistre.
-   Répète l'opération pour les quatre formulaires.
+1. Dans Netlify : **Forms**. Après le premier envoi depuis le site, deux
+   formulaires apparaissent : `contact` et `candidature`.
+2. Clique sur **Form notifications** → **Add notification** → **Email
+   notification**.
+3. Mets ton adresse email et choisis le formulaire concerné. Répète pour le
+   second.
 
-Tu recevras chaque message à contact@imizilinks.fr, et les CV seront
-téléchargeables depuis l'interface Netlify (onglet Forms → `candidature`).
-
-**Astuce :** tu peux mettre plusieurs adresses en créant plusieurs
-notifications sur le même formulaire.
+Tu recevras chaque message par email, et les CV seront téléchargeables depuis
+l'interface Netlify.
 
 **Attention à la limite du forfait gratuit :** 100 envois par mois, et 10 Mo
 de fichiers joints au total. Si tu reçois beaucoup de candidatures, il faudra
@@ -234,13 +227,10 @@ titre « Renouveler son titre de séjour étudiant » donne l'adresse
       obligation légale (forme juridique, adresse, directrice de publication,
       hébergeur : Netlify).
 - [ ] **Renseigner les réseaux sociaux** dans Réglages du site.
-- [ ] **Vérifier que l'adresse `contact@imizilinks.fr` existe** et que tu
-      relèves bien cette boîte.
-- [ ] **Activer les notifications email** sur les quatre formulaires Netlify
-      (`entraide`, `inscription-evenement`, `candidature`, `contribuer`) vers
-      `contact@imizilinks.fr` — voir Étape 5.
-- [ ] **Tester les quatre formulaires** depuis le site en ligne et vérifier que
-      tu reçois bien les emails à `contact@imizilinks.fr`.
+- [ ] **Vérifier que les deux adresses email existent** :
+      `hello@imizilinks.fr` et `partenariats@imizilinks.fr`.
+- [ ] **Tester les deux formulaires** depuis le site en ligne et vérifier que
+      tu reçois bien les emails.
 
 ---
 

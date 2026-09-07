@@ -12,7 +12,7 @@ fil:
   - nom: Entraide
     url: /entraide/
 ---
-{% from "macros.njk" import phero, faqBloc, cta, formEntraide %}
+{% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("Nos actions · Entraide", "Entraide et démarches administratives",
    "Attestation d'hébergement, validation de visa, CAF, sécurité sociale, logement : décris ta situation et un référent ImiziLinks de ta ville te répond sous 48 heures. Service gratuit et confidentiel.",
    "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
@@ -31,7 +31,7 @@ fil:
         <li>Orientation sur les études, l'équivalence de diplômes et l'inscription universitaire</li>
         <li>Relecture de dossier avant dépôt pour éviter les pièces manquantes</li>
       </ul>
-      <p class="split-cta"><a href="#form-entraide" class="btn btn-primary">Faire ta demande</a></p>
+      <p class="split-cta"><a href="/nous-rejoindre/?motif=aide" class="btn btn-primary">Faire ta demande</a></p>
     </div>
   </section>
 
@@ -68,17 +68,6 @@ fil:
   <section class="sec light">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="slabel">Faire une demande</p>
-        <h2>Décris ta situation,<br><span class="grad">on prend le relais.</span></h2>
-        <p>Le formulaire prend deux minutes. Un référent de ta ville te répond sous 48 heures ouvrées.</p>
-      </div>
-      {{ formEntraide(villes) }}
-    </div>
-  </section>
-
-  <section class="sec">
-    <div class="wrap">
-      <div class="sec-head reveal">
         <p class="slabel">Pour aller plus loin</p>
         <h2>Les guides liés<br><span class="grad">à ces démarches.</span></h2>
       </div>
@@ -91,4 +80,4 @@ fil:
   </section>
 
 {{ faqBloc("L'entraide ImiziLinks<br><span class='grad'>en questions.</span>", "Attestation d'hébergement, référents, démarches d'arrivée : les réponses aux questions les plus posées.", faq.entraide) }}
-{{ cta("Besoin d'un coup de main ?", "Le formulaire prend deux minutes. Un référent te répond sous 48 heures.", "Faire ta demande", "/entraide/#form-entraide") }}
+{{ cta("Besoin d'un coup de main ?", "Le formulaire prend deux minutes. Un référent te répond sous 48 heures.", "Faire ta demande", "/nous-rejoindre/?motif=aide") }}

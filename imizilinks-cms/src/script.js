@@ -86,18 +86,20 @@
     return new URLSearchParams(window.location.search).get(nom);
   }
 
-  /* ═══ Formulaire « Proposer ta contribution » : champs selon le rôle ═══ */
+  /* ═══ Formulaire de contact : champs selon le motif ═══ */
   var motifSel = document.getElementById('f-motif');
   if (motifSel) {
     var REGLES = {
-      referent:    { blocs: ['bloc-villeres'], msg: 'Sur quoi peux-tu aider, et depuis quand es-tu installé·e ?' },
+      aide:        { blocs: ['bloc-arrivee', 'bloc-besoin'], msg: 'Décris ta situation' },
+      emploi:      { blocs: ['bloc-secteur', 'bloc-villeres'], msg: 'Parle-nous de ton parcours' },
+      event:       { blocs: ['bloc-event'], msg: 'Une question ou une précision ? (facultatif)' },
+      referent:    { blocs: ['bloc-villeres'], msg: 'Sur quoi peux-tu aider ?' },
       article:     { blocs: [], msg: 'Quel sujet veux-tu traiter ?' },
       organiser:   { blocs: ['bloc-villeres'], msg: "Décris ton idée d'événement" },
-      benevolat:   { blocs: ['bloc-villeres'], msg: 'Sur quoi peux-tu aider et à quelle fréquence ?' },
-      partenariat: { blocs: ['bloc-structure'], msg: 'Présente ta structure et ce que tu proposes' },
+      partenariat: { blocs: [], msg: 'Présente ta structure et ton projet' },
       autre:       { blocs: [], msg: 'Ton message' }
     };
-    var TOUS = ['bloc-villeres', 'bloc-structure'];
+    var TOUS = ['bloc-arrivee', 'bloc-besoin', 'bloc-event', 'bloc-secteur', 'bloc-villeres'];
 
     var majFormulaire = function () {
       var regle = REGLES[motifSel.value] || { blocs: [], msg: 'Ton message' };
@@ -107,57 +109,32 @@
       });
       var lbl = document.getElementById('lbl-msg');
       if (lbl) lbl.textContent = regle.msg;
+      var msg = document.getElementById('f-msg');
+      if (msg) msg.required = (motifSel.value !== 'event');
     };
     motifSel.addEventListener('change', majFormulaire);
 
-    // Pré-remplissage depuis l'URL : ?motif=referent
+    // Pré-remplissage depuis l'URL : ?motif=aide  ou  ?motif=event&ev=...
     var motif = param('motif');
-    if (motif && REGLES[motif]) { motifSel.value = motif; }
+    if (motif) { motifSel.value = motif; }
     majFormulaire();
 
-    if (motif && REGLES[motif]) {
+    var ev = param('ev');
+    if (ev) {
+      var evSel = document.getElementById('f-event');
+      if (evSel) {
+        for (var k = 0; k < evSel.options.length; k++) {
+          if (evSel.options[k].text === ev) { evSel.selectedIndex = k; }
+        }
+      }
+    }
+    if (motif) {
       var form = document.querySelector('.form-solo');
       if (form) {
         setTimeout(function () {
           window.scrollTo({ top: form.offsetTop - 90, behavior: 'smooth' });
         }, 200);
       }
-    }
-  }
-
-  /* ═══ Boutons « S'inscrire » d'un événement → pré-sélection dans le formulaire ═══ */
-  var evForm = document.getElementById('form-evenement');
-  if (evForm) {
-    var evSelect = document.getElementById('v-event');
-    var choisirEvenement = function (label) {
-      if (!evSelect || !label) return;
-      for (var k = 0; k < evSelect.options.length; k++) {
-        if (evSelect.options[k].text === label) { evSelect.selectedIndex = k; }
-      }
-    };
-    document.querySelectorAll('a[href="#form-evenement"][data-ev]').forEach(function (lien) {
-      lien.addEventListener('click', function () {
-        choisirEvenement(lien.getAttribute('data-ev'));
-      });
-    });
-    // Pré-remplissage depuis l'URL : ?ev=...
-    var evParam = param('ev');
-    if (evParam) {
-      choisirEvenement(evParam);
-      setTimeout(function () {
-        window.scrollTo({ top: evForm.offsetTop - 90, behavior: 'smooth' });
-      }, 200);
-    }
-  }
-
-  /* ═══ Page « Merci » : message adapté au type de formulaire ═══ */
-  var merciBlocs = document.querySelectorAll('[data-merci]');
-  if (merciBlocs.length) {
-    var type = param('type');
-    var cible = document.querySelector('[data-merci="' + type + '"]');
-    if (cible) {
-      merciBlocs.forEach(function (p) { p.hidden = true; });
-      cible.hidden = false;
     }
   }
 

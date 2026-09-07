@@ -3,7 +3,7 @@ layout: base.njk
 permalink: /nous-rejoindre/
 faqKey: rejoindre
 title: "Rejoindre la communauté ImiziLinks — Contact"
-description: "Devenir référent dans sa ville, contribuer un guide, organiser un événement local ou proposer un partenariat associatif ou entreprise. Réponse sous 48 heures."
+description: "Demander de l'aide, s'inscrire à un événement, devenir référent dans sa ville ou proposer un partenariat. Un seul formulaire, réponse sous 48 heures."
 image: /img/etudiants-campus-universite.jpg
 fil:
   - nom: Accueil
@@ -12,42 +12,28 @@ fil:
     url: /nous-rejoindre/
 ---
 {% from "macros.njk" import phero, faqBloc %}
-{{ phero("Nous rejoindre", "S'impliquer dans ImiziLinks",
-   "Ce formulaire est réservé à celles et ceux qui veulent contribuer : devenir référent, écrire un guide, organiser un événement local ou proposer un partenariat. Pour une demande d'aide, rends-toi sur la page Entraide ; pour t'inscrire à un événement, sur la page Événements.",
+{{ phero("Nous rejoindre", "Rejoindre la communauté ImiziLinks",
+   "Un seul formulaire pour tout : demander de l'aide, t'inscrire à un événement, devenir référent dans ta ville ou proposer un partenariat. Choisis ton motif, les champs s'adaptent.",
    "/img/etudiants-campus-universite.jpg", "Étudiants échangeant devant leur université en France") }}
 
   <section class="sec">
     <div class="wrap">
-      <div class="redir-row reveal">
-        <a href="/entraide/#form-entraide" class="redir-card">
-          <span class="redir-t">Besoin d'aide pour une démarche ?</span>
-          <span class="redir-d">Attestation d'hébergement, CAF, préfecture, logement → formulaire d'entraide</span>
-        </a>
-        <a href="/evenements/#form-evenement" class="redir-card">
-          <span class="redir-t">T'inscrire à un événement ?</span>
-          <span class="redir-d">Forums, webinaires, ateliers → formulaire d'inscription</span>
-        </a>
-        <a href="/opportunites/" class="redir-card">
-          <span class="redir-t">Postuler à une offre ?</span>
-          <span class="redir-d">Emploi, stage, alternance → dépôt de candidature</span>
-        </a>
-      </div>
-
       <div class="form-solo reveal">
-        <form class="form-card" id="formContact" name="contribuer" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci/?type=contribuer">
-          <input type="hidden" name="form-name" value="contribuer">
-          <p class="hp" aria-hidden="true"><label>Ne rien remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-          <h2 class="form-h2">Proposer ta contribution</h2>
-          <p class="fc-sub">Réponse sous 48 heures ouvrées. Choisis ton rôle, les champs s'adaptent.</p>
+        <form class="form-card" id="formContact" name="contact" method="POST" data-netlify="true" action="/merci/">
+          <input type="hidden" name="form-name" value="contact">
+          <h2 class="form-h2">Écris-nous</h2>
+          <p class="fc-sub">Réponse sous 48 heures ouvrées. Aucune inscription préalable, aucun frais.</p>
 
           <div class="fg"><label for="f-motif">Je souhaite</label>
             <select id="f-motif" name="motif" required>
-              <option value="">Choisir un rôle</option>
+              <option value="">Choisir un motif</option>
+              <option value="aide">Demander de l'aide (hébergement, démarches…)</option>
+              <option value="emploi">Être accompagné·e dans ma recherche d'emploi</option>
+              <option value="event">M'inscrire à un événement</option>
               <option value="referent">Devenir référent dans ma ville</option>
               <option value="article">Écrire un article ou un guide</option>
               <option value="organiser">Organiser un événement dans ma ville</option>
-              <option value="benevolat">Aider ponctuellement (relecture de CV, atelier…)</option>
-              <option value="partenariat">Proposer un partenariat (association ou entreprise)</option>
+              <option value="partenariat">Proposer un partenariat</option>
               <option value="autre">Poser une autre question</option>
             </select>
           </div>
@@ -61,11 +47,38 @@ fil:
             <div class="fg"><label for="f-tel">Téléphone <span class="opt">(facultatif)</span></label><input id="f-tel" name="telephone" type="tel" placeholder="06 12 34 56 78"></div>
           </div>
 
+          <div class="cond-row fg-row" id="bloc-arrivee">
+            <div class="fg"><label for="f-ville">Ville d'arrivée</label>
+              <select id="f-ville" name="ville_arrivee">
+                <option value="">Choisir une ville</option>
+                <option>Paris / Île-de-France</option><option>Lyon</option><option>Bordeaux</option>
+                <option>Marseille</option><option>Lille</option><option>Toulouse</option>
+                <option>Nantes</option><option>Autre</option>
+              </select>
+            </div>
+            <div class="fg"><label for="f-date">Date d'arrivée</label><input id="f-date" name="date_arrivee" type="date"></div>
+          </div>
+
+          <div class="cond fg" id="bloc-besoin"><label for="f-besoin">Type de besoin</label>
+            <select id="f-besoin" name="besoin">
+              <option value="">Choisir un besoin</option>
+              <option>Attestation d'hébergement</option><option>Démarches administratives</option>
+              <option>Logement temporaire</option><option>Orientation études</option><option>Autre</option>
+            </select>
+          </div>
+
+          <div class="cond fg" id="bloc-event"><label for="f-event">Événement choisi</label>
+            <select id="f-event" name="evenement">
+              <option value="">Choisir un événement</option>
+              {% for e in evenements %}<option>{{ e.label }}</option>{% endfor %}
+            </select>
+          </div>
+
+          <div class="cond fg" id="bloc-secteur"><label for="f-secteur">Secteur ou poste recherché</label><input id="f-secteur" name="secteur" type="text" placeholder="Ex : data, santé, ressources humaines"></div>
+
           <div class="cond fg" id="bloc-villeres"><label for="f-villeres">Ta ville</label><input id="f-villeres" name="ville" type="text" placeholder="Lyon"></div>
 
-          <div class="cond fg" id="bloc-structure"><label for="f-structure">Nom de ta structure</label><input id="f-structure" name="structure" type="text" placeholder="Association, entreprise…"></div>
-
-          <div class="fg"><label for="f-msg" id="lbl-msg">Ton message</label><textarea id="f-msg" name="message" placeholder="Présente-toi en quelques lignes et dis-nous ce que tu as en tête." required></textarea></div>
+          <div class="fg"><label for="f-msg" id="lbl-msg">Ton message</label><textarea id="f-msg" name="message" placeholder="Quelques lignes suffisent, nous te recontactons pour les détails." required></textarea></div>
 
           <button type="submit" class="btn btn-primary btn-full">Envoyer</button>
           <p class="form-note">Tes informations ne sont partagées qu'avec la personne chargée de traiter ta demande.</p>
@@ -79,4 +92,4 @@ fil:
     </div>
   </section>
 
-{{ faqBloc("Nous rejoindre :<br><span class='grad'>les questions fréquentes.</span>", "Devenir référent, contribuer un guide, organiser un événement, protection des données et partenariats.", faq.rejoindre) }}
+{{ faqBloc("Nous rejoindre :<br><span class='grad'>les questions fréquentes.</span>", "Fonctionnement du formulaire, protection des données, contribution et partenariats.", faq.rejoindre) }}
