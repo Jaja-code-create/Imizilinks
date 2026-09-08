@@ -336,6 +336,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .split-cta{margin-top:32px;}
 .btn-full{width:100%;justify-content:center;}
 .opt{font-weight:400;color:var(--gris);}
+.required-star{color:var(--bordeaux);font-weight:700;margin-left:2px;}
 .form-h2{font-size:22px;font-weight:700;letter-spacing:-.5px;margin-bottom:8px;}
 
 /* ═══ Hero : mot animé en ligne ═══ */
@@ -409,8 +410,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* ═══ État vide (aucune offre, aucun événement) ═══ */
 .vide{background:var(--fond);border:1px dashed var(--gris-l);border-radius:14px;padding:36px 32px;font-size:15.5px;line-height:1.75;color:var(--gris);text-align:center;}
 
-/* ═══ Icône SVG générique (taille fixe, réutilisable) ═══ */
-.ico{width:20px;height:20px;flex-shrink:0;display:block;}
+/* ═══ Icône SVG générique (taille fixe, réutilisable) ═══
+   Le sélecteur svg.ico (plus spécifique qu'une éventuelle règle svg) + les
+   attributs width/height présents sur chaque balise <svg class="ico"> dans
+   le HTML garantissent la taille même si une règle svg globale est ajoutée. */
+svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 
 /* ═══ Champ anti-spam (honeypot Netlify) ═══ */
 .hp-field{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden;}
@@ -428,18 +432,23 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .f-coord li{margin-bottom:14px;}
 .f-coord-l{display:flex;gap:11px;align-items:flex-start;}
 .f-ico{flex-shrink:0;width:34px;height:34px;border-radius:9px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center;color:var(--nude);}
-.f-ico .ico{width:17px;height:17px;}
+.f-ico svg.ico,.f-ico .ico{width:17px;height:17px;}
 .f-coord-txt{display:flex;flex-direction:column;gap:2px;padding-top:2px;}
 .f-coord-lbl{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,.4);}
 .f-coord-txt a,.f-coord-val{font-size:13.5px;line-height:1.5;color:rgba(255,255,255,.72);text-decoration:none;}
 .f-coord-txt a:hover{color:#fff;}
 
-/* ═══ Icônes réseaux (footer + bandeau contact) ═══ */
-.soc .ico{width:15px;height:15px;}
-.cs-socials{display:flex;gap:10px;margin-top:4px;margin-bottom:8px;}
-.cs-soc{width:42px;height:42px;border-radius:11px;border:1px solid var(--gris-l);background:var(--dark);color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:transform .2s,background .25s,border-color .25s;}
-.cs-soc .ico{width:20px;height:20px;}
-.cs-soc:hover{background:var(--camel);border-color:var(--terracotta);transform:translateY(-2px);}
+/* ═══ Icônes réseaux du pied de page (pastilles rondes) ═══ */
+.soc{color:var(--nude);}
+.soc svg.ico,.soc .ico{width:17px;height:17px;}
+.soc:hover{color:#fff;}
+
+/* ═══ Icônes réseaux du bandeau contact (/nous-rejoindre/) ═══
+   Boutons carrés arrondis, icône dans la couleur des CTA du site (--camel). */
+.cs-socials{display:flex;gap:10px;margin-top:6px;margin-bottom:8px;}
+.cs-soc{width:42px;height:42px;border-radius:11px;border:1px solid var(--gris-l);background:#fff;color:var(--camel);display:flex;align-items:center;justify-content:center;text-decoration:none;transition:transform .2s,background .25s,border-color .25s,color .25s;}
+.cs-soc svg.ico,.cs-soc .ico{width:20px;height:20px;}
+.cs-soc:hover{background:var(--camel);border-color:var(--camel);color:#fff;transform:translateY(-2px);}
 
 /* ═══ Page de remerciement ═══ */
 .merci{max-width:620px;margin:0 auto;text-align:center;}

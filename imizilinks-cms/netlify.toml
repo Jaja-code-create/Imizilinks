@@ -17,12 +17,14 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# CSS et JS : revalidation à chaque visite pour que les mises à jour
+# se propagent immédiatement (le fichier n'est pas versionné dans son URL).
 [[headers]]
   for = "/style.css"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/script.js"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=0, must-revalidate"

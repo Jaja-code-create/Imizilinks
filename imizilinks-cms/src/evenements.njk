@@ -60,7 +60,7 @@ fil:
           <input type="hidden" name="form-name" value="evenement">
           <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
 
-          <div class="fg"><label for="v-event">Événement concerné</label>
+          <div class="fg"><label for="v-event">Événement concerné <span class="required-star" aria-hidden="true">*</span></label>
             <select id="v-event" name="evenement_choisi" required>
               <option value="">Choisir un événement</option>
               {% for e in evenements %}<option>{{ e.label }}</option>{% endfor %}
@@ -68,14 +68,14 @@ fil:
           </div>
 
           <div class="fg-row">
-            <div class="fg"><label for="v-prenom">Prénom</label><input id="v-prenom" name="prenom" type="text" placeholder="Marie" required></div>
-            <div class="fg"><label for="v-nom">Nom</label><input id="v-nom" name="nom" type="text" placeholder="Niyonzima" required></div>
+            <div class="fg"><label for="v-prenom">Prénom <span class="required-star" aria-hidden="true">*</span></label><input id="v-prenom" name="prenom" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="v-nom">Nom <span class="required-star" aria-hidden="true">*</span></label><input id="v-nom" name="nom" type="text" placeholder="Niyonzima" required></div>
           </div>
           <div class="fg-row">
-            <div class="fg"><label for="v-mail">Email</label><input id="v-mail" name="email" type="email" placeholder="marie@email.com" required></div>
-            <div class="fg"><label for="v-tel">Téléphone</label><input id="v-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
+            <div class="fg"><label for="v-mail">Email <span class="required-star" aria-hidden="true">*</span></label><input id="v-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="v-tel">Téléphone <span class="required-star" aria-hidden="true">*</span></label><input id="v-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
           </div>
-          <div class="fg"><label for="v-nb">Nombre de personnes</label>
+          <div class="fg"><label for="v-nb">Nombre de personnes <span class="required-star" aria-hidden="true">*</span></label>
             <select id="v-nb" name="nombre_personnes" required>
               <option value="1">1 (moi seul·e)</option>
               <option value="2">2</option>
