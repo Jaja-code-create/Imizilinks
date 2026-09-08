@@ -137,9 +137,16 @@
       </div>
     </div>
     <div class="nav-item"><a href="{{ '/en/blog/' if lang == 'en' else '/blog/' }}" class="nav-link{% if actif == 'blog' %} active{% endif %}">{{ t.nav.blog }}</a></div>
-    <a href="{{ altUrl }}" class="lang-switch" aria-label="{{ t.switchToOther }}" hreflang="{{ altLang }}">
-      <span class="lang-cur">{{ t.otherLangCode }}</span>
-    </a>
+    <div class="lang-toggle" data-lang="{{ lang }}" role="group" aria-label="{{ t.switchToOther }}">
+      <span class="lang-thumb" aria-hidden="true"></span>
+      {% if lang == 'fr' %}
+        <span class="lang-opt is-active" aria-current="true">FR</span>
+        <a class="lang-opt" href="{{ altUrl }}" hreflang="en" aria-label="Switch to English">EN</a>
+      {% else %}
+        <a class="lang-opt" href="{{ altUrl }}" hreflang="fr" aria-label="Passer en français">FR</a>
+        <span class="lang-opt is-active" aria-current="true">EN</span>
+      {% endif %}
+    </div>
     <a href="{{ '/en/join-us/' if lang == 'en' else '/nous-rejoindre/' }}" class="nav-cta">{{ t.nav.join }}</a>
   </div>
   <button class="burger" id="burger" aria-label="{{ t.nav.openMenu }}"><span></span><span></span><span></span></button>
