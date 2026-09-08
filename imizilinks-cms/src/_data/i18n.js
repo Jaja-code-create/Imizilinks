@@ -15,6 +15,7 @@ export const routes = {
   entraide:    { fr: "/entraide/",         en: "/en/support/" },
   opportunites:{ fr: "/opportunites/",     en: "/en/opportunities/" },
   evenements:  { fr: "/evenements/",       en: "/en/events/" },
+  impact:      { fr: "/notre-impact/",     en: "/en/our-impact/" },
   blog:        { fr: "/blog/",             en: "/en/blog/" },
   rejoindre:   { fr: "/nous-rejoindre/",   en: "/en/join-us/" },
   candidater:  { fr: "/candidater/",       en: "/en/apply/" },
@@ -33,6 +34,7 @@ const fr = {
   nav: {
     home: "Accueil",
     actions: "Nos actions",
+    impact: "Notre impact",
     blog: "Blog",
     join: "Nous rejoindre",
     openMenu: "Ouvrir le menu",
@@ -78,6 +80,7 @@ const en = {
   nav: {
     home: "Home",
     actions: "What we do",
+    impact: "Our impact",
     blog: "Blog",
     join: "Join us",
     openMenu: "Open menu",

@@ -136,6 +136,7 @@
         <a href="{{ '/en/events/' if lang == 'en' else '/evenements/' }}" class="dd-link"><span class="dd-ico">🗓️</span><span><span class="dd-t">{{ t.nav.ddEvenements }}</span><span class="dd-d">{{ t.nav.ddEvenementsDesc }}</span></span></a>
       </div>
     </div>
+    <div class="nav-item"><a href="{{ '/en/our-impact/' if lang == 'en' else '/notre-impact/' }}" class="nav-link{% if actif == 'impact' %} active{% endif %}">{{ t.nav.impact }}</a></div>
     <div class="nav-item"><a href="{{ '/en/blog/' if lang == 'en' else '/blog/' }}" class="nav-link{% if actif == 'blog' %} active{% endif %}">{{ t.nav.blog }}</a></div>
     <div class="lang-toggle" data-lang="{{ lang }}" role="group" aria-label="{{ t.switchToOther }}">
       <span class="lang-thumb" aria-hidden="true"></span>
