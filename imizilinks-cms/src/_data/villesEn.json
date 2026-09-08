@@ -1,0 +1,34 @@
+[
+  {
+    "nom": "Paris · Île-de-France",
+    "detail": "Paperwork, housing, guidance on studies"
+  },
+  {
+    "nom": "Lyon",
+    "detail": "Paperwork, housing, student network"
+  },
+  {
+    "nom": "Bordeaux",
+    "detail": "Paperwork, guidance on studies"
+  },
+  {
+    "nom": "Marseille",
+    "detail": "Paperwork, housing"
+  },
+  {
+    "nom": "Lille",
+    "detail": "Paperwork, student network"
+  },
+  {
+    "nom": "Toulouse",
+    "detail": "Paperwork, guidance on studies"
+  },
+  {
+    "nom": "Nantes",
+    "detail": "Paperwork"
+  },
+  {
+    "nom": "Your city isn't listed?",
+    "detail": "Write to us, we'll look for a contact for you"
+  }
+]

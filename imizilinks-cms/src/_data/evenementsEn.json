@@ -1,0 +1,47 @@
+[
+  {
+    "jour": "14",
+    "mois": "Feb",
+    "cat": "Professional",
+    "nom": "Careers Forum — Diaspora",
+    "lieu": "Paris · In person · 2 pm – 6 pm",
+    "desc": "An afternoon to meet professionals from several sectors, ask the questions you don't dare ask in an interview and leave with useful contacts.",
+    "label": "Careers Forum — Diaspora · 14 February · Paris"
+  },
+  {
+    "jour": "22",
+    "mois": "Feb",
+    "cat": "Informative",
+    "nom": "Webinar: understanding the CAF and its benefits",
+    "lieu": "Online · 7.30 pm – 9 pm",
+    "desc": "Which housing benefits exist, who is eligible, how to put the file together and which documents to prepare. Open questions at the end.",
+    "label": "Webinar: understanding the CAF and its benefits · 22 February · Online"
+  },
+  {
+    "jour": "08",
+    "mois": "Mar",
+    "cat": "Cultural",
+    "nom": "ImiziLinks community evening",
+    "lieu": "Lyon · In person · 7 pm – 11 pm",
+    "desc": "A simple moment to meet with no agenda: food, music and conversation. Open to all members and their friends and family.",
+    "label": "ImiziLinks community evening · 8 March · Lyon"
+  },
+  {
+    "jour": "15",
+    "mois": "Mar",
+    "cat": "Educational",
+    "nom": "Panel: succeeding in your studies in France",
+    "lieu": "Bordeaux · Hybrid · 3 pm – 5 pm",
+    "desc": "Students and graduates share their journey: enrolment, study methods, funding and campus life.",
+    "label": "Panel: succeeding in your studies in France · 15 March · Bordeaux"
+  },
+  {
+    "jour": "29",
+    "mois": "Mar",
+    "cat": "Professional",
+    "nom": "CV and cover letter workshop",
+    "lieu": "Online · 6 pm – 8 pm",
+    "desc": "A hands-on workshop in a small group: review of your CV, adapting the format to French expectations and working on your application.",
+    "label": "CV and cover letter workshop · 29 March · Online"
+  }
+]

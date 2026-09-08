@@ -10,12 +10,12 @@
   </header>
 {% endmacro %}
 
-{% macro faqBloc(titre, intro, items) %}
+{% macro faqBloc(titre, intro, items, eyebrow="Questions fréquentes") %}
 {% if items and items.length %}
   <section class="faq-sec">
     <div class="faq-wrap">
       <div class="sec-head center reveal">
-        <p class="slabel">Questions fréquentes</p>
+        <p class="slabel">{{ eyebrow }}</p>
         <h2>{{ titre | safe }}</h2>
         {% if intro %}<p>{{ intro }}</p>{% endif %}
       </div>

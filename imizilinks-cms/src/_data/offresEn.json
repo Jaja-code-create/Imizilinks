@@ -1,0 +1,99 @@
+[
+  {
+    "id": "data-analyst-paris",
+    "titre": "Data Analyst",
+    "entreprise": "TechCorp",
+    "ville": "Paris",
+    "contrat": "Permanent",
+    "exp": "2–3 years' experience",
+    "salaire": "€28k – €35k",
+    "date": "Posted 3 days ago",
+    "desc": "Analyse the product databases and build the dashboards used by the business teams. Open to motivated junior profiles, in-house training provided on the internal tools.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "English"
+    ]
+  },
+  {
+    "id": "charge-projet-lyon",
+    "titre": "Project Manager",
+    "entreprise": "Consulting Agency",
+    "ville": "Lyon",
+    "contrat": "Permanent",
+    "exp": "3+ years' experience",
+    "salaire": "€32k – €40k",
+    "date": "Posted 5 days ago",
+    "desc": "Run client projects end to end, from the scoping note to delivery, working directly with the business units. Strong people skills essential.",
+    "skills": [
+      "Agile",
+      "Jira",
+      "Project management"
+    ]
+  },
+  {
+    "id": "stage-marketing-bordeaux",
+    "titre": "Digital Marketing Internship",
+    "entreprise": "Startup",
+    "ville": "Bordeaux",
+    "contrat": "6-month internship",
+    "exp": "Bachelor's / Master's level",
+    "salaire": "Statutory allowance",
+    "date": "Posted yesterday",
+    "desc": "Take part in the content strategy, SEO and social media campaigns. Lots of autonomy, supportive guidance from the marketing lead.",
+    "skills": [
+      "SEO",
+      "Social media",
+      "Writing"
+    ]
+  },
+  {
+    "id": "dev-fullstack-paris",
+    "titre": "Full Stack Developer",
+    "entreprise": "Tech Startup",
+    "ville": "Paris",
+    "contrat": "Permanent",
+    "exp": "2+ years' experience",
+    "salaire": "€35k – €45k",
+    "date": "Posted 2 days ago",
+    "desc": "Build the new features of the SaaS product, from the front end to the API. Small team, fast decisions, partial remote work possible.",
+    "skills": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": "alternance-rh-lille",
+    "titre": "HR Apprenticeship",
+    "entreprise": "Industrial Group",
+    "ville": "Lille",
+    "contrat": "12-month apprenticeship",
+    "exp": "Master's level",
+    "salaire": "3 weeks / 1 week rhythm",
+    "date": "Posted 6 days ago",
+    "desc": "Support the HR team on recruitment, onboarding of new arrivals and administrative follow-up of staff across three sites.",
+    "skills": [
+      "Recruitment",
+      "Excel",
+      "Organisation"
+    ]
+  },
+  {
+    "id": "aide-soignant-marseille",
+    "titre": "Healthcare Assistant",
+    "entreprise": "Healthcare facility",
+    "ville": "Marseille",
+    "contrat": "6-month fixed term",
+    "exp": "State diploma required",
+    "salaire": "Full time",
+    "date": "Posted 4 days ago",
+    "desc": "Daily support for patients within a multidisciplinary team. Open to qualifications obtained abroad with recognised equivalence.",
+    "skills": [
+      "Healthcare assistant diploma",
+      "Teamwork"
+    ]
+  }
+]

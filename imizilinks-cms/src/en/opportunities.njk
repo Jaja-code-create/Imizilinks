@@ -1,0 +1,71 @@
+---
+permalink: /en/opportunities/
+actif: actions
+pageKey: opportunites
+faqKey: opportunites
+schemaOffres: true
+title: "Jobs and internships for the diaspora in France — ImiziLinks"
+description: "Roles entrusted by our partner companies. Send your CV to ImiziLinks: we pass your application to the recruiter within 72 hours."
+image: /img/etudiants-campus-universite.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Opportunities
+    url: /en/opportunities/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("What we do · Opportunities", "Jobs and internships",
+   "Roles entrusted by our partner companies. You send your CV and cover letter to ImiziLinks, and we pass your application straight to the recruiter.",
+   "/img/etudiants-campus-universite.jpg", "Students talking outside their university in France") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">How it works</p>
+        <h2>Your application is carried,<br><span class="grad">not dropped on a pile.</span></h2>
+      </div>
+      <div class="intro-seo reveal">
+        <p>The offers posted on ImiziLinks are not scraped from other sites. They are <strong>entrusted to us by partner companies</strong> that want to recruit within the community and know the value of international journeys.</p>
+        <p>In practice, you don't apply directly to the employer: <strong>you send your CV and cover letter to ImiziLinks</strong>, we check your file and pass it to the recruiter ourselves with an introduction to your profile. An application carried by an intermediary the company knows is read far better than an anonymous one.</p>
+      </div>
+      <div class="proc reveal" style="margin-top:44px;">
+        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">You submit your file</h3><p class="proc-d">Click “Apply” on the offer you're interested in and attach your CV and cover letter. Two minutes is enough.</p></div>
+        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">We check and pass it on</h3><p class="proc-d">We review your file, flag anything to fix, then send it to the recruiter within 72 hours.</p></div>
+        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">The company contacts you</h3><p class="proc-d">The recruiter gets in touch with you directly for the next steps. We stay available to help you prepare for the interview.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Current offers</p>
+        <h2>Roles open<br><span class="grad">right now.</span></h2>
+        <p>Jobs, apprenticeships and internships across France. The list is updated regularly.</p>
+      </div>
+      {% if offresEn.length %}
+      <div class="job-list reveal">
+        {% for o in offresEn %}
+        <article class="job-card">
+          <div class="job-head">
+            <div><h3 class="job-title">{{ o.titre }}</h3><p class="job-comp">{{ o.entreprise }} — {{ o.ville }}</p></div>
+            <span class="job-badge">{{ o.contrat }}</span>
+          </div>
+          <p class="job-meta">{% if o.exp %}<span>{{ o.exp }}</span>{% endif %}{% if o.salaire %}<span>{{ o.salaire }}</span>{% endif %}{% if o.date %}<span>{{ o.date }}</span>{% endif %}</p>
+          <p class="job-desc">{{ o.desc }}</p>
+          {% if o.skills.length %}<div class="job-skills">{% for s in o.skills %}<span class="skill">{{ s }}</span>{% endfor %}</div>{% endif %}
+          <div class="postuler">
+            <a href="/en/apply/?offre={{ o.id }}" class="btn btn-primary btn-sm">Apply</a>
+            <span class="postuler-note">Your application is passed by ImiziLinks to the partner company.</span>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="vide reveal">No offers are open right now. Tell us what you're looking for and we'll flag matching roles as soon as they arrive.</p>
+      {% endif %}
+    </div>
+  </section>
+
+{{ faqBloc("Applying via ImiziLinks<br><span class='grad'>in questions.</span>", "Application process, documents to provide, reply times and company partnerships.", faqEn.opportunites, "Frequently asked questions") }}
+{{ cta("No offer matches?", "Tell us what you're looking for and we'll flag matching roles as soon as they arrive.", "Make a request", "/en/join-us/#form") }}

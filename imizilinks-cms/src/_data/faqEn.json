@@ -1,0 +1,154 @@
+{
+  "accueil": [
+    {
+      "question": "What is ImiziLinks?",
+      "reponse": "ImiziLinks is a free community platform for people from East Africa who live in France or are about to move there. It brings together three services: mutual help between members for settling-in paperwork, job and internship offers passed on by partner companies, and community events. A blog rounds it off with practical guides on administrative procedures."
+    },
+    {
+      "question": "Who is ImiziLinks for?",
+      "reponse": "Anyone from East Africa — Burundi, Rwanda, Kenya, Uganda, Tanzania and neighbouring countries — who lives in France or is preparing to move there: students, young professionals, families, people changing careers. The community is also open to anyone who wants to help out without being concerned by settling in themselves."
+    },
+    {
+      "question": "Are ImiziLinks services free?",
+      "reponse": "Yes. Everything is free: help requests, being put in touch with a local contact, applying to the job offers we relay, taking part in events and reading the guides. ImiziLinks is run by volunteers and never charges its members."
+    },
+    {
+      "question": "Which cities does ImiziLinks cover?",
+      "reponse": "Volunteer local contacts are active in Paris and the Île-de-France region, and in Lyon, Bordeaux, Marseille, Lille, Toulouse and Nantes. If your city isn't on the list, write to us: we'll look for a contact in your area or point you to the nearest city."
+    },
+    {
+      "question": "How do I join the ImiziLinks community?",
+      "reponse": "Each need has its own form: the Support page for a help request, the Events page to sign up for a meet-up, the “Apply” button on the Opportunities page for a job offer, and the Join us page to become a local contact, contribute or ask a general question. No prior registration or membership fee is required."
+    },
+    {
+      "question": "How long does it take to get a reply?",
+      "reponse": "Help requests receive a reply from a local contact within 48 working hours. Job applications are passed on to the partner company within 72 hours. Other messages are handled within a few days."
+    }
+  ],
+  "entraide": [
+    {
+      "question": "How do I get a proof of accommodation in France?",
+      "reponse": "A proof of accommodation (“attestation d'hébergement”) is written and signed by the person hosting you. It must come with a copy of their ID and a proof of address in their name, less than three months old. If you have no one to write one for you, fill in our support form: a local contact will look at your situation and work out a solution with you."
+    },
+    {
+      "question": "Who are the ImiziLinks local contacts?",
+      "reponse": "They are community members who have lived in France for several years and volunteer to be reachable for newcomers in their city. They know the local services — prefecture, CAF, landlords, universities — and point you to the right people. They don't replace a social worker or a lawyer."
+    },
+    {
+      "question": "What admin steps should I take when I arrive in France?",
+      "reponse": "In order: validate your long-stay visa online within three months of arriving, open a French bank account, register with social security, declare a GP, then apply for housing benefit with the CAF. Each step often unlocks the next one, which is why the order matters."
+    },
+    {
+      "question": "Can ImiziLinks help me find housing?",
+      "reponse": "We are not a letting agency and don't offer housing. However, local contacts share good local tips, reliable residences, mistakes to avoid in a rental application, and can sometimes point you to temporary accommodation while you look."
+    },
+    {
+      "question": "Is help from ImiziLinks confidential?",
+      "reponse": "Yes. Your request is only passed to the local contact handling it. No personal information is published, sold or shared with a third party."
+    },
+    {
+      "question": "I've just arrived and don't speak French well yet — can you help?",
+      "reponse": "Yes. Several local contacts speak Kirundi, Kinyarwanda, Swahili or English and can talk with you in your language. Just mention it in your message."
+    }
+  ],
+  "opportunites": [
+    {
+      "question": "How do I apply to an offer posted by ImiziLinks?",
+      "reponse": "Each offer has an “Apply” button. It opens a dedicated form where you upload your CV and cover letter. ImiziLinks receives your application, checks it and passes it directly to the partner company. You have nothing to do with the employer yourself."
+    },
+    {
+      "question": "Why go through ImiziLinks rather than applying directly?",
+      "reponse": "The offers posted here come from partner companies that have entrusted us with their recruitment. Your application is presented by us, which gives it more visibility than one dropped among hundreds of others. We can also give you feedback on your file before sending it on."
+    },
+    {
+      "question": "What documents do I need to apply?",
+      "reponse": "An up-to-date CV and a cover letter, in PDF, Word or image format. If you don't have a letter yet, you can still send your CV: we'll get back to you to complete the file."
+    },
+    {
+      "question": "Are the offers open to foreign nationals or people awaiting a residence permit?",
+      "reponse": "Each offer states the level required and the type of contract. Our partner companies know that candidates come from the community and are used to international profiles, including qualifications obtained abroad. Just check that your residence permit lets you work under the conditions set out."
+    },
+    {
+      "question": "How long before I get a reply to my application?",
+      "reponse": "We pass applications on to the partner company within 72 hours. The reply time then depends on the recruiter, usually one to three weeks. We keep you informed of progress."
+    },
+    {
+      "question": "Can I apply to several offers at once?",
+      "reponse": "Yes, with no limit. Just fill in one form per offer so each application reaches the right recruiter with the right cover letter."
+    },
+    {
+      "question": "I'm a company — how do I post an offer on ImiziLinks?",
+      "reponse": "Contact us at contact@imizilinks.fr. We look at every request, present our pool of candidates and agree together on how applications will be passed on."
+    }
+  ],
+  "evenements": [
+    {
+      "question": "How do I sign up for an ImiziLinks event?",
+      "reponse": "Each event in the calendar has a “Sign up” button. It opens the registration form at the bottom of the Events page with the event already selected: you enter your name and email, and we confirm your place by return message."
+    },
+    {
+      "question": "Are the events free?",
+      "reponse": "Yes, taking part is free for every event: career forums, webinars, workshops and community evenings."
+    },
+    {
+      "question": "Do I need to be a member to take part?",
+      "reponse": "No. Events are open to anyone interested, including people discovering ImiziLinks. Some in-person events have a limited number of places though, which is why it's best to sign up in advance."
+    },
+    {
+      "question": "Which cities host the events?",
+      "reponse": "Mainly Paris, Lyon and Bordeaux for in-person events. Online webinars and workshops can be joined from anywhere in France and abroad."
+    },
+    {
+      "question": "Can I organise an ImiziLinks event in my city?",
+      "reponse": "Yes, and we encourage it. On the Join us page, choose “Organise an event in my city”: we help with logistics, communication and putting you in touch with members in your area."
+    },
+    {
+      "question": "What if I can no longer come?",
+      "reponse": "Let us know by email as soon as possible. For events with limited places, this frees up your spot for someone on the waiting list."
+    }
+  ],
+  "blog": [
+    {
+      "question": "Who writes the ImiziLinks blog articles?",
+      "reponse": "The guides are written by community members who went through the procedures themselves, sometimes reviewed by a local contact or a professional in the field. The aim is first-hand information rather than a rewrite of official text."
+    },
+    {
+      "question": "Is the information in the guides up to date?",
+      "reponse": "We update the guides when procedures change. As French administrative procedures change regularly, we always recommend checking the information on official websites before starting an important step."
+    },
+    {
+      "question": "What topics does the blog cover?",
+      "reponse": "Settling-in procedures in France: the Campus France process, CAF housing benefit, social security, opening a bank account, job hunting and personal accounts. New topics are added as the community asks for them."
+    },
+    {
+      "question": "Can I suggest an article or a topic?",
+      "reponse": "Yes. If you've been through a particular procedure or you know a topic useful to the community, go to the Join us page and choose “Write an article or guide”. We support the writing if needed."
+    },
+    {
+      "question": "Do the guides replace legal or administrative advice?",
+      "reponse": "No. They are practical pointers from real experience. For a complex situation — refused residence permit, dispute with a landlord, employment dispute — speak to a qualified professional or a legal advice service."
+    }
+  ],
+  "rejoindre": [
+    {
+      "question": "Which form should I use for my request?",
+      "reponse": "Each need has its own form, with suitable fields: support on the Support page, event sign-up on the Events page, job applications via the “Apply” button on the Opportunities page. The form on the Join us page is for people who want to get involved: become a local contact, write a guide, review CVs, organise a local event or ask a general question."
+    },
+    {
+      "question": "What happens to my personal data?",
+      "reponse": "It is used only to handle your request. It is not sold, published or passed to any third party other than the person handling your reply — or the partner company in the case of a job application."
+    },
+    {
+      "question": "How do I become an ImiziLinks local contact in my city?",
+      "reponse": "On the Join us page, choose “Become a local contact in my city”. We then talk with you about your availability, the topics you can help with and how requests will be passed to you. No minimum commitment is required."
+    },
+    {
+      "question": "Can I contribute without being a local contact?",
+      "reponse": "Yes. You can write a guide, review CVs, run a workshop, relay an offer from your company or organise a one-off event in your city. Every contribution counts, whatever time you can give."
+    },
+    {
+      "question": "I represent an association or a company — how do we work with ImiziLinks?",
+      "reponse": "Write to us at contact@imizilinks.fr, or use the form on the Join us page choosing “Relay a job offer from my company” or “Organise an event in my city”. We work with companies to relay job offers and with associations to organise events."
+    }
+  ]
+}

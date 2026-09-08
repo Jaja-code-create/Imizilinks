@@ -12,7 +12,15 @@ eleventyExcludeFromCollections: true
   ["/blog/", "0.8", "monthly"],
   ["/nous-rejoindre/", "0.7", "monthly"],
   ["/candidater/", "0.5", "monthly"],
-  ["/mentions-legales/", "0.3", "yearly"]
+  ["/mentions-legales/", "0.3", "yearly"],
+  ["/en/", "0.9", "weekly"],
+  ["/en/support/", "0.8", "monthly"],
+  ["/en/opportunities/", "0.8", "weekly"],
+  ["/en/events/", "0.7", "weekly"],
+  ["/en/blog/", "0.7", "monthly"],
+  ["/en/join-us/", "0.6", "monthly"],
+  ["/en/apply/", "0.4", "monthly"],
+  ["/en/legal-notice/", "0.2", "yearly"]
 ] %}
 {%- for p in fixes %}
   <url>
@@ -27,6 +35,14 @@ eleventyExcludeFromCollections: true
     <lastmod>{{ a.date | dateIso }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+{%- endfor %}
+{%- for a in collections.articlesEn %}
+  <url>
+    <loc>{{ site.url }}{{ a.url }}</loc>
+    <lastmod>{{ a.date | dateIso }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 {%- endfor %}
 </urlset>

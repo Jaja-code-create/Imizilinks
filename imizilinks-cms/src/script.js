@@ -36,7 +36,10 @@
   /* ═══ Mot qui défile dans le titre d'accueil ═══ */
   var cycle = document.getElementById('cycle');
   if (cycle && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    var mots = ["s'installer", 'apprendre', 'avancer', 'se connecter', 'grandir'];
+    var langue = (document.documentElement.lang || 'fr').slice(0, 2);
+    var mots = langue === 'en'
+      ? ['settle in', 'learn', 'move forward', 'connect', 'grow']
+      : ["s'installer", 'apprendre', 'avancer', 'se connecter', 'grandir'];
     var i = 0;
     setInterval(function () {
       cycle.style.opacity = 0;
@@ -94,7 +97,8 @@
     var motif = param('motif');
     if (motif === 'relecture-cv' || motif === 'emploi') {
       for (var r = 0; r < roleSel.options.length; r++) {
-        if (roleSel.options[r].value === 'Demander une relecture de mon CV') {
+        if (roleSel.options[r].value === 'Demander une relecture de mon CV'
+          || roleSel.options[r].value === 'Ask for a review of my CV') {
           roleSel.selectedIndex = r;
           break;
         }
@@ -126,10 +130,11 @@
           miroir.name = evSel.name;
           miroir.value = evSel.options[k].value || evSel.options[k].text;
           evSel.parentNode.appendChild(miroir);
+          var enEv = (document.documentElement.lang || 'fr').slice(0, 2) === 'en';
           var chg = document.createElement('a');
-          chg.href = '/evenements/#form';
+          chg.href = (enEv ? '/en/events/' : '/evenements/') + '#form';
           chg.className = 'lien-changer';
-          chg.textContent = 'Changer d’événement';
+          chg.textContent = enEv ? 'Change event' : 'Changer d’événement';
           chg.addEventListener('click', function (e) {
             e.preventDefault();
             evSel.disabled = false;
@@ -147,16 +152,20 @@
   /* ═══ Formulaire de candidature : rappel de l'offre ═══ */
   var offreSel = document.getElementById('k-offre');
   if (offreSel) {
+    var enApp = (document.documentElement.lang || 'fr').slice(0, 2) === 'en';
+    var txtEmpty = enApp ? 'Select an offer below' : 'Sélectionne une offre ci-dessous';
+    var txtEmptyD = enApp ? 'Your application will be passed to this company by ImiziLinks.' : 'Ta candidature sera transmise à cette entreprise par ImiziLinks.';
+    var txtFilledD = enApp ? 'Application passed by ImiziLinks to this company within 72 hours.' : 'Candidature transmise par ImiziLinks à cette entreprise sous 72 heures.';
     var majOffre = function () {
       var opt = offreSel.options[offreSel.selectedIndex];
       var titre = document.getElementById('offre-titre');
       var detail = document.getElementById('offre-detail');
       if (offreSel.value && opt) {
         titre.textContent = opt.text;
-        detail.textContent = 'Candidature transmise par ImiziLinks à cette entreprise sous 72 heures.';
+        detail.textContent = txtFilledD;
       } else {
-        titre.textContent = 'Sélectionne une offre ci-dessous';
-        detail.textContent = 'Ta candidature sera transmise à cette entreprise par ImiziLinks.';
+        titre.textContent = txtEmpty;
+        detail.textContent = txtEmptyD;
       }
     };
     offreSel.addEventListener('change', majOffre);
@@ -176,7 +185,8 @@
       if (!btn) return;
       // Différé : désactiver le bouton pendant le submit lui-même
       // peut annuler l'envoi sur certains navigateurs.
-      setTimeout(function () { btn.disabled = true; btn.textContent = 'Envoi…'; }, 0);
+      var sending = (document.documentElement.lang || 'fr').slice(0, 2) === 'en' ? 'Sending…' : 'Envoi…';
+      setTimeout(function () { btn.disabled = true; btn.textContent = sending; }, 0);
     });
   });
 })();

@@ -1,0 +1,85 @@
+---
+permalink: /en/join-us/
+pageKey: rejoindre
+faqKey: rejoindre
+title: "Join the ImiziLinks community — Contact"
+description: "Become a local contact in your city, write a guide or ask the community a question. Reply within 48 working hours."
+image: /img/etudiants-campus-universite.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Join us
+    url: /en/join-us/
+---
+{% from "macros.njk" import phero, faqBloc %}
+{{ phero("Join us", "Join the ImiziLinks community",
+   "Become a local contact in your city, write a guide, review CVs or simply ask a question: tell us what you want to do and we'll get back to you within 48 hours.",
+   "/img/etudiants-campus-universite.jpg", "Students talking outside their university in France") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="form-solo reveal" id="form">
+        <form class="form-card" id="formJoin" name="join-us-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/en/thank-you/">
+          <input type="hidden" name="form-name" value="join-us-en">
+          <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
+
+          <h2 class="form-h2">Write to us</h2>
+          <p class="fc-sub">Reply within 48 working hours. No prior registration, no cost.</p>
+
+          <div class="fg-row">
+            <div class="fg"><label for="r-prenom">First name <span class="required-star" aria-hidden="true">*</span></label><input id="r-prenom" name="first_name" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="r-nom">Last name <span class="required-star" aria-hidden="true">*</span></label><input id="r-nom" name="last_name" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="r-mail">Email <span class="required-star" aria-hidden="true">*</span></label><input id="r-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="r-tel">Phone <span class="required-star" aria-hidden="true">*</span></label><input id="r-tel" name="phone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg"><label for="r-ville">City <span class="opt">(optional)</span></label><input id="r-ville" name="city" type="text" placeholder="Lyon"></div>
+
+          <div class="fg"><label for="r-role">What you'd like to do <span class="opt">(optional)</span></label>
+            <select id="r-role" name="role">
+              <option value="">Choose</option>
+              <option value="Become a local contact in my city">Become a local contact in my city</option>
+              <option value="Write an article or guide">Write an article or guide</option>
+              <option value="Review CVs or run a workshop">Review CVs or run a workshop</option>
+              <option value="Ask for a review of my CV">Ask for a review of my CV</option>
+              <option value="Organise an event in my city">Organise an event in my city</option>
+              <option value="Relay a job offer from my company">Relay a job offer from my company</option>
+              <option value="Ask a general question">Ask a general question</option>
+            </select>
+          </div>
+
+          <div class="fg" id="bloc-cv"><label for="r-cv">CV <span class="opt">(optional)</span></label>
+            <div class="depot">
+              <p class="depot-h">Attach your CV if you'd like a review</p>
+              <input id="r-cv" name="cv" type="file" accept=".pdf,.doc,.docx,.jpg,.png">
+              <p class="depot-d">Accepted formats: PDF, Word, JPG or PNG. 5 MB maximum.</p>
+            </div>
+          </div>
+
+          <div class="fg"><label for="r-msg">Your message <span class="opt">(optional)</span></label><textarea id="r-msg" name="message" placeholder="Tell us in a few lines what you'd like to do or what you can help with."></textarea></div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send</button>
+          <p class="form-note">Your details are only shared with the person handling your request.</p>
+        </form>
+      </div>
+
+      <div class="contact-strip reveal">
+        <div class="cs-box"><p class="cs-l">Email</p><p class="cs-v"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p><p class="cs-d">Reply within 48 hours</p></div>
+        <div class="cs-box"><p class="cs-l">Other requests</p><p class="cs-v"><a href="/en/support/#form">Support</a> · <a href="/en/events/#form">Events</a> · <a href="/en/opportunities/">Opportunities</a></p><p class="cs-d">Each need has its own form</p></div>
+        <div class="cs-box"><p class="cs-l">Join our community</p>
+          <div class="cs-socials">
+            <a href="{{ site.linkedin or '#linkedin-a-completer' }}" class="cs-soc" aria-label="ImiziLinks LinkedIn" rel="noopener" target="_blank">
+              <img src="/img/icon-linkedin.svg" alt="LinkedIn" width="40" height="40" loading="lazy">
+            </a>
+            <a href="{{ site.instagram or '#instagram-a-completer' }}" class="cs-soc" aria-label="ImiziLinks Instagram" rel="noopener" target="_blank">
+              <img src="/img/icon-instagram.svg" alt="Instagram" width="40" height="40" loading="lazy">
+            </a>
+          </div>
+          <p class="cs-d">News and stories</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("Join us:<br><span class='grad'>frequently asked questions.</span>", "How the forms work, data protection, contributing and partnerships.", faqEn.rejoindre, "Frequently asked questions") }}

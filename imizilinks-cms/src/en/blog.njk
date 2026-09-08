@@ -1,0 +1,38 @@
+---
+permalink: /en/blog/
+actif: blog
+pageKey: blog
+faqKey: blog
+title: "Practical guides for settling in France — ImiziLinks blog"
+description: "Campus France, CAF housing benefit, social security, bank account, job hunting: detailed guides written by members who went through the procedures."
+image: /img/etudiants-bibliotheque.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Blog
+    url: /en/blog/
+---
+{% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
+{{ phero("Blog & guides", "Practical guides for settling in France",
+   "Campus France, CAF housing benefit, social security, bank account, job hunting: guides written by community members who went through the procedures.",
+   "/img/etudiants-bibliotheque.jpg", "Diaspora students working together in a library") }}
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"ImiziLinks practical guides","itemListElement":[{% for a in collections.articlesEn %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Latest articles</p>
+        <h2>Worth reading<br><span class="grad">before you start.</span></h2>
+        <p>Each guide details a specific procedure: the documents to gather, the order of steps, the real timelines and the mistakes that cost weeks.</p>
+      </div>
+      <div class="blog-grid reveal">
+        {% for a in collections.articlesEn %}{{ carteArticle(a) }}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("The ImiziLinks blog<br><span class='grad'>in questions.</span>", "Who writes the guides, how often they're updated and how to suggest a topic.", faqEn.blog, "Frequently asked questions") }}
+{{ cta("Your place is already here.", "Whether you're arriving, already settled or want to contribute, there's a way in for you.", "Join us", "/en/join-us/") }}

@@ -1,0 +1,97 @@
+---
+permalink: /en/events/
+actif: actions
+pageKey: evenements
+faqKey: evenements
+schemaEvents: true
+title: "Events for the African diaspora in France — ImiziLinks"
+description: "Career forums, webinars on admin procedures, CV workshops and community evenings. Free and open to all."
+image: /img/communaute-diaspora-paris.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Events
+    url: /en/events/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("What we do · Events", "Community events",
+   "Career forums, webinars on admin procedures, CV workshops and community evenings. Free and open to all.",
+   "/img/communaute-diaspora-paris.jpg", "ImiziLinks community members gathered in Paris") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Calendar</p>
+        <h2>The next<br><span class="grad">dates to note.</span></h2>
+        <p>In-person events have a limited number of places. Click “Sign up” to book yours.</p>
+      </div>
+      {% if evenementsEn.length %}
+      <div class="ev-list reveal">
+        {% for e in evenementsEn %}
+        <article class="ev-row">
+          <div><p class="ev-day">{{ e.jour }}</p><p class="ev-month">{{ e.mois }}</p></div>
+          <div>
+            <h3 class="ev-name">{{ e.nom }}</h3>
+            <p class="ev-loc">{{ e.lieu }}</p>
+            {% if e.desc %}<p class="ev-desc">{{ e.desc }}</p>{% endif %}
+          </div>
+          <div class="ev-side">
+            <span class="ev-pill">{{ e.cat }}</span>
+            <a href="/en/events/?ev={{ e.label | urlencode }}#form" class="btn btn-outline btn-sm">Sign up</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="vide reveal">No events are scheduled at the moment. Write to us to be told about the next dates.</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Registration</p>
+        <h2>Book your place<br><span class="grad">for an event.</span></h2>
+        <p>Choose the event, leave us your details and we confirm your place by return message.</p>
+      </div>
+      <div class="form-solo reveal" id="form">
+        <form class="form-card" id="formEvent" name="event-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/en/thank-you/">
+          <input type="hidden" name="form-name" value="event-en">
+          <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
+
+          <div class="fg"><label for="v-event">Event <span class="required-star" aria-hidden="true">*</span></label>
+            <select id="v-event" name="event" required>
+              <option value="">Choose an event</option>
+              {% for e in evenementsEn %}<option>{{ e.label }}</option>{% endfor %}
+            </select>
+          </div>
+
+          <div class="fg-row">
+            <div class="fg"><label for="v-prenom">First name <span class="required-star" aria-hidden="true">*</span></label><input id="v-prenom" name="first_name" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="v-nom">Last name <span class="required-star" aria-hidden="true">*</span></label><input id="v-nom" name="last_name" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="v-mail">Email <span class="required-star" aria-hidden="true">*</span></label><input id="v-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="v-tel">Phone <span class="required-star" aria-hidden="true">*</span></label><input id="v-tel" name="phone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg"><label for="v-nb">Number of people <span class="required-star" aria-hidden="true">*</span></label>
+            <select id="v-nb" name="number_of_people" required>
+              <option value="1">1 (just me)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5+">5 or more</option>
+            </select>
+          </div>
+          <div class="fg"><label for="v-msg">Message <span class="opt">(optional)</span></label><textarea id="v-msg" name="message" placeholder="A question or a detail?"></textarea></div>
+
+          <button type="submit" class="btn btn-primary btn-full">Sign up</button>
+          <p class="form-note">For events with limited places, let us know if you can no longer come: it frees up your spot.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("ImiziLinks events<br><span class='grad'>in questions.</span>", "Registration, prices, cities and organising an event in your city.", faqEn.evenements, "Frequently asked questions") }}
+{{ cta("Want to organise an event in your city?", "An evening, a workshop, a meet-up: tell us what you have in mind and we'll help you set it up.", "Write to us", "/en/join-us/#form") }}

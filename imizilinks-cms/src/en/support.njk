@@ -1,0 +1,131 @@
+---
+permalink: /en/support/
+actif: actions
+pageKey: entraide
+faqKey: entraide
+title: "Support with admin procedures in France — ImiziLinks"
+description: "Proof of accommodation, visa validation, CAF, social security, housing: volunteer local contacts reply within 48 hours in seven French cities. Free and confidential."
+image: /img/etudiants-bibliotheque.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Support
+    url: /en/support/
+---
+{% from "macros.njk" import phero, faqBloc, cta %}
+{{ phero("What we do · Support", "Support with admin procedures",
+   "Proof of accommodation, visa validation, CAF, social security, housing: describe your situation and an ImiziLinks local contact in your city replies within 48 hours. Free and confidential.",
+   "/img/etudiants-bibliotheque.jpg", "Diaspora students working together in a library") }}
+
+  <section class="split">
+    <div class="split-media reveal"><img src="/img/etudiants-bibliotheque.jpg" alt="ImiziLinks members helping each other with admin procedures" loading="lazy" width="800" height="533"></div>
+    <div class="split-txt reveal">
+      <p class="slabel">What support covers</p>
+      <h2>Concrete needs,<br><span class="grad">handled one by one.</span></h2>
+      <p>ImiziLinks support steps in at the moments when a signature, a piece of advice or a local contact unblocks a whole file. Our local contacts know the French procedures because they went through them themselves.</p>
+      <ul class="checklist">
+        <li>Proof of accommodation for a visa, residence permit or rental file</li>
+        <li>Guidance on procedures: prefecture, CAF, social security, bank</li>
+        <li>Temporary housing or pointing you to a stopgap solution</li>
+        <li>Being put in touch with a local contact settled in your arrival city</li>
+        <li>Guidance on studies, recognition of qualifications and university enrolment</li>
+        <li>Reviewing a file before you submit it, to avoid missing documents</li>
+      </ul>
+      <p class="split-cta"><a href="#form" class="btn btn-primary">Make a request</a></p>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">How it works</p>
+        <h2>Three steps,<br><span class="grad">nothing more.</span></h2>
+        <p>No prior registration, no file to put together, no cost.</p>
+      </div>
+      <div class="proc reveal">
+        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">You describe your need</h3><p class="proc-d">The form takes two minutes: your arrival city, your dates and a few lines about your situation. You can write in French, English, Kirundi, Kinyarwanda or Swahili.</p></div>
+        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">A local contact takes over</h3><p class="proc-d">Your request is passed to the local contact for that city, someone settled there for several years who knows the local services.</p></div>
+        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">You get a reply</h3><p class="proc-d">Within 48 working hours, by email or phone. If we can't help directly, we point you to the right organisation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Our local contacts</p>
+        <h2>Volunteer contacts<br><span class="grad">in several cities.</span></h2>
+        <p>Local contacts are members settled in France for several years who agree to be reachable for newcomers in their area.</p>
+      </div>
+      <div class="villes reveal">
+        {% for v in villesEn %}
+        <div class="ville"><h3 class="ville-n">{{ v.nom }}</h3><p class="ville-d">{{ v.detail }}</p></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Go further</p>
+        <h2>Guides related<br><span class="grad">to these procedures.</span></h2>
+      </div>
+      <div class="art-liens reveal" style="max-width:760px;">
+        {% for a in collections.articlesEn %}{% if loop.index <= 3 %}
+        <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Make a request</p>
+        <h2>Describe your situation,<br><span class="grad">a local contact replies.</span></h2>
+        <p>The form takes two minutes. Reply within 48 working hours, by email or phone. Free and confidential.</p>
+      </div>
+      <div class="form-solo reveal" id="form">
+        <form class="form-card" id="formSupport" name="support-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/en/thank-you/">
+          <input type="hidden" name="form-name" value="support-en">
+          <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
+
+          <div class="fg-row">
+            <div class="fg"><label for="e-prenom">First name <span class="required-star" aria-hidden="true">*</span></label><input id="e-prenom" name="first_name" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="e-nom">Last name <span class="required-star" aria-hidden="true">*</span></label><input id="e-nom" name="last_name" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="e-mail">Email <span class="required-star" aria-hidden="true">*</span></label><input id="e-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="e-tel">Phone <span class="required-star" aria-hidden="true">*</span></label><input id="e-tel" name="phone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg"><label for="e-besoin">Type of need <span class="required-star" aria-hidden="true">*</span></label>
+            <select id="e-besoin" name="need" required>
+              <option value="">Choose a need</option>
+              <option>Proof of accommodation</option>
+              <option>Administrative procedures</option>
+              <option>Temporary housing</option>
+              <option>Guidance on studies</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="e-ville">Arrival city <span class="opt">(optional)</span></label>
+              <select id="e-ville" name="arrival_city">
+                <option value="">Choose a city</option>
+                {% for v in villesEn %}<option>{{ v.nom }}</option>{% endfor %}
+              </select>
+            </div>
+            <div class="fg"><label for="e-date">Arrival date <span class="opt">(optional)</span></label><input id="e-date" name="arrival_date" type="date"></div>
+          </div>
+          <div class="fg"><label for="e-msg">Describe your situation <span class="opt">(optional)</span></label><textarea id="e-msg" name="message" placeholder="A few lines about your situation and what you need. We'll get back to you for the details."></textarea></div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send my request</button>
+          <p class="form-note">Your request is only passed to the local contact handling it. No information is published or shared with a third party.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+{{ faqBloc("ImiziLinks support<br><span class='grad'>in questions.</span>", "Proof of accommodation, local contacts, arrival procedures: answers to the most common questions.", faqEn.entraide, "Frequently asked questions") }}
+{{ cta("Need a hand?", "The form takes two minutes. A local contact replies within 48 hours.", "Make a request", "/en/support/#form") }}

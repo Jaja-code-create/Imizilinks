@@ -7,14 +7,24 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/_redirects");
 
-  // Collection des articles, triée par date décroissante
+  // Collection des articles FR, triée par date décroissante
   eleventyConfig.addCollection("articles", (col) =>
     col.getFilteredByGlob("src/articles/*.md").sort((a, b) => b.date - a.date)
+  );
+
+  // Collection des articles EN, triée par date décroissante
+  eleventyConfig.addCollection("articlesEn", (col) =>
+    col.getFilteredByGlob("src/articles-en/*.md").sort((a, b) => b.date - a.date)
   );
 
   // Date lisible en français
   eleventyConfig.addFilter("dateFr", (d) =>
     new Date(d).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })
+  );
+
+  // Date lisible en anglais
+  eleventyConfig.addFilter("dateEn", (d) =>
+    new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
   );
 
   // Date au format ISO pour les données structurées

@@ -1,0 +1,91 @@
+---
+permalink: /en/apply/
+actif: actions
+pageKey: candidater
+title: "Submit your application — ImiziLinks"
+description: "Send your CV and cover letter to ImiziLinks. We check your file and pass it within 72 hours to the partner company concerned."
+image: /img/etudiants-campus-universite.jpg
+fil:
+  - nom: Home
+    url: /en/
+  - nom: Opportunities
+    url: /en/opportunities/
+  - nom: Apply
+    url: /en/apply/
+---
+{% from "macros.njk" import phero, cta %}
+{{ phero("Opportunities · Apply", "Submit your application",
+   "Enter your details and attach your CV. ImiziLinks checks your file and passes it within 72 hours to the partner company concerned.",
+   "/img/etudiants-campus-universite.jpg", "Students talking outside their university in France") }}
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="form-solo reveal">
+        <form class="form-card" id="formApplication" name="application-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/en/thank-you/">
+          <input type="hidden" name="form-name" value="application-en">
+          <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
+          <p><a href="/en/opportunities/" class="retour">← Back to offers</a></p>
+
+          <div class="offre-rappel">
+            <p class="offre-rappel-l">Offer</p>
+            <p class="offre-rappel-t" id="offre-titre">Select an offer below</p>
+            <p class="offre-rappel-d" id="offre-detail">Your application will be passed to this company by ImiziLinks.</p>
+          </div>
+
+          <div class="fg"><label for="k-offre">Offer <span class="required-star" aria-hidden="true">*</span></label>
+            <select id="k-offre" name="offer" required>
+              <option value="">Choose an offer</option>
+              {% for o in offresEn %}<option value="{{ o.id }}">{{ o.titre }} — {{ o.entreprise }}, {{ o.ville }} ({{ o.contrat }})</option>{% endfor %}
+            </select>
+          </div>
+
+          <div class="fg-row">
+            <div class="fg"><label for="k-prenom">First name <span class="required-star" aria-hidden="true">*</span></label><input id="k-prenom" name="first_name" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="k-nom">Last name <span class="required-star" aria-hidden="true">*</span></label><input id="k-nom" name="last_name" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="k-mail">Email <span class="required-star" aria-hidden="true">*</span></label><input id="k-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="k-tel">Phone <span class="required-star" aria-hidden="true">*</span></label><input id="k-tel" name="phone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="k-ville">City of residence <span class="opt">(optional)</span></label><input id="k-ville" name="city" type="text" placeholder="Paris"></div>
+            <div class="fg"><label for="k-situation">Current situation <span class="opt">(optional)</span></label>
+              <select id="k-situation" name="situation">
+                <option value="">Choose</option>
+                <option>Student</option><option>Job seeker</option>
+                <option>In a job</option><option>Changing careers</option>
+                <option>Newly arrived in France</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="fg">
+            <label for="k-cv">CV <span class="required-star" aria-hidden="true">*</span></label>
+            <div class="depot">
+              <p class="depot-h">Upload your CV</p>
+              <input id="k-cv" name="cv" type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+              <p class="depot-d">Accepted formats: PDF, Word, JPG or PNG. 5 MB maximum.</p>
+            </div>
+          </div>
+
+          <div class="fg">
+            <label for="k-lm">Cover letter <span class="required-star" aria-hidden="true">*</span></label>
+            <div class="depot">
+              <p class="depot-h">Upload your cover letter</p>
+              <input id="k-lm" name="cover_letter" type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+              <p class="depot-d">Accepted formats: PDF, Word, JPG or PNG. 5 MB maximum.</p>
+            </div>
+          </div>
+
+          <div class="fg"><label for="k-msg">Message to the recruiter <span class="opt">(optional)</span></label><textarea id="k-msg" name="message" placeholder="A few lines about your motivation or availability."></textarea></div>
+
+          <label class="consent"><input type="checkbox" name="consent"> I authorise ImiziLinks to pass my CV and cover letter to the company concerned by this offer.</label>
+
+          <button type="submit" class="btn btn-primary btn-full">Send my application</button>
+          <p class="form-note">Your file is checked then passed on within 72 hours. Your documents are only shared with the partner company linked to this offer.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+{{ cta("Not sure about your CV?", "Community members review applications and run mock interviews.", "Ask for a review", "/en/join-us/?motif=relecture-cv#form") }}

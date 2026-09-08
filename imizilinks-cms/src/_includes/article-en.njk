@@ -3,19 +3,20 @@ layout: base.njk
 actif: blog
 pageKey: blog
 schemaArticle: true
+lang: en
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("Blog · " + categorie + " · " + duree, title, description, image, title) }}
 
   <section class="sec">
     <article class="article">
-      <p><a href="/blog/" class="retour">← Tous les articles</a></p>
+      <p><a href="/en/blog/" class="retour">← All articles</a></p>
       {% if chapeau %}<p class="chapeau">{{ chapeau }}</p>{% endif %}
       {{ content | safe }}
       <div class="art-suite">
-        <h2>À lire ensuite</h2>
+        <h2>Read next</h2>
         <div class="art-liens">
-          {% for a in collections.articles | autres(page.url, 2) %}
+          {% for a in collections.articlesEn | autres(page.url, 2) %}
           <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
           {% endfor %}
         </div>
@@ -23,5 +24,5 @@ schemaArticle: true
     </article>
   </section>
 
-{{ faqBloc(categorie + " :<br><span class='grad'>les questions fréquentes.</span>", "Les réponses aux questions les plus posées sur ce sujet.", faqItems) }}
-{{ cta("Une question sur cette démarche ?", "Un référent ImiziLinks peut t'accompagner et relire ton dossier avant dépôt.", "Demander de l'aide", "/entraide/#form") }}
+{{ faqBloc(categorie + ":<br><span class='grad'>frequently asked questions.</span>", "Answers to the most common questions on this topic.", faqItems, "Frequently asked questions") }}
+{{ cta("A question about this procedure?", "An ImiziLinks local contact can support you and review your file before you submit it.", "Ask for help", "/en/support/#form") }}

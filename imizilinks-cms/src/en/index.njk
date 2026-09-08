@@ -1,0 +1,88 @@
+---
+permalink: /en/
+actif: accueil
+pageKey: home
+faqKey: accueil
+title: "ImiziLinks — Support, jobs and events for the East African diaspora in France"
+description: "Free community platform: help with admin procedures, proof of accommodation, jobs from partner companies, events and practical guides. Paris, Lyon, Bordeaux, Marseille, Lille, Toulouse, Nantes."
+image: /img/communaute-diaspora-paris.jpg
+---
+{% from "macros.njk" import faqBloc, cta, carteArticle %}
+
+  <header class="hero">
+    <div class="hero-bg" style="background-image:url('/img/communaute-diaspora-paris.jpg')" role="img" aria-label="ImiziLinks community members gathered in Paris"></div>
+    <div class="hero-ov"></div>
+    <div class="hero-in">
+      <p class="hero-eyebrow">East African community in France</p>
+      <h1 class="hero-h">Together to <span class="hero-cycle" id="cycle">settle in</span></h1>
+      <p class="hero-p">ImiziLinks supports the East African diaspora in France: mutual help with settling-in paperwork, jobs from our partner companies, events and practical guides. Free, run by the community.</p>
+      <div class="hero-btns">
+        <a href="/en/join-us/" class="btn btn-light">Join us</a>
+        <a href="#actions-accueil" class="btn btn-ghost">Discover what we do</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="mission">
+    <div class="mission-img" style="background-image:url('/img/etudiants-campus-universite.jpg')" role="img" aria-label="Students talking outside their university in France"></div>
+    <div class="mission-txt">
+      <div class="reveal">
+        <p class="slabel">Why we exist</p>
+        <h2>What we wish we'd<br><span class="grad">found when we arrived.</span></h2>
+        <p>Settling in France when you arrive from East Africa means one administrative step after another with no bearings: visa validation, opening a bank account, registering with social security, applying for housing benefit, job hunting. Each step conditions the next, and reliable information is hard to find.</p>
+        <p>ImiziLinks exists so that this period is no longer faced alone.</p>
+        <div class="mission-points">
+          <div class="mp"><div class="mp-ico">🧭</div><div><h3 class="mp-t">Reliable, first-hand information</h3><p class="mp-d">Guides written by people who went through the procedures, not copies of official text.</p></div></div>
+          <div class="mp"><div class="mp-ico">🤝</div><div><h3 class="mp-t">Local contacts you can reach</h3><p class="mp-d">Volunteer members in Paris, Lyon, Bordeaux, Marseille, Lille, Toulouse and Nantes.</p></div></div>
+          <div class="mp"><div class="mp-ico">🌱</div><div><h3 class="mp-t">Support over time</h3><p class="mp-d">After settling in come studies, work and projects: the community stays around.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec light" id="actions-accueil">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">What we do</p>
+        <h2>Three concrete services<br><span class="grad">to move forward in France.</span></h2>
+        <p>Each service answers a need raised by the community. Nothing abstract: help you can ask for, offers you apply to, events you sign up for.</p>
+      </div>
+      <div class="act-grid reveal">
+        <a href="/en/support/" class="act-card act-1">
+          <div class="act-ico">🤝</div>
+          <h3 class="act-t">Support &amp; paperwork</h3>
+          <p class="act-d">Proof of accommodation, residence permit, CAF, social security, temporary housing. You describe your need and a local contact replies within 48 hours.</p>
+          <span class="act-go">Discover support →</span>
+        </a>
+        <a href="/en/opportunities/" class="act-card act-2">
+          <div class="act-ico">💼</div>
+          <h3 class="act-t">Jobs &amp; internships</h3>
+          <p class="act-d">Roles entrusted by our partner companies. You send us your CV, we pass your application straight to the recruiter.</p>
+          <span class="act-go">See the offers →</span>
+        </a>
+        <a href="/en/events/" class="act-card act-3">
+          <div class="act-ico">🗓️</div>
+          <h3 class="act-t">Events &amp; meet-ups</h3>
+          <p class="act-d">Career forums, webinars on paperwork, CV workshops and community evenings in Paris, Lyon and Bordeaux. Free to attend.</p>
+          <span class="act-go">See the calendar →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Practical guides</p>
+        <h2>The procedures explained<br><span class="grad">by those who went through them.</span></h2>
+        <p>Campus France, housing benefit, social security, bank account, job hunting: our guides detail each step, the documents to gather and the real timelines.</p>
+      </div>
+      <div class="blog-grid reveal">
+        {% for a in collections.articlesEn %}{% if loop.index <= 3 %}{{ carteArticle(a) }}{% endif %}{% endfor %}
+      </div>
+      <p class="reveal" style="margin-top:36px;"><a href="/en/blog/" class="btn btn-outline">See all guides</a></p>
+    </div>
+  </section>
+
+{{ faqBloc("Everything about <span class='grad'>ImiziLinks.</span>", "The questions people most often ask when they discover the community.", faqEn.accueil, "Frequently asked questions") }}
+{{ cta("Your place is already here.", "Whether you're arriving, already settled or want to contribute, there's a way in for you.", "Join us", "/en/join-us/") }}
