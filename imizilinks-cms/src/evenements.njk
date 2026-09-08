@@ -56,8 +56,7 @@ fil:
         <p>Choisis l'événement, laisse-nous tes coordonnées et nous te confirmons ta place par retour de message.</p>
       </div>
       <div class="form-solo reveal" id="form">
-        <form class="form-card" id="formEvenement" name="evenement" method="POST"
-              data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
+        <form class="form-card" id="formEvenement" name="evenement" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
           <input type="hidden" name="form-name" value="evenement">
           <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
 
@@ -74,10 +73,10 @@ fil:
           </div>
           <div class="fg-row">
             <div class="fg"><label for="v-mail">Email</label><input id="v-mail" name="email" type="email" placeholder="marie@email.com" required></div>
-            <div class="fg"><label for="v-tel">Téléphone <span class="opt">(facultatif)</span></label><input id="v-tel" name="telephone" type="tel" placeholder="06 12 34 56 78"></div>
+            <div class="fg"><label for="v-tel">Téléphone</label><input id="v-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
           </div>
           <div class="fg"><label for="v-nb">Nombre de personnes</label>
-            <select id="v-nb" name="nombre_personnes">
+            <select id="v-nb" name="nombre_personnes" required>
               <option value="1">1 (moi seul·e)</option>
               <option value="2">2</option>
               <option value="3">3</option>

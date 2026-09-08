@@ -234,5 +234,4 @@ collections:
           - { label: "Texte du pied de page", name: "description_footer", widget: "text" }
           - { label: "Lien Instagram", name: "instagram", widget: "string", required: false }
           - { label: "Lien LinkedIn", name: "linkedin", widget: "string", required: false }
-          - { label: "Lien Facebook", name: "facebook", widget: "string", required: false }
           - { label: "Année affichée dans le pied de page", name: "annee", widget: "number", value_type: "int" }

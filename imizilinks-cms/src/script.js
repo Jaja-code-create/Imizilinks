@@ -86,6 +86,29 @@
     return new URLSearchParams(window.location.search).get(nom);
   }
 
+  /* ═══ Formulaire Nous rejoindre : arrivée depuis « Demander une relecture » ═══
+     ?motif=relecture-cv (ou ?motif=emploi) : on présélectionne le rôle
+     « Demander une relecture de mon CV » et on met en avant le champ CV. */
+  var roleSel = document.getElementById('r-role');
+  if (roleSel) {
+    var motif = param('motif');
+    if (motif === 'relecture-cv' || motif === 'emploi') {
+      for (var r = 0; r < roleSel.options.length; r++) {
+        if (roleSel.options[r].value === 'Demander une relecture de mon CV') {
+          roleSel.selectedIndex = r;
+          break;
+        }
+      }
+      var blocCv = document.getElementById('bloc-cv');
+      if (blocCv) {
+        blocCv.classList.add('mis-en-avant');
+        setTimeout(function () {
+          blocCv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300);
+      }
+    }
+  }
+
   /* ═══ Formulaire Événement : pré-sélection depuis l'URL ?ev=... ═══
      Si l'événement vient du bouton « S'inscrire », le champ est verrouillé.
      Un select désactivé n'est pas envoyé : on ajoute un champ caché miroir. */

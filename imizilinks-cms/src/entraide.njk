@@ -87,8 +87,7 @@ fil:
         <p>Le formulaire prend deux minutes. Réponse sous 48 heures ouvrées, par email ou par téléphone. Service gratuit et confidentiel.</p>
       </div>
       <div class="form-solo reveal" id="form">
-        <form class="form-card" id="formEntraide" name="entraide" method="POST"
-              data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
+        <form class="form-card" id="formEntraide" name="entraide" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
           <input type="hidden" name="form-name" value="entraide">
           <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
 
@@ -100,38 +99,26 @@ fil:
             <div class="fg"><label for="e-mail">Email</label><input id="e-mail" name="email" type="email" placeholder="marie@email.com" required></div>
             <div class="fg"><label for="e-tel">Téléphone</label><input id="e-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
           </div>
+          <div class="fg"><label for="e-besoin">Type de besoin</label>
+            <select id="e-besoin" name="besoin" required>
+              <option value="">Choisir un besoin</option>
+              <option>Attestation d'hébergement</option>
+              <option>Démarches administratives</option>
+              <option>Logement temporaire</option>
+              <option>Orientation études</option>
+              <option>Autre</option>
+            </select>
+          </div>
           <div class="fg-row">
-            <div class="fg"><label for="e-ville">Ville d'arrivée</label>
-              <select id="e-ville" name="ville_arrivee" required>
+            <div class="fg"><label for="e-ville">Ville d'arrivée <span class="opt">(facultatif)</span></label>
+              <select id="e-ville" name="ville_arrivee">
                 <option value="">Choisir une ville</option>
                 {% for v in villes %}<option>{{ v.nom }}</option>{% endfor %}
               </select>
             </div>
-            <div class="fg"><label for="e-date">Date d'arrivée</label><input id="e-date" name="date_arrivee" type="date"></div>
+            <div class="fg"><label for="e-date">Date d'arrivée <span class="opt">(facultatif)</span></label><input id="e-date" name="date_arrivee" type="date"></div>
           </div>
-          <div class="fg-row">
-            <div class="fg"><label for="e-besoin">Type de besoin</label>
-              <select id="e-besoin" name="besoin" required>
-                <option value="">Choisir un besoin</option>
-                <option>Attestation d'hébergement</option>
-                <option>Démarches administratives</option>
-                <option>Logement temporaire</option>
-                <option>Orientation études</option>
-                <option>Autre</option>
-              </select>
-            </div>
-            <div class="fg"><label for="e-langue">Langue préférée</label>
-              <select id="e-langue" name="langue" required>
-                <option value="">Choisir</option>
-                <option>Français</option>
-                <option>Anglais</option>
-                <option>Kirundi</option>
-                <option>Kinyarwanda</option>
-                <option>Swahili</option>
-              </select>
-            </div>
-          </div>
-          <div class="fg"><label for="e-msg">Décris ta situation</label><textarea id="e-msg" name="message" placeholder="Quelques lignes sur ta situation et ce dont tu as besoin. Nous te recontactons pour les détails." required></textarea></div>
+          <div class="fg"><label for="e-msg">Décris ta situation <span class="opt">(facultatif)</span></label><textarea id="e-msg" name="message" placeholder="Quelques lignes sur ta situation et ce dont tu as besoin. Nous te recontactons pour les détails."></textarea></div>
 
           <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
           <p class="form-note">Ta demande n'est transmise qu'au référent chargé de la traiter. Aucune information n'est publiée ni partagée avec un tiers.</p>

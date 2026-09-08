@@ -21,8 +21,7 @@ fil:
   <section class="sec">
     <div class="wrap">
       <div class="form-solo reveal">
-        <form class="form-card" id="formCandidature" name="candidature" method="POST"
-              data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/merci/">
+        <form class="form-card" id="formCandidature" name="candidature" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/merci/">
           <input type="hidden" name="form-name" value="candidature">
           <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
           <p><a href="/opportunites/" class="retour">← Retour aux offres</a></p>
@@ -49,9 +48,9 @@ fil:
             <div class="fg"><label for="k-tel">Téléphone</label><input id="k-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
           </div>
           <div class="fg-row">
-            <div class="fg"><label for="k-ville">Ville de résidence</label><input id="k-ville" name="ville" type="text" placeholder="Paris" required></div>
-            <div class="fg"><label for="k-situation">Situation actuelle</label>
-              <select id="k-situation" name="situation" required>
+            <div class="fg"><label for="k-ville">Ville de résidence <span class="opt">— facultatif</span></label><input id="k-ville" name="ville" type="text" placeholder="Paris"></div>
+            <div class="fg"><label for="k-situation">Situation actuelle <span class="opt">— facultatif</span></label>
+              <select id="k-situation" name="situation">
                 <option value="">Choisir</option>
                 <option>Étudiant·e</option><option>En recherche d'emploi</option>
                 <option>En poste</option><option>En reconversion</option>
@@ -70,11 +69,11 @@ fil:
           </div>
 
           <div class="fg">
-            <label for="k-lm">Lettre de motivation <span class="opt">— facultative</span></label>
+            <label for="k-lm">Lettre de motivation <span class="opt">— obligatoire</span></label>
             <div class="depot">
               <p class="depot-h">Dépose ta lettre de motivation</p>
-              <input id="k-lm" name="lettre" type="file" accept=".pdf,.doc,.docx,.jpg,.png">
-              <p class="depot-d">Si tu n'en as pas encore, envoie ton CV seul : nous te recontactons pour compléter.</p>
+              <input id="k-lm" name="lettre" type="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
+              <p class="depot-d">Formats acceptés : PDF, Word, JPG ou PNG. 5 Mo maximum.</p>
             </div>
           </div>
 
@@ -89,4 +88,4 @@ fil:
     </div>
   </section>
 
-{{ cta("Tu hésites sur ton CV ?", "Des membres de la communauté relisent les candidatures et organisent des entretiens blancs.", "Demander une relecture", "/nous-rejoindre/#form") }}
+{{ cta("Tu hésites sur ton CV ?", "Des membres de la communauté relisent les candidatures et organisent des entretiens blancs.", "Demander une relecture", "/nous-rejoindre/?motif=relecture-cv#form") }}
