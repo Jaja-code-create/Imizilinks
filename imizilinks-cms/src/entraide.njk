@@ -31,7 +31,7 @@ fil:
         <li>Orientation sur les études, l'équivalence de diplômes et l'inscription universitaire</li>
         <li>Relecture de dossier avant dépôt pour éviter les pièces manquantes</li>
       </ul>
-      <p class="split-cta"><a href="/nous-rejoindre/?motif=aide" class="btn btn-primary">Faire ta demande</a></p>
+      <p class="split-cta"><a href="#form" class="btn btn-primary">Faire ta demande</a></p>
     </div>
   </section>
 
@@ -79,5 +79,66 @@ fil:
     </div>
   </section>
 
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Faire ta demande</p>
+        <h2>Décris ta situation,<br><span class="grad">un référent te répond.</span></h2>
+        <p>Le formulaire prend deux minutes. Réponse sous 48 heures ouvrées, par email ou par téléphone. Service gratuit et confidentiel.</p>
+      </div>
+      <div class="form-solo reveal" id="form">
+        <form class="form-card" id="formEntraide" name="entraide" method="POST"
+              data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
+          <input type="hidden" name="form-name" value="entraide">
+          <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
+
+          <div class="fg-row">
+            <div class="fg"><label for="e-prenom">Prénom</label><input id="e-prenom" name="prenom" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="e-nom">Nom</label><input id="e-nom" name="nom" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="e-mail">Email</label><input id="e-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="e-tel">Téléphone</label><input id="e-tel" name="telephone" type="tel" placeholder="06 12 34 56 78" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="e-ville">Ville d'arrivée</label>
+              <select id="e-ville" name="ville_arrivee" required>
+                <option value="">Choisir une ville</option>
+                {% for v in villes %}<option>{{ v.nom }}</option>{% endfor %}
+              </select>
+            </div>
+            <div class="fg"><label for="e-date">Date d'arrivée</label><input id="e-date" name="date_arrivee" type="date"></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="e-besoin">Type de besoin</label>
+              <select id="e-besoin" name="besoin" required>
+                <option value="">Choisir un besoin</option>
+                <option>Attestation d'hébergement</option>
+                <option>Démarches administratives</option>
+                <option>Logement temporaire</option>
+                <option>Orientation études</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="fg"><label for="e-langue">Langue préférée</label>
+              <select id="e-langue" name="langue" required>
+                <option value="">Choisir</option>
+                <option>Français</option>
+                <option>Anglais</option>
+                <option>Kirundi</option>
+                <option>Kinyarwanda</option>
+                <option>Swahili</option>
+              </select>
+            </div>
+          </div>
+          <div class="fg"><label for="e-msg">Décris ta situation</label><textarea id="e-msg" name="message" placeholder="Quelques lignes sur ta situation et ce dont tu as besoin. Nous te recontactons pour les détails." required></textarea></div>
+
+          <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
+          <p class="form-note">Ta demande n'est transmise qu'au référent chargé de la traiter. Aucune information n'est publiée ni partagée avec un tiers.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
 {{ faqBloc("L'entraide ImiziLinks<br><span class='grad'>en questions.</span>", "Attestation d'hébergement, référents, démarches d'arrivée : les réponses aux questions les plus posées.", faq.entraide) }}
-{{ cta("Besoin d'un coup de main ?", "Le formulaire prend deux minutes. Un référent te répond sous 48 heures.", "Faire ta demande", "/nous-rejoindre/?motif=aide") }}
+{{ cta("Besoin d'un coup de main ?", "Le formulaire prend deux minutes. Un référent te répond sous 48 heures.", "Faire ta demande", "/entraide/#form") }}

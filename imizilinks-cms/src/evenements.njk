@@ -37,7 +37,7 @@ fil:
           </div>
           <div class="ev-side">
             <span class="ev-pill">{{ e.cat }}</span>
-            <a href="/nous-rejoindre/?motif=event&amp;ev={{ e.label | urlencode }}" class="btn btn-outline btn-sm">S'inscrire</a>
+            <a href="/evenements/?ev={{ e.label | urlencode }}#form" class="btn btn-outline btn-sm">S'inscrire</a>
           </div>
         </article>
         {% endfor %}
@@ -48,5 +48,51 @@ fil:
     </div>
   </section>
 
+  <section class="sec light">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="slabel">Inscription</p>
+        <h2>Réserve ta place<br><span class="grad">pour un rendez-vous.</span></h2>
+        <p>Choisis l'événement, laisse-nous tes coordonnées et nous te confirmons ta place par retour de message.</p>
+      </div>
+      <div class="form-solo reveal" id="form">
+        <form class="form-card" id="formEvenement" name="evenement" method="POST"
+              data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
+          <input type="hidden" name="form-name" value="evenement">
+          <p class="hp-field" hidden><label>Ne rien remplir <input name="bot-field"></label></p>
+
+          <div class="fg"><label for="v-event">Événement concerné</label>
+            <select id="v-event" name="evenement_choisi" required>
+              <option value="">Choisir un événement</option>
+              {% for e in evenements %}<option>{{ e.label }}</option>{% endfor %}
+            </select>
+          </div>
+
+          <div class="fg-row">
+            <div class="fg"><label for="v-prenom">Prénom</label><input id="v-prenom" name="prenom" type="text" placeholder="Marie" required></div>
+            <div class="fg"><label for="v-nom">Nom</label><input id="v-nom" name="nom" type="text" placeholder="Niyonzima" required></div>
+          </div>
+          <div class="fg-row">
+            <div class="fg"><label for="v-mail">Email</label><input id="v-mail" name="email" type="email" placeholder="marie@email.com" required></div>
+            <div class="fg"><label for="v-tel">Téléphone <span class="opt">(facultatif)</span></label><input id="v-tel" name="telephone" type="tel" placeholder="06 12 34 56 78"></div>
+          </div>
+          <div class="fg"><label for="v-nb">Nombre de personnes</label>
+            <select id="v-nb" name="nombre_personnes">
+              <option value="1">1 (moi seul·e)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5+">5 ou plus</option>
+            </select>
+          </div>
+          <div class="fg"><label for="v-msg">Message <span class="opt">(facultatif)</span></label><textarea id="v-msg" name="message" placeholder="Une question ou une précision ?"></textarea></div>
+
+          <button type="submit" class="btn btn-primary btn-full">M'inscrire</button>
+          <p class="form-note">Pour un événement à places limitées, préviens-nous si tu ne peux plus venir : cela libère ta place.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
 {{ faqBloc("Les événements ImiziLinks<br><span class='grad'>en questions.</span>", "Inscription, tarifs, villes et organisation d'un rendez-vous dans ta ville.", faq.evenements) }}
-{{ cta("Tu veux organiser un rendez-vous dans ta ville ?", "Une soirée, un atelier, une rencontre : dis-nous ce que tu as en tête et nous t'aidons à le monter.", "Nous écrire", "/nous-rejoindre/?motif=organiser") }}
+{{ cta("Tu veux organiser un rendez-vous dans ta ville ?", "Une soirée, un atelier, une rencontre : dis-nous ce que tu as en tête et nous t'aidons à le monter.", "Nous écrire", "/nous-rejoindre/#form") }}

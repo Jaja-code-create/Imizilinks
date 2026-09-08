@@ -229,6 +229,8 @@ collections:
           - { label: "Adresse du site", name: "url", widget: "string", hint: "Sans barre oblique à la fin. Exemple : https://imizilinks.fr" }
           - { label: "Slogan", name: "slogan", widget: "string" }
           - { label: "Email principal", name: "email", widget: "string" }
+          - { label: "Téléphone", name: "telephone", widget: "string", required: false, hint: "Affiché dans le pied de page. Exemple : 06 48 66 02 38" }
+          - { label: "Adresse postale", name: "adresse", widget: "string", required: false, hint: "Affichée dans le pied de page. Exemple : 12 mail Gay-Lussac, 95000 Neuville-sur-Oise" }
           - { label: "Texte du pied de page", name: "description_footer", widget: "text" }
           - { label: "Lien Instagram", name: "instagram", widget: "string", required: false }
           - { label: "Lien LinkedIn", name: "linkedin", widget: "string", required: false }

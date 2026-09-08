@@ -127,12 +127,13 @@ Compte une à deux minutes avant de voir le changement en ligne.**
 Les formulaires sont déjà branchés sur Netlify Forms. Il reste à activer la
 réception.
 
-1. Dans Netlify : **Forms**. Après le premier envoi depuis le site, deux
-   formulaires apparaissent : `contact` et `candidature`.
+1. Dans Netlify : **Forms**. Après un premier envoi de chaque formulaire depuis
+   le site, quatre formulaires apparaissent : `nous-rejoindre`, `entraide`,
+   `evenement` et `candidature`.
 2. Clique sur **Form notifications** → **Add notification** → **Email
    notification**.
-3. Mets ton adresse email et choisis le formulaire concerné. Répète pour le
-   second.
+3. Mets ton adresse email (`contact@imizilinks.fr`) et choisis le formulaire
+   concerné. Répète l'opération pour les quatre.
 
 Tu recevras chaque message par email, et les CV seront téléchargeables depuis
 l'interface Netlify.
@@ -227,10 +228,10 @@ titre « Renouveler son titre de séjour étudiant » donne l'adresse
       obligation légale (forme juridique, adresse, directrice de publication,
       hébergeur : Netlify).
 - [ ] **Renseigner les réseaux sociaux** dans Réglages du site.
-- [ ] **Vérifier que les deux adresses email existent** :
-      `hello@imizilinks.fr` et `partenariats@imizilinks.fr`.
-- [ ] **Tester les deux formulaires** depuis le site en ligne et vérifier que
-      tu reçois bien les emails.
+- [ ] **Vérifier que l'adresse email existe** : `contact@imizilinks.fr`.
+- [ ] **Tester les quatre formulaires** (Nous rejoindre, Entraide, Événement,
+      Candidature) depuis le site en ligne et vérifier que tu reçois bien les
+      emails.
 
 ---
 

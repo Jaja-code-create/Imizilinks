@@ -86,54 +86,37 @@
     return new URLSearchParams(window.location.search).get(nom);
   }
 
-  /* ═══ Formulaire de contact : champs selon le motif ═══ */
-  var motifSel = document.getElementById('f-motif');
-  if (motifSel) {
-    var REGLES = {
-      aide:        { blocs: ['bloc-arrivee', 'bloc-besoin'], msg: 'Décris ta situation' },
-      emploi:      { blocs: ['bloc-secteur', 'bloc-villeres'], msg: 'Parle-nous de ton parcours' },
-      event:       { blocs: ['bloc-event'], msg: 'Une question ou une précision ? (facultatif)' },
-      referent:    { blocs: ['bloc-villeres'], msg: 'Sur quoi peux-tu aider ?' },
-      article:     { blocs: [], msg: 'Quel sujet veux-tu traiter ?' },
-      organiser:   { blocs: ['bloc-villeres'], msg: "Décris ton idée d'événement" },
-      partenariat: { blocs: [], msg: 'Présente ta structure et ton projet' },
-      autre:       { blocs: [], msg: 'Ton message' }
-    };
-    var TOUS = ['bloc-arrivee', 'bloc-besoin', 'bloc-event', 'bloc-secteur', 'bloc-villeres'];
-
-    var majFormulaire = function () {
-      var regle = REGLES[motifSel.value] || { blocs: [], msg: 'Ton message' };
-      TOUS.forEach(function (id) {
-        var el = document.getElementById(id);
-        if (el) el.classList.toggle('on', regle.blocs.indexOf(id) > -1);
-      });
-      var lbl = document.getElementById('lbl-msg');
-      if (lbl) lbl.textContent = regle.msg;
-      var msg = document.getElementById('f-msg');
-      if (msg) msg.required = (motifSel.value !== 'event');
-    };
-    motifSel.addEventListener('change', majFormulaire);
-
-    // Pré-remplissage depuis l'URL : ?motif=aide  ou  ?motif=event&ev=...
-    var motif = param('motif');
-    if (motif) { motifSel.value = motif; }
-    majFormulaire();
-
+  /* ═══ Formulaire Événement : pré-sélection depuis l'URL ?ev=... ═══
+     Si l'événement vient du bouton « S'inscrire », le champ est verrouillé.
+     Un select désactivé n'est pas envoyé : on ajoute un champ caché miroir. */
+  var evSel = document.getElementById('v-event');
+  if (evSel) {
     var ev = param('ev');
     if (ev) {
-      var evSel = document.getElementById('f-event');
-      if (evSel) {
-        for (var k = 0; k < evSel.options.length; k++) {
-          if (evSel.options[k].text === ev) { evSel.selectedIndex = k; }
+      for (var k = 0; k < evSel.options.length; k++) {
+        if (evSel.options[k].text === ev || evSel.options[k].value === ev) {
+          evSel.selectedIndex = k;
+          evSel.disabled = true;
+          evSel.classList.add('is-locked');
+          var miroir = document.createElement('input');
+          miroir.type = 'hidden';
+          miroir.name = evSel.name;
+          miroir.value = evSel.options[k].value || evSel.options[k].text;
+          evSel.parentNode.appendChild(miroir);
+          var chg = document.createElement('a');
+          chg.href = '/evenements/#form';
+          chg.className = 'lien-changer';
+          chg.textContent = 'Changer d’événement';
+          chg.addEventListener('click', function (e) {
+            e.preventDefault();
+            evSel.disabled = false;
+            evSel.classList.remove('is-locked');
+            if (miroir.parentNode) miroir.parentNode.removeChild(miroir);
+            chg.parentNode.removeChild(chg);
+          });
+          evSel.parentNode.appendChild(chg);
+          break;
         }
-      }
-    }
-    if (motif) {
-      var form = document.querySelector('.form-solo');
-      if (form) {
-        setTimeout(function () {
-          window.scrollTo({ top: form.offsetTop - 90, behavior: 'smooth' });
-        }, 200);
       }
     }
   }
@@ -160,25 +143,17 @@
   }
 
   /* ═══ Envoi des formulaires ═══
-     Confirmation visuelle en attendant le branchement à un service
-     de réception (Formspree, Netlify Forms ou autre). */
-  document.querySelectorAll('form').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      // Formulaire branché (Netlify Forms ou service externe) : envoi normal
-      if (form.hasAttribute('action') || form.hasAttribute('data-netlify')) return;
-      e.preventDefault();
+     Tous les formulaires du site sont branchés sur Netlify Forms
+     (data-netlify="true" + action="/merci/"). L'envoi est donc natif :
+     le navigateur poste vers Netlify qui redirige ensuite vers /merci/.
+     On se contente d'un retour visuel sur le bouton pendant l'envoi. */
+  document.querySelectorAll('form[data-netlify]').forEach(function (form) {
+    form.addEventListener('submit', function () {
       var btn = form.querySelector('button[type=submit]');
       if (!btn) return;
-      var ancien = btn.textContent;
-      btn.textContent = 'Message envoyé ✓';
-      btn.style.background = '#736F3D';
-      setTimeout(function () {
-        btn.textContent = ancien;
-        btn.style.background = '';
-        form.reset();
-        if (motifSel) motifSel.dispatchEvent(new Event('change'));
-        if (offreSel) offreSel.dispatchEvent(new Event('change'));
-      }, 2600);
+      // Différé : désactiver le bouton pendant le submit lui-même
+      // peut annuler l'envoi sur certains navigateurs.
+      setTimeout(function () { btn.disabled = true; btn.textContent = 'Envoi…'; }, 0);
     });
   });
 })();

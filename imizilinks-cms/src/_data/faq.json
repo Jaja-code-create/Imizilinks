@@ -18,7 +18,7 @@
     },
     {
       "question": "Comment rejoindre la communauté ImiziLinks ?",
-      "reponse": "Il suffit de remplir le formulaire de contact en indiquant ton motif : demander de l'aide, candidater à une offre, t'inscrire à un événement, devenir référent ou proposer un projet. Aucune inscription préalable ni cotisation n'est demandée."
+      "reponse": "Chaque besoin a son formulaire dédié : la page Entraide pour une demande d'aide, la page Événements pour t'inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d'emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n'est demandée."
     },
     {
       "question": "Combien de temps faut-il pour obtenir une réponse ?",
@@ -84,7 +84,7 @@
   "evenements": [
     {
       "question": "Comment s'inscrire à un événement ImiziLinks ?",
-      "reponse": "Chaque événement de l'agenda dispose d'un bouton « S'inscrire ». Il ouvre le formulaire de contact avec l'événement déjà sélectionné : tu renseignes ton nom et ton email, et nous te confirmons ta place par retour de message."
+      "reponse": "Chaque événement de l'agenda dispose d'un bouton « S'inscrire ». Il ouvre le formulaire d'inscription en bas de la page Événements avec l'événement déjà sélectionné : tu renseignes ton nom et ton email, et nous te confirmons ta place par retour de message."
     },
     {
       "question": "Les événements sont-ils payants ?",
@@ -100,7 +100,7 @@
     },
     {
       "question": "Puis-je organiser un événement ImiziLinks dans ma ville ?",
-      "reponse": "Oui, et c'est encouragé. Écris-nous en choisissant le motif « Organiser un événement dans ma ville » : nous t'aidons sur la logistique, la communication et la mise en relation avec les membres de ton secteur."
+      "reponse": "Oui, et c'est encouragé. Sur la page Nous rejoindre, choisis « Organiser un événement dans ma ville » : nous t'aidons sur la logistique, la communication et la mise en relation avec les membres de ton secteur."
     },
     {
       "question": "Que se passe-t-il si je ne peux plus venir ?",
@@ -122,7 +122,7 @@
     },
     {
       "question": "Puis-je proposer un article ou un sujet ?",
-      "reponse": "Oui. Si tu as effectué une démarche particulière ou que tu maîtrises un sujet utile à la communauté, écris-nous en choisissant le motif « Écrire un article ou un guide ». Nous accompagnons la rédaction si besoin."
+      "reponse": "Oui. Si tu as effectué une démarche particulière ou que tu maîtrises un sujet utile à la communauté, rends-toi sur la page Nous rejoindre et choisis « Écrire un article ou un guide ». Nous accompagnons la rédaction si besoin."
     },
     {
       "question": "Les guides remplacent-ils un conseil juridique ou administratif ?",
@@ -131,8 +131,8 @@
   ],
   "rejoindre": [
     {
-      "question": "Comment fonctionne le formulaire ImiziLinks ?",
-      "reponse": "Un seul formulaire couvre toutes les demandes. Tu commences par choisir ton motif — aide, emploi, événement, contribution — et les champs suivants s'adaptent automatiquement à ta situation. Cela évite de remplir des informations inutiles."
+      "question": "Quel formulaire utiliser selon ma demande ?",
+      "reponse": "Chaque besoin a son formulaire dédié, avec des champs adaptés : l'entraide sur la page Entraide, l'inscription à un événement sur la page Événements, la candidature à une offre via le bouton « Candidater » de la page Opportunités. Le formulaire de la page Nous rejoindre est réservé à celles et ceux qui veulent s'impliquer : devenir référent, écrire un guide, relire des CV, organiser un événement local ou poser une question générale."
     },
     {
       "question": "Que deviennent mes données personnelles ?",
@@ -140,7 +140,7 @@
     },
     {
       "question": "Comment devenir référent ImiziLinks dans ma ville ?",
-      "reponse": "Choisis le motif « Devenir référent dans ma ville » dans le formulaire. Nous échangeons ensuite avec toi sur ta disponibilité, les sujets sur lesquels tu peux aider et la manière dont les demandes te seront transmises. Aucun engagement de durée n'est demandé."
+      "reponse": "Sur la page Nous rejoindre, choisis « Devenir référent dans ma ville ». Nous échangeons ensuite avec toi sur ta disponibilité, les sujets sur lesquels tu peux aider et la manière dont les demandes te seront transmises. Aucun engagement de durée n'est demandé."
     },
     {
       "question": "Puis-je contribuer sans être référent ?",
@@ -148,7 +148,7 @@
     },
     {
       "question": "Je représente une association ou une entreprise, comment travailler avec ImiziLinks ?",
-      "reponse": "Écris-nous à contact@imizilinks.fr ou choisis le motif « Proposer un partenariat » dans le formulaire. Nous collaborons avec des entreprises pour le relais d'offres d'emploi et avec des associations pour l'organisation d'événements."
+      "reponse": "Écris-nous à contact@imizilinks.fr, ou passe par le formulaire de la page Nous rejoindre en choisissant « Relayer une offre d'emploi de mon entreprise » ou « Organiser un événement dans ma ville ». Nous collaborons avec des entreprises pour le relais d'offres d'emploi et avec des associations pour l'organisation d'événements."
     }
   ]
 }
