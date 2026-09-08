@@ -175,6 +175,7 @@
       <li><a href="{{ '/en/support/' if lang == 'en' else '/entraide/' }}">{{ t.footer.fEntraide }}</a></li>
       <li><a href="{{ '/en/opportunities/' if lang == 'en' else '/opportunites/' }}">{{ t.footer.fOffres }}</a></li>
       <li><a href="{{ '/en/events/' if lang == 'en' else '/evenements/' }}">{{ t.footer.fEvenements }}</a></li>
+      <li><a href="{{ '/en/our-impact/' if lang == 'en' else '/notre-impact/' }}">{{ t.footer.fImpact }}</a></li>
     </ul></div>
     <div class="fc"><h2>{{ t.footer.guidesTitle }}</h2><ul>
       {% set arts = collections.articlesEn if lang == 'en' else collections.articles %}
