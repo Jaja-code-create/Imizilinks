@@ -483,10 +483,6 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 .grad-eco{background:linear-gradient(135deg,var(--olive),var(--vert-eco));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 .slabel.eco{color:var(--vert-eco);}
 
-/* Tags du hero */
-.hero-tags{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;}
-.hero-tag{padding:7px 14px;border-radius:100px;font-size:12px;font-weight:600;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);color:#fff;}
-
 /* Intro « Notre approche » */
 .approach{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;}
 .approach-copy p{color:var(--gris);font-size:16px;line-height:1.85;margin-top:16px;}
