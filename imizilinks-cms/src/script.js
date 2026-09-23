@@ -1,4 +1,4 @@
-/* ImiziLinks — script commun à toutes les pages */
+/* Imizi Links — script commun à toutes les pages */
 (function () {
   'use strict';
 
@@ -154,8 +154,8 @@
   if (offreSel) {
     var enApp = (document.documentElement.lang || 'fr').slice(0, 2) === 'en';
     var txtEmpty = enApp ? 'Select an offer below' : 'Sélectionne une offre ci-dessous';
-    var txtEmptyD = enApp ? 'Your application will be passed to this company by ImiziLinks.' : 'Ta candidature sera transmise à cette entreprise par ImiziLinks.';
-    var txtFilledD = enApp ? 'Application passed by ImiziLinks to this company within 72 hours.' : 'Candidature transmise par ImiziLinks à cette entreprise sous 72 heures.';
+    var txtEmptyD = enApp ? 'Your application will be passed to this company by Imizi Links.' : 'Ta candidature sera transmise à cette entreprise par Imizi Links.';
+    var txtFilledD = enApp ? 'Application passed by Imizi Links to this company within 72 hours.' : 'Candidature transmise par Imizi Links à cette entreprise sous 72 heures.';
     var majOffre = function () {
       var opt = offreSel.options[offreSel.selectedIndex];
       var titre = document.getElementById('offre-titre');
@@ -202,19 +202,19 @@
 
     var enModal = (document.documentElement.lang || 'fr').slice(0, 2) === 'en';
     var CONTEXTES = enModal ? {
-      partenariat:   { titre: "Become an ImiziLinks partner", sous: "Tell us in a few words who you are and what you have in mind. We'll get back to you within 72 hours to arrange a conversation.", motif: "Become a partner" },
+      partenariat:   { titre: "Become an Imizi Links partner", sous: "Tell us in a few words who you are and what you have in mind. We'll get back to you within 72 hours to arrange a conversation.", motif: "Become a partner" },
       action:        { titre: "Suggest an action", sous: "A workshop, a recruitment day, an event at your offices, an idea we haven't thought of yet: describe it and we'll discuss it.", motif: "Suggest an action" },
       accueil:       { titre: "Welcome a community member", sous: "An internship, apprenticeship or role to open? Tell us the kind of profile you're looking for and we'll identify the supported candidates who fit.", motif: "Welcome a member" },
       offres:        { titre: "Relay your job offers", sous: "Your roles shared with a targeted community, with applications checked and presented by us.", motif: "Relay offers" },
       mentorat:      { titre: "Mobilise your teams", sous: "Mentoring, mock interviews, career workshops: tell us how many staff could get involved and on which topics.", motif: "Mobilise my teams" },
-      environnement: { titre: "Grow our solidarity forest", sous: "Find out how working with ImiziLinks can help grow our Tree-Nation solidarity forest. Plantings are funded and tracked by ImiziLinks, within the limit of our dedicated budget; they can be tied to a partnership or a hire.", motif: "Environmental contribution" }
+      environnement: { titre: "Grow our solidarity forest", sous: "Find out how working with Imizi Links can help grow our Tree-Nation solidarity forest. Plantings are funded and tracked by Imizi Links, within the limit of our dedicated budget; they can be tied to a partnership or a hire.", motif: "Environmental contribution" }
     } : {
-      partenariat:   { titre: "Devenir partenaire d'ImiziLinks", sous: "Dites-nous en quelques mots qui vous êtes et ce que vous avez en tête. Nous revenons vers vous sous 72 heures pour convenir d'un échange.", motif: "Devenir partenaire" },
+      partenariat:   { titre: "Devenir partenaire d'Imizi Links", sous: "Dites-nous en quelques mots qui vous êtes et ce que vous avez en tête. Nous revenons vers vous sous 72 heures pour convenir d'un échange.", motif: "Devenir partenaire" },
       action:        { titre: "Proposer une action", sous: "Un atelier, une journée de recrutement, un événement dans vos locaux, une idée à laquelle nous n'avons pas encore pensé : décrivez-la, nous en discutons.", motif: "Proposer une action" },
       accueil:       { titre: "Accueillir un membre de la communauté", sous: "Un stage, une alternance ou un poste à ouvrir ? Précisez le type de profil recherché, nous identifions les candidats accompagnés qui correspondent.", motif: "Accueillir un membre" },
       offres:        { titre: "Relayer vos offres d'emploi", sous: "Vos postes diffusés auprès d'une communauté ciblée, avec des candidatures vérifiées et présentées par nos soins.", motif: "Relayer des offres" },
       mentorat:      { titre: "Mobiliser vos équipes", sous: "Mentorat, entretiens blancs, ateliers métiers : dites-nous combien de collaborateurs pourraient s'impliquer et sur quels sujets.", motif: "Mobiliser mes équipes" },
-      environnement: { titre: "Faire grandir notre forêt solidaire d'arbres", sous: "Découvrez comment votre collaboration avec ImiziLinks peut contribuer à faire grandir notre forêt solidaire Tree-Nation. Les plantations sont financées et suivies par ImiziLinks, dans la limite de notre budget dédié ; elles peuvent être associées à un partenariat ou à un recrutement.", motif: "Contribution environnementale" }
+      environnement: { titre: "Faire grandir notre forêt solidaire d'arbres", sous: "Découvrez comment votre collaboration avec Imizi Links peut contribuer à faire grandir notre forêt solidaire Tree-Nation. Les plantations sont financées et suivies par Imizi Links, dans la limite de notre budget dédié ; elles peuvent être associées à un partenariat ou à un recrutement.", motif: "Contribution environnementale" }
     };
 
     var ouvrirModal = function (cle) {

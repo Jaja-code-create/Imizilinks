@@ -5,8 +5,8 @@ permalink: /opportunites/
 actif: actions
 faqKey: opportunites
 schemaOffres: true
-title: "Offres d'emploi et de stage pour la diaspora en France — ImiziLinks"
-description: "Postes confiés par nos entreprises partenaires. Dépose ton CV chez ImiziLinks : nous transmettons ta candidature au recruteur sous 72 heures."
+title: "Offres d'emploi et de stage pour la diaspora en France — Imizi Links"
+description: "Postes confiés par nos entreprises partenaires. Dépose ton CV chez Imizi Links : nous transmettons ta candidature au recruteur sous 72 heures."
 image: /img/etudiants-campus-universite.jpg
 fil:
   - nom: Accueil
@@ -16,7 +16,7 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("Nos actions · Opportunités", "Offres d'emploi et de stage",
-   "Des postes confiés par nos entreprises partenaires. Tu déposes ton CV et ta lettre de motivation chez ImiziLinks, et nous transmettons ta candidature directement au recruteur.",
+   "Des postes confiés par nos entreprises partenaires. Tu déposes ton CV et ta lettre de motivation chez Imizi Links, et nous transmettons ta candidature directement au recruteur.",
    "/img/etudiants-campus-universite.jpg", "Étudiants échangeant devant leur université en France") }}
 
   <section class="sec">
@@ -26,8 +26,8 @@ fil:
         <h2>Ta candidature est portée,<br><span class="grad">pas déposée dans une pile.</span></h2>
       </div>
       <div class="intro-seo reveal">
-        <p>Les offres publiées sur ImiziLinks ne sont pas reprises depuis d'autres sites. Elles nous sont <strong>confiées par des entreprises partenaires</strong> qui souhaitent recruter au sein de la communauté et qui connaissent la valeur des parcours internationaux.</p>
-        <p>Concrètement, tu ne candidates pas directement auprès de l'employeur : <strong>tu envoies ton CV et ta lettre de motivation à ImiziLinks</strong>, nous vérifions ton dossier et nous le transmettons nous-mêmes au recruteur avec une présentation de ton profil. Une candidature portée par un intermédiaire connu de l'entreprise est nettement mieux lue qu'une candidature anonyme.</p>
+        <p>Les offres publiées sur Imizi Links ne sont pas reprises depuis d'autres sites. Elles nous sont <strong>confiées par des entreprises partenaires</strong> qui souhaitent recruter au sein de la communauté et qui connaissent la valeur des parcours internationaux.</p>
+        <p>Concrètement, tu ne candidates pas directement auprès de l'employeur : <strong>tu envoies ton CV et ta lettre de motivation à Imizi Links</strong>, nous vérifions ton dossier et nous le transmettons nous-mêmes au recruteur avec une présentation de ton profil. Une candidature portée par un intermédiaire connu de l'entreprise est nettement mieux lue qu'une candidature anonyme.</p>
       </div>
       <div class="proc reveal" style="margin-top:44px;">
         <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">Tu déposes ton dossier</h3><p class="proc-d">Clique sur « Candidater » sur l'offre qui t'intéresse et joins ton CV ainsi que ta lettre de motivation. Deux minutes suffisent.</p></div>
@@ -57,7 +57,7 @@ fil:
           {% if o.skills.length %}<div class="job-skills">{% for s in o.skills %}<span class="skill">{{ s }}</span>{% endfor %}</div>{% endif %}
           <div class="postuler">
             <a href="/candidater/?offre={{ o.id }}" class="btn btn-primary btn-sm">Candidater</a>
-            <span class="postuler-note">Ta candidature est transmise par ImiziLinks à l'entreprise partenaire.</span>
+            <span class="postuler-note">Ta candidature est transmise par Imizi Links à l'entreprise partenaire.</span>
           </div>
         </article>
         {% endfor %}
@@ -68,5 +68,5 @@ fil:
     </div>
   </section>
 
-{{ faqBloc("Candidater via ImiziLinks<br><span class='grad'>en questions.</span>", "Processus de candidature, documents à fournir, délais de réponse et partenariats entreprises.", faq.opportunites) }}
+{{ faqBloc("Candidater via Imizi Links<br><span class='grad'>en questions.</span>", "Processus de candidature, documents à fournir, délais de réponse et partenariats entreprises.", faq.opportunites) }}
 {{ cta("Aucune offre ne correspond ?", "Dis-nous ce que tu cherches : nous te signalons les postes qui correspondent dès leur arrivée.", "Faire ta demande", "/nous-rejoindre/#form") }}

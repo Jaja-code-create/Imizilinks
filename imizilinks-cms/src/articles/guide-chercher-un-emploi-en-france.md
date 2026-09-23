@@ -16,7 +16,7 @@ faqItems:
   - question: "Faut-il une lettre de motivation en France ?"
     reponse: "Elle n'est pas systématiquement lue, mais son absence peut être éliminatoire. Trois paragraphes courts suffisent : pourquoi cette entreprise, ce que vous apportez, ce que vous souhaitez apprendre."
   - question: "Où trouver des offres d'emploi quand on est nouvellement arrivé ?"
-    reponse: "Sur les plateformes généralistes, auprès de France Travail, sur les sites spécialisés par secteur, sur les pages carrière des entreprises et via les réseaux communautaires. ImiziLinks relaie chaque semaine des offres issues d'entreprises partenaires."
+    reponse: "Sur les plateformes généralistes, auprès de France Travail, sur les sites spécialisés par secteur, sur les pages carrière des entreprises et via les réseaux communautaires. Imizi Links relaie chaque semaine des offres issues d'entreprises partenaires."
   - question: "Comment aborder la question de son parcours à l'étranger en entretien ?"
     reponse: "Répondez simplement et sans justification excessive. Mettez en avant l'adaptabilité, le multilinguisme et l'autonomie que suppose une installation dans un nouveau pays, puis ramenez l'échange sur le poste et sur ce que vous voulez construire."
 ---
@@ -47,7 +47,7 @@ Elle n'est pas toujours lue, mais son absence est parfois éliminatoire. Trois p
 - **France Travail** — l'opérateur public de l'emploi, avec accompagnement possible.
 - **Les sites spécialisés par secteur** — moins de candidats, offres plus ciblées.
 - **Les sites carrière des entreprises** — certaines offres n'y sont publiées que là.
-- **Les réseaux communautaires** — ImiziLinks relaie chaque semaine des offres vérifiées.
+- **Les réseaux communautaires** — Imizi Links relaie chaque semaine des offres vérifiées.
 
 > **Une grande partie des postes ne sont jamais publiés.** Ils se remplissent par recommandation interne. C'est pour ça que le réseau pèse plus que le volume de candidatures.
 

@@ -68,7 +68,7 @@ Prépare une réponse claire à ces trois questions, et sois cohérent avec ce q
 
 Tu devras prouver que tu disposes de ressources suffisantes pour vivre en France pendant tes études. Ce justificatif est demandé au moment du visa, mais prépare-le en amont : attestation bancaire, prise en charge par un garant, ou notification de bourse.
 
-> **Besoin d'aide sur ton dossier ?** Des membres d'ImiziLinks sont passés par cette procédure et peuvent relire ta lettre ou te dire à quoi s'attendre à l'entretien. Utilise le formulaire pour être mis en relation.
+> **Besoin d'aide sur ton dossier ?** Des membres d'Imizi Links sont passés par cette procédure et peuvent relire ta lettre ou te dire à quoi s'attendre à l'entretien. Utilise le formulaire pour être mis en relation.
 
 ## En résumé
 
