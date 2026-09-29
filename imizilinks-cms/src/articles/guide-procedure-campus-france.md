@@ -56,7 +56,7 @@ Les traductions assermentées prennent du temps et coûtent cher. Lancez-les en 
 
 Vous pouvez candidater à plusieurs formations. Ne visez pas uniquement des établissements très demandés : construisez votre liste avec des choix ambitieux, des choix réalistes et au moins une option de sécurité.
 
-Regardez aussi la ville. Le coût du logement varie énormément d’une région à l’autre, et une formation équivalente dans une ville moyenne vous coûtera bien moins cher qu’à Paris.
+Regardez aussi la ville. Le coût du logement varie énormément d’une région à l’autre, et une formation équivalente dans une ville moyenne vous coûtera bien moins cher qu’à Paris. Pour préparer cette étape, consultez notre [guide du logement étudiant](/blog/guide-logement-etudiant-etranger-france/).
 
 ## L’entretien
 

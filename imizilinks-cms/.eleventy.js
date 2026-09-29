@@ -36,6 +36,11 @@ export default function (eleventyConfig) {
     (arr || []).filter((a) => a.url !== url).slice(0, n || 2)
   );
 
+  // Articles choisis par leur nom de fichier (champ « lies » d'un article)
+  eleventyConfig.addFilter("parSlugs", (arr, slugs) =>
+    (slugs || []).map((s) => (arr || []).find((a) => a.fileSlug === s)).filter(Boolean)
+  );
+
   // Identifiant technique à partir d'un titre (utilisé pour les offres)
   eleventyConfig.addFilter("slug", (s) =>
     String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")

@@ -28,7 +28,7 @@ faqItems:
 - Un justificatif de domicile en France
 - Un justificatif de statut : certificat de scolarité, contrat de travail ou promesse d’embauche
 
-> **Le cercle vicieux du justificatif de domicile :** la banque le demande, mais beaucoup de bailleurs demandent un RIB. Solutions courantes : une attestation d’hébergement signée par la personne qui vous héberge, accompagnée de sa pièce d’identité et d’une de ses factures ; ou une attestation de résidence universitaire.
+> **Le cercle vicieux du justificatif de domicile :** la banque le demande, mais beaucoup de bailleurs demandent un RIB. Solutions courantes : une attestation d’hébergement signée par la personne qui vous héberge, accompagnée de sa pièce d’identité et d’une de ses factures ; ou une attestation de résidence universitaire. Pour la recherche de logement elle-même, consultez notre [guide du logement étudiant](/blog/guide-logement-etudiant-etranger-france/).
 
 ## Quelle banque choisir
 

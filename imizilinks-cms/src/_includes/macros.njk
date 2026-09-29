@@ -43,7 +43,7 @@
 {% macro carteArticle(a) %}
         <article class="bcard">
           <a href="{{ a.url }}">
-            <div class="bimg"><img src="{{ a.data.image }}" alt="{{ a.data.title }}" loading="lazy" width="600" height="400"><span class="btag">{{ a.data.categorie }}</span></div>
+            <div class="bimg"><img src="{{ a.data.image }}" alt="{{ a.data.imageAlt or a.data.title }}" loading="lazy" width="600" height="400"><span class="btag">{{ a.data.categorie }}</span></div>
             <div class="bbody">
               <h3 class="btitle">{{ a.data.title }}</h3>
               <p class="bexc">{{ a.data.description }}</p>

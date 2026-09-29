@@ -5,7 +5,7 @@ pageKey: blog
 schemaArticle: true
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
-{{ phero("Blog · " + categorie + " · " + duree, title, description, image, title) }}
+{{ phero("Blog · " + categorie + " · " + duree, title, description, image, imageAlt or title) }}
 
   <section class="sec">
     <article class="article">
@@ -15,7 +15,8 @@ schemaArticle: true
       <div class="art-suite">
         <h2>À lire ensuite</h2>
         <div class="art-liens">
-          {% for a in collections.articles | autres(page.url, 2) %}
+          {% set suite = (collections.articles | parSlugs(lies)) if lies else (collections.articles | autres(page.url, 2)) %}
+          {% for a in suite %}
           <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
           {% endfor %}
         </div>

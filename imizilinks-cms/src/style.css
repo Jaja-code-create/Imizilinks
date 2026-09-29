@@ -424,6 +424,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .article blockquote{background:var(--fond);border-left:3px solid var(--camel);border-radius:0 12px 12px 0;padding:24px 28px;margin:32px 0;}
 .article blockquote p{margin:0;font-size:15px;color:var(--texte);line-height:1.75;}
 .article blockquote strong{color:var(--texte);}
+.article blockquote p + p{margin-top:12px;}
+.article blockquote .encart-btn{color:#fff;text-decoration:none;margin-top:4px;}
 
 /* ═══ Listes de l'article ═══ */
 .article ul,.article ol{margin:0 0 20px 22px;}
