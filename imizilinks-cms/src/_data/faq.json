@@ -21,6 +21,10 @@
       "reponse": "Chaque besoin a son formulaire dédié : la page Entraide pour une demande d’information ou d’accompagnement, la page Événements pour vous inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d’emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n’est demandée."
     },
     {
+      "question": "Imizi Links peut-il m’informer sur l’attestation d’hébergement ?",
+      "reponse": "Une attestation d’hébergement est rédigée et signée par la personne qui vous héberge réellement. Imizi Links ne délivre pas d’attestation, mais nous vous expliquons quel document fournir, et un référent de votre ville peut vous orienter si besoin."
+    },
+    {
       "question": "Combien de temps faut-il pour obtenir une réponse ?",
       "reponse": "Les demandes d’entraide reçoivent une réponse d’un référent sous 48 heures ouvrées. Les candidatures aux offres d’emploi sont transmises à l’entreprise partenaire sous 72 heures. Les autres messages sont traités sous quelques jours."
     }

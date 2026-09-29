@@ -362,6 +362,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* ═══ Hero : mot animé en ligne ═══ */
 .hero-cycle{display:block;color:var(--nude);transition:opacity .4s ease;}
 .hero-h{margin-bottom:24px;}
+/* Seconde ligne du H1 d'accueil : police du texte courant, plus petite, en gras */
+.hero-h-sub{display:block;font-family:'Inter',sans-serif;font-size:clamp(17px,1.7vw,21px);font-weight:700;line-height:1.4;letter-spacing:-.2px;color:rgba(255,255,255,.92);max-width:520px;}
 
 /* ═══ Pied de page : titres en h2 ═══ */
 .fc h2{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:18px;color:rgba(255,255,255,.9);}
