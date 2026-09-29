@@ -4,8 +4,8 @@ pageKey: entraide
 permalink: /entraide/
 actif: actions
 faqKey: entraide
-title: "Entraide et informations pour s’installer en France — Imizi Links"
-description: "Attestation d’hébergement, validation de visa, sécurité sociale, logement : des informations fiables et des référents bénévoles qui répondent sous 48 heures dans sept villes de France. Service gratuit et confidentiel."
+title: "Entraide : informations et accompagnement | Imizi Links"
+description: "Informations fiables sur les démarches d’installation en France et accompagnement par un référent bénévole de votre ville. Gratuit, réponse sous 48 h."
 image: /img/etudiants-bibliotheque.jpg
 fil:
   - nom: Accueil
@@ -14,8 +14,8 @@ fil:
     url: /entraide/
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
-{{ phero("Nos actions · Entraide", "Entraide et informations",
-   "Attestation d’hébergement, validation de visa, sécurité sociale, logement : décrivez votre situation et un référent Imizi Links de votre ville vous répond sous 48 heures. Service gratuit et confidentiel.",
+{{ phero("Nos actions · Entraide", "Informations et accompagnement pour s’installer en France",
+   "Titre de séjour, sécurité sociale, attestation d’hébergement, compte bancaire : nous vous donnons les informations utiles pour avancer, et un référent bénévole de votre ville peut vous accompagner si vous en avez besoin. Nos référents sont passés par les mêmes étapes que vous. Service gratuit et confidentiel.",
    "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
 
   <section class="split">
@@ -25,11 +25,11 @@ fil:
       <h2>Des besoins concrets,<br><span class="grad">traités un par un.</span></h2>
       <p>L’entraide Imizi Links intervient quand une information fiable ou un contact local vous aide à avancer. Nos référents connaissent les procédures françaises pour les avoir traversées eux-mêmes, et vous orientent si besoin.</p>
       <ul class="checklist">
-        <li>Attestation d’hébergement pour un dossier de visa, de titre de séjour ou de location</li>
-        <li>Informations sur les démarches : préfecture, sécurité sociale, banque</li>
-        <li>Mise en relation avec un référent installé dans votre ville d’arrivée</li>
-        <li>Orientation sur les études, l’équivalence de diplômes et l’inscription universitaire</li>
-        <li>Relecture de dossier avant dépôt pour éviter les pièces manquantes</li>
+        <li>Informations sur l’attestation d’hébergement et les justificatifs demandés</li>
+        <li>Informations sur le titre de séjour, la sécurité sociale et le compte bancaire</li>
+        <li>Mise en relation avec un référent de votre ville</li>
+        <li>Orientation sur les études et l’équivalence de diplômes</li>
+        <li>Relecture de votre dossier avant dépôt</li>
       </ul>
       <p class="split-cta"><a href="#form" class="btn btn-primary">Faire votre demande</a></p>
     </div>
@@ -102,9 +102,10 @@ fil:
           <div class="fg"><label for="e-besoin">Type de besoin <span class="required-star" aria-hidden="true">*</span></label>
             <select id="e-besoin" name="besoin" required>
               <option value="">Choisir un besoin</option>
-              <option>Attestation d’hébergement</option>
               <option>Information sur une démarche</option>
+              <option>Attestation d’hébergement (information)</option>
               <option>Orientation études</option>
+              <option>Mise en relation avec un référent</option>
               <option>Autre</option>
             </select>
           </div>

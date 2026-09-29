@@ -41,7 +41,7 @@ const fr = {
     closeMenu: "Fermer le menu",
     skip: "Aller au contenu",
     ddEntraide: "Entraide",
-    ddEntraideDesc: "Attestation d’hébergement, démarches, référents",
+    ddEntraideDesc: "Informations, conseils, référents",
     ddOpportunites: "Opportunités",
     ddOpportunitesDesc: "Offres d’emploi de nos entreprises partenaires",
     ddEvenements: "Événements",
