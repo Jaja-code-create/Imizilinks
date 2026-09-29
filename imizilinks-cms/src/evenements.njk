@@ -4,7 +4,6 @@ pageKey: evenements
 permalink: /evenements/
 actif: actions
 faqKey: evenements
-schemaEvents: true
 title: "Événements de la diaspora africaine en France — Imizi Links"
 description: "Forums métiers, webinaires d’information sur les démarches d’installation, ateliers CV et soirées communautaires. Participation libre et gratuite."
 image: /img/communaute-diaspora-paris.jpg
@@ -26,6 +25,11 @@ fil:
         <h2>Les prochaines<br><span class="grad">dates à retenir.</span></h2>
         <p>Les rendez-vous en présentiel ont un nombre de places limité. Cliquez sur « S’inscrire » pour réserver la vôtre.</p>
       </div>
+      {#
+        Gabarit de carte d’événement conservé : les événements sont gérés dans /admin/
+        (Événements → src/_data/evenements.json). Dès qu’un événement y est ajouté,
+        la liste ci-dessous réapparaît automatiquement à la place du bloc « Pas d’événement ».
+      #}
       {% if evenements.length %}
       <div class="ev-list reveal">
         {% for e in evenements %}
@@ -44,7 +48,10 @@ fil:
         {% endfor %}
       </div>
       {% else %}
-      <p class="vide reveal">Aucun événement n’est programmé pour le moment. Écrivez-nous pour être prévenu·e des prochaines dates.</p>
+      <div class="vide reveal">
+        <h3 class="vide-t">Pas d’événement pour le moment</h3>
+        <p>Forums métiers, ateliers CV, webinaires d’information et rencontres : nos prochains rendez-vous seront annoncés ici prochainement.</p>
+      </div>
       {% endif %}
     </div>
   </section>
