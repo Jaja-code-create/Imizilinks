@@ -39,7 +39,7 @@
     var langue = (document.documentElement.lang || 'fr').slice(0, 2);
     var mots = langue === 'en'
       ? ['settle in', 'learn', 'move forward', 'connect', 'grow']
-      : ["s'installer", 'apprendre', 'avancer', 'se connecter', 'grandir'];
+      : ["s’installer", 'apprendre', 'avancer', 'se connecter', 'grandir'];
     var i = 0;
     setInterval(function () {
       cycle.style.opacity = 0;
@@ -153,8 +153,8 @@
   var offreSel = document.getElementById('k-offre');
   if (offreSel) {
     var enApp = (document.documentElement.lang || 'fr').slice(0, 2) === 'en';
-    var txtEmpty = enApp ? 'Select an offer below' : 'Sélectionne une offre ci-dessous';
-    var txtEmptyD = enApp ? 'Your application will be passed to this company by Imizi Links.' : 'Ta candidature sera transmise à cette entreprise par Imizi Links.';
+    var txtEmpty = enApp ? 'Select an offer below' : 'Sélectionnez une offre ci-dessous';
+    var txtEmptyD = enApp ? 'Your application will be passed to this company by Imizi Links.' : 'Votre candidature sera transmise à cette entreprise par Imizi Links.';
     var txtFilledD = enApp ? 'Application passed by Imizi Links to this company within 72 hours.' : 'Candidature transmise par Imizi Links à cette entreprise sous 72 heures.';
     var majOffre = function () {
       var opt = offreSel.options[offreSel.selectedIndex];
@@ -209,12 +209,12 @@
       mentorat:      { titre: "Mobilise your teams", sous: "Mentoring, mock interviews, career workshops: tell us how many staff could get involved and on which topics.", motif: "Mobilise my teams" },
       environnement: { titre: "Grow our solidarity forest", sous: "Find out how working with Imizi Links can help grow our Tree-Nation solidarity forest. Plantings are funded and tracked by Imizi Links, within the limit of our dedicated budget; they can be tied to a partnership or a hire.", motif: "Environmental contribution" }
     } : {
-      partenariat:   { titre: "Devenir partenaire d'Imizi Links", sous: "Dites-nous en quelques mots qui vous êtes et ce que vous avez en tête. Nous revenons vers vous sous 72 heures pour convenir d'un échange.", motif: "Devenir partenaire" },
-      action:        { titre: "Proposer une action", sous: "Un atelier, une journée de recrutement, un événement dans vos locaux, une idée à laquelle nous n'avons pas encore pensé : décrivez-la, nous en discutons.", motif: "Proposer une action" },
+      partenariat:   { titre: "Devenir partenaire d’Imizi Links", sous: "Dites-nous en quelques mots qui vous êtes et ce que vous avez en tête. Nous revenons vers vous sous 72 heures pour convenir d’un échange.", motif: "Devenir partenaire" },
+      action:        { titre: "Proposer une action", sous: "Un atelier, une journée de recrutement, un événement dans vos locaux, une idée à laquelle nous n’avons pas encore pensé : décrivez-la, nous en discutons.", motif: "Proposer une action" },
       accueil:       { titre: "Accueillir un membre de la communauté", sous: "Un stage, une alternance ou un poste à ouvrir ? Précisez le type de profil recherché, nous identifions les candidats accompagnés qui correspondent.", motif: "Accueillir un membre" },
-      offres:        { titre: "Relayer vos offres d'emploi", sous: "Vos postes diffusés auprès d'une communauté ciblée, avec des candidatures vérifiées et présentées par nos soins.", motif: "Relayer des offres" },
-      mentorat:      { titre: "Mobiliser vos équipes", sous: "Mentorat, entretiens blancs, ateliers métiers : dites-nous combien de collaborateurs pourraient s'impliquer et sur quels sujets.", motif: "Mobiliser mes équipes" },
-      environnement: { titre: "Faire grandir notre forêt solidaire d'arbres", sous: "Découvrez comment votre collaboration avec Imizi Links peut contribuer à faire grandir notre forêt solidaire Tree-Nation. Les plantations sont financées et suivies par Imizi Links, dans la limite de notre budget dédié ; elles peuvent être associées à un partenariat ou à un recrutement.", motif: "Contribution environnementale" }
+      offres:        { titre: "Relayer vos offres d’emploi", sous: "Vos postes diffusés auprès d’une communauté ciblée, avec des candidatures vérifiées et présentées par nos soins.", motif: "Relayer des offres" },
+      mentorat:      { titre: "Mobiliser vos équipes", sous: "Mentorat, entretiens blancs, ateliers métiers : dites-nous combien de collaborateurs pourraient s’impliquer et sur quels sujets.", motif: "Mobiliser mes équipes" },
+      environnement: { titre: "Faire grandir notre forêt solidaire d’arbres", sous: "Découvrez comment votre collaboration avec Imizi Links peut contribuer à faire grandir notre forêt solidaire Tree-Nation. Les plantations sont financées et suivies par Imizi Links, dans la limite de notre budget dédié ; elles peuvent être associées à un partenariat ou à un recrutement.", motif: "Contribution environnementale" }
     };
 
     var ouvrirModal = function (cle) {

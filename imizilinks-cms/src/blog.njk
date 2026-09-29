@@ -4,8 +4,8 @@ pageKey: blog
 permalink: /blog/
 actif: blog
 faqKey: blog
-title: "Guides pratiques pour s'installer en France — Blog Imizi Links"
-description: "Campus France, aide au logement CAF, sécurité sociale, compte bancaire, recherche d'emploi : des guides détaillés écrits par des membres qui ont fait les démarches."
+title: "Guides pratiques pour s’installer en France — Blog Imizi Links"
+description: "Campus France, logement étudiant, sécurité sociale, compte bancaire, recherche d’emploi : des guides détaillés écrits par des membres qui ont fait les démarches."
 image: /img/etudiants-bibliotheque.jpg
 fil:
   - nom: Accueil
@@ -14,8 +14,8 @@ fil:
     url: /blog/
 ---
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
-{{ phero("Blog & guides", "Guides pratiques pour s'installer en France",
-   "Campus France, aide au logement CAF, sécurité sociale, compte bancaire, recherche d'emploi : des guides écrits par des membres de la communauté qui ont fait les démarches.",
+{{ phero("Blog & guides", "Guides pratiques pour s’installer en France",
+   "Campus France, logement étudiant, sécurité sociale, compte bancaire, recherche d’emploi : des guides écrits par des membres de la communauté qui ont fait les démarches.",
    "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
 
 <script type="application/ld+json">
@@ -27,7 +27,7 @@ fil:
       <div class="sec-head reveal">
         <p class="slabel">Derniers articles</p>
         <h2>À lire<br><span class="grad">avant de se lancer.</span></h2>
-        <p>Chaque guide détaille une démarche précise : les pièces à réunir, l'ordre des étapes, les délais réels et les erreurs qui font perdre des semaines.</p>
+        <p>Chaque guide détaille une démarche précise : les pièces à réunir, l’ordre des étapes, les délais réels et les erreurs qui font perdre des semaines.</p>
       </div>
       <div class="blog-grid reveal">
         {% for a in collections.articles %}{{ carteArticle(a) }}{% endfor %}
@@ -36,4 +36,4 @@ fil:
   </section>
 
 {{ faqBloc("Le blog Imizi Links<br><span class='grad'>en questions.</span>", "Qui écrit les guides, à quelle fréquence ils sont mis à jour et comment proposer un sujet.", faq.blog) }}
-{{ cta("Ta place est déjà ici.", "Que tu arrives, que tu sois déjà installé·e ou que tu veuilles contribuer, il y a une porte d'entrée pour toi.", "Nous rejoindre", "/nous-rejoindre/") }}
+{{ cta("Votre place est déjà ici.", "Que vous arriviez, que vous soyez déjà installé·e ou que vous souhaitiez contribuer, il y a une porte d’entrée pour vous.", "Nous rejoindre", "/nous-rejoindre/") }}

@@ -1,15 +1,15 @@
 // ══════════════════════════════════════════════════════════════════════
-//  Traductions de l'interface (navigation, pied de page, formulaires…)
-//  et table de correspondance des URL entre le français et l'anglais.
+//  Traductions de l’interface (navigation, pied de page, formulaires…)
+//  et table de correspondance des URL entre le français et l’anglais.
 //
-//  Accès dans les gabarits : {{ t.nav.home }}  (t = i18n[lang], voir _data)
+//  Accès dans les gabarits : {{ t.nav.home }}  (t = i18n[lang], voir _data)
 //  Le contenu éditorial (articles, FAQ, offres, événements) est traduit
-//  ailleurs : voir faq.json, evenements.json, offres.json, articles-en/.
+//  ailleurs : voir faq.json, evenements.json, offres.json, articles-en/.
 // ══════════════════════════════════════════════════════════════════════
 
 // Correspondance des pages entre les deux langues.
-// key : identifiant logique de page (frontmatter `pageKey`)
-// fr / en : URL finale dans chaque langue
+// key : identifiant logique de page (frontmatter `pageKey`)
+// fr / en : URL finale dans chaque langue
 export const routes = {
   home:        { fr: "/",                  en: "/en/" },
   entraide:    { fr: "/entraide/",         en: "/en/support/" },
@@ -41,17 +41,17 @@ const fr = {
     closeMenu: "Fermer le menu",
     skip: "Aller au contenu",
     ddEntraide: "Entraide",
-    ddEntraideDesc: "Attestation d'hébergement, démarches, référents",
+    ddEntraideDesc: "Attestation d’hébergement, démarches, référents",
     ddOpportunites: "Opportunités",
-    ddOpportunitesDesc: "Offres d'emploi de nos entreprises partenaires",
+    ddOpportunitesDesc: "Offres d’emploi de nos entreprises partenaires",
     ddEvenements: "Événements",
     ddEvenementsDesc: "Forums, webinaires et rencontres",
   },
 
   footer: {
     actionsTitle: "Nos actions",
-    fEntraide: "Entraide et démarches",
-    fOffres: "Offres d'emploi",
+    fEntraide: "Entraide et informations",
+    fOffres: "Offres d’emploi",
     fEvenements: "Événements",
     fImpact: "Notre impact",
     guidesTitle: "Guides pratiques",
@@ -67,7 +67,7 @@ const fr = {
     eyebrow: "Questions fréquentes",
   },
 
-  footerDesc: "Tes racines, tes liens. La communauté d'Afrique de l'Est en France : entraide pour les démarches, offres d'emploi de nos entreprises partenaires, événements et guides pratiques.",
+  footerDesc: "Vos racines, vos liens. La communauté d’Afrique de l’Est en France : informations et entraide pour vous installer, offres d’emploi de nos entreprises partenaires, événements et guides pratiques.",
 };
 
 const en = {

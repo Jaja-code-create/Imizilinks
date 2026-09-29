@@ -6,7 +6,7 @@ actif: actions
 faqKey: evenements
 schemaEvents: true
 title: "Événements de la diaspora africaine en France — Imizi Links"
-description: "Forums métiers, webinaires sur les démarches administratives, ateliers CV et soirées communautaires. Participation libre et gratuite."
+description: "Forums métiers, webinaires d’information sur les démarches d’installation, ateliers CV et soirées communautaires. Participation libre et gratuite."
 image: /img/communaute-diaspora-paris.jpg
 fil:
   - nom: Accueil
@@ -16,7 +16,7 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("Nos actions · Événements", "Événements de la communauté",
-   "Forums métiers, webinaires sur les démarches administratives, ateliers CV et soirées communautaires. Participation libre et gratuite.",
+   "Forums métiers, webinaires d’information sur les démarches d’installation, ateliers CV et soirées communautaires. Participation libre et gratuite.",
    "/img/communaute-diaspora-paris.jpg", "Membres de la communauté Imizi Links réunis à Paris") }}
 
   <section class="sec">
@@ -24,7 +24,7 @@ fil:
       <div class="sec-head reveal">
         <p class="slabel">Agenda</p>
         <h2>Les prochaines<br><span class="grad">dates à retenir.</span></h2>
-        <p>Les rendez-vous en présentiel ont un nombre de places limité. Clique sur « S'inscrire » pour réserver la tienne.</p>
+        <p>Les rendez-vous en présentiel ont un nombre de places limité. Cliquez sur « S’inscrire » pour réserver la vôtre.</p>
       </div>
       {% if evenements.length %}
       <div class="ev-list reveal">
@@ -38,13 +38,13 @@ fil:
           </div>
           <div class="ev-side">
             <span class="ev-pill">{{ e.cat }}</span>
-            <a href="/evenements/?ev={{ e.label | urlencode }}#form" class="btn btn-outline btn-sm">S'inscrire</a>
+            <a href="/evenements/?ev={{ e.label | urlencode }}#form" class="btn btn-outline btn-sm">S’inscrire</a>
           </div>
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <p class="vide reveal">Aucun événement n'est programmé pour le moment. Écris-nous pour être prévenu·e des prochaines dates.</p>
+      <p class="vide reveal">Aucun événement n’est programmé pour le moment. Écrivez-nous pour être prévenu·e des prochaines dates.</p>
       {% endif %}
     </div>
   </section>
@@ -53,8 +53,8 @@ fil:
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="slabel">Inscription</p>
-        <h2>Réserve ta place<br><span class="grad">pour un rendez-vous.</span></h2>
-        <p>Choisis l'événement, laisse-nous tes coordonnées et nous te confirmons ta place par retour de message.</p>
+        <h2>Réservez votre place<br><span class="grad">pour un rendez-vous.</span></h2>
+        <p>Choisissez l’événement, laissez-nous vos coordonnées et nous vous confirmons votre place par retour de message.</p>
       </div>
       <div class="form-solo reveal" id="form">
         <form class="form-card" id="formEvenement" name="evenement" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/merci/">
@@ -87,12 +87,12 @@ fil:
           </div>
           <div class="fg"><label for="v-msg">Message <span class="opt">(facultatif)</span></label><textarea id="v-msg" name="message" placeholder="Une question ou une précision ?"></textarea></div>
 
-          <button type="submit" class="btn btn-primary btn-full">M'inscrire</button>
-          <p class="form-note">Pour un événement à places limitées, préviens-nous si tu ne peux plus venir : cela libère ta place.</p>
+          <button type="submit" class="btn btn-primary btn-full">M’inscrire</button>
+          <p class="form-note">Pour un événement à places limitées, prévenez-nous si vous ne pouvez plus venir : cela libère votre place.</p>
         </form>
       </div>
     </div>
   </section>
 
-{{ faqBloc("Les événements Imizi Links<br><span class='grad'>en questions.</span>", "Inscription, tarifs, villes et organisation d'un rendez-vous dans ta ville.", faq.evenements) }}
-{{ cta("Tu veux organiser un rendez-vous dans ta ville ?", "Une soirée, un atelier, une rencontre : dis-nous ce que tu as en tête et nous t'aidons à le monter.", "Nous écrire", "/nous-rejoindre/#form") }}
+{{ faqBloc("Les événements Imizi Links<br><span class='grad'>en questions.</span>", "Inscription, tarifs, villes et organisation d’un rendez-vous dans votre ville.", faq.evenements) }}
+{{ cta("Vous voulez organiser un rendez-vous dans votre ville ?", "Une soirée, un atelier, une rencontre : dites-nous ce que vous avez en tête et nous vous aidons à le monter.", "Nous écrire", "/nous-rejoindre/#form") }}

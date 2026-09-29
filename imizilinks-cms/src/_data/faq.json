@@ -1,154 +1,154 @@
 {
   "accueil": [
     {
-      "question": "Qu'est-ce qu'Imizi Links ?",
-      "reponse": "Imizi Links est une plateforme communautaire gratuite destinée aux personnes originaires d'Afrique de l'Est installées ou nouvellement arrivées en France. Elle réunit trois services : l'entraide entre membres pour les démarches d'installation, le relais d'offres d'emploi et de stage auprès d'entreprises partenaires, et l'organisation d'événements de rencontre. Un blog complète le tout avec des guides pratiques sur les démarches administratives."
+      "question": "Qu’est-ce qu’Imizi Links ?",
+      "reponse": "Imizi Links est une plateforme communautaire gratuite destinée aux personnes originaires d’Afrique de l’Est installées ou nouvellement arrivées en France. Elle réunit trois services : l’entraide entre membres pour s’informer sur les démarches d’installation, le relais d’offres d’emploi et de stage auprès d’entreprises partenaires, et l’organisation d’événements de rencontre. Un blog complète le tout avec des guides pratiques pour s’informer sur ses démarches."
     },
     {
-      "question": "À qui s'adresse Imizi Links ?",
-      "reponse": "À toute personne originaire d'Afrique de l'Est — Burundi, Rwanda, Kenya, Ouganda, Tanzanie et pays voisins — qui vit en France ou s'apprête à s'y installer : étudiants, jeunes actifs, familles, personnes en reconversion. La communauté est également ouverte à celles et ceux qui souhaitent contribuer sans être eux-mêmes concernés par l'installation."
+      "question": "À qui s’adresse Imizi Links ?",
+      "reponse": "À toute personne originaire d’Afrique de l’Est — Burundi, Rwanda, Kenya, Ouganda, Tanzanie et pays voisins — qui vit en France ou s’apprête à s’y installer : étudiants, jeunes actifs, familles, personnes en reconversion. La communauté est également ouverte à celles et ceux qui souhaitent contribuer sans être eux-mêmes concernés par l’installation."
     },
     {
-      "question": "Les services d'Imizi Links sont-ils payants ?",
-      "reponse": "Non. L'ensemble des services est gratuit : demandes d'entraide, mise en relation avec un référent, candidatures aux offres relayées, participation aux événements et accès aux guides. Imizi Links est porté par des bénévoles et ne facture jamais ses membres."
+      "question": "Les services d’Imizi Links sont-ils payants ?",
+      "reponse": "Non. L’ensemble des services est gratuit : demandes d’entraide, mise en relation avec un référent, candidatures aux offres relayées, participation aux événements et accès aux guides. Imizi Links est porté par des bénévoles et ne facture jamais ses membres."
     },
     {
       "question": "Dans quelles villes Imizi Links est-il présent ?",
-      "reponse": "Des référents bénévoles sont actifs à Paris et en Île-de-France, à Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes. Si ta ville ne figure pas dans cette liste, écris-nous : nous cherchons un relais dans ton secteur ou t'orientons vers la ville la plus proche."
+      "reponse": "Des référents bénévoles sont actifs à Paris et en Île-de-France, à Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes. Si votre ville ne figure pas dans cette liste, écrivez-nous : nous cherchons un relais dans votre secteur ou vous orientons vers la ville la plus proche."
     },
     {
       "question": "Comment rejoindre la communauté Imizi Links ?",
-      "reponse": "Chaque besoin a son formulaire dédié : la page Entraide pour une demande d'aide, la page Événements pour t'inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d'emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n'est demandée."
+      "reponse": "Chaque besoin a son formulaire dédié : la page Entraide pour une demande d’information ou d’accompagnement, la page Événements pour vous inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d’emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n’est demandée."
     },
     {
       "question": "Combien de temps faut-il pour obtenir une réponse ?",
-      "reponse": "Les demandes d'entraide reçoivent une réponse d'un référent sous 48 heures ouvrées. Les candidatures aux offres d'emploi sont transmises à l'entreprise partenaire sous 72 heures. Les autres messages sont traités sous quelques jours."
+      "reponse": "Les demandes d’entraide reçoivent une réponse d’un référent sous 48 heures ouvrées. Les candidatures aux offres d’emploi sont transmises à l’entreprise partenaire sous 72 heures. Les autres messages sont traités sous quelques jours."
     }
   ],
   "entraide": [
     {
-      "question": "Comment obtenir une attestation d'hébergement en France ?",
-      "reponse": "Une attestation d'hébergement est rédigée et signée par la personne qui te loge. Elle doit être accompagnée d'une copie de sa pièce d'identité et d'un justificatif de domicile à son nom, daté de moins de trois mois. Si tu n'as personne pour te l'établir, remplis notre formulaire d'entraide : un référent de ta ville étudie ta situation et cherche une solution avec toi."
+      "question": "Imizi Links peut-il m’informer sur l’attestation d’hébergement ?",
+      "reponse": "Une attestation d’hébergement est rédigée et signée par la personne qui vous héberge réellement. Imizi Links ne délivre pas d’attestation, mais nous vous expliquons quel document fournir, et un référent de votre ville peut vous orienter si besoin."
     },
     {
       "question": "Qui sont les référents Imizi Links ?",
-      "reponse": "Ce sont des membres de la communauté installés en France depuis plusieurs années, qui acceptent bénévolement d'être joignables pour les nouveaux arrivants de leur ville. Ils connaissent les interlocuteurs locaux — préfecture, CAF, bailleurs, universités — et orientent vers les bons contacts. Ils ne remplacent pas un travailleur social ou un avocat."
+      "reponse": "Ce sont des membres de la communauté installés en France depuis plusieurs années, qui acceptent bénévolement d’être joignables pour les nouveaux arrivants de leur ville. Ils connaissent les interlocuteurs locaux — préfecture, bailleurs, universités — et vous orientent vers les bons contacts. Ils ne font pas les démarches à votre place et ne remplacent pas un travailleur social ou un avocat."
     },
     {
-      "question": "Quelles démarches administratives faire en arrivant en France ?",
-      "reponse": "Dans l'ordre : valider ton visa long séjour en ligne dans les trois mois suivant ton arrivée, ouvrir un compte bancaire français, t'inscrire à la sécurité sociale, déclarer un médecin traitant, puis déposer ta demande d'aide au logement auprès de la CAF. Chacune de ces étapes conditionne souvent la suivante, d'où l'importance de respecter cet ordre."
+      "question": "Quelles démarches faire en arrivant en France ?",
+      "reponse": "Dans l’ordre : valider votre visa long séjour en ligne dans les trois mois suivant votre arrivée, ouvrir un compte bancaire français, vous inscrire à la sécurité sociale, puis déclarer un médecin traitant. Chacune de ces étapes conditionne souvent la suivante, d’où l’importance de respecter cet ordre."
     },
     {
-      "question": "Imizi Links peut-il m'aider à trouver un logement ?",
-      "reponse": "Nous ne sommes pas une agence immobilière et ne proposons pas de logements. En revanche, les référents partagent les bons plans locaux, les résidences fiables, les erreurs à éviter dans un dossier de location, et peuvent parfois orienter vers une solution d'hébergement temporaire le temps de trouver."
+      "question": "Imizi Links peut-il m’aider à trouver un logement ?",
+      "reponse": "Nous ne sommes pas une agence immobilière et ne proposons pas de logements. En revanche, nous vous informons sur les solutions qui existent (résidences CROUS, résidences privées, colocation, garantie Visale) et sur les arnaques à éviter, et un référent de votre ville peut partager ses conseils locaux. Consultez aussi notre guide sur le logement étudiant."
     },
     {
-      "question": "L'aide d'Imizi Links est-elle confidentielle ?",
-      "reponse": "Oui. Ta demande n'est transmise qu'au référent chargé de la traiter. Aucune information personnelle n'est publiée, revendue ni partagée avec un tiers."
+      "question": "L’aide d’Imizi Links est-elle confidentielle ?",
+      "reponse": "Oui. Votre demande n’est transmise qu’au référent chargé d’y répondre. Aucune information personnelle n’est publiée, revendue ni partagée avec un tiers."
     },
     {
-      "question": "Je viens d'arriver et je ne parle pas encore bien français, pouvez-vous m'aider ?",
-      "reponse": "Oui. Plusieurs référents parlent kirundi, kinyarwanda, swahili ou anglais et peuvent échanger avec toi dans ta langue. Précise-le simplement dans ton message."
+      "question": "Je viens d’arriver et je ne parle pas encore bien français, pouvez-vous m’aider ?",
+      "reponse": "Oui. Plusieurs référents parlent kirundi, kinyarwanda, swahili ou anglais et peuvent échanger avec vous dans votre langue. Précisez-le simplement dans votre message."
     }
   ],
   "opportunites": [
     {
       "question": "Comment candidater à une offre publiée par Imizi Links ?",
-      "reponse": "Chaque offre dispose d'un bouton « Candidater ». Il ouvre un formulaire dédié où tu déposes ton CV et ta lettre de motivation. Imizi Links reçoit ta candidature, la vérifie et la transmet directement à l'entreprise partenaire concernée. Tu n'as aucune démarche à faire auprès de l'employeur."
+      "reponse": "Chaque offre dispose d’un bouton « Candidater ». Il ouvre un formulaire dédié où vous déposez votre CV et votre lettre de motivation. Imizi Links reçoit votre candidature, la vérifie et la transmet directement à l’entreprise partenaire concernée. Vous n’avez aucune démarche à faire auprès de l’employeur."
     },
     {
       "question": "Pourquoi passer par Imizi Links plutôt que candidater directement ?",
-      "reponse": "Les offres publiées ici proviennent d'entreprises partenaires qui nous ont confié leur recrutement. Ta candidature est présentée par nos soins, ce qui lui donne davantage de visibilité qu'une candidature déposée parmi des centaines d'autres. Nous pouvons aussi te faire un retour sur ton dossier avant transmission."
+      "reponse": "Les offres publiées ici proviennent d’entreprises partenaires qui nous ont confié leur recrutement. Votre candidature est présentée par nos soins, ce qui lui donne davantage de visibilité qu’une candidature déposée parmi des centaines d’autres. Nous pouvons aussi vous faire un retour sur votre dossier avant transmission."
     },
     {
       "question": "Quels documents faut-il pour candidater ?",
-      "reponse": "Un CV à jour et une lettre de motivation, aux formats PDF, Word ou image. Si tu n'as pas encore de lettre, tu peux tout de même envoyer ton CV : nous te recontactons pour compléter le dossier."
+      "reponse": "Un CV à jour et une lettre de motivation, aux formats PDF, Word ou image. Si vous n’avez pas encore de lettre, vous pouvez tout de même envoyer votre CV : nous vous recontactons pour compléter le dossier."
     },
     {
       "question": "Les offres sont-elles ouvertes aux profils étrangers ou en cours de régularisation ?",
-      "reponse": "Chaque offre précise le niveau requis et le type de contrat. Nos entreprises partenaires sont informées que les candidats viennent de la communauté et sont habituées aux profils internationaux, y compris aux diplômes obtenus à l'étranger. Vérifie simplement que ton titre de séjour t'autorise à travailler dans les conditions prévues."
+      "reponse": "Chaque offre précise le niveau requis et le type de contrat. Nos entreprises partenaires sont informées que les candidats viennent de la communauté et sont habituées aux profils internationaux, y compris aux diplômes obtenus à l’étranger. Vérifiez simplement que votre titre de séjour vous autorise à travailler dans les conditions prévues."
     },
     {
-      "question": "Combien de temps avant d'avoir une réponse à ma candidature ?",
-      "reponse": "Nous transmettons les candidatures à l'entreprise partenaire sous 72 heures. Le délai de réponse dépend ensuite du recruteur, généralement une à trois semaines. Nous te tenons informé de l'avancement."
+      "question": "Combien de temps avant d’avoir une réponse à ma candidature ?",
+      "reponse": "Nous transmettons les candidatures à l’entreprise partenaire sous 72 heures. Le délai de réponse dépend ensuite du recruteur, généralement une à trois semaines. Nous vous tenons informé de l’avancement."
     },
     {
       "question": "Puis-je candidater à plusieurs offres en même temps ?",
-      "reponse": "Oui, sans limite. Remplis simplement un formulaire par offre pour que chaque candidature soit adressée au bon recruteur avec la bonne lettre de motivation."
+      "reponse": "Oui, sans limite. Remplissez simplement un formulaire par offre pour que chaque candidature soit adressée au bon recruteur avec la bonne lettre de motivation."
     },
     {
       "question": "Je suis une entreprise, comment publier une offre sur Imizi Links ?",
-      "reponse": "Contacte-nous à l'adresse contact@imizilinks.fr. Nous étudions chaque demande, présentons notre vivier de candidats et définissons ensemble les modalités de transmission des candidatures."
+      "reponse": "Contactez-nous à l’adresse contact@imizilinks.fr. Nous étudions chaque demande, présentons notre vivier de candidats et définissons ensemble les modalités de transmission des candidatures."
     }
   ],
   "evenements": [
     {
-      "question": "Comment s'inscrire à un événement Imizi Links ?",
-      "reponse": "Chaque événement de l'agenda dispose d'un bouton « S'inscrire ». Il ouvre le formulaire d'inscription en bas de la page Événements avec l'événement déjà sélectionné : tu renseignes ton nom et ton email, et nous te confirmons ta place par retour de message."
+      "question": "Comment s’inscrire à un événement Imizi Links ?",
+      "reponse": "Chaque événement de l’agenda dispose d’un bouton « S’inscrire ». Il ouvre le formulaire d’inscription en bas de la page Événements avec l’événement déjà sélectionné : vous renseignez votre nom et votre email, et nous vous confirmons votre place par retour de message."
     },
     {
       "question": "Les événements sont-ils payants ?",
-      "reponse": "Non, la participation est libre et gratuite pour l'ensemble des rendez-vous : forums métiers, webinaires, ateliers et soirées communautaires."
+      "reponse": "Non, la participation est libre et gratuite pour l’ensemble des rendez-vous : forums métiers, webinaires, ateliers et soirées communautaires."
     },
     {
       "question": "Faut-il être membre pour participer ?",
-      "reponse": "Non. Les événements sont ouverts à toute personne intéressée, y compris à celles qui découvrent Imizi Links. Certains rendez-vous en présentiel ont toutefois un nombre de places limité, d'où l'importance de s'inscrire à l'avance."
+      "reponse": "Non. Les événements sont ouverts à toute personne intéressée, y compris à celles qui découvrent Imizi Links. Certains rendez-vous en présentiel ont toutefois un nombre de places limité, d’où l’importance de s’inscrire à l’avance."
     },
     {
       "question": "Dans quelles villes ont lieu les événements ?",
-      "reponse": "Principalement à Paris, Lyon et Bordeaux pour les rendez-vous en présentiel. Les webinaires et ateliers en ligne sont accessibles depuis toute la France et depuis l'étranger."
+      "reponse": "Principalement à Paris, Lyon et Bordeaux pour les rendez-vous en présentiel. Les webinaires et ateliers en ligne sont accessibles depuis toute la France et depuis l’étranger."
     },
     {
       "question": "Puis-je organiser un événement Imizi Links dans ma ville ?",
-      "reponse": "Oui, et c'est encouragé. Sur la page Nous rejoindre, choisis « Organiser un événement dans ma ville » : nous t'aidons sur la logistique, la communication et la mise en relation avec les membres de ton secteur."
+      "reponse": "Oui, et c’est encouragé. Sur la page Nous rejoindre, choisissez « Organiser un événement dans ma ville » : nous vous aidons sur la logistique, la communication et la mise en relation avec les membres de votre secteur."
     },
     {
       "question": "Que se passe-t-il si je ne peux plus venir ?",
-      "reponse": "Préviens-nous par email dès que possible. Pour les événements à places limitées, cela permet de libérer ta place pour une autre personne inscrite sur liste d'attente."
+      "reponse": "Prévenez-nous par email dès que possible. Pour les événements à places limitées, cela permet de libérer votre place pour une autre personne inscrite sur liste d’attente."
     }
   ],
   "blog": [
     {
       "question": "Qui rédige les articles du blog Imizi Links ?",
-      "reponse": "Les guides sont écrits par des membres de la communauté qui ont eux-mêmes effectué les démarches décrites, parfois avec la relecture d'un référent ou d'un professionnel du domaine. L'objectif est de proposer une information vécue plutôt qu'une reformulation de texte administratif."
+      "reponse": "Les guides sont écrits par des membres de la communauté qui ont eux-mêmes effectué les démarches décrites, parfois avec la relecture d’un référent ou d’un professionnel du domaine. L’objectif est de proposer une information vécue plutôt qu’une reformulation de texte officiel."
     },
     {
       "question": "Les informations des guides sont-elles à jour ?",
-      "reponse": "Nous actualisons les guides lorsque les procédures évoluent. Les démarches administratives françaises changeant régulièrement, nous recommandons toujours de vérifier l'information sur les sites officiels avant d'engager une démarche importante."
+      "reponse": "Nous actualisons les guides lorsque les procédures évoluent. Les démarches d’installation changeant régulièrement, nous vous recommandons toujours de vérifier l’information sur les sites officiels avant d’engager une démarche importante."
     },
     {
       "question": "Quels sujets sont traités sur le blog ?",
-      "reponse": "Les démarches d'installation en France : procédure Campus France, aide au logement de la CAF, sécurité sociale, ouverture de compte bancaire, recherche d'emploi et témoignages de parcours. De nouveaux sujets sont ajoutés au fil des demandes de la communauté."
+      "reponse": "Les démarches d’installation en France : procédure Campus France, logement étudiant, sécurité sociale, ouverture de compte bancaire, recherche d’emploi et témoignages de parcours. De nouveaux sujets sont ajoutés au fil des demandes de la communauté."
     },
     {
       "question": "Puis-je proposer un article ou un sujet ?",
-      "reponse": "Oui. Si tu as effectué une démarche particulière ou que tu maîtrises un sujet utile à la communauté, rends-toi sur la page Nous rejoindre et choisis « Écrire un article ou un guide ». Nous accompagnons la rédaction si besoin."
+      "reponse": "Oui. Si vous avez effectué une démarche particulière ou maîtrisez un sujet utile à la communauté, rendez-vous sur la page Nous rejoindre et choisissez « Écrire un article ou un guide ». Nous accompagnons la rédaction si besoin."
     },
     {
       "question": "Les guides remplacent-ils un conseil juridique ou administratif ?",
-      "reponse": "Non. Ce sont des repères pratiques issus d'expériences réelles. Pour une situation complexe — refus de titre de séjour, litige avec un bailleur, contentieux professionnel — adresse-toi à un professionnel qualifié ou à une permanence juridique."
+      "reponse": "Non. Ce sont des repères pratiques issus d’expériences réelles. Pour une situation complexe — refus de titre de séjour, litige avec un bailleur, contentieux professionnel — adressez-vous à un professionnel qualifié ou à une permanence juridique."
     }
   ],
   "rejoindre": [
     {
       "question": "Quel formulaire utiliser selon ma demande ?",
-      "reponse": "Chaque besoin a son formulaire dédié, avec des champs adaptés : l'entraide sur la page Entraide, l'inscription à un événement sur la page Événements, la candidature à une offre via le bouton « Candidater » de la page Opportunités. Le formulaire de la page Nous rejoindre est réservé à celles et ceux qui veulent s'impliquer : devenir référent, écrire un guide, relire des CV, organiser un événement local ou poser une question générale."
+      "reponse": "Chaque besoin a son formulaire dédié, avec des champs adaptés : l’entraide sur la page Entraide, l’inscription à un événement sur la page Événements, la candidature à une offre via le bouton « Candidater » de la page Opportunités. Le formulaire de la page Nous rejoindre est réservé à celles et ceux qui veulent s’impliquer : devenir référent, écrire un guide, relire des CV, organiser un événement local ou poser une question générale."
     },
     {
       "question": "Que deviennent mes données personnelles ?",
-      "reponse": "Elles servent uniquement à traiter ta demande. Elles ne sont ni revendues, ni publiées, ni transmises à un tiers en dehors de la personne chargée de te répondre — ou de l'entreprise partenaire dans le cas d'une candidature à une offre d'emploi."
+      "reponse": "Elles servent uniquement à traiter votre demande. Elles ne sont ni revendues, ni publiées, ni transmises à un tiers en dehors de la personne chargée de vous répondre — ou de l’entreprise partenaire dans le cas d’une candidature à une offre d’emploi."
     },
     {
       "question": "Comment devenir référent Imizi Links dans ma ville ?",
-      "reponse": "Sur la page Nous rejoindre, choisis « Devenir référent dans ma ville ». Nous échangeons ensuite avec toi sur ta disponibilité, les sujets sur lesquels tu peux aider et la manière dont les demandes te seront transmises. Aucun engagement de durée n'est demandé."
+      "reponse": "Sur la page Nous rejoindre, choisissez « Devenir référent dans ma ville ». Nous échangeons ensuite avec vous sur votre disponibilité, les sujets sur lesquels vous pouvez aider et la manière dont les demandes vous seront transmises. Aucun engagement de durée n’est demandé."
     },
     {
       "question": "Puis-je contribuer sans être référent ?",
-      "reponse": "Oui. Tu peux écrire un guide, relire des CV, animer un atelier, relayer une offre de ton entreprise ou organiser un événement ponctuel dans ta ville. Chaque contribution compte, quel que soit le temps que tu peux y consacrer."
+      "reponse": "Oui. Vous pouvez écrire un guide, relire des CV, animer un atelier, relayer une offre de votre entreprise ou organiser un événement ponctuel dans votre ville. Chaque contribution compte, quel que soit le temps que vous pouvez y consacrer."
     },
     {
       "question": "Je représente une association ou une entreprise, comment travailler avec Imizi Links ?",
-      "reponse": "Écris-nous à contact@imizilinks.fr, ou passe par le formulaire de la page Nous rejoindre en choisissant « Relayer une offre d'emploi de mon entreprise » ou « Organiser un événement dans ma ville ». Nous collaborons avec des entreprises pour le relais d'offres d'emploi et avec des associations pour l'organisation d'événements."
+      "reponse": "Écrivez-nous à contact@imizilinks.fr, ou passez par le formulaire de la page Nous rejoindre en choisissant « Relayer une offre d’emploi de mon entreprise » ou « Organiser un événement dans ma ville ». Nous collaborons avec des entreprises pour le relais d’offres d’emploi et avec des associations pour l’organisation d’événements."
     }
   ]
 }
