@@ -231,6 +231,7 @@ collections:
           - { label: "Email principal", name: "email", widget: "string" }
           - { label: "Adresse postale", name: "adresse", widget: "string", required: false, hint: "Affichée dans le pied de page. Exemple : 66 avenue des Champs-Élysées, Lot 41, 75008 Paris" }
           - { label: "Texte du pied de page", name: "description_footer", widget: "text" }
+          - { label: "Lien de don HelloAsso", name: "don", widget: "string", required: false, hint: "Lien du formulaire de don HelloAsso (bouton « Faire un don » et pied de page)." }
           - { label: "Lien Instagram", name: "instagram", widget: "string", required: false }
           - { label: "Lien LinkedIn", name: "linkedin", widget: "string", required: false }
           - { label: "Année affichée dans le pied de page", name: "annee", widget: "number", value_type: "int" }

@@ -37,7 +37,7 @@
  "@context":"https://schema.org","@type":"Organization","@id":"{{ site.url }}/#organization",
  "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/",
  "slogan":{{ site.slogan | dump | safe }},
- "description":"Plateforme communautaire gratuite d’entraide, d’emploi et d’événements pour la diaspora d’Afrique de l’Est en France.",
+ "description":"Association d’entraide, d’emploi et d’événements pour les étudiants internationaux et les jeunes actifs en France.",
  "areaServed":{"@type":"Country","name":"France"},
  "email":{{ site.email | dump | safe }},
  "address":{"@type":"PostalAddress","streetAddress":"66 avenue des Champs-Élysées, Lot 41","postalCode":"75008","addressLocality":"Paris","addressCountry":"FR"},
@@ -197,6 +197,7 @@
         </li>
         {% endif %}
         <li><a href="{{ '/en/join-us/' if lang == 'en' else '/nous-rejoindre/' }}">{{ t.footer.join }}</a></li>
+        {% if lang == 'fr' and site.don %}<li><a href="{{ site.don }}" target="_blank" rel="noopener">Faire un don</a></li>{% endif %}
       </ul>
     </div>
   </div>

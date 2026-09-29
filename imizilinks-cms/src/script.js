@@ -207,6 +207,7 @@
       accueil:       { titre: "Welcome a community member", sous: "An internship, apprenticeship or role to open? Tell us the kind of profile you're looking for and we'll identify the supported candidates who fit.", motif: "Welcome a member" },
       offres:        { titre: "Relay your job offers", sous: "Your roles shared with a targeted community, with applications checked and presented by us.", motif: "Relay offers" },
       mentorat:      { titre: "Mobilise your teams", sous: "Mentoring, mock interviews, career workshops: tell us how many staff could get involved and on which topics.", motif: "Mobilise my teams" },
+      evenement:     { titre: "Sponsor an event", sous: "A CV workshop, a careers forum or a meet-up: tell us what you would like to support, financially or in kind.", motif: "Sponsor an event" },
       environnement: { titre: "Grow our solidarity forest", sous: "Find out how working with Imizi Links can help grow our Tree-Nation solidarity forest. Plantings are funded and tracked by Imizi Links, within the limit of our dedicated budget; they can be tied to a partnership or a hire.", motif: "Environmental contribution" }
     } : {
       partenariat:   { titre: "Devenir partenaire d’Imizi Links", sous: "Dites-nous en quelques mots qui vous êtes et ce que vous avez en tête. Nous revenons vers vous sous 72 heures pour convenir d’un échange.", motif: "Devenir partenaire" },
@@ -214,6 +215,7 @@
       accueil:       { titre: "Accueillir un membre de la communauté", sous: "Un stage, une alternance ou un poste à ouvrir ? Précisez le type de profil recherché, nous identifions les candidats accompagnés qui correspondent.", motif: "Accueillir un membre" },
       offres:        { titre: "Relayer vos offres d’emploi", sous: "Vos postes diffusés auprès d’une communauté ciblée, avec des candidatures vérifiées et présentées par nos soins.", motif: "Relayer des offres" },
       mentorat:      { titre: "Mobiliser vos équipes", sous: "Mentorat, entretiens blancs, ateliers métiers : dites-nous combien de collaborateurs pourraient s’impliquer et sur quels sujets.", motif: "Mobiliser mes équipes" },
+      evenement:     { titre: "Sponsoriser un événement", sous: "Un atelier CV, un forum métiers ou une rencontre : dites-nous ce que vous aimeriez soutenir, par un apport financier ou en nature.", motif: "Sponsoriser ou parrainer un événement" },
       environnement: { titre: "Faire grandir notre forêt solidaire d’arbres", sous: "Découvrez comment votre collaboration avec Imizi Links peut contribuer à faire grandir notre forêt solidaire Tree-Nation. Les plantations sont financées et suivies par Imizi Links, dans la limite de notre budget dédié ; elles peuvent être associées à un partenariat ou à un recrutement.", motif: "Contribution environnementale" }
     };
 
