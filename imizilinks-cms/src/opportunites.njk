@@ -4,7 +4,6 @@ pageKey: opportunites
 permalink: /opportunites/
 actif: actions
 faqKey: opportunites
-schemaOffres: true
 title: "Offres d’emploi et de stage pour la diaspora en France — Imizi Links"
 description: "Postes confiés par nos entreprises partenaires. Déposez votre CV chez Imizi Links : nous transmettons votre candidature au recruteur sous 72 heures."
 image: /img/etudiants-campus-universite.jpg
@@ -44,6 +43,11 @@ fil:
         <h2>Les postes ouverts<br><span class="grad">en ce moment.</span></h2>
         <p>Emploi, alternance et stage dans toute la France. La liste est actualisée régulièrement.</p>
       </div>
+      {#
+        Gabarit de carte d’offre conservé : les offres sont gérées dans /admin/
+        (Offres d’emploi → src/_data/offres.json). Dès qu’une offre y est ajoutée,
+        la liste ci-dessous réapparaît automatiquement à la place du bloc « Pas d’opportunités ».
+      #}
       {% if offres.length %}
       <div class="job-list reveal">
         {% for o in offres %}
@@ -63,7 +67,10 @@ fil:
         {% endfor %}
       </div>
       {% else %}
-      <p class="vide reveal">Aucune offre n’est ouverte en ce moment. Dites-nous ce que vous cherchez : nous vous signalons les postes correspondants dès leur arrivée.</p>
+      <div class="vide reveal">
+        <h3 class="vide-t">Pas d’opportunités pour le moment</h3>
+        <p>De nouvelles offres de nos entreprises partenaires seront publiées ici prochainement. Vous pouvez déjà nous envoyer votre CV : nous vous contacterons dès qu’une offre correspond à votre profil.</p>
+      </div>
       {% endif %}
     </div>
   </section>

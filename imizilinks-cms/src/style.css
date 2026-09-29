@@ -431,6 +431,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 /* ═══ État vide (aucune offre, aucun événement) ═══ */
 .vide{background:var(--fond);border:1px dashed var(--gris-l);border-radius:14px;padding:36px 32px;font-size:15.5px;line-height:1.75;color:var(--gris);text-align:center;}
+.vide-t{font-size:18px;font-weight:700;letter-spacing:-.3px;color:var(--texte);margin-bottom:8px;}
+.vide p{max-width:560px;margin:0 auto;}
 
 /* ═══ Icône SVG générique (taille fixe, réutilisable) ═══
    Le sélecteur svg.ico (plus spécifique qu'une éventuelle règle svg) + les
