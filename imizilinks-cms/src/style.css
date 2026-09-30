@@ -639,3 +639,16 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
   .page-impact .cta-band .hero-btns{flex-direction:column;align-items:center;}
   .page-impact .cta-band .hero-btns .btn{width:100%;max-width:360px;min-width:0;}
 }
+/* Grilles rééquilibrées : 5 bénéfices (3 + 2), 4 formats (2 × 2), volet social seul */
+@media(min-width:1081px){
+  .page-impact .benefit-grid{grid-template-columns:repeat(6,1fr);}
+  .page-impact .benefit-card{grid-column:span 2;}
+  .page-impact .benefit-card:nth-child(n+4){grid-column:span 3;}
+}
+.page-impact .formats{grid-template-columns:repeat(2,1fr);}
+.page-impact .formats .format{grid-column:auto;}
+.page-impact .formats>.format:last-child:nth-child(odd){grid-column:span 2;}
+@media(max-width:560px){.page-impact .formats{grid-template-columns:1fr;}.page-impact .formats>.format:last-child:nth-child(odd){grid-column:auto;}}
+.page-impact .duo-solo{grid-template-columns:1fr;max-width:760px;margin:0 auto;}
+.page-impact .duo-solo .duo-list{margin-top:0;}
+.page-impact #approche{scroll-margin-top:72px;}
