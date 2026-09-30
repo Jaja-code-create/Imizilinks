@@ -623,3 +623,19 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
   .act-grid,.blog-grid,.benefit-grid,.steps,.proc,.contact-strip,.villes{grid-template-columns:repeat(2,1fr);gap:20px;}
   .act-grid>:last-child:nth-child(odd),.blog-grid>:last-child:nth-child(odd),.benefit-grid>:last-child:nth-child(odd),.steps>:last-child:nth-child(odd),.proc>:last-child:nth-child(odd),.contact-strip>:last-child:nth-child(odd){grid-column:span 2;}
 }
+
+/* ═══ Page « Notre impact » : page allégée et aérée ═══ */
+.page-impact .phero-in p{max-width:52ch;}
+.page-impact .phero-in .hero-btns{margin-top:32px;}
+.page-impact .sec,.page-impact .cta-band{padding-top:clamp(64px,10vw,112px);padding-bottom:clamp(64px,10vw,112px);}
+.page-impact .sec-head p{max-width:62ch;margin-left:auto;margin-right:auto;}
+.page-impact .sec-head:not(.center) p{margin-left:0;}
+.page-impact .checklist{margin:22px 0 26px;}
+.page-impact .checklist li,.page-impact .mp-d,.page-impact .benefit-card p,.page-impact .duo-card>p,.page-impact .duo-item p,.page-impact .eco-mini-row p,.page-impact .step p,.page-impact .format p,.page-impact .don-cta p{font-size:16px;}
+/* Boutons des blocs centrés : groupe centré, même taille */
+.page-impact .cta-band .hero-btns{justify-content:center;gap:16px;}
+.page-impact .cta-band .hero-btns .btn{min-width:260px;min-height:54px;justify-content:center;}
+@media(max-width:640px){
+  .page-impact .cta-band .hero-btns{flex-direction:column;align-items:center;}
+  .page-impact .cta-band .hero-btns .btn{width:100%;max-width:360px;min-width:0;}
+}
