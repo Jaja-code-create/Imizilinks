@@ -5,7 +5,7 @@
   /* ═══ Barre de navigation au défilement ═══ */
   var nav = document.getElementById('nav');
   if (nav) {
-    var majNav = function () { nav.classList.toggle('scrolled', window.scrollY > 50); };
+    var majNav = function () { nav.classList.toggle('scrolled', !!nav.dataset.solid || window.scrollY > 50); };
     majNav();
     window.addEventListener('scroll', majNav);
   }

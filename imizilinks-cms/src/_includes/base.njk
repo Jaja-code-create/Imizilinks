@@ -16,11 +16,11 @@
 <meta property="og:title" content="{{ metaTitle or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}{{ image or '/img/communaute-diaspora-paris.jpg' }}">
+<meta property="og:image" content="{{ site.url }}{% if schemaArticle and image %}{{ image }}{% else %}/img/og-image.png{% endif %}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ metaTitle or title }}">
 <meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="{{ site.url }}{{ image or '/img/communaute-diaspora-paris.jpg' }}">
+<meta name="twitter:image" content="{{ site.url }}{% if schemaArticle and image %}{{ image }}{% else %}/img/og-image.png{% endif %}">
 <meta name="theme-color" content="#8C613B">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32" type="image/png">
@@ -36,6 +36,7 @@
 {
  "@context":"https://schema.org","@type":"Organization","@id":"{{ site.url }}/#organization",
  "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/",
+ "logo":"{{ site.url }}/img/logo/imizilinks-logo-couleur.png",
  "slogan":{{ site.slogan | dump | safe }},
  "description":"Association d’entraide, d’emploi et d’événements pour les étudiants internationaux et les jeunes actifs en France.",
  "areaServed":{"@type":"Country","name":"France"},
@@ -125,8 +126,11 @@
 <body>
 
 <a href="#contenu" class="skip">{{ t.nav.skip }}</a>
-<nav id="nav" aria-label="{{ t.nav.home }}">
-  <a href="{{ '/en/' if lang == 'en' else '/' }}" class="logo">Imizi<em>Links</em></a>
+<nav id="nav" aria-label="{{ t.nav.home }}"{% if navClair %} class="scrolled" data-solid="1"{% endif %}>
+  <a href="{{ '/en/' if lang == 'en' else '/' }}" class="logo">
+    <img class="logo-img logo-img--blanc" src="/img/logo/imizilinks-logo-blanc.svg" alt="ImiziLinks" width="174" height="40">
+    <img class="logo-img logo-img--couleur" src="/img/logo/imizilinks-logo-couleur.svg" alt="ImiziLinks" width="174" height="40">
+  </a>
   <div class="nav-menu" id="navMenu">
     <div class="nav-item"><a href="{{ '/en/' if lang == 'en' else '/' }}" class="nav-link{% if actif == 'accueil' %} active{% endif %}">{{ t.nav.home }}</a></div>
     <div class="nav-item" id="ddItem">
@@ -161,7 +165,7 @@
 <footer>
   <div class="ft">
     <div>
-      <div class="f-logo">Imizi<em>Links</em></div>
+      <a href="{{ '/en/' if lang == 'en' else '/' }}" class="f-logo"><img src="/img/logo/imizilinks-logo-blanc.svg" alt="ImiziLinks" width="174" height="40"></a>
       <p class="f-desc">{{ t.footerDesc }}</p>
       <div class="f-socials">
         <a href="{{ site.linkedin or '#linkedin-a-completer' }}" class="soc" aria-label="LinkedIn" rel="noopener" target="_blank">
