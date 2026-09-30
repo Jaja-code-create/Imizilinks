@@ -1,5 +1,6 @@
 ---
 title: "Chercher du travail en France : les bons réflexes"
+metaTitle: "Imizi Links : chercher du travail en France, les bons réflexes"
 categorie: "Emploi"
 description: "Format du CV, candidatures spontanées, réseau : ce qui fonctionne réellement quand on démarre."
 chapeau: "Chercher un emploi dans un pays dont on ne connaît pas les codes, c’est jouer avec un handicap qui n’a rien à voir avec la compétence. Ce guide rassemble ce qui revient le plus souvent dans les retours des membres qui ont réussi leur recherche."

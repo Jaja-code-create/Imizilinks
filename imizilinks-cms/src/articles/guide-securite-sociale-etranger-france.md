@@ -1,5 +1,6 @@
 ---
 title: "La sécurité sociale expliquée simplement"
+metaTitle: "Imizi Links : la sécurité sociale expliquée simplement"
 categorie: "Santé"
 description: "Numéro provisoire, carte Vitale, médecin traitant, mutuelle : l’ordre dans lequel s’y prendre."
 chapeau: "Le système de santé français rembourse une grande partie des soins, mais il faut y être inscrit pour en profiter. Voici les étapes, dans l’ordre, sans le jargon."

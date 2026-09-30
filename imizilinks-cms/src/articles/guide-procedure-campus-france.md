@@ -1,5 +1,6 @@
 ---
 title: "La procédure Campus France, étape par étape"
+metaTitle: "Imizi Links : la procédure Campus France, étape par étape"
 categorie: "Campus France"
 description: "Les pièces à préparer, les délais à anticiper et les erreurs qui font perdre une session entière."
 chapeau: "Campus France est le passage obligé pour la plupart des étudiants internationaux qui veulent s’inscrire dans l’enseignement supérieur français. La procédure n’est pas compliquée en soi, mais elle est longue et chaque étape a son calendrier. Voici comment l’aborder sans se faire piéger."

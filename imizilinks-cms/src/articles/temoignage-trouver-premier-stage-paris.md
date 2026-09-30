@@ -1,5 +1,6 @@
 ---
 title: "De Bujumbura à Paris : décrocher son premier stage"
+metaTitle: "Imizi Links : de Bujumbura à Paris, décrocher son premier stage"
 categorie: "Parcours"
 description: "Le récit d’une recherche de stage, des refus au premier oui, sans réseau au départ."
 chapeau: "Ce témoignage a été partagé par un membre de la communauté. Il raconte une recherche de stage en finance à Paris, menée sans contact sur place et sans repère sur les codes locaux. Il n’y a pas de recette miracle dedans, mais il y a ce qui a fini par marcher."

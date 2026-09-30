@@ -1,5 +1,6 @@
 ---
 title: "Ouvrir un compte bancaire à son arrivée"
+metaTitle: "Imizi Links : ouvrir un compte bancaire à son arrivée"
 categorie: "Banque"
 description: "Les justificatifs demandés, les banques les plus souples et ce qu’il faut refuser de signer."
 chapeau: "Sans compte bancaire français, ni un employeur ni les organismes publics ne peuvent vous verser d’argent, et beaucoup de bailleurs refusent le dossier. C’est donc l’une des toutes premières démarches à faire, avant même de chercher un logement définitif."

@@ -1,5 +1,6 @@
 ---
 title: "Getting CAF housing benefit as a foreign student"
+metaTitle: "Imizi Links: getting CAF housing benefit as a foreign student"
 categorie: "Housing"
 description: "Who is eligible, which documents to provide and how to avoid months of pointless waiting."
 chapeau: "CAF housing benefit noticeably reduces the amount of rent you pay, and many foreign students are entitled to it without knowing. The application is free and done online, but a few details make the difference between a file handled in a month and one that drags on for six."

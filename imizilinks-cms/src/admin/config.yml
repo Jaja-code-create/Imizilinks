@@ -111,6 +111,7 @@ collections:
     summary: "{{title}}"
     fields:
       - { label: "Titre", name: "title", widget: "string", hint: "C'est le titre affiché et celui que voit Google. 60 caractères maximum si possible." }
+      - { label: "Titre de partage (Google, WhatsApp, LinkedIn)", name: "metaTitle", widget: "string", required: false, hint: "Format : « Imizi Links : sujet de l'article ». Sans tiret." }
       - label: "Catégorie"
         name: "categorie"
         widget: "select"

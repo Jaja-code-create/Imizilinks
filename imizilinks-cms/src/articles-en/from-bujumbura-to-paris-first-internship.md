@@ -1,5 +1,6 @@
 ---
 title: "From Bujumbura to Paris: landing a first internship"
+metaTitle: "Imizi Links: from Bujumbura to Paris, landing a first internship"
 categorie: "Personal account"
 description: "The story of an internship search, from the rejections to the first yes, starting with no network."
 chapeau: "This account was shared by a community member. It describes a search for a finance internship in Paris, carried out with no contact on the ground and no bearings on the local codes. There's no miracle recipe in it, but there is what eventually worked."

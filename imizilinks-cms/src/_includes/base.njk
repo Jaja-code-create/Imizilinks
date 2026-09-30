@@ -3,24 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ metaTitle or title }}</title>
+{% set titrePartage = metaTitle or title %}
+<title>{{ titrePartage }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link rel="alternate" hreflang="{{ t.htmlLang }}" href="{{ site.url }}{{ page.url }}">
 {% if altUrl %}<link rel="alternate" hreflang="{{ altLang }}" href="{{ site.url }}{{ altUrl }}">{% endif %}
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="{{ site.nom }}">
-<meta property="og:type" content="{% if layout == 'article.njk' %}article{% else %}website{% endif %}">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="{{ t.localeOg }}">
+{% if altUrl %}<meta property="og:locale:alternate" content="{{ 'en_GB' if lang == 'fr' else 'fr_FR' }}">{% endif %}
 <meta property="og:site_name" content="{{ site.nom }}">
-<meta property="og:title" content="{{ metaTitle or title }}">
+<meta property="og:title" content="{{ titrePartage }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}{% if schemaArticle and image %}{{ image }}{% else %}/img/og-image.png{% endif %}">
+<meta property="og:image" content="{{ site.url }}/img/og-imizilinks.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ImiziLinks">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ metaTitle or title }}">
+<meta name="twitter:title" content="{{ titrePartage }}">
 <meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="{{ site.url }}{% if schemaArticle and image %}{{ image }}{% else %}/img/og-image.png{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}/img/og-imizilinks.png">
+<meta name="twitter:image:alt" content="ImiziLinks">
 <meta name="theme-color" content="#8C613B">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="/icon.svg">

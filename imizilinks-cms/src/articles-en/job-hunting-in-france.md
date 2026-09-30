@@ -1,5 +1,6 @@
 ---
 title: "Job hunting in France: the right reflexes"
+metaTitle: "Imizi Links: job hunting in France, the right reflexes"
 categorie: "Employment"
 description: "CV format, speculative applications, networking: what actually works when you're starting out."
 chapeau: "Looking for a job in a country whose codes you don't know means playing with a handicap that has nothing to do with skill. This guide brings together what comes up most often in the feedback from members who succeeded in their search."
