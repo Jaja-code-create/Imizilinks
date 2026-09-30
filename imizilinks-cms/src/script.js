@@ -14,9 +14,23 @@
   var burger = document.getElementById('burger');
   var navMenu = document.getElementById('navMenu');
   if (burger && navMenu) {
-    burger.addEventListener('click', function () {
-      var ouvert = navMenu.classList.toggle('open');
-      burger.setAttribute('aria-label', ouvert ? 'Fermer le menu' : 'Ouvrir le menu');
+    var basculerMenu = function (ouvrir) {
+      navMenu.classList.toggle('open', ouvrir);
+      document.body.classList.toggle('menu-open', ouvrir);
+      burger.setAttribute('aria-expanded', ouvrir ? 'true' : 'false');
+      burger.setAttribute('aria-label', ouvrir ? burger.dataset.labelClose : burger.dataset.labelOpen);
+    };
+    burger.addEventListener('click', function () { basculerMenu(!navMenu.classList.contains('open')); });
+    // Fermeture : clic sur un lien, touche Échap, clic en dehors du menu, retour en desktop
+    navMenu.addEventListener('click', function (e) { if (e.target.closest('a')) basculerMenu(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navMenu.classList.contains('open')) { basculerMenu(false); burger.focus(); }
+    });
+    document.addEventListener('click', function (e) {
+      if (navMenu.classList.contains('open') && !navMenu.contains(e.target) && !burger.contains(e.target)) basculerMenu(false);
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 820 && navMenu.classList.contains('open')) basculerMenu(false);
     });
   }
 
