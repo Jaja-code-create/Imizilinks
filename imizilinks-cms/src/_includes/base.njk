@@ -143,9 +143,9 @@
     <div class="nav-item" id="ddItem">
       <button class="nav-link{% if actif == 'actions' %} active{% endif %}" id="ddBtn" aria-haspopup="true" aria-expanded="false">{{ t.nav.actions }} <span class="caret"></span></button>
       <div class="dropdown">
-        <a href="{{ '/en/support/' if lang == 'en' else '/entraide/' }}" class="dd-link"><span class="dd-ico">🤝</span><span><span class="dd-t">{{ t.nav.ddEntraide }}</span><span class="dd-d">{{ t.nav.ddEntraideDesc }}</span></span></a>
-        <a href="{{ '/en/opportunities/' if lang == 'en' else '/opportunites/' }}" class="dd-link"><span class="dd-ico">💼</span><span><span class="dd-t">{{ t.nav.ddOpportunites }}</span><span class="dd-d">{{ t.nav.ddOpportunitesDesc }}</span></span></a>
-        <a href="{{ '/en/events/' if lang == 'en' else '/evenements/' }}" class="dd-link"><span class="dd-ico">🗓️</span><span><span class="dd-t">{{ t.nav.ddEvenements }}</span><span class="dd-d">{{ t.nav.ddEvenementsDesc }}</span></span></a>
+        <a href="{{ '/en/support/' if lang == 'en' else '/entraide/' }}" class="dd-link"><span><span class="dd-t">{{ t.nav.ddEntraide }}</span><span class="dd-d">{{ t.nav.ddEntraideDesc }}</span></span></a>
+        <a href="{{ '/en/opportunities/' if lang == 'en' else '/opportunites/' }}" class="dd-link"><span><span class="dd-t">{{ t.nav.ddOpportunites }}</span><span class="dd-d">{{ t.nav.ddOpportunitesDesc }}</span></span></a>
+        <a href="{{ '/en/events/' if lang == 'en' else '/evenements/' }}" class="dd-link"><span><span class="dd-t">{{ t.nav.ddEvenements }}</span><span class="dd-d">{{ t.nav.ddEvenementsDesc }}</span></span></a>
       </div>
     </div>
     <div class="nav-item"><a href="{{ '/en/our-impact/' if lang == 'en' else '/notre-impact/' }}" class="nav-link{% if actif == 'impact' %} active{% endif %}">{{ t.nav.impact }}</a></div>
