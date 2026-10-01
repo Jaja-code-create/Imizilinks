@@ -15,7 +15,7 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
 {{ phero("Blog & guides", "Guides pratiques pour s’installer en France",
-   "Campus France, logement étudiant, sécurité sociale, compte bancaire, recherche d’emploi : des guides écrits par des membres de la communauté qui ont fait les démarches.",
+   "Campus France, logement étudiant, sécurité sociale, compte bancaire, recherche d’emploi, des guides écrits par des membres de la communauté qui ont fait les démarches.",
    "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
 
 <script type="application/ld+json">
@@ -27,7 +27,7 @@ fil:
       <div class="sec-head reveal">
         <p class="slabel">Derniers articles</p>
         <h2>À lire<br><span class="grad">avant de se lancer.</span></h2>
-        <p>Chaque guide détaille une démarche précise : les pièces à réunir, l’ordre des étapes, les délais réels et les erreurs qui font perdre des semaines.</p>
+        <p>Chaque guide détaille une démarche précise, avec les pièces à réunir, l’ordre des étapes, les délais réels et les erreurs qui font perdre des semaines.</p>
       </div>
       <div class="blog-grid reveal">
         {% for a in collections.articles %}{{ carteArticle(a) }}{% endfor %}

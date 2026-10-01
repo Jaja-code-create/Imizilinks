@@ -14,7 +14,7 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
 {{ phero("Blog & guides", "Practical guides for settling in France",
-   "Campus France, social security, bank account, job hunting: guides written by community members who went through the procedures.",
+   "Campus France, social security, bank account, job hunting, guides written by community members who went through the procedures.",
    "/img/etudiants-bibliotheque.jpg", "Diaspora students working together in a library") }}
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ fil:
       <div class="sec-head reveal">
         <p class="slabel">Latest articles</p>
         <h2>Worth reading<br><span class="grad">before you start.</span></h2>
-        <p>Each guide details a specific procedure: the documents to gather, the order of steps, the real timelines and the mistakes that cost weeks.</p>
+        <p>Each guide details a specific procedure, with the documents to gather, the order of steps, the real timelines and the mistakes that cost weeks.</p>
       </div>
       <div class="blog-grid reveal">
         {% for a in collections.articlesEn %}{{ carteArticle(a) }}{% endfor %}
