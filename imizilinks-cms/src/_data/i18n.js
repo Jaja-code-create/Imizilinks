@@ -67,7 +67,7 @@ const fr = {
     eyebrow: "Questions fréquentes",
   },
 
-  footerDesc: "Vos racines, vos liens. La communauté d’Afrique de l’Est en France : informations et entraide pour vous installer, offres d’emploi de nos entreprises partenaires, événements et guides pratiques.",
+  footerDesc: "Vos racines, vos liens. La communauté d’Afrique de l’Est en France, avec des informations et de l’entraide pour vous installer, des offres d’emploi de nos entreprises partenaires, des événements et des guides pratiques.",
 };
 
 const en = {
@@ -114,7 +114,7 @@ const en = {
     eyebrow: "Frequently asked questions",
   },
 
-  footerDesc: "Your roots, your connections. The East African community in France: help with admin paperwork, jobs from our partner companies, events and practical guides.",
+  footerDesc: "Your roots, your connections. The East African community in France, with help for admin paperwork, jobs from our partner companies, events and practical guides.",
 };
 
 export default { fr, en };

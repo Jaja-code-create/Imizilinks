@@ -2,23 +2,23 @@
   "accueil": [
     {
       "question": "Qu’est-ce qu’Imizi Links ?",
-      "reponse": "Imizi Links est une plateforme communautaire gratuite destinée aux personnes originaires d’Afrique de l’Est installées ou nouvellement arrivées en France. Elle réunit trois services : l’entraide entre membres pour s’informer sur les démarches d’installation, le relais d’offres d’emploi et de stage auprès d’entreprises partenaires, et l’organisation d’événements de rencontre. Un blog complète le tout avec des guides pratiques pour s’informer sur ses démarches."
+      "reponse": "Imizi Links est une plateforme communautaire gratuite destinée aux personnes originaires d’Afrique de l’Est installées ou nouvellement arrivées en France. Elle réunit trois services, à savoir l’entraide entre membres pour s’informer sur les démarches d’installation, le relais d’offres d’emploi et de stage auprès d’entreprises partenaires, et l’organisation d’événements de rencontre. Un blog complète le tout avec des guides pratiques pour s’informer sur ses démarches."
     },
     {
       "question": "À qui s’adresse Imizi Links ?",
-      "reponse": "À toute personne originaire d’Afrique de l’Est — Burundi, Rwanda, Kenya, Ouganda, Tanzanie et pays voisins — qui vit en France ou s’apprête à s’y installer : étudiants, jeunes actifs, familles, personnes en reconversion. La communauté est également ouverte à celles et ceux qui souhaitent contribuer sans être eux-mêmes concernés par l’installation."
+      "reponse": "À toute personne originaire d’Afrique de l’Est (Burundi, Rwanda, Kenya, Ouganda, Tanzanie et pays voisins) qui vit en France ou s’apprête à s’y installer, qu’il s’agisse d’étudiants, de jeunes actifs, de familles ou de personnes en reconversion. La communauté est également ouverte à celles et ceux qui souhaitent contribuer sans être eux-mêmes concernés par l’installation."
     },
     {
       "question": "Les services d’Imizi Links sont-ils payants ?",
-      "reponse": "Non. L’ensemble des services est gratuit : demandes d’entraide, mise en relation avec un référent, candidatures aux offres relayées, participation aux événements et accès aux guides. Imizi Links est porté par des bénévoles et ne facture jamais ses membres."
+      "reponse": "Non. L’ensemble des services est gratuit, qu’il s’agisse des demandes d’entraide, de la mise en relation avec un référent, des candidatures aux offres relayées, de la participation aux événements ou de l’accès aux guides. Imizi Links est porté par des bénévoles et ne facture jamais ses membres."
     },
     {
       "question": "Dans quelles villes Imizi Links est-il présent ?",
-      "reponse": "Des référents bénévoles sont actifs à Paris et en Île-de-France, à Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes. Si votre ville ne figure pas dans cette liste, écrivez-nous : nous cherchons un relais dans votre secteur ou vous orientons vers la ville la plus proche."
+      "reponse": "Des référents bénévoles sont actifs à Paris et en Île-de-France, à Lyon, Bordeaux, Marseille, Lille, Toulouse et Nantes. Si votre ville ne figure pas dans cette liste, écrivez-nous, nous cherchons un relais dans votre secteur ou vous orientons vers la ville la plus proche."
     },
     {
       "question": "Comment rejoindre la communauté Imizi Links ?",
-      "reponse": "Chaque besoin a son formulaire dédié : la page Entraide pour une demande d’information ou d’accompagnement, la page Événements pour vous inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d’emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n’est demandée."
+      "reponse": "Chaque besoin a son formulaire dédié, avec la page Entraide pour une demande d’information ou d’accompagnement, la page Événements pour vous inscrire à un rendez-vous, le bouton « Candidater » de la page Opportunités pour une offre d’emploi, et la page Nous rejoindre pour devenir référent, contribuer ou poser une question générale. Aucune inscription préalable ni cotisation n’est demandée."
     },
     {
       "question": "Imizi Links peut-il m’informer sur l’attestation d’hébergement ?",
@@ -40,7 +40,7 @@
     },
     {
       "question": "Quelles démarches faire en arrivant en France ?",
-      "reponse": "Dans l’ordre : valider votre visa long séjour en ligne dans les trois mois suivant votre arrivée, ouvrir un compte bancaire français, vous inscrire à la sécurité sociale, puis déclarer un médecin traitant. Chacune de ces étapes conditionne souvent la suivante, d’où l’importance de respecter cet ordre."
+      "reponse": "Dans l’ordre, validez votre visa long séjour en ligne dans les trois mois suivant votre arrivée, ouvrez un compte bancaire français, inscrivez-vous à la sécurité sociale, puis déclarez un médecin traitant. Chacune de ces étapes conditionne souvent la suivante, d’où l’importance de respecter cet ordre."
     },
     {
       "question": "Imizi Links peut-il m’aider à trouver un logement ?",
@@ -66,7 +66,7 @@
     },
     {
       "question": "Quels documents faut-il pour candidater ?",
-      "reponse": "Un CV à jour et une lettre de motivation, aux formats PDF, Word ou image. Si vous n’avez pas encore de lettre, vous pouvez tout de même envoyer votre CV : nous vous recontactons pour compléter le dossier."
+      "reponse": "Un CV à jour et une lettre de motivation, aux formats PDF, Word ou image. Si vous n’avez pas encore de lettre, vous pouvez tout de même envoyer votre CV, nous vous recontactons pour compléter le dossier."
     },
     {
       "question": "Les offres sont-elles ouvertes aux profils étrangers ou en cours de régularisation ?",
@@ -88,11 +88,11 @@
   "evenements": [
     {
       "question": "Comment s’inscrire à un événement Imizi Links ?",
-      "reponse": "Chaque événement de l’agenda dispose d’un bouton « S’inscrire ». Il ouvre le formulaire d’inscription en bas de la page Événements avec l’événement déjà sélectionné : vous renseignez votre nom et votre email, et nous vous confirmons votre place par retour de message."
+      "reponse": "Chaque événement de l’agenda dispose d’un bouton « S’inscrire ». Il ouvre le formulaire d’inscription en bas de la page Événements avec l’événement déjà sélectionné. Vous renseignez votre nom et votre email, et nous vous confirmons votre place par retour de message."
     },
     {
       "question": "Les événements sont-ils payants ?",
-      "reponse": "Non, la participation est libre et gratuite pour l’ensemble des rendez-vous : forums métiers, webinaires, ateliers et soirées communautaires."
+      "reponse": "Non, la participation est libre et gratuite pour l’ensemble des rendez-vous, qu’il s’agisse de forums métiers, de webinaires, d’ateliers ou de soirées communautaires."
     },
     {
       "question": "Faut-il être membre pour participer ?",
@@ -104,7 +104,7 @@
     },
     {
       "question": "Puis-je organiser un événement Imizi Links dans ma ville ?",
-      "reponse": "Oui, et c’est encouragé. Sur la page Nous rejoindre, choisissez « Organiser un événement dans ma ville » : nous vous aidons sur la logistique, la communication et la mise en relation avec les membres de votre secteur."
+      "reponse": "Oui, et c’est encouragé. Sur la page Nous rejoindre, choisissez « Organiser un événement dans ma ville » et nous vous aidons sur la logistique, la communication et la mise en relation avec les membres de votre secteur."
     },
     {
       "question": "Que se passe-t-il si je ne peux plus venir ?",
@@ -122,7 +122,7 @@
     },
     {
       "question": "Quels sujets sont traités sur le blog ?",
-      "reponse": "Les démarches d’installation en France : procédure Campus France, logement étudiant, sécurité sociale, ouverture de compte bancaire, recherche d’emploi et témoignages de parcours. De nouveaux sujets sont ajoutés au fil des demandes de la communauté."
+      "reponse": "Les démarches d’installation en France, comme la procédure Campus France, le logement étudiant, la sécurité sociale, l’ouverture d’un compte bancaire et la recherche d’emploi, ainsi que des témoignages de parcours. De nouveaux sujets sont ajoutés au fil des demandes de la communauté."
     },
     {
       "question": "Puis-je proposer un article ou un sujet ?",
@@ -136,7 +136,7 @@
   "rejoindre": [
     {
       "question": "Quel formulaire utiliser selon ma demande ?",
-      "reponse": "Chaque besoin a son formulaire dédié, avec des champs adaptés : l’entraide sur la page Entraide, l’inscription à un événement sur la page Événements, la candidature à une offre via le bouton « Candidater » de la page Opportunités. Le formulaire de la page Nous rejoindre est réservé à celles et ceux qui veulent s’impliquer : devenir référent, écrire un guide, relire des CV, organiser un événement local ou poser une question générale."
+      "reponse": "Chaque besoin a son formulaire dédié, avec des champs adaptés, l’entraide sur la page Entraide, l’inscription à un événement sur la page Événements et la candidature à une offre via le bouton « Candidater » de la page Opportunités. Le formulaire de la page Nous rejoindre est réservé à celles et ceux qui veulent s’impliquer pour devenir référent, écrire un guide, relire des CV, organiser un événement local ou poser une question générale."
     },
     {
       "question": "Que deviennent mes données personnelles ?",

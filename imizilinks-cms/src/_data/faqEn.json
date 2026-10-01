@@ -2,23 +2,23 @@
   "accueil": [
     {
       "question": "What is ImiziLinks?",
-      "reponse": "ImiziLinks is a free community platform for people from East Africa who live in France or are about to move there. It brings together three services: mutual help between members for settling-in paperwork, job and internship offers passed on by partner companies, and community events. A blog rounds it off with practical guides on administrative procedures."
+      "reponse": "ImiziLinks is a free community platform for people from East Africa who live in France or are about to move there. It brings together three services, namely mutual help between members for settling-in paperwork, job and internship offers passed on by partner companies, and community events. A blog rounds it off with practical guides on administrative procedures."
     },
     {
       "question": "Who is ImiziLinks for?",
-      "reponse": "Anyone from East Africa — Burundi, Rwanda, Kenya, Uganda, Tanzania and neighbouring countries — who lives in France or is preparing to move there: students, young professionals, families, people changing careers. The community is also open to anyone who wants to help out without being concerned by settling in themselves."
+      "reponse": "Anyone from East Africa (Burundi, Rwanda, Kenya, Uganda, Tanzania and neighbouring countries) who lives in France or is preparing to move there, whether students, young professionals, families or people changing careers. The community is also open to anyone who wants to help out without being concerned by settling in themselves."
     },
     {
       "question": "Are ImiziLinks services free?",
-      "reponse": "Yes. Everything is free: help requests, being put in touch with a local contact, applying to the job offers we relay, taking part in events and reading the guides. ImiziLinks is run by volunteers and never charges its members."
+      "reponse": "Yes. Everything is free, including help requests, being put in touch with a local contact, applying to the job offers we relay, taking part in events and reading the guides. ImiziLinks is run by volunteers and never charges its members."
     },
     {
       "question": "Which cities does ImiziLinks cover?",
-      "reponse": "Volunteer local contacts are active in Paris and the Île-de-France region, and in Lyon, Bordeaux, Marseille, Lille, Toulouse and Nantes. If your city isn't on the list, write to us: we'll look for a contact in your area or point you to the nearest city."
+      "reponse": "Volunteer local contacts are active in Paris and the Île-de-France region, and in Lyon, Bordeaux, Marseille, Lille, Toulouse and Nantes. If your city isn't on the list, write to us and we'll look for a contact in your area or point you to the nearest city."
     },
     {
       "question": "How do I join the ImiziLinks community?",
-      "reponse": "Each need has its own form: the Support page for a help request, the Events page to sign up for a meet-up, the “Apply” button on the Opportunities page for a job offer, and the Join us page to become a local contact, contribute or ask a general question. No prior registration or membership fee is required."
+      "reponse": "Each need has its own form, with the Support page for a help request, the Events page to sign up for a meet-up, the “Apply” button on the Opportunities page for a job offer, and the Join us page to become a local contact, contribute or ask a general question. No prior registration or membership fee is required."
     },
     {
       "question": "How long does it take to get a reply?",
@@ -28,7 +28,7 @@
   "entraide": [
     {
       "question": "How do I get a proof of accommodation in France?",
-      "reponse": "A proof of accommodation (“attestation d'hébergement”) is written and signed by the person hosting you. It must come with a copy of their ID and a proof of address in their name, less than three months old. If you have no one to write one for you, fill in our support form: a local contact will look at your situation and work out a solution with you."
+      "reponse": "A proof of accommodation (“attestation d'hébergement”) is written and signed by the person hosting you. It must come with a copy of their ID and a proof of address in their name, less than three months old. If you have no one to write one for you, fill in our support form and a local contact will look at your situation and work out a solution with you."
     },
     {
       "question": "Who are the ImiziLinks local contacts?",
@@ -36,7 +36,7 @@
     },
     {
       "question": "What admin steps should I take when I arrive in France?",
-      "reponse": "In order: validate your long-stay visa online within three months of arriving, open a French bank account, register with social security, then declare a GP. Each step often unlocks the next one, which is why the order matters."
+      "reponse": "In order, validate your long-stay visa online within three months of arriving, open a French bank account, register with social security, then declare a GP. Each step often unlocks the next one, which is why the order matters."
     },
     {
       "question": "Can ImiziLinks help me find housing?",
@@ -62,7 +62,7 @@
     },
     {
       "question": "What documents do I need to apply?",
-      "reponse": "An up-to-date CV and a cover letter, in PDF, Word or image format. If you don't have a letter yet, you can still send your CV: we'll get back to you to complete the file."
+      "reponse": "An up-to-date CV and a cover letter, in PDF, Word or image format. If you don't have a letter yet, you can still send your CV and we'll get back to you to complete the file."
     },
     {
       "question": "Are the offers open to foreign nationals or people awaiting a residence permit?",
@@ -84,11 +84,11 @@
   "evenements": [
     {
       "question": "How do I sign up for an ImiziLinks event?",
-      "reponse": "Each event in the calendar has a “Sign up” button. It opens the registration form at the bottom of the Events page with the event already selected: you enter your name and email, and we confirm your place by return message."
+      "reponse": "Each event in the calendar has a “Sign up” button. It opens the registration form at the bottom of the Events page with the event already selected. You enter your name and email, and we confirm your place by return message."
     },
     {
       "question": "Are the events free?",
-      "reponse": "Yes, taking part is free for every event: career forums, webinars, workshops and community evenings."
+      "reponse": "Yes, taking part is free for every event, including career forums, webinars, workshops and community evenings."
     },
     {
       "question": "Do I need to be a member to take part?",
@@ -100,7 +100,7 @@
     },
     {
       "question": "Can I organise an ImiziLinks event in my city?",
-      "reponse": "Yes, and we encourage it. On the Join us page, choose “Organise an event in my city”: we help with logistics, communication and putting you in touch with members in your area."
+      "reponse": "Yes, and we encourage it. On the Join us page, choose “Organise an event in my city” and we help with logistics, communication and putting you in touch with members in your area."
     },
     {
       "question": "What if I can no longer come?",
@@ -118,7 +118,7 @@
     },
     {
       "question": "What topics does the blog cover?",
-      "reponse": "Settling-in procedures in France: the Campus France process, social security, opening a bank account, job hunting and personal accounts. New topics are added as the community asks for them."
+      "reponse": "Settling-in procedures in France, such as the Campus France process, social security, opening a bank account and job hunting, as well as personal accounts. New topics are added as the community asks for them."
     },
     {
       "question": "Can I suggest an article or a topic?",
@@ -132,7 +132,7 @@
   "rejoindre": [
     {
       "question": "Which form should I use for my request?",
-      "reponse": "Each need has its own form, with suitable fields: support on the Support page, event sign-up on the Events page, job applications via the “Apply” button on the Opportunities page. The form on the Join us page is for people who want to get involved: become a local contact, write a guide, review CVs, organise a local event or ask a general question."
+      "reponse": "Each need has its own form, with suitable fields, covering support on the Support page, event sign-up on the Events page and job applications via the “Apply” button on the Opportunities page. The form on the Join us page is for people who want to get involved, whether to become a local contact, write a guide, review CVs, organise a local event or ask a general question."
     },
     {
       "question": "What happens to my personal data?",

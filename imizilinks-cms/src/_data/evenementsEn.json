@@ -14,17 +14,17 @@
     "cat": "Cultural",
     "nom": "ImiziLinks community evening",
     "lieu": "Lyon · In person · 7 pm – 11 pm",
-    "desc": "A simple moment to meet with no agenda: food, music and conversation. Open to all members and their friends and family.",
+    "desc": "A simple moment to meet with no agenda, with food, music and conversation. Open to all members and their friends and family.",
     "label": "ImiziLinks community evening · 8 March · Lyon"
   },
   {
     "jour": "15",
     "mois": "Mar",
     "cat": "Educational",
-    "nom": "Panel: succeeding in your studies in France",
+    "nom": "Panel on succeeding in your studies in France",
     "lieu": "Bordeaux · Hybrid · 3 pm – 5 pm",
-    "desc": "Students and graduates share their journey: enrolment, study methods, funding and campus life.",
-    "label": "Panel: succeeding in your studies in France · 15 March · Bordeaux"
+    "desc": "Students and graduates share their journey, from enrolment and study methods to funding and campus life.",
+    "label": "Panel on succeeding in your studies in France · 15 March · Bordeaux"
   },
   {
     "jour": "29",
@@ -32,7 +32,7 @@
     "cat": "Professional",
     "nom": "CV and cover letter workshop",
     "lieu": "Online · 6 pm – 8 pm",
-    "desc": "A hands-on workshop in a small group: review of your CV, adapting the format to French expectations and working on your application.",
+    "desc": "A hands-on workshop in a small group to review your CV, adapt the format to French expectations and work on your application.",
     "label": "CV and cover letter workshop · 29 March · Online"
   }
 ]
