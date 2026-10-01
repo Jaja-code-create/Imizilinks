@@ -17,7 +17,7 @@ faqItems:
   - question: "How much does the Campus France process cost?"
     reponse: "Application fees are due when you submit, and the amount varies by country. On top of that come the cost of sworn translations, visa fees and, depending on the institution, enrolment fees. Check the current amounts with the Campus France office in your country."
   - question: "What if my Campus France application is refused?"
-    reponse: "A refusal from one institution doesn't block the process if you applied to several programmes. If every answer is negative, you can apply for the next intake by strengthening your file: French level, consistency of your project, more realistic programme choices."
+    reponse: "A refusal from one institution doesn't block the process if you applied to several programmes. If every answer is negative, you can apply for the next intake by strengthening your file (French level, consistency of your project, more realistic programme choices)."
   - question: "Do I need a French level to apply?"
     reponse: "Most programmes taught in French require proof of level, usually a recognised test. Some programmes are taught in English and then require proof in that language. Check the requirement for each programme before applying."
 ---
@@ -30,7 +30,7 @@ Until your Campus France file is validated, you cannot submit your long-stay stu
 
 ## The calendar to plan for
 
-The process runs over several months. The exact dates change every year, so always check the official calendar for your country on the Campus France website, but the logic stays the same:
+The process runs over several months. The exact dates change every year, so always check the official calendar for your country on the Campus France website, but the logic stays the same
 
 - **Autumn** — the platform opens for applications. This is the time to create your account and start gathering documents.
 - **Winter** — submit the complete file and choose your programmes. Don't leave it to the last week.
@@ -38,11 +38,11 @@ The process runs over several months. The exact dates change every year, so alwa
 - **Spring** — replies from institutions, then acceptance of one programme.
 - **Summer** — visa appointment at the consulate, then departure.
 
-> **The classic trap:** waiting until you have every document to create your account. Create it as soon as applications open — you can complete it as you go and you'll see exactly what's missing.
+> **The classic trap** is waiting until you have every document to create your account. Create it as soon as applications open, as you can complete it as you go and you'll see exactly what's missing.
 
 ## The documents to prepare
 
-The list varies by country and level of study, but you will always need:
+The list varies by country and level of study, but you will always need
 
 - Your valid passport
 - Your diplomas and transcripts from recent years
@@ -55,19 +55,19 @@ Sworn translations take time and are expensive. Start them first, before you eve
 
 ## Choosing your programmes well
 
-You can apply to several programmes. Don't only list highly sought-after institutions: build your list with ambitious choices, realistic choices and at least one safe option.
+You can apply to several programmes. Don't only list highly sought-after institutions, and build your list with ambitious choices, realistic choices and at least one safe option.
 
 Also look at the city. Housing costs vary enormously from one region to another, and an equivalent programme in a mid-sized city will cost you far less than in Paris.
 
 ## The interview
 
-The interview with the Campus France adviser is not an exam. The adviser wants to understand your project: why this programme, why France, and what you plan to do afterwards.
+The interview with the Campus France adviser is not an exam. The adviser wants to understand your project, that is why this programme, why France and what you plan to do afterwards.
 
 Prepare a clear answer to these three questions, and be consistent with what you wrote in your cover letters. Inconsistencies between the file and the interview are what block the most applications.
 
 ## The question of financial resources
 
-You will have to prove that you have enough resources to live in France during your studies. This proof is requested at the visa stage, but prepare it early: a bank statement, sponsorship by a guarantor, or a scholarship notification.
+You will have to prove that you have enough resources to live in France during your studies. This proof is requested at the visa stage, but prepare it early, whether it's a bank statement, sponsorship by a guarantor or a scholarship notification.
 
 > **Need help with your file?** ImiziLinks members have been through this process and can review your letter or tell you what to expect at the interview. Use the form to be put in touch.
 

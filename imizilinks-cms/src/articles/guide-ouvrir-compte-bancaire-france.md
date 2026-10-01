@@ -11,7 +11,7 @@ layout: article.njk
 ordre: 5
 faqItems:
   - question: "Peut-on ouvrir un compte bancaire en France sans titre de séjour définitif ?"
-    reponse: "Oui dans de nombreux cas : un visa long séjour validé ou un récépissé de demande de titre est fréquemment accepté. Les exigences varient d’un établissement à l’autre, il est donc utile de comparer avant de se déplacer."
+    reponse: "Oui, dans de nombreux cas, un visa long séjour validé ou un récépissé de demande de titre est fréquemment accepté. Les exigences varient d’un établissement à l’autre, il est donc utile de comparer avant de se déplacer."
   - question: "Quels justificatifs faut-il pour ouvrir un compte bancaire ?"
     reponse: "Une pièce d’identité, un titre de séjour ou visa, un justificatif de domicile en France et un justificatif de statut — certificat de scolarité, contrat de travail ou promesse d’embauche."
   - question: "Comment justifier son domicile quand on vient d’arriver ?"
@@ -19,7 +19,7 @@ faqItems:
   - question: "Que faire si toutes les banques refusent d’ouvrir un compte ?"
     reponse: "Toute personne résidant en France a droit à un compte bancaire de base. Conservez les lettres de refus et saisissez la Banque de France, qui désignera un établissement tenu de vous ouvrir un compte assorti des services essentiels."
   - question: "Une néobanque suffit-elle pour ses démarches d’installation ?"
-    reponse: "Uniquement si elle fournit un RIB français commençant par FR. Certains organismes refusent les identifiants bancaires étrangers pour le versement de prestations ou de salaires : vérifiez ce point avant de vous engager."
+    reponse: "Uniquement si elle fournit un RIB français commençant par FR. Certains organismes refusent les identifiants bancaires étrangers pour le versement de prestations ou de salaires, vérifiez donc ce point avant de vous engager."
 ---
 
 ## Les justificatifs habituellement demandés
@@ -27,13 +27,13 @@ faqItems:
 - Une pièce d’identité en cours de validité, généralement votre passeport
 - Votre titre de séjour ou votre visa
 - Un justificatif de domicile en France
-- Un justificatif de statut : certificat de scolarité, contrat de travail ou promesse d’embauche
+- Un justificatif de statut, comme un certificat de scolarité, un contrat de travail ou une promesse d’embauche
 
-> **Le cercle vicieux du justificatif de domicile :** la banque le demande, mais beaucoup de bailleurs demandent un RIB. Solutions courantes : une attestation d’hébergement signée par la personne qui vous héberge, accompagnée de sa pièce d’identité et d’une de ses factures ; ou une attestation de résidence universitaire. Pour la recherche de logement elle-même, consultez notre [guide du logement étudiant](/blog/guide-logement-etudiant-etranger-france/).
+> **Attention au cercle vicieux du justificatif de domicile.** La banque le demande, mais beaucoup de bailleurs demandent un RIB. Parmi les solutions courantes, une attestation d’hébergement signée par la personne qui vous héberge, accompagnée de sa pièce d’identité et d’une de ses factures, ou une attestation de résidence universitaire. Pour la recherche de logement elle-même, consultez notre [guide du logement étudiant](/blog/guide-logement-etudiant-etranger-france/).
 
 ## Quelle banque choisir
 
-Trois familles d’options, avec des logiques différentes :
+Trois familles d’options, avec des logiques différentes
 
 - **Les banques traditionnelles** — agence physique, conseiller dédié, utile quand on a des démarches complexes. Souvent plus exigeantes sur les justificatifs et plus chères.
 - **Les banques en ligne** — moins chères, ouverture rapide, mais tout se règle à distance et les justificatifs doivent être irréprochables.
@@ -43,7 +43,7 @@ Beaucoup d’établissements proposent des offres dédiées aux étudiants ou au
 
 ## Le rendez-vous d’ouverture
 
-Prenez rendez-vous plutôt que de passer sans prévenir : le dossier se traite en une fois. Apportez les originaux et des copies de chaque document.
+Prenez rendez-vous plutôt que de passer sans prévenir, le dossier se traite ainsi en une fois. Apportez les originaux et des copies de chaque document.
 
 Le conseiller vous proposera des services additionnels. Vous n’êtes obligé d’accepter aucun d’entre eux pour ouvrir un compte.
 

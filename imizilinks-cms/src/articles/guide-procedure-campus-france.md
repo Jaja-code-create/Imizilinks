@@ -17,20 +17,20 @@ faqItems:
   - question: "Combien coûte la procédure Campus France ?"
     reponse: "Des frais de dossier sont dus au moment du dépôt, leur montant variant selon le pays. S’y ajoutent le coût des traductions assermentées, les frais de visa et, selon l’établissement, des frais d’inscription. Vérifiez les montants en vigueur auprès de l’espace Campus France de votre pays."
   - question: "Que faire si ma candidature Campus France est refusée ?"
-    reponse: "Un refus d’un établissement ne bloque pas la procédure si vous avez postulé à plusieurs formations. Si toutes les réponses sont négatives, vous pouvez candidater à la session suivante en renforçant votre dossier : niveau de français, cohérence du projet, choix de formations plus réalistes."
+    reponse: "Un refus d’un établissement ne bloque pas la procédure si vous avez postulé à plusieurs formations. Si toutes les réponses sont négatives, vous pouvez candidater à la session suivante en renforçant votre dossier (niveau de français, cohérence du projet, choix de formations plus réalistes)."
   - question: "Faut-il un niveau de français pour candidater ?"
     reponse: "La plupart des formations enseignées en français demandent un justificatif de niveau, généralement un test reconnu. Certaines formations sont dispensées en anglais et demandent alors un justificatif dans cette langue. Vérifiez l’exigence propre à chaque formation avant de candidater."
 ---
 
 ## À quoi sert Campus France exactement
 
-Campus France centralise les candidatures des étudiants étrangers vers les établissements français, puis transmet votre dossier au consulat pour la demande de visa étudiant. Autrement dit : c’est à la fois votre plateforme de candidature et la première étape de votre visa.
+Campus France centralise les candidatures des étudiants étrangers vers les établissements français, puis transmet votre dossier au consulat pour la demande de visa étudiant. Autrement dit, c’est à la fois votre plateforme de candidature et la première étape de votre visa.
 
 Tant que votre dossier Campus France n’est pas validé, vous ne pouvez pas déposer votre demande de visa long séjour pour études. C’est pour ça que les retards à cette étape ont un effet domino sur tout le reste.
 
 ## Le calendrier à anticiper
 
-La procédure s’étale sur plusieurs mois. Les dates précises changent chaque année, donc vérifiez toujours le calendrier officiel de votre pays sur le site Campus France, mais la logique reste la même :
+La procédure s’étale sur plusieurs mois. Les dates précises changent chaque année, donc vérifiez toujours le calendrier officiel de votre pays sur le site Campus France, mais la logique reste la même
 
 - **Automne** — ouverture des inscriptions sur la plateforme. C’est le moment de créer votre compte et de commencer à rassembler les pièces.
 - **Hiver** — dépôt du dossier complet et choix des formations. Ne vous y prenez pas la dernière semaine.
@@ -38,11 +38,11 @@ La procédure s’étale sur plusieurs mois. Les dates précises changent chaque
 - **Printemps** — réponses des établissements, puis acceptation d’une formation.
 - **Été** — rendez-vous visa au consulat, puis départ.
 
-> **Le piège classique :** attendre d’avoir toutes les pièces pour créer son compte. Créez-le dès l’ouverture : vous pourrez compléter au fur et à mesure et vous verrez exactement ce qui manque.
+> **Le piège classique** consiste à attendre d’avoir toutes les pièces pour créer son compte. Créez-le dès l’ouverture, vous pourrez compléter au fur et à mesure et vous verrez exactement ce qui manque.
 
 ## Les pièces à préparer
 
-La liste varie selon votre pays et votre niveau d’études, mais vous aurez systématiquement besoin de :
+La liste varie selon votre pays et votre niveau d’études, mais vous aurez systématiquement besoin de
 
 - Votre passeport en cours de validité
 - Vos diplômes et relevés de notes des dernières années
@@ -55,19 +55,19 @@ Les traductions assermentées prennent du temps et coûtent cher. Lancez-les en 
 
 ## Bien choisir ses formations
 
-Vous pouvez candidater à plusieurs formations. Ne visez pas uniquement des établissements très demandés : construisez votre liste avec des choix ambitieux, des choix réalistes et au moins une option de sécurité.
+Vous pouvez candidater à plusieurs formations. Ne visez pas uniquement des établissements très demandés, et construisez votre liste avec des choix ambitieux, des choix réalistes et au moins une option de sécurité.
 
 Regardez aussi la ville. Le coût du logement varie énormément d’une région à l’autre, et une formation équivalente dans une ville moyenne vous coûtera bien moins cher qu’à Paris. Pour préparer cette étape, consultez notre [guide du logement étudiant](/blog/guide-logement-etudiant-etranger-france/).
 
 ## L’entretien
 
-L’entretien avec le conseiller Campus France n’est pas un examen. Le conseiller veut comprendre votre projet : pourquoi cette formation, pourquoi la France, et ce que vous comptez faire après.
+L’entretien avec le conseiller Campus France n’est pas un examen. Le conseiller veut comprendre votre projet, c’est-à-dire pourquoi cette formation, pourquoi la France et ce que vous comptez faire après.
 
 Préparez une réponse claire à ces trois questions, et restez cohérent avec ce que vous avez écrit dans vos lettres de motivation. Les incohérences entre le dossier et l’entretien sont ce qui bloque le plus de candidatures.
 
 ## La question des ressources financières
 
-Vous devrez prouver que vous disposez de ressources suffisantes pour vivre en France pendant vos études. Ce justificatif est demandé au moment du visa, mais préparez-le en amont : attestation bancaire, prise en charge par un garant, ou notification de bourse.
+Vous devrez prouver que vous disposez de ressources suffisantes pour vivre en France pendant vos études. Ce justificatif est demandé au moment du visa, mais préparez-le en amont, qu’il s’agisse d’une attestation bancaire, d’une prise en charge par un garant ou d’une notification de bourse.
 
 > **Besoin d’un avis sur votre dossier ?** Des membres d’Imizi Links sont passés par cette procédure et peuvent relire votre lettre ou vous dire à quoi vous attendre à l’entretien. Utilisez le formulaire pour être mis en relation.
 

@@ -2,7 +2,7 @@
 title: "French social security, simply explained"
 metaTitle: "Imizi Links: French social security, simply explained"
 categorie: "Health"
-description: "Temporary number, Carte Vitale, GP, top-up insurance: the order in which to go about it."
+description: "The order in which to go about it, from the temporary number to the Carte Vitale, a GP and top-up insurance."
 chapeau: "The French health system reimburses a large part of care, but you have to be registered to benefit from it. Here are the steps, in order, without the jargon."
 image: "/img/etudiants-campus-universite.jpg"
 duree: "7 min read"
@@ -15,7 +15,7 @@ faqItems:
   - question: "How long does it take to get a Carte Vitale?"
     reponse: "The card is requested after the permanent social security number is assigned, and the overall time is often several months. Care paid for before you receive it is still reimbursable on presentation of the paper care forms."
   - question: "Is top-up health insurance compulsory in France?"
-    reponse: "It isn't compulsory for individuals, but it's strongly advised: social security only covers part of the cost, especially for optical, dental and hospital care. Employees get a top-up scheme offered by their employer."
+    reponse: "It isn't compulsory for individuals, but it's strongly advised, as social security only covers part of the cost, especially for optical, dental and hospital care. Employees get a top-up scheme offered by their employer."
   - question: "Can you get medical care without a Carte Vitale?"
     reponse: "Yes. You pay for the consultation, the professional gives you a paper care form, and you're reimbursed after sending it to your fund. Hospital emergency services treat everyone with no prior condition."
   - question: "What is a médecin traitant and why declare one?"
@@ -30,7 +30,7 @@ Social security reimburses part of your health costs. A top-up scheme, called a 
 
 If you're an international student, registration is done online on the site for foreign students. If you're coming to work, your employer triggers the affiliation, but you still have to complete your file.
 
-The documents usually required:
+The documents usually required
 
 - An ID document or your passport
 - Your validated residence permit or visa
@@ -42,13 +42,13 @@ The documents usually required:
 
 ## Step 2 — The temporary number, then the permanent one
 
-You first receive a temporary number, which already lets you be reimbursed. The permanent number, with fifteen digits, comes next. Don't worry about the delay: care paid for in between is reimbursed retroactively.
+You first receive a temporary number, which already lets you be reimbursed. The permanent number, with fifteen digits, comes next. Don't worry about the delay, as care paid for in between is reimbursed retroactively.
 
 ## Step 3 — The Carte Vitale
 
 The Carte Vitale is requested once the permanent number is assigned, from your Ameli account. It saves you from paying up front at most professionals.
 
-While you wait to receive it, keep all your paper care forms: they let you be reimbursed afterwards.
+While you wait to receive it, keep all your paper care forms, which let you be reimbursed afterwards.
 
 ## Step 4 — Declare a GP (médecin traitant)
 
@@ -70,7 +70,7 @@ Hospital emergency services turn no one away. You'll get a bill, but it can be a
 
 ## Good habits
 
-- Create your Ameli account as soon as you have your number: everything is tracked there.
+- Create your Ameli account as soon as you have your number, as everything is tracked there.
 - Keep all supporting documents for at least two years.
 - Report any change of address or situation.
 

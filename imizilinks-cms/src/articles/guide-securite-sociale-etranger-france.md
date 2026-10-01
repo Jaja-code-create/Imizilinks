@@ -2,7 +2,7 @@
 title: "La sécurité sociale expliquée simplement"
 metaTitle: "Imizi Links : la sécurité sociale expliquée simplement"
 categorie: "Santé"
-description: "Numéro provisoire, carte Vitale, médecin traitant, mutuelle : l’ordre dans lequel s’y prendre."
+description: "L’ordre dans lequel s’y prendre, du numéro provisoire à la carte Vitale, au médecin traitant et à la mutuelle."
 chapeau: "Le système de santé français rembourse une grande partie des soins, mais il faut y être inscrit pour en profiter. Voici les étapes, dans l’ordre, sans le jargon."
 image: "/img/etudiants-campus-universite.jpg"
 duree: "Lecture 7 min"
@@ -15,7 +15,7 @@ faqItems:
   - question: "Combien de temps pour obtenir sa carte Vitale ?"
     reponse: "La carte se demande après attribution du numéro définitif de sécurité sociale, et le délai global se compte souvent en plusieurs mois. Les soins engagés avant sa réception restent remboursables sur présentation des feuilles de soins."
   - question: "Faut-il obligatoirement une mutuelle en France ?"
-    reponse: "Ce n’est pas obligatoire pour les particuliers, mais fortement conseillé : la sécurité sociale ne couvre qu’une partie des frais, en particulier pour l’optique, le dentaire et l’hospitalisation. Les salariés bénéficient d’une mutuelle proposée par leur employeur."
+    reponse: "Ce n’est pas obligatoire pour les particuliers, mais fortement conseillé, car la sécurité sociale ne couvre qu’une partie des frais, en particulier pour l’optique, le dentaire et l’hospitalisation. Les salariés bénéficient d’une mutuelle proposée par leur employeur."
   - question: "Peut-on se faire soigner sans carte Vitale ?"
     reponse: "Oui. Vous réglez la consultation, le professionnel vous remet une feuille de soins, et vous êtes remboursé après envoi à votre caisse. Les services d’urgence hospitaliers, eux, prennent en charge tout le monde sans condition préalable."
   - question: "Qu’est-ce qu’un médecin traitant et pourquoi le déclarer ?"
@@ -30,7 +30,7 @@ La sécurité sociale rembourse une partie de vos frais de santé. Une compléme
 
 Si vous êtes étudiant international, l’inscription se fait en ligne sur le site dédié aux étudiants étrangers. Si vous venez travailler, c’est votre employeur qui déclenche l’affiliation, mais vous devez quand même compléter votre dossier.
 
-Les pièces habituellement demandées :
+Les pièces habituellement demandées
 
 - Une pièce d’identité ou votre passeport
 - Votre titre de séjour ou visa validé
@@ -42,13 +42,13 @@ Les pièces habituellement demandées :
 
 ## Étape 2 — Le numéro provisoire, puis définitif
 
-Vous recevez d’abord un numéro provisoire, qui permet déjà d’être remboursé. Le numéro définitif, à quinze chiffres, arrive ensuite. Ne vous inquiétez pas du délai : les soins engagés entre-temps sont remboursés rétroactivement.
+Vous recevez d’abord un numéro provisoire, qui permet déjà d’être remboursé. Le numéro définitif, à quinze chiffres, arrive ensuite. Ne vous inquiétez pas du délai, les soins engagés entre-temps sont remboursés rétroactivement.
 
 ## Étape 3 — La carte Vitale
 
 La carte Vitale se demande une fois le numéro définitif attribué, depuis votre compte Ameli. Elle évite d’avancer les frais chez la plupart des professionnels.
 
-En attendant de la recevoir, gardez toutes vos feuilles de soins papier : elles vous permettent de vous faire rembourser après coup.
+En attendant de la recevoir, gardez toutes vos feuilles de soins papier, qui vous permettent de vous faire rembourser après coup.
 
 ## Étape 4 — Déclarer un médecin traitant
 
@@ -70,7 +70,7 @@ Les services d’urgence hospitaliers ne refusent personne. Vous recevrez une fa
 
 ## Les bons réflexes
 
-- Créez votre compte Ameli dès que vous avez votre numéro : tout s’y suit.
+- Créez votre compte Ameli dès que vous avez votre numéro, tout s’y suit.
 - Conservez tous les justificatifs pendant au moins deux ans.
 - Signalez tout changement d’adresse ou de situation.
 

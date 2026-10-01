@@ -1,5 +1,5 @@
 ---
-title: "De Bujumbura à Paris : décrocher son premier stage"
+title: "De Bujumbura à Paris, décrocher son premier stage"
 metaTitle: "Imizi Links : de Bujumbura à Paris, décrocher son premier stage"
 categorie: "Parcours"
 description: "Le récit d’une recherche de stage, des refus au premier oui, sans réseau au départ."
@@ -13,38 +13,38 @@ faqItems:
   - question: "Un étudiant étranger peut-il faire un stage en France ?"
     reponse: "Oui. Un stage effectué dans le cadre d’un cursus donne lieu à une convention tripartite entre l’étudiant, l’établissement et l’entreprise. Vérifiez que votre titre de séjour couvre la période du stage."
   - question: "Comment trouver un stage sans réseau en France ?"
-    reponse: "En combinant trois canaux : les plateformes d’annonces, les candidatures spontanées ciblées vers une dizaine d’entreprises, et surtout les rencontres — forums métiers, anciens de votre formation, réseaux communautaires. Une part importante des stages se pourvoit sans annonce publiée."
+    reponse: "En combinant trois canaux, les plateformes d’annonces, les candidatures spontanées ciblées vers une dizaine d’entreprises et surtout les rencontres (forums métiers, anciens de votre formation, réseaux communautaires). Une part importante des stages se pourvoit sans annonce publiée."
   - question: "Un stage est-il rémunéré en France ?"
     reponse: "Au-delà d’une certaine durée sur une même année, une gratification minimale est obligatoire. En deçà, elle reste facultative. Le montant exact est fixé par la réglementation en vigueur et figure dans la convention de stage."
   - question: "Faut-il mettre une photo sur son CV en France ?"
     reponse: "Ce n’est pas obligatoire et la tendance est plutôt à s’en passer, notamment pour limiter les biais de recrutement. Concentrez l’espace disponible sur vos résultats et vos compétences."
 ---
 
-## Les premières semaines : le mur
+## Les premières semaines, le mur
 
 « J’ai envoyé une cinquantaine de candidatures en un mois. Aucune réponse. Pas un refus, pas un accusé de réception. J’ai d’abord cru que mon profil ne valait rien. »
 
 Le problème n’était pas le profil. C’était le format. Un CV construit selon les habitudes d’un autre pays, une lettre de motivation trop longue, et surtout des candidatures envoyées en masse sans adapter quoi que ce soit.
 
-## Ce qui a changé : le CV
+## Ce qui a changé, le CV
 
-En France, le CV tient sur une page pour un profil junior. Pas de photo obligatoire, pas d’informations personnelles superflues, et surtout : des résultats plutôt que des descriptions de poste.
+En France, le CV tient sur une page pour un profil junior. Pas de photo obligatoire, pas d’informations personnelles superflues, et surtout des résultats plutôt que des descriptions de poste.
 
 - « Responsable du suivi budgétaire » devient « Suivi d’un budget de 40 000 € sur 12 mois, écarts réduits de 15 % »
 - Les expériences associatives et les projets universitaires comptent quand on n’a pas encore d’expérience professionnelle
 - Le niveau de langue s’indique clairement, avec le test si vous en avez un
 
-> **À retenir :** un recruteur passe quelques dizaines de secondes sur un CV au premier tri. S’il doit chercher l’information, il passe au suivant.
+> **À retenir.** Un recruteur passe quelques dizaines de secondes sur un CV au premier tri. S’il doit chercher l’information, il passe au suivant.
 
 ## La lettre de motivation qui a fonctionné
 
 « J’ai arrêté d’écrire des lettres qui parlaient de moi. J’ai commencé à écrire des lettres qui parlaient de l’entreprise. »
 
-Trois paragraphes courts : pourquoi cette entreprise précisément, ce que vous savez faire qui répond à leur besoin, et ce que vous voulez apprendre chez eux. Le reste est du remplissage.
+Trois paragraphes courts suffisent, pour dire pourquoi cette entreprise précisément, ce que vous savez faire qui répond à leur besoin et ce que vous voulez apprendre chez eux. Le reste est du remplissage.
 
 ## Le réseau quand on n’en a pas
 
-C’est le point qui semble impossible quand on arrive. Pourtant, il se construit vite :
+C’est le point qui semble impossible quand on arrive. Pourtant, il se construit vite
 
 - **Les anciens de votre formation** — même si vous ne les connaissez pas, un message poli mentionnant l’école obtient souvent une réponse.
 - **Les communautés** — les groupes de diaspora comme Imizi Links relaient des offres et mettent en relation avec des gens du secteur.
@@ -54,9 +54,9 @@ C’est le point qui semble impossible quand on arrive. Pourtant, il se construi
 
 ## L’entretien
 
-Deux préparations différentes : le fond et la forme. Le fond, c’est connaître l’entreprise, ses concurrents et ses enjeux du moment. La forme, c’est savoir raconter son parcours en deux minutes, de manière fluide.
+Il y a deux préparations différentes, le fond et la forme. Le fond, c’est connaître l’entreprise, ses concurrents et ses enjeux du moment. La forme, c’est savoir raconter son parcours en deux minutes, de manière fluide.
 
-Sur la question du parcours à l’étranger : elle vient presque toujours. Elle n’est pas hostile. Répondez simplement, mettez en avant l’adaptabilité et les langues, et enchaînez sur ce que vous voulez construire ici.
+La question du parcours à l’étranger vient presque toujours. Elle n’est pas hostile. Répondez simplement, mettez en avant l’adaptabilité et les langues, et enchaînez sur ce que vous voulez construire ici.
 
 ## Ce qu’il retient
 

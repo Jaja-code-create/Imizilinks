@@ -2,7 +2,7 @@
 title: "Trouver un logement étudiant en France quand on est étudiant international"
 metaTitle: "Imizi Links : trouver un logement étudiant en France"
 categorie: "Logement"
-description: "CROUS, résidences privées, colocation, garantie Visale : les solutions pour trouver un logement étudiant en France et les arnaques à éviter."
+description: "Les solutions pour trouver un logement étudiant en France (CROUS, résidences privées, colocation, garantie Visale) et les arnaques à éviter."
 chapeau: "Le logement est souvent la première démarche d’un étudiant international, et la plus stressante. Beaucoup de propriétaires demandent un garant en France, des justificatifs de revenus, parfois un compte bancaire français. Voici les solutions qui fonctionnent réellement, dans l’ordre où nous vous conseillons de les explorer."
 image: "/img/etudiants-campus-universite.jpg"
 imageAlt: "Étudiants internationaux échangeant devant leur université en France"
@@ -36,7 +36,7 @@ Dès que votre admission est confirmée, idéalement deux à trois mois avant vo
 
 ## Les résidences universitaires du CROUS
 
-Ce sont les logements parmi les moins chers pour les étudiants. La demande se fait en ligne sur [messervices.etudiant.gouv.fr](https://www.messervices.etudiant.gouv.fr/). Les places sont limitées et les étudiants boursiers sont prioritaires, mais il est utile de déposer une demande quand même. Renseignez-vous aussi auprès du service des relations internationales de votre établissement : certaines universités et écoles réservent des chambres à leurs étudiants internationaux.
+Ce sont les logements parmi les moins chers pour les étudiants. La demande se fait en ligne sur [messervices.etudiant.gouv.fr](https://www.messervices.etudiant.gouv.fr/). Les places sont limitées et les étudiants boursiers sont prioritaires, mais il est utile de déposer une demande quand même. Renseignez-vous aussi auprès du service des relations internationales de votre établissement, car certaines universités et écoles réservent des chambres à leurs étudiants internationaux.
 
 ## Les résidences étudiantes privées
 
@@ -44,15 +44,15 @@ Elles sont plus chères, mais souvent plus faciles à obtenir depuis l’étrang
 
 ## La colocation et la location chez un particulier
 
-La colocation permet de partager les frais et de vivre dans des quartiers plus centraux. Pour un séjour court (stage, semestre d’échange), le bail mobilité est une bonne option : il dure de 1 à 10 mois et le propriétaire ne peut pas demander de dépôt de garantie.
+La colocation permet de partager les frais et de vivre dans des quartiers plus centraux. Pour un séjour court (stage, semestre d’échange), le bail mobilité est une bonne option. Il dure de 1 à 10 mois et le propriétaire ne peut pas demander de dépôt de garantie.
 
 ## Trouver un garant avec la garantie Visale
 
-C’est souvent le principal blocage : la plupart des propriétaires demandent un garant qui vit en France. La garantie Visale, proposée gratuitement par Action Logement, peut jouer ce rôle pour les étudiants, sous conditions. Faites la demande sur [visale.fr](https://www.visale.fr/) avant de chercher : vous obtenez un certificat à joindre à vos dossiers de location, ce qui rassure les propriétaires. Vérifiez votre éligibilité directement sur le site.
+C’est souvent le principal blocage, car la plupart des propriétaires demandent un garant qui vit en France. La garantie Visale, proposée gratuitement par Action Logement, peut jouer ce rôle pour les étudiants, sous conditions. Faites la demande sur [visale.fr](https://www.visale.fr/) avant de chercher. Vous obtenez un certificat à joindre à vos dossiers de location, ce qui rassure les propriétaires. Vérifiez votre éligibilité directement sur le site.
 
 ## Les documents à préparer
 
-Préparez un dossier complet en version numérique :
+Préparez un dossier complet en version numérique
 
 - passeport ou pièce d’identité ;
 - visa ou titre de séjour ;
@@ -64,20 +64,20 @@ Un dossier complet, envoyé rapidement, fait souvent la différence.
 
 ## Les arnaques au logement à éviter
 
-Les étudiants qui cherchent depuis l’étranger sont une cible fréquente. Soyez vigilant si :
+Les étudiants qui cherchent depuis l’étranger sont une cible fréquente. Soyez vigilant si
 
 - on vous demande de payer avant d’avoir visité le logement ou signé un bail ;
 - le loyer est nettement plus bas que les prix du quartier ;
 - le propriétaire dit vivre à l’étranger et propose d’envoyer les clés par courrier ;
 - on vous demande un paiement par mandat cash ou par une plateforme de transfert d’argent.
 
-Si vous ne pouvez pas visiter, demandez une visite en visio ou faites visiter le logement par une personne de confiance. Bon à savoir : pour une location vide, le dépôt de garantie ne peut pas dépasser un mois de loyer hors charges, et deux mois pour une location meublée.
+Si vous ne pouvez pas visiter, demandez une visite en visio ou faites visiter le logement par une personne de confiance. Bon à savoir, pour une location vide, le dépôt de garantie ne peut pas dépasser un mois de loyer hors charges, et deux mois pour une location meublée.
 
 ## Une fois le logement trouvé
 
 - Faites un état des lieux d’entrée détaillé, avec des photos.
-- Souscrivez une assurance habitation : elle est obligatoire pour le locataire.
-- Conservez votre bail : il vous servira de justificatif de domicile pour vos autres démarches, par exemple pour [ouvrir un compte bancaire](/blog/guide-ouvrir-compte-bancaire-france/).
+- Souscrivez une assurance habitation, obligatoire pour le locataire.
+- Conservez votre bail, qui vous servira de justificatif de domicile pour vos autres démarches, par exemple pour [ouvrir un compte bancaire](/blog/guide-ouvrir-compte-bancaire-france/).
 
 > **Besoin d’un avis sur votre recherche de logement ?**
 >
