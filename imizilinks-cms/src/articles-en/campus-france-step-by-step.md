@@ -32,11 +32,11 @@ Until your Campus France file is validated, you cannot submit your long-stay stu
 
 The process runs over several months. The exact dates change every year, so always check the official calendar for your country on the Campus France website, but the logic stays the same
 
-- **Autumn** — the platform opens for applications. This is the time to create your account and start gathering documents.
-- **Winter** — submit the complete file and choose your programmes. Don't leave it to the last week.
-- **Late winter / early spring** — interview with a Campus France adviser in your country.
-- **Spring** — replies from institutions, then acceptance of one programme.
-- **Summer** — visa appointment at the consulate, then departure.
+- **Autumn**, the platform opens for applications. This is the time to create your account and start gathering documents.
+- **Winter**, submit the complete file and choose your programmes. Don't leave it to the last week.
+- **Late winter / early spring**, interview with a Campus France adviser in your country.
+- **Spring**, replies from institutions, then acceptance of one programme.
+- **Summer**, visa appointment at the consulate, then departure.
 
 > **The classic trap** is waiting until you have every document to create your account. Create it as soon as applications open, as you can complete it as you go and you'll see exactly what's missing.
 

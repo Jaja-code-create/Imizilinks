@@ -31,7 +31,7 @@ Votre titre de séjour détermine si vous pouvez travailler, et dans quelle limi
 Les attentes sont assez codifiées
 
 - **Une page** pour un profil junior, deux au maximum ensuite.
-- **Ordre antichronologique** — l’expérience la plus récente en premier.
+- **Ordre antichronologique**, l’expérience la plus récente en premier.
 - **Des résultats chiffrés** plutôt que des listes de tâches.
 - **Pas d’informations personnelles** superflues, ni situation familiale, ni date de naissance détaillée.
 - **Les langues** avec un niveau clair, et le test si vous en avez passé un.
@@ -44,11 +44,11 @@ Elle n’est pas toujours lue, mais son absence est parfois éliminatoire. Trois
 
 ## Où chercher
 
-- **Les plateformes généralistes** — volume important, mais forte concurrence.
-- **France Travail** — l’opérateur public de l’emploi, avec accompagnement possible.
-- **Les sites spécialisés par secteur** — moins de candidats, offres plus ciblées.
-- **Les sites carrière des entreprises** — certaines offres n’y sont publiées que là.
-- **Les réseaux communautaires** — Imizi Links relaie chaque semaine des offres vérifiées.
+- **Les plateformes généralistes**, volume important, mais forte concurrence.
+- **France Travail**, l’opérateur public de l’emploi, avec accompagnement possible.
+- **Les sites spécialisés par secteur**, moins de candidats, offres plus ciblées.
+- **Les sites carrière des entreprises**, certaines offres n’y sont publiées que là.
+- **Les réseaux communautaires**, Imizi Links relaie chaque semaine des offres vérifiées.
 
 > **Une grande partie des postes ne sont jamais publiés.** Ils se remplissent par recommandation interne. C’est pour ça que le réseau pèse plus que le volume de candidatures.
 

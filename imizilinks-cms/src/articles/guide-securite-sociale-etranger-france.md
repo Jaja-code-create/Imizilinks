@@ -26,7 +26,7 @@ faqItems:
 
 La sécurité sociale rembourse une partie de vos frais de santé. Une complémentaire, appelée mutuelle, couvre tout ou partie du reste. Les deux sont distinctes et se demandent séparément.
 
-## Étape 1 — S’inscrire à la sécurité sociale
+## Étape 1, s’inscrire à la sécurité sociale
 
 Si vous êtes étudiant international, l’inscription se fait en ligne sur le site dédié aux étudiants étrangers. Si vous venez travailler, c’est votre employeur qui déclenche l’affiliation, mais vous devez quand même compléter votre dossier.
 
@@ -40,23 +40,23 @@ Les pièces habituellement demandées
 
 > **Anticipez l’acte de naissance traduit.** C’est la pièce qui bloque le plus de dossiers. Faites traduire le document par un traducteur assermenté avant même votre départ si possible.
 
-## Étape 2 — Le numéro provisoire, puis définitif
+## Étape 2, le numéro provisoire, puis définitif
 
 Vous recevez d’abord un numéro provisoire, qui permet déjà d’être remboursé. Le numéro définitif, à quinze chiffres, arrive ensuite. Ne vous inquiétez pas du délai, les soins engagés entre-temps sont remboursés rétroactivement.
 
-## Étape 3 — La carte Vitale
+## Étape 3, la carte Vitale
 
 La carte Vitale se demande une fois le numéro définitif attribué, depuis votre compte Ameli. Elle évite d’avancer les frais chez la plupart des professionnels.
 
 En attendant de la recevoir, gardez toutes vos feuilles de soins papier, qui vous permettent de vous faire rembourser après coup.
 
-## Étape 4 — Déclarer un médecin traitant
+## Étape 4, déclarer un médecin traitant
 
 Le médecin traitant est votre point d’entrée dans le système. Si vous consultez un spécialiste sans passer par lui, vous êtes moins bien remboursé.
 
 Choisissez un généraliste proche de chez vous, prenez un premier rendez-vous, et remplissez avec lui le formulaire de déclaration. C’est gratuit et cela prend cinq minutes.
 
-## Étape 5 — La complémentaire santé
+## Étape 5, la complémentaire santé
 
 La sécurité sociale ne rembourse pas tout. Une mutuelle prend en charge une partie du reste, notamment sur les lunettes, les soins dentaires et l’hospitalisation.
 

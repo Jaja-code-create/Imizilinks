@@ -46,9 +46,9 @@ Three short paragraphs are enough to say why this company specifically, what you
 
 This is the part that feels impossible when you arrive. Yet it builds quickly
 
-- **Alumni from your programme** — even if you don't know them, a polite message mentioning the school often gets a reply.
-- **Communities** — diaspora groups like ImiziLinks relay offers and put you in touch with people in the sector.
-- **Professional events** — career forums, conferences, meetups. Going to three a month changes a lot over a semester.
+- **Alumni from your programme**, even if you don't know them, a polite message mentioning the school often gets a reply.
+- **Communities**, diaspora groups like ImiziLinks relay offers and put you in touch with people in the sector.
+- **Professional events**, career forums, conferences, meetups. Going to three a month changes a lot over a semester.
 
 "The internship I got didn't come from an advert. Someone I'd met at a forum forwarded me an offer before it was posted."
 
@@ -60,4 +60,4 @@ The question about your background abroad almost always comes up. It isn't hosti
 
 ## What he takes away
 
-"It took me five months. If I had to start again, I'd waste less time sending applications and spend more talking to people. Everyone replies to public adverts. The roles filled by word of mouth — almost no one."
+"It took me five months. If I had to start again, I'd waste less time sending applications and spend more talking to people. Everyone replies to public adverts. The roles filled by word of mouth, almost no one."

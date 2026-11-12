@@ -36,7 +36,7 @@
     },
     {
       "question": "Qui sont les référents Imizi Links ?",
-      "reponse": "Ce sont des membres de la communauté installés en France depuis plusieurs années, qui acceptent bénévolement d’être joignables pour les nouveaux arrivants de leur ville. Ils connaissent les interlocuteurs locaux — préfecture, bailleurs, universités — et vous orientent vers les bons contacts. Ils ne font pas les démarches à votre place et ne remplacent pas un travailleur social ou un avocat."
+      "reponse": "Ce sont des membres de la communauté installés en France depuis plusieurs années, qui acceptent bénévolement d’être joignables pour les nouveaux arrivants de leur ville. Ils connaissent les interlocuteurs locaux (préfecture, bailleurs, universités) et vous orientent vers les bons contacts. Ils ne font pas les démarches à votre place et ne remplacent pas un travailleur social ou un avocat."
     },
     {
       "question": "Quelles démarches faire en arrivant en France ?",
@@ -130,7 +130,7 @@
     },
     {
       "question": "Les guides remplacent-ils un conseil juridique ou administratif ?",
-      "reponse": "Non. Ce sont des repères pratiques issus d’expériences réelles. Pour une situation complexe — refus de titre de séjour, litige avec un bailleur, contentieux professionnel — adressez-vous à un professionnel qualifié ou à une permanence juridique."
+      "reponse": "Non. Ce sont des repères pratiques issus d’expériences réelles. Pour une situation complexe (refus de titre de séjour, litige avec un bailleur, contentieux professionnel), adressez-vous à un professionnel qualifié ou à une permanence juridique."
     }
   ],
   "rejoindre": [
@@ -140,7 +140,7 @@
     },
     {
       "question": "Que deviennent mes données personnelles ?",
-      "reponse": "Elles servent uniquement à traiter votre demande. Elles ne sont ni revendues, ni publiées, ni transmises à un tiers en dehors de la personne chargée de vous répondre — ou de l’entreprise partenaire dans le cas d’une candidature à une offre d’emploi."
+      "reponse": "Elles servent uniquement à traiter votre demande. Elles ne sont ni revendues, ni publiées, ni transmises à un tiers en dehors de la personne chargée de vous répondre, ou de l’entreprise partenaire dans le cas d’une candidature à une offre d’emploi."
     },
     {
       "question": "Comment devenir référent Imizi Links dans ma ville ?",

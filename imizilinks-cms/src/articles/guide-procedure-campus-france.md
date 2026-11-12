@@ -32,11 +32,11 @@ Tant que votre dossier Campus France n’est pas validé, vous ne pouvez pas dé
 
 La procédure s’étale sur plusieurs mois. Les dates précises changent chaque année, donc vérifiez toujours le calendrier officiel de votre pays sur le site Campus France, mais la logique reste la même
 
-- **Automne** — ouverture des inscriptions sur la plateforme. C’est le moment de créer votre compte et de commencer à rassembler les pièces.
-- **Hiver** — dépôt du dossier complet et choix des formations. Ne vous y prenez pas la dernière semaine.
-- **Fin d’hiver / début de printemps** — entretien avec un conseiller Campus France de votre pays.
-- **Printemps** — réponses des établissements, puis acceptation d’une formation.
-- **Été** — rendez-vous visa au consulat, puis départ.
+- **Automne**, ouverture des inscriptions sur la plateforme. C’est le moment de créer votre compte et de commencer à rassembler les pièces.
+- **Hiver**, dépôt du dossier complet et choix des formations. Ne vous y prenez pas la dernière semaine.
+- **Fin d’hiver / début de printemps**, entretien avec un conseiller Campus France de votre pays.
+- **Printemps**, réponses des établissements, puis acceptation d’une formation.
+- **Été**, rendez-vous visa au consulat, puis départ.
 
 > **Le piège classique** consiste à attendre d’avoir toutes les pièces pour créer son compte. Créez-le dès l’ouverture, vous pourrez compléter au fur et à mesure et vous verrez exactement ce qui manque.
 

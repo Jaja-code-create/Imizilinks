@@ -24,14 +24,14 @@ faqItems:
 
 ## First of all, check your right to work
 
-Your residence permit determines whether you can work, and within what hour limit. A student visa allows salaried work within an annual limit, an employee permit gives a full right. Check your situation before committing — it avoids nasty surprises on the employer's side.
+Your residence permit determines whether you can work, and within what hour limit. A student visa allows salaried work within an annual limit, an employee permit gives a full right. Check your situation before committing, as it avoids nasty surprises on the employer's side.
 
 ## The French-style CV
 
 Expectations are fairly codified
 
 - **One page** for a junior profile, two at most after that.
-- **Reverse chronological order** — the most recent experience first.
+- **Reverse chronological order**, the most recent experience first.
 - **Quantified results** rather than lists of tasks.
 - **No unnecessary personal details**, such as family situation or a detailed date of birth.
 - **Languages** with a clear level, and the test if you've taken one.
@@ -44,11 +44,11 @@ It isn't always read, but its absence is sometimes a dealbreaker. Three paragrap
 
 ## Where to look
 
-- **General platforms** — high volume, but strong competition.
-- **France Travail** — the public employment operator, with support available.
-- **Sector-specific sites** — fewer candidates, more targeted offers.
-- **Company career sites** — some offers are only posted there.
-- **Community networks** — ImiziLinks relays checked offers every week.
+- **General platforms**, high volume, but strong competition.
+- **France Travail**, the public employment operator, with support available.
+- **Sector-specific sites**, fewer candidates, more targeted offers.
+- **Company career sites**, some offers are only posted there.
+- **Community networks**, ImiziLinks relays checked offers every week.
 
 > **A large share of roles are never posted.** They are filled by internal recommendation. That's why networking counts for more than the volume of applications.
 

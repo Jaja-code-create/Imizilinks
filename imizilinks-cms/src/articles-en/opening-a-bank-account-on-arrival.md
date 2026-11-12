@@ -13,7 +13,7 @@ faqItems:
   - question: "Can you open a bank account in France without a permanent residence permit?"
     reponse: "Yes, in many cases a validated long-stay visa or a receipt for a residence permit application is often accepted. Requirements vary between banks, so it's worth comparing before you go in."
   - question: "Which documents are needed to open a bank account?"
-    reponse: "An ID document, a residence permit or visa, proof of address in France and proof of status — a school certificate, employment contract or job offer."
+    reponse: "An ID document, a residence permit or visa, proof of address in France and proof of status (a school certificate, employment contract or job offer)."
   - question: "How do you prove your address when you've just arrived?"
     reponse: "A proof of accommodation signed by the person hosting you, along with their ID and a proof of address in their name, is the most common solution. A student residence certificate also works."
   - question: "What if every bank refuses to open an account?"
@@ -35,11 +35,11 @@ faqItems:
 
 Three families of options, with different logics
 
-- **Traditional banks** — a physical branch, a dedicated adviser, useful when you have complex procedures. Often stricter on documents and more expensive.
-- **Online banks** — cheaper, quick to open, but everything is done remotely and the documents must be flawless.
-- **Neobanks** — open in a few minutes from your phone. Handy as an immediate stopgap, but check carefully that the RIB provided is a French one, otherwise some authorities will refuse it.
+- **Traditional banks**, a physical branch, a dedicated adviser, useful when you have complex procedures. Often stricter on documents and more expensive.
+- **Online banks**, cheaper, quick to open, but everything is done remotely and the documents must be flawless.
+- **Neobanks**, open in a few minutes from your phone. Handy as an immediate stopgap, but check carefully that the RIB provided is a French one, otherwise some authorities will refuse it.
 
-Many banks offer deals for students or new arrivals, with reduced fees. Ask for them explicitly — they aren't always offered spontaneously.
+Many banks offer deals for students or new arrivals, with reduced fees. Ask for them explicitly, as they aren't always offered spontaneously.
 
 ## The opening appointment
 
@@ -49,11 +49,11 @@ The adviser will offer you additional services. You don't have to accept any of 
 
 ## What to check before signing
 
-- **Account-keeping fees** — monthly, they add up.
-- **The type of card** — a card with systematic authorisation avoids overdrafts and the fees that come with them.
-- **Overdraft fees** — often the most expensive item.
-- **Insurance and savings products offered** — rarely useful at the start. You can decline and come back to them later.
+- **Account-keeping fees**, monthly, they add up.
+- **The type of card**, a card with systematic authorisation avoids overdrafts and the fees that come with them.
+- **Overdraft fees**, often the most expensive item.
+- **Insurance and savings products offered**, rarely useful at the start. You can decline and come back to them later.
 
 ## If you're refused an account
 
-Anyone residing in France has the right to a basic bank account. If you're refused repeatedly, you can refer the matter to the Banque de France, which will designate a bank required to open an account with the essential services. Keep the refusal letters — they're needed for this step.
+Anyone residing in France has the right to a basic bank account. If you're refused repeatedly, you can refer the matter to the Banque de France, which will designate a bank required to open an account with the essential services. Keep the refusal letters, as they're needed for this step.

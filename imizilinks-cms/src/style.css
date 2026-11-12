@@ -162,7 +162,7 @@ nav.scrolled .burger span{background:var(--texte);}
 .split-txt p{font-size:16px;line-height:1.8;color:var(--gris);margin-top:16px;}
 .checklist{list-style:none;margin-top:28px;display:flex;flex-direction:column;gap:14px;}
 .checklist li{display:flex;gap:12px;align-items:flex-start;font-size:15px;line-height:1.6;color:var(--texte);}
-.checklist li::before{content:'✓';flex-shrink:0;width:22px;height:22px;border-radius:50%;background:var(--camel);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:1px;}
+.checklist li::before{content:'';flex-shrink:0;width:7px;height:7px;border-radius:50%;background:var(--camel);margin-top:.62em;}
 .split-cta{margin-top:32px;}
 
 /* ═══════════ ÉTAPES ═══════════ */
@@ -658,3 +658,7 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 .page-impact .prise-en-charge{max-width:720px;margin:clamp(48px,6vw,72px) auto 0;text-align:center;}
 .page-impact .prise-en-charge p{font-size:16px;line-height:1.8;color:var(--gris);margin-bottom:14px;}
 .page-impact .prise-en-charge .btn{margin-top:18px;}
+
+/* Puces discrètes (remplacent les coches) */
+.duo-item::before{content:'';flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.75);margin-top:.6em;}
+.eco-mini-row::before{content:'';flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--vert-eco);margin-top:.62em;}

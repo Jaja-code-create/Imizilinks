@@ -46,9 +46,9 @@ Trois paragraphes courts suffisent, pour dire pourquoi cette entreprise précis�
 
 C’est le point qui semble impossible quand on arrive. Pourtant, il se construit vite
 
-- **Les anciens de votre formation** — même si vous ne les connaissez pas, un message poli mentionnant l’école obtient souvent une réponse.
-- **Les communautés** — les groupes de diaspora comme Imizi Links relaient des offres et mettent en relation avec des gens du secteur.
-- **Les événements professionnels** — forums métiers, conférences, meetups. Aller à trois par mois change beaucoup de choses en un semestre.
+- **Les anciens de votre formation**, même si vous ne les connaissez pas, un message poli mentionnant l’école obtient souvent une réponse.
+- **Les communautés**, les groupes de diaspora comme Imizi Links relaient des offres et mettent en relation avec des gens du secteur.
+- **Les événements professionnels**, forums métiers, conférences, meetups. Aller à trois par mois change beaucoup de choses en un semestre.
 
 « Le stage que j’ai eu ne venait pas d’une annonce. Quelqu’un que j’avais croisé à un forum m’a transféré une offre avant qu’elle soit publiée. »
 

@@ -26,7 +26,7 @@ faqItems:
 
 Social security reimburses part of your health costs. A top-up scheme, called a mutuelle, covers all or part of the rest. The two are separate and applied for separately.
 
-## Step 1 — Register with social security
+## Step 1, register with social security
 
 If you're an international student, registration is done online on the site for foreign students. If you're coming to work, your employer triggers the affiliation, but you still have to complete your file.
 
@@ -40,23 +40,23 @@ The documents usually required
 
 > **Plan ahead for the translated birth certificate.** It's the document that blocks the most files. Have it translated by a sworn translator before you leave if possible.
 
-## Step 2 — The temporary number, then the permanent one
+## Step 2, the temporary number, then the permanent one
 
 You first receive a temporary number, which already lets you be reimbursed. The permanent number, with fifteen digits, comes next. Don't worry about the delay, as care paid for in between is reimbursed retroactively.
 
-## Step 3 — The Carte Vitale
+## Step 3, the Carte Vitale
 
 The Carte Vitale is requested once the permanent number is assigned, from your Ameli account. It saves you from paying up front at most professionals.
 
 While you wait to receive it, keep all your paper care forms, which let you be reimbursed afterwards.
 
-## Step 4 — Declare a GP (médecin traitant)
+## Step 4, declare a GP (médecin traitant)
 
 The médecin traitant is your entry point into the system. If you see a specialist without going through them, you're reimbursed less.
 
 Choose a GP near you, book a first appointment, and fill in the declaration form with them. It's free and takes five minutes.
 
-## Step 5 — Top-up health insurance
+## Step 5, top-up health insurance
 
 Social security doesn't cover everything. A mutuelle covers part of the rest, especially for glasses, dental care and hospital stays.
 

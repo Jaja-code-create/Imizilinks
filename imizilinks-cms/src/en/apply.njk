@@ -24,7 +24,7 @@ fil:
         <form class="form-card" id="formApplication" name="application-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/en/thank-you/">
           <input type="hidden" name="form-name" value="application-en">
           <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
-          <p><a href="/en/opportunities/" class="retour">← Back to offers</a></p>
+          <p><a href="/en/opportunities/" class="retour">Back to offers</a></p>
 
           <div class="offre-rappel">
             <p class="offre-rappel-l">Offer</p>
@@ -35,7 +35,7 @@ fil:
           <div class="fg"><label for="k-offre">Offer <span class="required-star" aria-hidden="true">*</span></label>
             <select id="k-offre" name="offer" required>
               <option value="">Choose an offer</option>
-              {% for o in offresEn %}<option value="{{ o.id }}">{{ o.titre }} — {{ o.entreprise }}, {{ o.ville }} ({{ o.contrat }})</option>{% endfor %}
+              {% for o in offresEn %}<option value="{{ o.id }}">{{ o.titre }}, {{ o.entreprise }}, {{ o.ville }} ({{ o.contrat }})</option>{% endfor %}
             </select>
           </div>
 

@@ -47,7 +47,7 @@
       "reponse": "Yes. Your request is only passed to the local contact handling it. No personal information is published, sold or shared with a third party."
     },
     {
-      "question": "I've just arrived and don't speak French well yet — can you help?",
+      "question": "I've just arrived and don't speak French well yet, can you help?",
       "reponse": "Yes. Several local contacts speak Kirundi, Kinyarwanda, Swahili or English and can talk with you in your language. Just mention it in your message."
     }
   ],
@@ -77,7 +77,7 @@
       "reponse": "Yes, with no limit. Just fill in one form per offer so each application reaches the right recruiter with the right cover letter."
     },
     {
-      "question": "I'm a company — how do I post an offer on ImiziLinks?",
+      "question": "I'm a company, how do I post an offer on ImiziLinks?",
       "reponse": "Contact us at contact@imizilinks.fr. We look at every request, present our pool of candidates and agree together on how applications will be passed on."
     }
   ],
@@ -126,7 +126,7 @@
     },
     {
       "question": "Do the guides replace legal or administrative advice?",
-      "reponse": "No. They are practical pointers from real experience. For a complex situation — refused residence permit, dispute with a landlord, employment dispute — speak to a qualified professional or a legal advice service."
+      "reponse": "No. They are practical pointers from real experience. For a complex situation (refused residence permit, dispute with a landlord, employment dispute), speak to a qualified professional or a legal advice service."
     }
   ],
   "rejoindre": [
@@ -136,7 +136,7 @@
     },
     {
       "question": "What happens to my personal data?",
-      "reponse": "It is used only to handle your request. It is not sold, published or passed to any third party other than the person handling your reply — or the partner company in the case of a job application."
+      "reponse": "It is used only to handle your request. It is not sold, published or passed to any third party other than the person handling your reply, or the partner company in the case of a job application."
     },
     {
       "question": "How do I become an ImiziLinks local contact in my city?",
@@ -147,7 +147,7 @@
       "reponse": "Yes. You can write a guide, review CVs, run a workshop, relay an offer from your company or organise a one-off event in your city. Every contribution counts, whatever time you can give."
     },
     {
-      "question": "I represent an association or a company — how do we work with ImiziLinks?",
+      "question": "I represent an association or a company, how do we work with ImiziLinks?",
       "reponse": "Write to us at contact@imizilinks.fr, or use the form on the Join us page choosing “Relay a job offer from my company” or “Organise an event in my city”. We work with companies to relay job offers and with associations to organise events."
     }
   ]

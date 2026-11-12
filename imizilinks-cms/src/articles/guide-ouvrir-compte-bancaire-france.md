@@ -13,7 +13,7 @@ faqItems:
   - question: "Peut-on ouvrir un compte bancaire en France sans titre de séjour définitif ?"
     reponse: "Oui, dans de nombreux cas, un visa long séjour validé ou un récépissé de demande de titre est fréquemment accepté. Les exigences varient d’un établissement à l’autre, il est donc utile de comparer avant de se déplacer."
   - question: "Quels justificatifs faut-il pour ouvrir un compte bancaire ?"
-    reponse: "Une pièce d’identité, un titre de séjour ou visa, un justificatif de domicile en France et un justificatif de statut — certificat de scolarité, contrat de travail ou promesse d’embauche."
+    reponse: "Une pièce d’identité, un titre de séjour ou visa, un justificatif de domicile en France et un justificatif de statut (certificat de scolarité, contrat de travail ou promesse d’embauche)."
   - question: "Comment justifier son domicile quand on vient d’arriver ?"
     reponse: "Une attestation d’hébergement signée par la personne qui vous loge, accompagnée de sa pièce d’identité et d’un justificatif de domicile à son nom, est la solution la plus courante. Une attestation de résidence universitaire fonctionne également."
   - question: "Que faire si toutes les banques refusent d’ouvrir un compte ?"
@@ -35,9 +35,9 @@ faqItems:
 
 Trois familles d’options, avec des logiques différentes
 
-- **Les banques traditionnelles** — agence physique, conseiller dédié, utile quand on a des démarches complexes. Souvent plus exigeantes sur les justificatifs et plus chères.
-- **Les banques en ligne** — moins chères, ouverture rapide, mais tout se règle à distance et les justificatifs doivent être irréprochables.
-- **Les néobanques** — ouverture en quelques minutes depuis le téléphone. Pratique en dépannage immédiat, mais vérifiez bien que le RIB fourni est un RIB français, sinon certaines administrations le refusent.
+- **Les banques traditionnelles**, agence physique, conseiller dédié, utile quand on a des démarches complexes. Souvent plus exigeantes sur les justificatifs et plus chères.
+- **Les banques en ligne**, moins chères, ouverture rapide, mais tout se règle à distance et les justificatifs doivent être irréprochables.
+- **Les néobanques**, ouverture en quelques minutes depuis le téléphone. Pratique en dépannage immédiat, mais vérifiez bien que le RIB fourni est un RIB français, sinon certaines administrations le refusent.
 
 Beaucoup d’établissements proposent des offres dédiées aux étudiants ou aux nouveaux arrivants, avec des frais réduits. Demandez-les explicitement, elles ne sont pas toujours proposées spontanément.
 
@@ -49,10 +49,10 @@ Le conseiller vous proposera des services additionnels. Vous n’êtes obligé d
 
 ## Ce qu’il faut regarder avant de signer
 
-- **Les frais de tenue de compte** — mensuels, ils s’accumulent.
-- **Le type de carte** — une carte à autorisation systématique évite les découverts et les frais qui vont avec.
-- **Les frais de découvert** — souvent le poste le plus coûteux.
-- **Les assurances et produits d’épargne proposés** — rarement utiles au démarrage. Vous pouvez les refuser et y revenir plus tard.
+- **Les frais de tenue de compte**, mensuels, ils s’accumulent.
+- **Le type de carte**, une carte à autorisation systématique évite les découverts et les frais qui vont avec.
+- **Les frais de découvert**, souvent le poste le plus coûteux.
+- **Les assurances et produits d’épargne proposés**, rarement utiles au démarrage. Vous pouvez les refuser et y revenir plus tard.
 
 ## Si on vous refuse un compte
 

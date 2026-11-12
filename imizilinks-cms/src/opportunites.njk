@@ -53,7 +53,7 @@ fil:
         {% for o in offres %}
         <article class="job-card">
           <div class="job-head">
-            <div><h3 class="job-title">{{ o.titre }}</h3><p class="job-comp">{{ o.entreprise }} — {{ o.ville }}</p></div>
+            <div><h3 class="job-title">{{ o.titre }}</h3><p class="job-comp">{{ o.entreprise }}, {{ o.ville }}</p></div>
             <span class="job-badge">{{ o.contrat }}</span>
           </div>
           <p class="job-meta">{% if o.exp %}<span>{{ o.exp }}</span>{% endif %}{% if o.salaire %}<span>{{ o.salaire }}</span>{% endif %}{% if o.date %}<span>{{ o.date }}</span>{% endif %}</p>
