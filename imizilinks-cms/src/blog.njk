@@ -6,7 +6,7 @@ actif: blog
 faqKey: blog
 title: "Imizi Links : guides pratiques pour s’installer en France"
 description: "Des guides pratiques pour s’installer en France, sur Campus France, le logement étudiant, la sécurité sociale, la banque et l’emploi."
-image: /img/etudiants-bibliotheque.jpg
+image: /img/imizi-links-redaction-guides.jpg
 fil:
   - nom: Accueil
     url: /
@@ -16,7 +16,7 @@ fil:
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
 {{ phero("Blog & guides", "Guides pratiques pour s’installer en France",
    "Campus France, logement étudiant, sécurité sociale, compte bancaire, recherche d’emploi, des guides écrits par des membres de la communauté qui ont fait les démarches.",
-   "/img/etudiants-bibliotheque.jpg", "Étudiants de la diaspora travaillant ensemble en bibliothèque") }}
+   "/img/imizi-links-redaction-guides.jpg", "Membres d’Imizi Links rédigeant des guides sur leurs ordinateurs") }}
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ItemList","name":"Guides pratiques Imizi Links","itemListElement":[{% for a in collections.articles %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}

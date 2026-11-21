@@ -662,3 +662,15 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 /* Puces discrètes (remplacent les coches) */
 .duo-item::before{content:'';flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.75);margin-top:.6em;}
 .eco-mini-row::before{content:'';flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--vert-eco);margin-top:.62em;}
+
+/* Photos de l'équipe : cadrage pour garder les visages visibles */
+[style*="imizi-links-membres-pont-tour-eiffel"]{background-position:center 45%;}
+[style*="imizi-links-reunion-equipe"]{background-position:center 35%;}
+[style*="imizi-links-entraide-echange-trocadero"]{background-position:center 30%;}
+[style*="imizi-links-candidature-ordinateur"]{background-position:center 6%;}
+[style*="imizi-links-atelier-groupe"]{background-position:center 12%;}
+[style*="imizi-links-mains-solidarite"]{background-position:center 50%;}
+[style*="imizi-links-communaute-trocadero"]{background-position:center 35%;}
+[style*="imizi-links-redaction-guides"]{background-position:center 45%;}
+img[src*="imizi-links-entraide-conseil"]{object-position:center 30%;}
+img[src*="imizi-links-membres-echange"]{object-position:center 30%;}
