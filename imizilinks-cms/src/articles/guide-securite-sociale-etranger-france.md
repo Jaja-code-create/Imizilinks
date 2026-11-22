@@ -5,7 +5,7 @@ categorie: "Santé"
 description: "L’ordre dans lequel s’y prendre, du numéro provisoire à la carte Vitale, au médecin traitant et à la mutuelle."
 chapeau: "Le système de santé français rembourse une grande partie des soins, mais il faut y être inscrit pour en profiter. Voici les étapes, dans l’ordre, sans le jargon."
 image: "/img/securite-sociale-etudiant-etranger-explications.jpg"
-imageAlt: "Une membre d’Imizi Links explique une démarche, un livret à la main"
+imageAlt: "Explications sur la sécurité sociale pour les étudiants étrangers en France, guide Imizi Links"
 duree: "Lecture 7 min"
 date: 2026-09-04
 layout: article.njk

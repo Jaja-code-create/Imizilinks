@@ -5,7 +5,7 @@ categorie: "Banking"
 description: "The documents you will be asked for, the most flexible banks and what you should refuse to sign."
 chapeau: "Without a French bank account, neither an employer nor public bodies can pay you, and many landlords will turn down your application. That makes it one of the very first steps to take, even before you look for long-term accommodation."
 image: "/img/ouvrir-compte-bancaire-etudiant-etranger.jpg"
-imageAlt: "An Imizi Links member handing a document to another member"
+imageAlt: "International student preparing documents to open a bank account in France"
 duree: "4 min read"
 date: 2026-09-05
 layout: article-en.njk

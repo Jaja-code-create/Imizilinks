@@ -711,3 +711,19 @@ img[src*="entraide-etudiantes-recherche-logement-telephone"]{object-position:cen
 img[src*="etudiantes-internationales-echange-paris"]{object-position:center 30%;}
 .bimg img[src*="chercher-emploi-france-conseil-cv"]{object-position:center 12%;}
 img[src*="engagement-solidaire-etudiantes-internationales-paris"]{object-position:center 35%;}
+
+/* ═══════════ PHOTOS DES BANNIÈRES EN BALISE IMG ═══════════
+   La photo est une vraie image (lue par Google Images, avec son texte ALT).
+   Le fond CSS de la div reste en secours, l'image le recouvre avec exactement le même cadrage.
+   Pour recadrer une bannière, modifier background-position ET object-position. */
+.hero-bg>img,.phero-bg>img,.mission-img>img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;border-radius:inherit;}
+.hero-bg>img{object-position:center 40%;}
+.phero-bg>img{object-position:center 35%;}
+.phero-card .phero-bg>img{object-position:center 40%;}
+.mission-img>img{object-position:center;}
+.mission-img[style*="redaction-guides-pratiques-etudiants-internationaux"]>img{object-position:center 55%;}
+.phero-card .phero-bg[style*="partenariat-rse-entreprises-talents-internationaux"]>img{object-position:center 45%;}
+@media(max-width:560px){
+  .phero-card .phero-bg[style*="candidature-emploi-stage-accompagnement-equipe"]>img{object-position:62% 40%;}
+  .phero-card .phero-bg[style*="accompagnement-etudiants-internationaux-installation-france"]>img{object-position:45% 40%;}
+}

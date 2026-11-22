@@ -5,7 +5,7 @@ categorie: "Campus France"
 description: "The documents to prepare, the deadlines to plan for and the mistakes that can cost you a whole intake."
 chapeau: "Campus France is the required route for most international students who want to enrol in French higher education. The procedure itself is not complicated, but it is long and each step has its own timetable. Here is how to approach it without getting caught out."
 image: "/img/procedure-campus-france-etudiants-internationaux.jpg"
-imageAlt: "Imizi Links members working together with laptops and course books"
+imageAlt: "International students preparing their Campus France application together"
 duree: "8 min read"
 date: 2026-09-01
 layout: article-en.njk

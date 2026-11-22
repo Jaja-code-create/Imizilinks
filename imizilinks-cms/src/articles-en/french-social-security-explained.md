@@ -5,7 +5,7 @@ categorie: "Health"
 description: "The order to follow, from your temporary number to your carte Vitale, your regular doctor and top-up health insurance."
 chapeau: "The French health system covers a large share of medical costs, but you need to be registered to benefit from it. Here are the steps, in order, without the jargon."
 image: "/img/securite-sociale-etudiant-etranger-explications.jpg"
-imageAlt: "An Imizi Links member explaining a procedure with a booklet in hand"
+imageAlt: "Explaining French social security for international students, Imizi Links guide"
 duree: "7 min read"
 date: 2026-09-04
 layout: article-en.njk
