@@ -5,7 +5,7 @@ categorie: "Personal story"
 description: "The story of an internship search, from the first refusals to the first yes, starting with no network."
 chapeau: "This story was shared by a member of the community. It describes a search for a finance internship in Paris, with no contacts in the city and no feel for how things work locally. There is no magic formula in it, but there is what eventually worked."
 image: "/img/premier-stage-paris-temoignage-etudiante.jpg"
-imageAlt: "Student and Imizi Links member holding a course book in Paris"
+imageAlt: "International student in Paris sharing how she landed her first internship"
 duree: "6 min read"
 date: 2026-09-03
 layout: article-en.njk

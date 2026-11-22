@@ -5,7 +5,7 @@ categorie: "Housing"
 description: "Your options for student accommodation in France (CROUS, private residences, flat shares, the Visale guarantee) and the scams to avoid."
 chapeau: "Housing is often the first step for an international student, and the most stressful one. Many landlords ask for a guarantor in France, proof of income and sometimes a French bank account. Here are the options that really work, in the order we recommend exploring them."
 image: "/img/entraide-etudiantes-recherche-logement-telephone.jpg"
-imageAlt: "Two Imizi Links members looking at a housing listing on a phone"
+imageAlt: "Two international students looking for student accommodation in France on their phone"
 duree: "7 min read"
 date: 2026-09-29
 layout: article-en.njk

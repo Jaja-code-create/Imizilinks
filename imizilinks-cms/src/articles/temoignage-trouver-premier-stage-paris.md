@@ -5,7 +5,7 @@ categorie: "Parcours"
 description: "Le récit d’une recherche de stage, des refus au premier oui, sans réseau au départ."
 chapeau: "Ce témoignage a été partagé par un membre de la communauté. Il raconte une recherche de stage en finance à Paris, menée sans contact sur place et sans repère sur les codes locaux. Il n’y a pas de recette miracle dedans, mais il y a ce qui a fini par marcher."
 image: "/img/premier-stage-paris-temoignage-etudiante.jpg"
-imageAlt: "Étudiante membre d’Imizi Links, livre de cours à la main, à Paris"
+imageAlt: "Étudiante internationale à Paris qui témoigne de la recherche de son premier stage"
 duree: "Lecture 6 min"
 date: 2026-09-03
 layout: article.njk

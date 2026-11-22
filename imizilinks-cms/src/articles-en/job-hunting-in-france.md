@@ -5,7 +5,7 @@ categorie: "Jobs"
 description: "What actually works when you are starting out, from the format of your CV to speculative applications and networking."
 chapeau: "Looking for a job in a country whose unwritten rules you do not yet know puts you at a disadvantage that has nothing to do with your skills. This guide brings together the advice that comes up most often from members who succeeded in their search."
 image: "/img/chercher-emploi-france-conseil-cv.jpg"
-imageAlt: "An Imizi Links member reviewing a CV and advising another member"
+imageAlt: "CV review to find a job in France as an international student"
 duree: "9 min read"
 date: 2026-09-06
 layout: article-en.njk
