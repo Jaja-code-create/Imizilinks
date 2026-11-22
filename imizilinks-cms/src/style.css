@@ -679,7 +679,7 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
   .phero-card{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(48px,5.5vw,96px);align-items:center;min-height:0;padding:132px 60px 76px;}
   .phero-card .phero-in{grid-column:1;grid-row:1;max-width:680px;}
   .phero-card .phero-bg{grid-column:2;grid-row:1;width:100%;}
-  .phero-card .phero-bg[style*="imizi-links-communaute-trocadero"]{aspect-ratio:1900/1634;}
+  .phero-card .phero-bg[style*="rejoindre-communaute-etudiants-internationaux-trocadero"]{aspect-ratio:1900/1634;}
 }
 /* Tablette et mobile : photo pleine largeur, titre posé sur le bas de la photo */
 @media(max-width:1080px){
@@ -697,16 +697,17 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
   .phero-card{padding:76px 20px 52px;}
   .hero-bg,.phero-card .phero-bg{margin:0 -20px;aspect-ratio:1/1;max-height:none;}
   .hero-bg{aspect-ratio:6/5;}
-  .phero-card .phero-bg[style*="imizi-links-communaute-trocadero"]{aspect-ratio:1900/1634;}
-  .phero-card .phero-bg[style*="imizi-links-reunion-equipe"]{background-position:62% 40%;}
-  .phero-card .phero-bg[style*="imizi-links-atelier-groupe"]{background-position:45% 40%;}
+  .phero-card .phero-bg[style*="rejoindre-communaute-etudiants-internationaux-trocadero"]{aspect-ratio:1900/1634;}
+  .phero-card .phero-bg[style*="candidature-emploi-stage-accompagnement-equipe"]{background-position:62% 40%;}
+  .phero-card .phero-bg[style*="accompagnement-etudiants-internationaux-installation-france"]{background-position:45% 40%;}
   .hero-in,.phero-card .phero-in{margin-top:-112px;}
   .hero-in{margin-top:-92px;}
   .hero,.phero-card{background:linear-gradient(180deg,#5a2716 0,#5a2716 calc(76px + 84vw),#73351f 100%);}
 }
 /* Cadrage fin, photo par photo */
-.phero-card .phero-bg[style*="imizi-links-mains-solidarite"]{background-position:center 45%;}
-.mission-img[style*="imizi-links-redaction-guides"]{background-position:center 55%;}
-img[src*="imizi-links-entraide-conseil"]{object-position:center 30%;}
-img[src*="imizi-links-membres-echange"]{object-position:center 30%;}
-img[src*="imizi-links-membres-pont-seine"]{object-position:center 35%;}
+.phero-card .phero-bg[style*="partenariat-rse-entreprises-talents-internationaux"]{background-position:center 45%;}
+.mission-img[style*="redaction-guides-pratiques-etudiants-internationaux"]{background-position:center 55%;}
+img[src*="entraide-etudiantes-recherche-logement-telephone"]{object-position:center 30%;}
+img[src*="etudiantes-internationales-echange-paris"]{object-position:center 30%;}
+.bimg img[src*="chercher-emploi-france-conseil-cv"]{object-position:center 12%;}
+img[src*="engagement-solidaire-etudiantes-internationales-paris"]{object-position:center 35%;}

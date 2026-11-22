@@ -4,7 +4,8 @@ metaTitle: "Imizi Links: French social security, simply explained"
 categorie: "Health"
 description: "The order in which to go about it, from the temporary number to the Carte Vitale, a GP and top-up insurance."
 chapeau: "The French health system reimburses a large part of care, but you have to be registered to benefit from it. Here are the steps, in order, without the jargon."
-image: "/img/etudiants-campus-universite.jpg"
+image: "/img/securite-sociale-etudiant-etranger-explications.jpg"
+imageAlt: "An Imizi Links member explaining a procedure with a booklet in hand"
 duree: "7 min read"
 date: 2026-09-04
 layout: article-en.njk

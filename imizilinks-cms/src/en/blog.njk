@@ -5,7 +5,7 @@ pageKey: blog
 faqKey: blog
 title: "Imizi Links: practical guides for settling in France"
 description: "Practical guides for settling in France, covering Campus France, housing, social security, bank accounts and job hunting."
-image: /img/imizi-links-candidature-ordinateur.jpg
+image: /img/guides-pratiques-etudiants-internationaux-france.jpg
 fil:
   - nom: Home
     url: /en/
@@ -15,7 +15,7 @@ fil:
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
 {{ phero("Blog & guides", "Practical guides for settling in France",
    "Campus France, social security, bank account, job hunting, guides written by community members who went through the procedures.",
-   "/img/imizi-links-candidature-ordinateur.jpg", "Imizi Links member focused on her laptop") }}
+   "/img/guides-pratiques-etudiants-internationaux-france.jpg", "Imizi Links member focused on her laptop") }}
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ItemList","name":"ImiziLinks practical guides","itemListElement":[{% for a in collections.articlesEn %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}

@@ -4,7 +4,8 @@ metaTitle: "Imizi Links: opening a bank account when you arrive"
 categorie: "Banking"
 description: "The documents required, the more flexible banks and what you should refuse to sign."
 chapeau: "Without a French bank account, an employer cannot pay you, and many landlords will reject your application. So it's one of the very first things to do, before you even look for permanent housing."
-image: "/img/etudiants-bibliotheque.jpg"
+image: "/img/ouvrir-compte-bancaire-etudiant-etranger.jpg"
+imageAlt: "An Imizi Links member handing a document to another member"
 duree: "4 min read"
 date: 2026-09-05
 layout: article-en.njk

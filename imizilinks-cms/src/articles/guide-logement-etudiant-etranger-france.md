@@ -4,8 +4,8 @@ metaTitle: "Imizi Links : trouver un logement étudiant en France"
 categorie: "Logement"
 description: "Les solutions pour trouver un logement étudiant en France (CROUS, résidences privées, colocation, garantie Visale) et les arnaques à éviter."
 chapeau: "Le logement est souvent la première démarche d’un étudiant international, et la plus stressante. Beaucoup de propriétaires demandent un garant en France, des justificatifs de revenus, parfois un compte bancaire français. Voici les solutions qui fonctionnent réellement, dans l’ordre où nous vous conseillons de les explorer."
-image: "/img/etudiants-campus-universite.jpg"
-imageAlt: "Étudiants internationaux échangeant devant leur université en France"
+image: "/img/entraide-etudiantes-recherche-logement-telephone.jpg"
+imageAlt: "Deux membres d’Imizi Links consultent une annonce de logement sur un téléphone"
 duree: "Lecture 7 min"
 date: 2026-09-29
 layout: article.njk

@@ -4,7 +4,8 @@ metaTitle: "Imizi Links : la sécurité sociale expliquée simplement"
 categorie: "Santé"
 description: "L’ordre dans lequel s’y prendre, du numéro provisoire à la carte Vitale, au médecin traitant et à la mutuelle."
 chapeau: "Le système de santé français rembourse une grande partie des soins, mais il faut y être inscrit pour en profiter. Voici les étapes, dans l’ordre, sans le jargon."
-image: "/img/etudiants-campus-universite.jpg"
+image: "/img/securite-sociale-etudiant-etranger-explications.jpg"
+imageAlt: "Une membre d’Imizi Links explique une démarche, un livret à la main"
 duree: "Lecture 7 min"
 date: 2026-09-04
 layout: article.njk

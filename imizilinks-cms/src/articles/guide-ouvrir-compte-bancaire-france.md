@@ -4,7 +4,8 @@ metaTitle: "Imizi Links : ouvrir un compte bancaire à son arrivée"
 categorie: "Banque"
 description: "Les justificatifs demandés, les banques les plus souples et ce qu’il faut refuser de signer."
 chapeau: "Sans compte bancaire français, ni un employeur ni les organismes publics ne peuvent vous verser d’argent, et beaucoup de bailleurs refusent le dossier. C’est donc l’une des toutes premières démarches à faire, avant même de chercher un logement définitif."
-image: "/img/etudiants-bibliotheque.jpg"
+image: "/img/ouvrir-compte-bancaire-etudiant-etranger.jpg"
+imageAlt: "Une membre d’Imizi Links remet un document à une autre membre"
 duree: "Lecture 4 min"
 date: 2026-09-05
 layout: article.njk

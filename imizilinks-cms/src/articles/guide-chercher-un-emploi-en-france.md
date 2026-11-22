@@ -4,7 +4,8 @@ metaTitle: "Imizi Links : chercher du travail en France, les bons réflexes"
 categorie: "Emploi"
 description: "Ce qui fonctionne réellement quand on démarre, du format du CV aux candidatures spontanées et au réseau."
 chapeau: "Chercher un emploi dans un pays dont on ne connaît pas les codes, c’est jouer avec un handicap qui n’a rien à voir avec la compétence. Ce guide rassemble ce qui revient le plus souvent dans les retours des membres qui ont réussi leur recherche."
-image: "/img/communaute-diaspora-paris.jpg"
+image: "/img/chercher-emploi-france-conseil-cv.jpg"
+imageAlt: "Une membre d’Imizi Links relit un CV et conseille une autre membre"
 duree: "Lecture 9 min"
 date: 2026-09-06
 layout: article.njk
