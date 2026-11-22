@@ -683,12 +683,12 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 }
 /* Tablette et mobile : photo pleine largeur, titre posé sur le bas de la photo */
 @media(max-width:1080px){
-  .hero,.phero-card{flex-direction:column;align-items:stretch;justify-content:flex-start;min-height:0;background:linear-gradient(180deg,#73351f 0%,#73351f 55%,#86562f 100%);}
+  .hero,.phero-card{flex-direction:column;align-items:stretch;justify-content:flex-start;min-height:0;background:linear-gradient(180deg,#5a2716 0,#5a2716 calc(76px + 50vw),#73351f 100%);}
   .hero::before,.phero-card::before{display:none;}
   .hero{padding:76px 28px 72px;}
   .phero-card{padding:76px 28px 60px;}
   .hero-bg,.phero-card .phero-bg{width:auto;max-width:none;margin:0 -28px;border-radius:0;box-shadow:none;aspect-ratio:16/9;max-height:74vh;}
-  .hero-bg::after,.phero-card .phero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(115,53,31,0) 0%,rgba(115,53,31,0) 50%,rgba(115,53,31,.78) 80%,#73351f 100%);}
+  .hero-bg::after,.phero-card .phero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,11,5,0) 0%,rgba(28,11,5,0) 40%,rgba(28,11,5,.28) 58%,rgba(36,14,6,.62) 76%,rgba(62,25,13,.9) 90%,#5a2716 100%);}
   .hero-in,.phero-card .phero-in{position:relative;z-index:2;max-width:760px;margin-top:clamp(-200px,-17vw,-120px);}
   .hero-h,.hero-cycle,.phero-card .phero-in h1{text-shadow:0 2px 18px rgba(30,10,3,.35);}
 }
@@ -699,12 +699,14 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
   .hero-bg{aspect-ratio:6/5;}
   .phero-card .phero-bg[style*="imizi-links-communaute-trocadero"]{aspect-ratio:1900/1634;}
   .phero-card .phero-bg[style*="imizi-links-reunion-equipe"]{background-position:62% 40%;}
-  .phero-card .phero-bg[style*="imizi-links-entraide-echange-trocadero"]{background-position:58% 40%;}
+  .phero-card .phero-bg[style*="imizi-links-atelier-groupe"]{background-position:45% 40%;}
   .hero-in,.phero-card .phero-in{margin-top:-112px;}
   .hero-in{margin-top:-92px;}
+  .hero,.phero-card{background:linear-gradient(180deg,#5a2716 0,#5a2716 calc(76px + 84vw),#73351f 100%);}
 }
 /* Cadrage fin, photo par photo */
 .phero-card .phero-bg[style*="imizi-links-mains-solidarite"]{background-position:center 45%;}
 .mission-img[style*="imizi-links-redaction-guides"]{background-position:center 55%;}
 img[src*="imizi-links-entraide-conseil"]{object-position:center 30%;}
 img[src*="imizi-links-membres-echange"]{object-position:center 30%;}
+img[src*="imizi-links-membres-pont-seine"]{object-position:center 35%;}
