@@ -7,6 +7,7 @@ faqKey: opportunites
 title: "Imizi Links : offres d’emploi et de stage"
 description: "Des offres d’emploi et de stage confiées par nos entreprises partenaires. Déposez votre CV, nous transmettons votre candidature au recruteur."
 image: /img/offres-emploi-stage-etudiante-internationale.jpg
+imageAlt: "Membre d’Imizi Links souriante, ordinateur à la main, sur un pont à Paris"
 fil:
   - nom: Accueil
     url: /
@@ -16,7 +17,7 @@ fil:
 {% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("Nos actions · Opportunités", "Offres d’emploi et de stage",
    "Des postes confiés par nos entreprises partenaires. Vous déposez votre CV et votre lettre de motivation chez Imizi Links, et nous transmettons votre candidature directement au recruteur.",
-   "/img/offres-emploi-stage-etudiante-internationale.jpg", "Membre d’Imizi Links souriante, ordinateur à la main, sur un pont à Paris") }}
+   image, imageAlt) }}
 
   <section class="sec">
     <div class="wrap">
