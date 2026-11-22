@@ -18,16 +18,19 @@
 <meta property="og:title" content="{{ titrePartage }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/img/og-imizilinks.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
+{# Image de partage : la photo de la page en 1200x630 (dossier img/og), sinon le logo #}
+{% set ogImg = image | ogImage %}
+{% set ogAlt = (imageAlt or title) if image else "Imizi Links" %}
+<meta property="og:image" content="{{ site.url }}{{ ogImg }}">
+<meta property="og:image:type" content="{{ 'image/png' if ogImg.endsWith('.png') else 'image/jpeg' }}">
+{% if ogImg.startsWith('/img/og') %}<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Imizi Links">
+{% endif %}<meta property="og:image:alt" content="{{ ogAlt }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ titrePartage }}">
 <meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="{{ site.url }}/img/og-imizilinks.png">
-<meta name="twitter:image:alt" content="Imizi Links">
+<meta name="twitter:image" content="{{ site.url }}{{ ogImg }}">
+<meta name="twitter:image:alt" content="{{ ogAlt }}">
 <meta name="theme-color" content="#8C613B">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="/icon.svg">

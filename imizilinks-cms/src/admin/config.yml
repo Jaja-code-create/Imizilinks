@@ -118,7 +118,8 @@ collections:
         options: ["Campus France", "Logement", "Santé", "Banque", "Emploi", "Parcours", "Titre de séjour", "Études", "Vie quotidienne"]
       - { label: "Description pour Google", name: "description", widget: "text", hint: "Une ou deux phrases, 150 à 160 caractères. C'est le texte affiché sous le titre dans les résultats de recherche." }
       - { label: "Chapeau d'introduction", name: "chapeau", widget: "text", hint: "Le paragraphe en gras au début de l'article, qui plante le sujet." }
-      - { label: "Image de couverture", name: "image", widget: "image", hint: "Tu peux téléverser une nouvelle image ou en choisir une existante." }
+      - { label: "Image de couverture", name: "image", widget: "image", hint: "Tu peux téléverser une nouvelle image ou en choisir une existante. Nomme le fichier avec des mots-clés avant de le téléverser, par exemple logement-etudiant-etranger-paris.jpg." }
+      - { label: "Description de l'image (balise ALT)", name: "imageAlt", widget: "string", required: false, hint: "Décris en une phrase ce qu'on voit sur la photo, par exemple « Deux membres d'Imizi Links consultent une annonce de logement sur un téléphone ». Lue par Google Images et par les personnes malvoyantes, reprise aussi quand le lien est partagé." }
       - { label: "Temps de lecture", name: "duree", widget: "string", default: "Lecture 5 min" }
       - { label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
       - { label: "Contenu de l'article", name: "body", widget: "markdown", hint: "Utilise les titres de niveau 2 pour les grandes parties. Le format « citation » crée un encadré mis en avant." }

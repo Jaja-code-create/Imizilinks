@@ -1,4 +1,21 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const racine = path.dirname(fileURLToPath(import.meta.url));
+
 export default function (eleventyConfig) {
+  // Image de partage (WhatsApp, LinkedIn, Facebook, X) à partir de l'image de la page :
+  // 1. sa version recadrée 1200x630 dans src/img/og/ si elle existe
+  // 2. sinon la photo d'origine (cas d'un nouvel article ajouté depuis l'admin)
+  // 3. sinon, page sans photo, le visuel par défaut avec le logo
+  eleventyConfig.addFilter("ogImage", (image) => {
+    if (!image) return "/img/og-imizilinks.png";
+    const nom = path.basename(image, path.extname(image));
+    const og = `/img/og/${nom}.jpg`;
+    return fs.existsSync(path.join(racine, "src", og)) ? og : image;
+  });
+
   // Fichiers copiés tels quels vers le site final
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/style.css");

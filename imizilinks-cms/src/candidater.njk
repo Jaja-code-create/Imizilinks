@@ -6,6 +6,7 @@ actif: actions
 title: "Imizi Links : déposer votre candidature"
 description: "Envoyez votre CV et votre lettre de motivation à Imizi Links. Nous vérifions votre dossier puis le transmettons à l’entreprise partenaire."
 image: /img/candidature-emploi-stage-accompagnement-equipe.jpg
+imageAlt: "Échanges entre membres lors d’un atelier Imizi Links"
 fil:
   - nom: Accueil
     url: /
@@ -17,7 +18,7 @@ fil:
 {% from "macros.njk" import phero, cta %}
 {{ phero("Opportunités · Candidature", "Déposer votre candidature",
    "Renseignez vos coordonnées et joignez votre CV. Imizi Links vérifie votre dossier et le transmet sous 72 heures à l’entreprise partenaire concernée.",
-   "/img/candidature-emploi-stage-accompagnement-equipe.jpg", "Échanges entre membres lors d’un atelier Imizi Links") }}
+   image, imageAlt) }}
 
   <section class="sec">
     <div class="wrap">
