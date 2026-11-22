@@ -16,7 +16,8 @@ lang: en
       <div class="art-suite">
         <h2>Read next</h2>
         <div class="art-liens">
-          {% for a in collections.articlesEn | autres(page.url, 2) %}
+          {% set suite = (collections.articlesEn | parSlugs(lies)) if lies else (collections.articlesEn | autres(page.url, 2)) %}
+          {% for a in suite %}
           <a href="{{ a.url }}" class="art-lien"><span class="art-lien-t">{{ a.data.title }}</span><span class="art-lien-c">{{ a.data.categorie }}</span></a>
           {% endfor %}
         </div>
@@ -25,4 +26,4 @@ lang: en
   </section>
 
 {{ faqBloc(categorie + ",<br><span class='grad'>frequently asked questions.</span>", "Answers to the most common questions on this topic.", faqItems, "Frequently asked questions") }}
-{{ cta("A question about this procedure?", "An ImiziLinks local contact can support you and review your file before you submit it.", "Ask for help", "/en/support/#form") }}
+{{ cta("A question about this step?", "An Imizi Links local contact can guide you and review your application before you submit it.", "Ask for help", "/en/support/#form") }}

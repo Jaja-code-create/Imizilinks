@@ -5,7 +5,7 @@ pageKey: opportunites
 faqKey: opportunites
 schemaOffres: true
 title: "Imizi Links: jobs and internships"
-description: "Jobs and internships entrusted by our partner companies. Send your CV and we pass your application on to the recruiter."
+description: "Jobs and internships entrusted to us by our partner companies. Send us your CV and we pass your application on to the recruiter."
 image: /img/offres-emploi-stage-etudiante-internationale.jpg
 fil:
   - nom: Home
@@ -15,23 +15,23 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta %}
 {{ phero("What we do · Opportunities", "Jobs and internships",
-   "Roles entrusted by our partner companies. You send your CV and cover letter to ImiziLinks, and we pass your application straight to the recruiter.",
+   "Positions entrusted to us by our partner companies. You send your CV and cover letter to Imizi Links, and we pass your application directly to the recruiter.",
    "/img/offres-emploi-stage-etudiante-internationale.jpg", "Smiling Imizi Links member holding her laptop on a bridge in Paris") }}
 
   <section class="sec">
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="slabel">How it works</p>
-        <h2>Your application is carried,<br><span class="grad">not dropped on a pile.</span></h2>
+        <h2>Your application is championed,<br><span class="grad">not left in a pile.</span></h2>
       </div>
       <div class="intro-seo reveal">
-        <p>The offers posted on ImiziLinks are not scraped from other sites. They are <strong>entrusted to us by partner companies</strong> that want to recruit within the community and know the value of international journeys.</p>
-        <p>In practice, you don't apply directly to the employer, <strong>you send your CV and cover letter to ImiziLinks</strong>, we check your file and pass it to the recruiter ourselves with an introduction to your profile. An application carried by an intermediary the company knows is read far better than an anonymous one.</p>
+        <p>The jobs published on Imizi Links are not copied from other websites. They are <strong>entrusted to us by partner companies</strong> that want to recruit from the community and understand the value of international backgrounds.</p>
+        <p>In practice, you do not apply directly to the employer. <strong>You send your CV and cover letter to Imizi Links</strong>, we check your application and pass it on to the recruiter ourselves, together with an introduction to your profile. An application put forward by someone the company knows gets far more attention than an anonymous one.</p>
       </div>
       <div class="proc reveal" style="margin-top:44px;">
-        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">You submit your file</h3><p class="proc-d">Click “Apply” on the offer you're interested in and attach your CV and cover letter. Two minutes is enough.</p></div>
-        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">We check and pass it on</h3><p class="proc-d">We review your file, flag anything to fix, then send it to the recruiter within 72 hours.</p></div>
-        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">The company contacts you</h3><p class="proc-d">The recruiter gets in touch with you directly for the next steps. We stay available to help you prepare for the interview.</p></div>
+        <div class="proc-etape"><div class="proc-n">1</div><h3 class="proc-t">You send your application</h3><p class="proc-d">Click Apply on the job that interests you and attach your CV and cover letter. It takes two minutes.</p></div>
+        <div class="proc-etape"><div class="proc-n">2</div><h3 class="proc-t">We check it and pass it on</h3><p class="proc-d">We read your application, let you know if anything needs fixing, then send it to the recruiter within 72 hours.</p></div>
+        <div class="proc-etape"><div class="proc-n">3</div><h3 class="proc-t">The company contacts you</h3><p class="proc-d">The recruiter gets in touch with you directly for the next steps. We are still here to help you prepare for the interview.</p></div>
       </div>
     </div>
   </section>
@@ -39,8 +39,8 @@ fil:
   <section class="sec light">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="slabel">Current offers</p>
-        <h2>Roles open<br><span class="grad">right now.</span></h2>
+        <p class="slabel">Current openings</p>
+        <h2>Positions open<br><span class="grad">right now.</span></h2>
         <p>Jobs, apprenticeships and internships across France. The list is updated regularly.</p>
       </div>
       {% if offresEn.length %}
@@ -56,16 +56,19 @@ fil:
           {% if o.skills.length %}<div class="job-skills">{% for s in o.skills %}<span class="skill">{{ s }}</span>{% endfor %}</div>{% endif %}
           <div class="postuler">
             <a href="/en/apply/?offre={{ o.id }}" class="btn btn-primary btn-sm">Apply</a>
-            <span class="postuler-note">Your application is passed by ImiziLinks to the partner company.</span>
+            <span class="postuler-note">Imizi Links passes your application on to the partner company.</span>
           </div>
         </article>
         {% endfor %}
       </div>
       {% else %}
-      <p class="vide reveal">No offers are open right now. Tell us what you're looking for and we'll flag matching roles as soon as they arrive.</p>
+      <div class="vide reveal">
+        <h3 class="vide-t">No openings at the moment</h3>
+        <p>New jobs from our partner companies will be published here soon. You can already send us your CV and we will contact you as soon as a position matches your profile.</p>
+      </div>
       {% endif %}
     </div>
   </section>
 
-{{ faqBloc("Applying via ImiziLinks<br><span class='grad'>in questions.</span>", "Application process, documents to provide, reply times and company partnerships.", faqEn.opportunites, "Frequently asked questions") }}
-{{ cta("No offer matches?", "Tell us what you're looking for and we'll flag matching roles as soon as they arrive.", "Make a request", "/en/join-us/#form") }}
+{{ faqBloc("Applying through Imizi Links<br><span class='grad'>in questions.</span>", "How to apply, which documents to send, response times and partnerships with companies.", faqEn.opportunites, "Frequently asked questions") }}
+{{ cta("Nothing that fits?", "Tell us what you are looking for and we will let you know about matching positions as soon as they come in.", "Send a request", "/en/join-us/#form") }}

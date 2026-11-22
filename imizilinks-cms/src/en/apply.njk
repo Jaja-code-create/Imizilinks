@@ -3,7 +3,7 @@ permalink: /en/apply/
 actif: actions
 pageKey: candidater
 title: "Imizi Links: submit your application"
-description: "Send your CV and cover letter to Imizi Links. We check your file and pass it on to the partner company."
+description: "Send your CV and cover letter to Imizi Links. We check your application, then pass it on to the partner company."
 image: /img/candidature-emploi-stage-accompagnement-equipe.jpg
 fil:
   - nom: Home
@@ -15,7 +15,7 @@ fil:
 ---
 {% from "macros.njk" import phero, cta %}
 {{ phero("Opportunities · Apply", "Submit your application",
-   "Enter your details and attach your CV. ImiziLinks checks your file and passes it within 72 hours to the partner company concerned.",
+   "Fill in your details and attach your CV. Imizi Links checks your application and passes it on to the relevant partner company within 72 hours.",
    "/img/candidature-emploi-stage-accompagnement-equipe.jpg", "Imizi Links members talking during a workshop") }}
 
   <section class="sec">
@@ -24,17 +24,17 @@ fil:
         <form class="form-card" id="formApplication" name="application-en" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" action="/en/thank-you/">
           <input type="hidden" name="form-name" value="application-en">
           <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
-          <p><a href="/en/opportunities/" class="retour">Back to offers</a></p>
+          <p><a href="/en/opportunities/" class="retour">Back to the jobs</a></p>
 
           <div class="offre-rappel">
-            <p class="offre-rappel-l">Offer</p>
-            <p class="offre-rappel-t" id="offre-titre">Select an offer below</p>
-            <p class="offre-rappel-d" id="offre-detail">Your application will be passed to this company by ImiziLinks.</p>
+            <p class="offre-rappel-l">Job you are applying for</p>
+            <p class="offre-rappel-t" id="offre-titre">Select a job below</p>
+            <p class="offre-rappel-d" id="offre-detail">Imizi Links will pass your application on to this company.</p>
           </div>
 
-          <div class="fg"><label for="k-offre">Offer <span class="required-star" aria-hidden="true">*</span></label>
+          <div class="fg"><label for="k-offre">Job <span class="required-star" aria-hidden="true">*</span></label>
             <select id="k-offre" name="offer" required>
-              <option value="">Choose an offer</option>
+              <option value="">Choose a job</option>
               {% for o in offresEn %}<option value="{{ o.id }}">{{ o.titre }}, {{ o.entreprise }}, {{ o.ville }} ({{ o.contrat }})</option>{% endfor %}
             </select>
           </div>
@@ -52,9 +52,9 @@ fil:
             <div class="fg"><label for="k-situation">Current situation <span class="opt">(optional)</span></label>
               <select id="k-situation" name="situation">
                 <option value="">Choose</option>
-                <option>Student</option><option>Job seeker</option>
-                <option>In a job</option><option>Changing careers</option>
-                <option>Newly arrived in France</option>
+                <option>Student</option><option>Looking for work</option>
+                <option>In employment</option><option>Changing career</option>
+                <option>Recently arrived in France</option>
               </select>
             </div>
           </div>
@@ -77,15 +77,15 @@ fil:
             </div>
           </div>
 
-          <div class="fg"><label for="k-msg">Message to the recruiter <span class="opt">(optional)</span></label><textarea id="k-msg" name="message" placeholder="A few lines about your motivation or availability."></textarea></div>
+          <div class="fg"><label for="k-msg">Message to the recruiter <span class="opt">(optional)</span></label><textarea id="k-msg" name="message" placeholder="A few lines about your motivation or your availability."></textarea></div>
 
-          <label class="consent"><input type="checkbox" name="consent"> I authorise ImiziLinks to pass my CV and cover letter to the company concerned by this offer.</label>
+          <label class="consent"><input type="checkbox" name="consent"> I authorise Imizi Links to pass my CV and cover letter on to the company offering this job.</label>
 
           <button type="submit" class="btn btn-primary btn-full">Send my application</button>
-          <p class="form-note">Your file is checked then passed on within 72 hours. Your documents are only shared with the partner company linked to this offer.</p>
+          <p class="form-note">Your application is checked, then passed on within 72 hours. Your documents are only shared with the partner company offering this job.</p>
         </form>
       </div>
     </div>
   </section>
 
-{{ cta("Not sure about your CV?", "Community members review applications and run mock interviews.", "Ask for a review", "/en/join-us/?motif=relecture-cv#form") }}
+{{ cta("Not sure about your CV?", "Community members review applications and run mock interviews.", "Ask for a CV review", "/en/join-us/?motif=relecture-cv#form") }}

@@ -1,79 +1,80 @@
 ---
-title: "Job hunting in France, the right reflexes"
-metaTitle: "Imizi Links: job hunting in France, the right reflexes"
-categorie: "Employment"
-description: "What actually works when you're starting out, from CV format to speculative applications and networking."
-chapeau: "Looking for a job in a country whose codes you don't know means playing with a handicap that has nothing to do with skill. This guide brings together what comes up most often in the feedback from members who succeeded in their search."
+title: "Looking for a job in France, what really works"
+metaTitle: "Imizi Links: looking for a job in France, what really works"
+categorie: "Jobs"
+description: "What actually works when you are starting out, from the format of your CV to speculative applications and networking."
+chapeau: "Looking for a job in a country whose unwritten rules you do not yet know puts you at a disadvantage that has nothing to do with your skills. This guide brings together the advice that comes up most often from members who succeeded in their search."
 image: "/img/chercher-emploi-france-conseil-cv.jpg"
 imageAlt: "An Imizi Links member reviewing a CV and advising another member"
 duree: "9 min read"
 date: 2026-09-06
 layout: article-en.njk
+traduction: "/blog/guide-chercher-un-emploi-en-france/"
 ordre: 6
 faqItems:
-  - question: "Can a foreigner work in France during their studies?"
-    reponse: "Yes, within an annual number of hours set by the regulations for holders of a student residence permit. Beyond that, a change of status is needed. Check the notes on your permit."
-  - question: "How do you adapt your CV to French expectations?"
-    reponse: "One page for a junior profile, reverse chronological order, quantified results rather than task descriptions, no unnecessary personal details and a clearly stated language level. A review by someone already working in France saves a lot of time."
-  - question: "Do you need a cover letter in France?"
-    reponse: "It isn't always read, but its absence can be a dealbreaker. Three short paragraphs are enough to say why this company, what you bring and what you want to learn."
-  - question: "Where do you find job offers when you're newly arrived?"
-    reponse: "On general platforms, with France Travail, on sector-specific sites, on company career pages and through community networks. ImiziLinks relays offers from partner companies every week."
-  - question: "How do you handle the question of your background abroad in an interview?"
-    reponse: "Answer simply and without over-justifying. Highlight the adaptability, multilingualism and independence that moving to a new country involves, then bring the conversation back to the role and what you want to build."
+  - question: "Can an international student work in France while studying?"
+    reponse: "Yes, within an annual limit on working hours set by the regulations for holders of a student residence permit. Beyond that, you need to change your status. Check what is stated on your permit."
+  - question: "How do I adapt my CV to what French employers expect?"
+    reponse: "One page for a junior profile, reverse chronological order, results with figures rather than lists of tasks, no unnecessary personal details and a clearly stated language level. Having it reviewed by someone who already works in France saves a lot of time."
+  - question: "Do I need a cover letter in France?"
+    reponse: "It is not always read, but leaving it out can rule you out. Three short paragraphs are enough, to say why this company, what you bring and what you want to learn."
+  - question: "Where can I find job offers when I have just arrived?"
+    reponse: "On general job boards, through France Travail, on sector-specific websites, on company career pages and through community networks. Imizi Links regularly shares job offers from partner companies."
+  - question: "How should I talk about my background abroad in an interview?"
+    reponse: "Answer simply, without over-explaining. Highlight the adaptability, the languages and the independence that moving to a new country requires, then bring the conversation back to the job and what you want to build."
 ---
 
-## First of all, check your right to work
+## First, check your right to work
 
-Your residence permit determines whether you can work, and within what hour limit. A student visa allows salaried work within an annual limit, an employee permit gives a full right. Check your situation before committing, as it avoids nasty surprises on the employer's side.
+Your residence permit determines whether you can work and how many hours. A student visa allows paid work up to an annual limit, while a work permit gives you full rights. Check your situation before you commit to anything, as it avoids unpleasant surprises for you and for the employer.
 
 ## The French-style CV
 
-Expectations are fairly codified
+Expectations are fairly standard
 
-- **One page** for a junior profile, two at most after that.
-- **Reverse chronological order**, the most recent experience first.
-- **Quantified results** rather than lists of tasks.
-- **No unnecessary personal details**, such as family situation or a detailed date of birth.
-- **Languages** with a clear level, and the test if you've taken one.
+- **One page** for a junior profile, two at most later on.
+- **Reverse chronological order**, with your most recent experience first.
+- **Results with figures** rather than lists of tasks.
+- **No unnecessary personal details**, no marital status and no full date of birth.
+- **Languages** with a clear level, and the test you took if you have one.
 
-Have your CV reviewed by someone already working in France. A review spots, in ten minutes, phrasing that makes a recruiter wince.
+Have your CV reviewed by someone who already works in France. In ten minutes, they will spot the phrasing that puts recruiters off.
 
 ## The cover letter
 
-It isn't always read, but its absence is sometimes a dealbreaker. Three paragraphs are enough to say why them, what you bring and what you want to learn. Adapt it to each application, even slightly.
+It is not always read, but leaving it out can sometimes rule you out. Three paragraphs are enough, to say why them, what you bring and what you want to learn. Adapt it for every application, even slightly.
 
 ## Where to look
 
-- **General platforms**, high volume, but strong competition.
-- **France Travail**, the public employment operator, with support available.
-- **Sector-specific sites**, fewer candidates, more targeted offers.
-- **Company career sites**, some offers are only posted there.
-- **Community networks**, ImiziLinks relays checked offers every week.
+- **General job boards**, with lots of offers but strong competition.
+- **France Travail**, the public employment service, which can also offer support.
+- **Sector-specific websites**, with fewer candidates and more targeted offers.
+- **Company career pages**, as some jobs are only published there.
+- **Community networks**, such as Imizi Links, which regularly shares verified job offers.
 
-> **A large share of roles are never posted.** They are filled by internal recommendation. That's why networking counts for more than the volume of applications.
+> **Many jobs are never advertised.** They are filled through internal recommendations. That is why your network matters more than the number of applications you send.
 
-## The speculative application
+## Speculative applications
 
-It works when it's targeted. Identify around ten companies you're genuinely interested in, find the right person to contact, and write a short message showing you know their business. A generic speculative application sent to a hundred addresses produces nothing.
+They work when they are targeted. Pick around ten companies that genuinely interest you, find the right person to contact and write a short message that shows you know what they do. A generic application sent to a hundred addresses gets nowhere.
 
 ## Building your network
 
-The word is intimidating, but it simply means talking to people
+The word can be intimidating, but it simply means talking to people
 
-- Contact alumni from your programme, even without knowing them.
-- Go to career forums and professional meet-ups.
+- Contact alumni of your programme, even if you do not know them.
+- Go to careers fairs and professional events.
 - Ask for informational interviews, fifteen minutes to understand a job without asking for one. Many people say yes.
-- Keep the link going after a first exchange, without following up too quickly.
+- Stay in touch after a first conversation, without following up too quickly.
 
 ## The interview
 
-Prepare three things, your background told in two minutes, solid knowledge of the company, and two or three questions to ask at the end.
+Prepare three things, your background told in two minutes, a solid knowledge of the company, and two or three questions to ask at the end.
 
-For the salary question, research the sector ranges for your experience level beforehand, and give a range rather than a single figure.
+For the salary question, research the usual ranges in the sector for your level of experience beforehand, and give a range rather than a single figure.
 
-## Handling refusals
+## Dealing with rejection
 
-There are many and they're rarely explained. Don't read them as a verdict on your worth. Politely ask for feedback when you've had an interview, as some recruiters reply, and the information is gold for what comes next.
+There will be many rejections, rarely explained. Do not take them as a verdict on your worth. After an interview, politely ask for feedback, as some recruiters do reply, and that information is invaluable for what comes next.
 
-> **Want feedback on your application?** Community members review CVs and run mock interviews. Write to us using the form.
+> **Would you like feedback on your application?** Community members review CVs and run mock interviews. Write to us using the form.

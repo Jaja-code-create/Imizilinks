@@ -9,6 +9,7 @@ imageAlt: "Une membre d’Imizi Links relit un CV et conseille une autre membre"
 duree: "Lecture 9 min"
 date: 2026-09-06
 layout: article.njk
+traduction: "/en/blog/job-hunting-in-france/"
 ordre: 6
 faqItems:
   - question: "Un étranger peut-il travailler en France pendant ses études ?"

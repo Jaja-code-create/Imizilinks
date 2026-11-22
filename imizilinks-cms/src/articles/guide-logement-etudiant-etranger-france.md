@@ -9,6 +9,7 @@ imageAlt: "Deux membres d’Imizi Links consultent une annonce de logement sur u
 duree: "Lecture 7 min"
 date: 2026-09-29
 layout: article.njk
+traduction: "/en/blog/student-housing-in-france/"
 ordre: 2
 fil:
   - nom: Accueil

@@ -9,6 +9,7 @@ imageAlt: "Étudiante membre d’Imizi Links, livre de cours à la main, à Pari
 duree: "Lecture 6 min"
 date: 2026-09-03
 layout: article.njk
+traduction: "/en/blog/from-bujumbura-to-paris-first-internship/"
 ordre: 3
 faqItems:
   - question: "Un étudiant étranger peut-il faire un stage en France ?"

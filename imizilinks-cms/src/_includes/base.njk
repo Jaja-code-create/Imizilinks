@@ -22,12 +22,12 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="ImiziLinks">
+<meta property="og:image:alt" content="Imizi Links">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ titrePartage }}">
 <meta name="twitter:description" content="{{ description }}">
 <meta name="twitter:image" content="{{ site.url }}/img/og-imizilinks.png">
-<meta name="twitter:image:alt" content="ImiziLinks">
+<meta name="twitter:image:alt" content="Imizi Links">
 <meta name="theme-color" content="#8C613B">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="/icon.svg">
@@ -57,7 +57,7 @@
 <script type="application/ld+json">
 {
  "@context":"https://schema.org","@type":"WebSite","@id":"{{ site.url }}/#website",
- "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/","inLanguage":"{{ t.htmlLang }}-{{ t.htmlLang | upper }}",
+ "name":{{ site.nom | dump | safe }},"url":"{{ site.url }}/","inLanguage":"{{ t.localeOg | replace('_','-') }}",
  "publisher":{"@id":"{{ site.url }}/#organization"}
 }
 </script>
@@ -85,7 +85,7 @@
  "headline":{{ title | dump | safe }},
  "description":{{ description | dump | safe }},
  "image":"{{ site.url }}{{ image }}",
- "inLanguage":"{{ t.htmlLang }}-{{ t.htmlLang | upper }}",
+ "inLanguage":"{{ t.localeOg | replace('_','-') }}",
  "datePublished":"{{ page.date | dateIso }}",
  "dateModified":"{{ page.date | dateIso }}",
  "author":{"@id":"{{ site.url }}/#organization"},
@@ -135,8 +135,8 @@
 <a href="#contenu" class="skip">{{ t.nav.skip }}</a>
 <nav id="nav" aria-label="{{ t.nav.home }}"{% if navClair %} class="scrolled" data-solid="1"{% endif %}>
   <a href="{{ '/en/' if lang == 'en' else '/' }}" class="logo">
-    <img class="logo-img logo-img--blanc" src="/img/logo/imizilinks-logo-blanc.png" alt="ImiziLinks" width="170" height="40">
-    <img class="logo-img logo-img--couleur" src="/img/logo/imizilinks-logo-couleur.svg" alt="ImiziLinks" width="174" height="40">
+    <img class="logo-img logo-img--blanc" src="/img/logo/imizilinks-logo-blanc.png" alt="Imizi Links" width="170" height="40">
+    <img class="logo-img logo-img--couleur" src="/img/logo/imizilinks-logo-couleur.svg" alt="Imizi Links" width="174" height="40">
   </a>
   <div class="nav-menu" id="navMenu">
     <div class="nav-item"><a href="{{ '/en/' if lang == 'en' else '/' }}" class="nav-link{% if actif == 'accueil' %} active{% endif %}">{{ t.nav.home }}</a></div>
@@ -172,7 +172,7 @@
 <footer>
   <div class="ft">
     <div>
-      <a href="{{ '/en/' if lang == 'en' else '/' }}" class="f-logo"><img src="/img/logo/imizilinks-logo-blanc.png" alt="ImiziLinks" width="170" height="40" loading="lazy"></a>
+      <a href="{{ '/en/' if lang == 'en' else '/' }}" class="f-logo"><img src="/img/logo/imizilinks-logo-blanc.png" alt="Imizi Links" width="170" height="40" loading="lazy"></a>
       <p class="f-desc">{{ t.footerDesc }}</p>
       <div class="f-socials">
         <a href="{{ site.linkedin or '#linkedin-a-completer' }}" class="soc" aria-label="LinkedIn" rel="noopener" target="_blank">
@@ -206,7 +206,7 @@
         </li>
         {% endif %}
         <li><a href="{{ '/en/join-us/' if lang == 'en' else '/nous-rejoindre/' }}">{{ t.footer.join }}</a></li>
-        {% if lang == 'fr' and site.don %}<li><a href="{{ site.don }}" target="_blank" rel="noopener">Faire un don</a></li>{% endif %}
+        {% if site.don %}<li><a href="{{ site.don }}" target="_blank" rel="noopener">{{ 'Make a donation' if lang == 'en' else 'Faire un don' }}</a></li>{% endif %}
       </ul>
     </div>
   </div>

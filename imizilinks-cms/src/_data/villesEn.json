@@ -1,34 +1,34 @@
 [
   {
     "nom": "Paris · Île-de-France",
-    "detail": "Paperwork, housing, guidance on studies"
+    "detail": "Settling in, housing, study guidance"
   },
   {
     "nom": "Lyon",
-    "detail": "Paperwork, housing, student network"
+    "detail": "Settling in, housing, student network"
   },
   {
     "nom": "Bordeaux",
-    "detail": "Paperwork, guidance on studies"
+    "detail": "Settling in, study guidance"
   },
   {
     "nom": "Marseille",
-    "detail": "Paperwork, housing"
+    "detail": "Settling in, housing"
   },
   {
     "nom": "Lille",
-    "detail": "Paperwork, student network"
+    "detail": "Settling in, student network"
   },
   {
     "nom": "Toulouse",
-    "detail": "Paperwork, guidance on studies"
+    "detail": "Settling in, study guidance"
   },
   {
     "nom": "Nantes",
-    "detail": "Paperwork"
+    "detail": "Settling in"
   },
   {
-    "nom": "Your city isn't listed?",
-    "detail": "Write to us, we'll look for a contact for you"
+    "nom": "Your city is not listed?",
+    "detail": "Write to us and we will look for a local contact for you"
   }
 ]

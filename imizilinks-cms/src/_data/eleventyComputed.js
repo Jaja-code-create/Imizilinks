@@ -14,6 +14,8 @@ export default {
   altUrl: (data) => {
     const lang = data.lang || "fr";
     const other = lang === "fr" ? "en" : "fr";
+    // Article traduit : lien direct vers sa version dans l'autre langue
+    if (data.traduction) return data.traduction;
     const key = data.pageKey;
     if (key && routes[key]) return routes[key][other];
     // Pas de correspondance connue : on renvoie vers l'accueil de l'autre langue

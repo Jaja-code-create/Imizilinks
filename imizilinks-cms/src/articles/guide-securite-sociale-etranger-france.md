@@ -9,6 +9,7 @@ imageAlt: "Une membre d’Imizi Links explique une démarche, un livret à la ma
 duree: "Lecture 7 min"
 date: 2026-09-04
 layout: article.njk
+traduction: "/en/blog/french-social-security-explained/"
 ordre: 4
 faqItems:
   - question: "Comment s’inscrire à la sécurité sociale en tant qu’étranger ?"

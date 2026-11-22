@@ -4,7 +4,7 @@ actif: blog
 pageKey: blog
 faqKey: blog
 title: "Imizi Links: practical guides for settling in France"
-description: "Practical guides for settling in France, covering Campus France, housing, social security, bank accounts and job hunting."
+description: "Practical guides for settling in France, covering Campus France, student housing, social security, banking and finding a job."
 image: /img/guides-pratiques-etudiants-internationaux-france.jpg
 fil:
   - nom: Home
@@ -14,19 +14,19 @@ fil:
 ---
 {% from "macros.njk" import phero, faqBloc, cta, carteArticle %}
 {{ phero("Blog & guides", "Practical guides for settling in France",
-   "Campus France, social security, bank account, job hunting, guides written by community members who went through the procedures.",
+   "Campus France, student housing, social security, opening a bank account, finding a job. Guides written by community members who have been through each step themselves.",
    "/img/guides-pratiques-etudiants-internationaux-france.jpg", "Imizi Links member focused on her laptop") }}
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ItemList","name":"ImiziLinks practical guides","itemListElement":[{% for a in collections.articlesEn %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}
+{"@context":"https://schema.org","@type":"ItemList","name":"Imizi Links practical guides","itemListElement":[{% for a in collections.articlesEn %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ a.data.title | dump | safe }},"url":"{{ site.url }}{{ a.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]}
 </script>
 
   <section class="sec">
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="slabel">Latest articles</p>
-        <h2>Worth reading<br><span class="grad">before you start.</span></h2>
-        <p>Each guide details a specific procedure, with the documents to gather, the order of steps, the real timelines and the mistakes that cost weeks.</p>
+        <h2>Worth reading<br><span class="grad">before you get started.</span></h2>
+        <p>Each guide covers one specific procedure, with the documents to gather, the order of the steps, the real timelines and the mistakes that can cost you weeks.</p>
       </div>
       <div class="blog-grid reveal">
         {% for a in collections.articlesEn %}{{ carteArticle(a) }}{% endfor %}
@@ -34,5 +34,5 @@ fil:
     </div>
   </section>
 
-{{ faqBloc("The ImiziLinks blog<br><span class='grad'>in questions.</span>", "Who writes the guides, how often they're updated and how to suggest a topic.", faqEn.blog, "Frequently asked questions") }}
-{{ cta("Your place is already here.", "Whether you're arriving, already settled or want to contribute, there's a way in for you.", "Join us", "/en/join-us/") }}
+{{ faqBloc("The Imizi Links blog<br><span class='grad'>in questions.</span>", "Who writes the guides, how often they are updated and how to suggest a topic.", faqEn.blog, "Frequently asked questions") }}
+{{ cta("There is already a place for you.", "Whether you are just arriving, already settled or keen to contribute, there is a way in for you.", "Join us", "/en/join-us/") }}

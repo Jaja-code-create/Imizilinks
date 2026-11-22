@@ -2,8 +2,8 @@
 permalink: /en/join-us/
 pageKey: rejoindre
 faqKey: rejoindre
-title: "Imizi Links: join us and contact us"
-description: "Become a local contact in your city, write a guide or ask the Imizi Links team a question."
+title: "Imizi Links: join us and get in touch"
+description: "Become a local contact in your city, write a guide, review CVs or ask the Imizi Links team a question."
 image: /img/rejoindre-communaute-etudiants-internationaux-trocadero.jpg
 fil:
   - nom: Home
@@ -12,8 +12,8 @@ fil:
     url: /en/join-us/
 ---
 {% from "macros.njk" import phero, faqBloc %}
-{{ phero("Join us", "Join the ImiziLinks community",
-   "Become a local contact in your city, write a guide, review CVs or simply ask a question, tell us what you want to do and we'll get back to you within 48 hours.",
+{{ phero("Join us", "Join the Imizi Links community",
+   "Become a local contact in your city, write a guide, review CVs or simply ask a question. Tell us what you would like to do and we will get back to you within 48 hours.",
    "/img/rejoindre-communaute-etudiants-internationaux-trocadero.jpg", "Imizi Links members gathered at the Trocadéro with their laptops") }}
 
   <section class="sec">
@@ -24,7 +24,7 @@ fil:
           <p class="hp-field" hidden><label>Do not fill this in <input name="bot-field"></label></p>
 
           <h2 class="form-h2">Write to us</h2>
-          <p class="fc-sub">Reply within 48 working hours. No prior registration, no cost.</p>
+          <p class="fc-sub">We reply within 48 working hours. No registration, no fees.</p>
 
           <div class="fg-row">
             <div class="fg"><label for="r-prenom">First name <span class="required-star" aria-hidden="true">*</span></label><input id="r-prenom" name="first_name" type="text" placeholder="Marie" required></div>
@@ -36,28 +36,28 @@ fil:
           </div>
           <div class="fg"><label for="r-ville">City <span class="opt">(optional)</span></label><input id="r-ville" name="city" type="text" placeholder="Lyon"></div>
 
-          <div class="fg"><label for="r-role">What you'd like to do <span class="opt">(optional)</span></label>
+          <div class="fg"><label for="r-role">What would you like to do? <span class="opt">(optional)</span></label>
             <select id="r-role" name="role">
               <option value="">Choose</option>
               <option value="Become a local contact in my city">Become a local contact in my city</option>
-              <option value="Write an article or guide">Write an article or guide</option>
+              <option value="Write an article or a guide">Write an article or a guide</option>
               <option value="Review CVs or run a workshop">Review CVs or run a workshop</option>
               <option value="Ask for a review of my CV">Ask for a review of my CV</option>
               <option value="Organise an event in my city">Organise an event in my city</option>
-              <option value="Relay a job offer from my company">Relay a job offer from my company</option>
+              <option value="Share a job offer from my company">Share a job offer from my company</option>
               <option value="Ask a general question">Ask a general question</option>
             </select>
           </div>
 
           <div class="fg" id="bloc-cv"><label for="r-cv">CV <span class="opt">(optional)</span></label>
             <div class="depot">
-              <p class="depot-h">Attach your CV if you'd like a review</p>
+              <p class="depot-h">Attach your CV if you would like it reviewed</p>
               <input id="r-cv" name="cv" type="file" accept=".pdf,.doc,.docx,.jpg,.png">
               <p class="depot-d">We accept PDF, Word, JPG or PNG files, up to 5 MB.</p>
             </div>
           </div>
 
-          <div class="fg"><label for="r-msg">Your message <span class="opt">(optional)</span></label><textarea id="r-msg" name="message" placeholder="Tell us in a few lines what you'd like to do or what you can help with."></textarea></div>
+          <div class="fg"><label for="r-msg">Your message <span class="opt">(optional)</span></label><textarea id="r-msg" name="message" placeholder="Tell us in a few lines what you would like to do or how you can help."></textarea></div>
 
           <button type="submit" class="btn btn-primary btn-full">Send</button>
           <p class="form-note">Your details are only shared with the person handling your request.</p>
@@ -69,10 +69,10 @@ fil:
         <div class="cs-box"><p class="cs-l">Other requests</p><p class="cs-v"><a href="/en/support/#form">Support</a> · <a href="/en/events/#form">Events</a> · <a href="/en/opportunities/">Opportunities</a></p><p class="cs-d">Each need has its own form</p></div>
         <div class="cs-box"><p class="cs-l">Join our community</p>
           <div class="cs-socials">
-            <a href="{{ site.linkedin or '#linkedin-a-completer' }}" class="cs-soc" aria-label="ImiziLinks LinkedIn" rel="noopener" target="_blank">
+            <a href="{{ site.linkedin or '#linkedin-a-completer' }}" class="cs-soc" aria-label="Imizi Links on LinkedIn" rel="noopener" target="_blank">
               <img src="/img/icon-linkedin.svg" alt="LinkedIn" width="40" height="40" loading="lazy">
             </a>
-            <a href="{{ site.instagram or '#instagram-a-completer' }}" class="cs-soc" aria-label="ImiziLinks Instagram" rel="noopener" target="_blank">
+            <a href="{{ site.instagram or '#instagram-a-completer' }}" class="cs-soc" aria-label="Imizi Links on Instagram" rel="noopener" target="_blank">
               <img src="/img/icon-instagram.svg" alt="Instagram" width="40" height="40" loading="lazy">
             </a>
           </div>
@@ -82,4 +82,4 @@ fil:
     </div>
   </section>
 
-{{ faqBloc("Join us,<br><span class='grad'>frequently asked questions.</span>", "How the forms work, data protection, contributing and partnerships.", faqEn.rejoindre, "Frequently asked questions") }}
+{{ faqBloc("Joining us,<br><span class='grad'>frequently asked questions.</span>", "How the forms work, data protection, contributing and partnerships.", faqEn.rejoindre, "Frequently asked questions") }}

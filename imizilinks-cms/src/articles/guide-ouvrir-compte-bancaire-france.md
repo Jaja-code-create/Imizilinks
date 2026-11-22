@@ -9,6 +9,7 @@ imageAlt: "Une membre d’Imizi Links remet un document à une autre membre"
 duree: "Lecture 4 min"
 date: 2026-09-05
 layout: article.njk
+traduction: "/en/blog/opening-a-bank-account-on-arrival/"
 ordre: 5
 faqItems:
   - question: "Peut-on ouvrir un compte bancaire en France sans titre de séjour définitif ?"

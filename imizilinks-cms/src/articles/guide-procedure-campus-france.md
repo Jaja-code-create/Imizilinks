@@ -9,6 +9,7 @@ imageAlt: "Membres d’Imizi Links qui travaillent ensemble avec ordinateurs et 
 duree: "Lecture 8 min"
 date: 2026-09-01
 layout: article.njk
+traduction: "/en/blog/campus-france-step-by-step/"
 ordre: 1
 faqItems:
   - question: "Campus France est-il obligatoire pour étudier en France ?"

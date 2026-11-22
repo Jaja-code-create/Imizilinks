@@ -88,16 +88,16 @@ const en = {
     closeMenu: "Close menu",
     skip: "Skip to content",
     ddEntraide: "Support",
-    ddEntraideDesc: "Proof of accommodation, admin paperwork, local contacts",
+    ddEntraideDesc: "Information, advice and local contacts",
     ddOpportunites: "Opportunities",
-    ddOpportunitesDesc: "Jobs from our partner companies",
+    ddOpportunitesDesc: "Job offers from our partner companies",
     ddEvenements: "Events",
-    ddEvenementsDesc: "Career forums, webinars and meet-ups",
+    ddEvenementsDesc: "Forums, webinars and meet-ups",
   },
 
   footer: {
     actionsTitle: "What we do",
-    fEntraide: "Support & paperwork",
+    fEntraide: "Support and information",
     fOffres: "Job offers",
     fEvenements: "Events",
     fImpact: "Our impact",
@@ -114,7 +114,7 @@ const en = {
     eyebrow: "Frequently asked questions",
   },
 
-  footerDesc: "Your roots, your connections. The East African community in France, with help for admin paperwork, jobs from our partner companies, events and practical guides.",
+  footerDesc: "Your roots, your links. The East African community in France, with information and mutual support to help you settle in, job offers from our partner companies, events and practical guides.",
 };
 
 export default { fr, en };
