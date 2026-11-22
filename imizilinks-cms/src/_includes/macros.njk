@@ -1,5 +1,5 @@
-{% macro phero(crumb, h1, chapo, image, alt, court=false) %}
-  <header class="phero{% if court %} phero-court{% endif %}">
+{% macro phero(crumb, h1, chapo, image, alt, court=false, article=false) %}
+  <header class="phero{% if court %} phero-court{% endif %}{% if not article %} phero-card{% endif %}">
     <div class="phero-bg" style="background-image:url('{{ image }}')" role="img" aria-label="{{ alt }}"></div>
     <div class="phero-ov"></div>
     <div class="phero-in">

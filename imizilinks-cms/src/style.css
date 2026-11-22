@@ -663,14 +663,48 @@ svg.ico,.ico{width:22px;height:22px;flex-shrink:0;display:block;}
 .duo-item::before{content:'';flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.75);margin-top:.6em;}
 .eco-mini-row::before{content:'';flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--vert-eco);margin-top:.62em;}
 
-/* Photos de l'équipe : cadrage pour garder les visages visibles */
-[style*="imizi-links-membres-pont-tour-eiffel"]{background-position:center 45%;}
-[style*="imizi-links-reunion-equipe"]{background-position:center 35%;}
-[style*="imizi-links-entraide-echange-trocadero"]{background-position:center 30%;}
-[style*="imizi-links-candidature-ordinateur"]{background-position:center 6%;}
-[style*="imizi-links-atelier-groupe"]{background-position:center 12%;}
-[style*="imizi-links-mains-solidarite"]{background-position:center 50%;}
-[style*="imizi-links-communaute-trocadero"]{background-position:center 35%;}
-[style*="imizi-links-redaction-guides"]{background-position:center 45%;}
+/* ═══════════ BANNIÈRES AVEC PHOTOS DE L'ÉQUIPE ═══════════
+   Texte sur le fond de la marque, photo nette présentée en carte, sans voile.
+   Les bannières d'articles gardent leur style d'origine (classe phero sans phero-card). */
+.hero,.phero-card{background:linear-gradient(118deg,#5a2716 0%,#73351f 42%,#8c613b 100%);}
+.hero::before,.phero-card::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(55% 75% at 78% 45%,rgba(214,186,158,.20),transparent 70%);}
+.hero-ov,.phero-card .phero-ov{display:none;}
+.hero-bg,.phero-card .phero-bg{position:relative;inset:auto;z-index:1;background-size:cover;background-repeat:no-repeat;background-color:#5a2716;border-radius:26px;box-shadow:0 36px 80px rgba(30,10,3,.42),0 0 0 1px rgba(255,255,255,.08);}
+.hero-bg{aspect-ratio:3/2;background-position:center 40%;}
+.phero-card .phero-bg{aspect-ratio:3/2;background-position:center 40%;}
+@media(min-width:1081px){
+  .hero{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:clamp(48px,5.5vw,96px);align-items:center;padding:128px 60px 72px;}
+  .hero-in{grid-column:1;grid-row:1;}
+  .hero-bg{grid-column:2;grid-row:1;width:100%;max-height:calc(100vh - 190px);justify-self:end;}
+  .phero-card{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(48px,5.5vw,96px);align-items:center;min-height:0;padding:132px 60px 76px;}
+  .phero-card .phero-in{grid-column:1;grid-row:1;max-width:680px;}
+  .phero-card .phero-bg{grid-column:2;grid-row:1;width:100%;}
+  .phero-card .phero-bg[style*="imizi-links-communaute-trocadero"]{aspect-ratio:1900/1634;}
+}
+/* Tablette et mobile : photo pleine largeur, titre posé sur le bas de la photo */
+@media(max-width:1080px){
+  .hero,.phero-card{flex-direction:column;align-items:stretch;justify-content:flex-start;min-height:0;background:linear-gradient(180deg,#73351f 0%,#73351f 55%,#86562f 100%);}
+  .hero::before,.phero-card::before{display:none;}
+  .hero{padding:76px 28px 72px;}
+  .phero-card{padding:76px 28px 60px;}
+  .hero-bg,.phero-card .phero-bg{width:auto;max-width:none;margin:0 -28px;border-radius:0;box-shadow:none;aspect-ratio:16/9;max-height:74vh;}
+  .hero-bg::after,.phero-card .phero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(115,53,31,0) 0%,rgba(115,53,31,0) 50%,rgba(115,53,31,.78) 80%,#73351f 100%);}
+  .hero-in,.phero-card .phero-in{position:relative;z-index:2;max-width:760px;margin-top:clamp(-200px,-17vw,-120px);}
+  .hero-h,.hero-cycle,.phero-card .phero-in h1{text-shadow:0 2px 18px rgba(30,10,3,.35);}
+}
+@media(max-width:560px){
+  .hero{padding:76px 20px 64px;}
+  .phero-card{padding:76px 20px 52px;}
+  .hero-bg,.phero-card .phero-bg{margin:0 -20px;aspect-ratio:1/1;max-height:none;}
+  .hero-bg{aspect-ratio:6/5;}
+  .phero-card .phero-bg[style*="imizi-links-communaute-trocadero"]{aspect-ratio:1900/1634;}
+  .phero-card .phero-bg[style*="imizi-links-reunion-equipe"]{background-position:62% 40%;}
+  .phero-card .phero-bg[style*="imizi-links-entraide-echange-trocadero"]{background-position:58% 40%;}
+  .hero-in,.phero-card .phero-in{margin-top:-112px;}
+  .hero-in{margin-top:-92px;}
+}
+/* Cadrage fin, photo par photo */
+.phero-card .phero-bg[style*="imizi-links-mains-solidarite"]{background-position:center 45%;}
+.mission-img[style*="imizi-links-redaction-guides"]{background-position:center 55%;}
 img[src*="imizi-links-entraide-conseil"]{object-position:center 30%;}
 img[src*="imizi-links-membres-echange"]{object-position:center 30%;}
